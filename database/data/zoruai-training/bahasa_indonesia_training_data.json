@@ -1,0 +1,1628 @@
+{
+  "metadata": {
+    "nama": "Dataset Training AI Bahasa Indonesia",
+    "versi": "2.0.0",
+    "deskripsi": "Dataset pelatihan AI komprehensif mencakup kosakata KBBI, tata bahasa PUEBI, dan konteks semantik-pragmatik Bahasa Indonesia",
+    "kategori": ["kosakata_definisi", "tata_bahasa_struktur", "konteks_semantik"],
+    "total_entri": {
+      "kosakata": 30,
+      "tata_bahasa": 30,
+      "konteks_semantik": 30
+    },
+    "referensi": ["KBBI Edisi V", "PUEBI (Pedoman Umum Ejaan Bahasa Indonesia)", "Tata Bahasa Baku Bahasa Indonesia"]
+  },
+
+  "kosakata_dan_definisi": [
+    {
+      "id": "kv_001",
+      "kata_dasar": "ajar",
+      "kelas_kata": "verba",
+      "definisi": "petunjuk yang diberikan kepada orang supaya diketahui atau dituruti; mendidik",
+      "sinonim": ["didik", "latih", "bimbing", "tuntun", "tempa"],
+      "antonim": ["bodohkan", "sesatkan", "acuhkan"],
+      "bentuk_turunan": {
+        "mengajar": "memberikan pelajaran kepada seseorang",
+        "diajar": "menerima pengajaran dari seseorang",
+        "pelajaran": "sesuatu yang dipelajari atau diajarkan",
+        "pengajar": "orang yang mengajar; guru; instruktur",
+        "ajaran": "sesuatu yang diajarkan; doktrin; paham",
+        "terpelajar": "sudah mendapat banyak pelajaran; berpendidikan tinggi",
+        "mengajarkan": "menyampaikan ilmu atau keterampilan kepada orang lain",
+        "pembelajaran": "proses atau cara menjadikan seseorang belajar"
+      },
+      "contoh_kalimat": [
+        "Guru itu mengajar matematika dengan sangat sabar.",
+        "Ia mendapat ajaran agama yang kuat sejak kecil.",
+        "Dia adalah orang terpelajar yang berwawasan luas.",
+        "Proses pembelajaran daring mulai diterapkan di sekolah."
+      ],
+      "variasi_typo": ["aajar", "ajaar", "ajr", "ajaar"],
+      "koreksi_typo": "ajar",
+      "catatan": "Berbeda dengan 'belajar' (menerima ilmu) vs 'mengajar' (menyampaikan ilmu)"
+    },
+    {
+      "id": "kv_002",
+      "kata_dasar": "abadi",
+      "kelas_kata": "adjektiva",
+      "definisi": "kekal selama-lamanya; tidak berakhir; tidak berubah; langgeng",
+      "sinonim": ["kekal", "langgeng", "lestari", "permanen", "tak fana"],
+      "antonim": ["fana", "sementara", "sesaat", "temporal", "singkat"],
+      "bentuk_turunan": {
+        "mengabadi": "menjadi abadi; bertahan selamanya",
+        "mengabadikan": "menjadikan sesuatu abadi atau dikenang sepanjang masa",
+        "keabadian": "sifat atau keadaan yang abadi; kekekalan"
+      },
+      "contoh_kalimat": [
+        "Nama pahlawan itu akan abadi dalam sejarah bangsa.",
+        "Foto ini mengabadikan momen bahagia keluarga kami.",
+        "Para filsuf berdebat tentang keabadian jiwa manusia."
+      ],
+      "variasi_typo": ["abdi", "abady", "abbadi", "abadii"],
+      "koreksi_typo": "abadi",
+      "catatan": "Sering digunakan dalam konteks filosofis, seni, dan sejarah"
+    },
+    {
+      "id": "kv_003",
+      "kata_dasar": "bijak",
+      "kelas_kata": "adjektiva",
+      "definisi": "selalu menggunakan akal budinya; pandai; mahir dalam berbagai situasi",
+      "sinonim": ["arif", "bestari", "cendekia", "pandai", "cerdas", "paham"],
+      "antonim": ["bodoh", "dungu", "bebal", "tolol", "buta"],
+      "bentuk_turunan": {
+        "kebijakan": "rangkaian konsep dan asas yang menjadi pedoman suatu tindakan",
+        "bijaksana": "selalu menggunakan akal budinya; arif; tajam dalam mengambil keputusan",
+        "kebijaksanaan": "sifat bijaksana; kepandaian menggunakan pertimbangan yang matang"
+      },
+      "contoh_kalimat": [
+        "Pemimpin yang bijak selalu mendengar suara rakyatnya.",
+        "Kebijakan pemerintah ini diharapkan menguntungkan rakyat kecil.",
+        "Dengan bijaksana, ia menyelesaikan konflik tanpa kekerasan."
+      ],
+      "variasi_typo": ["bijag", "bijaq", "bijek", "bejak"],
+      "koreksi_typo": "bijak",
+      "catatan": "Bijak merujuk pada kecerdasan praktis; bijaksana lebih menekankan pada kematangan pertimbangan moral"
+    },
+    {
+      "id": "kv_004",
+      "kata_dasar": "cinta",
+      "kelas_kata": "nomina/verba",
+      "definisi": "rasa sangat suka, sayang, atau tertarik hati yang mendalam terhadap seseorang atau sesuatu",
+      "sinonim": ["kasih", "sayang", "rindu", "asmara", "eros"],
+      "antonim": ["benci", "dendam", "antipati", "muak", "tidak suka"],
+      "bentuk_turunan": {
+        "mencintai": "menaruh rasa cinta kepada seseorang atau sesuatu",
+        "dicintai": "disayangi; dikasihi oleh orang lain",
+        "kecintaan": "kesenangan yang sangat besar; sesuatu yang sangat dicintai",
+        "percintaan": "hubungan cinta kasih antar dua orang"
+      },
+      "contoh_kalimat": [
+        "Ia mencintai tanah airnya dengan sepenuh hati.",
+        "Kecintaannya pada musik membuatnya tekun belajar gitar.",
+        "Mereka menjalin percintaan sejak masih di bangku sekolah."
+      ],
+      "variasi_typo": ["cimta", "cintaa", "cnita", "cintta"],
+      "koreksi_typo": "cinta",
+      "catatan": "Berbeda nuansa: 'cinta' (lebih dalam/romantis), 'sayang' (lebih hangat/umum), 'kasih' (lebih tulus/spiritual)"
+    },
+    {
+      "id": "kv_005",
+      "kata_dasar": "damai",
+      "kelas_kata": "adjektiva/nomina",
+      "definisi": "tidak ada perang atau kerusuhan; aman dan tenteram; keadaan tidak bermusuhan",
+      "sinonim": ["tenteram", "aman", "rukun", "sejahtera", "harmonis"],
+      "antonim": ["perang", "konflik", "kacau", "rusuh", "bergejolak"],
+      "bentuk_turunan": {
+        "mendamaikan": "menjadikan damai; mendamaikan pihak yang bertikai",
+        "perdamaian": "perihal damai; penghentian permusuhan secara resmi",
+        "kedamaian": "keadaan damai; ketenteraman batin maupun lahir"
+      },
+      "contoh_kalimat": [
+        "Semua orang mendambakan kedamaian di muka bumi.",
+        "PBB berusaha mendamaikan dua negara yang berkonflik.",
+        "Suasana desa terpencil itu sangat damai dan asri."
+      ],
+      "variasi_typo": ["daami", "damia", "dmai", "daamai"],
+      "koreksi_typo": "damai",
+      "catatan": "Damai dapat merujuk pada kondisi eksternal (tidak ada perang) maupun internal (batin tenang)"
+    },
+    {
+      "id": "kv_006",
+      "kata_dasar": "empati",
+      "kelas_kata": "nomina",
+      "definisi": "keadaan mental yang membuat seseorang merasa atau mengidentifikasi dirinya dalam keadaan perasaan atau pikiran yang sama dengan orang lain",
+      "sinonim": ["kepedulian", "rasa turut merasakan", "simpati mendalam"],
+      "antonim": ["apatis", "acuh tak acuh", "egoisme"],
+      "bentuk_turunan": {
+        "berempati": "merasakan apa yang dirasakan orang lain; menempatkan diri pada posisi orang lain",
+        "mengempati": "memahami perasaan orang lain secara mendalam"
+      },
+      "contoh_kalimat": [
+        "Seorang pemimpin yang baik harus mampu berempati kepada bawahannya.",
+        "Empati adalah fondasi penting dalam hubungan antarpersona.",
+        "Dokter itu sangat berempati kepada pasien-pasiennya."
+      ],
+      "variasi_typo": ["emapti", "empathi", "empthy"],
+      "koreksi_typo": "empati",
+      "catatan": "Berbeda dengan simpati: empati = merasakan seperti yang dirasakan orang lain; simpati = merasa kasihan atau turut berduka"
+    },
+    {
+      "id": "kv_007",
+      "kata_dasar": "faedah",
+      "kelas_kata": "nomina",
+      "definisi": "guna; manfaat nyata yang diperoleh dari suatu hal atau tindakan",
+      "sinonim": ["manfaat", "guna", "kegunaan", "maslahat", "faidah"],
+      "antonim": ["mudharat", "kerugian", "sia-sia", "tidak berguna"],
+      "bentuk_turunan": {
+        "berfaedah": "ada faedahnya; berguna; bermanfaat bagi orang lain",
+        "memfaedahi": "memberikan faedah atau manfaat kepada"
+      },
+      "contoh_kalimat": [
+        "Membaca buku setiap hari sangat berfaedah bagi wawasan.",
+        "Ilmu yang kita pelajari harus memfaedahi masyarakat luas.",
+        "Apa faedah nyata dari program pelatihan ini bagi peserta?"
+      ],
+      "variasi_typo": ["faedha", "faedahh", "faida", "faidah"],
+      "koreksi_typo": "faedah",
+      "catatan": "Lebih formal dan bernuansa klasik dibanding 'manfaat' yang lebih umum dipakai"
+    },
+    {
+      "id": "kv_008",
+      "kata_dasar": "gagah",
+      "kelas_kata": "adjektiva",
+      "definisi": "kuat, berani, dan tampan sekaligus; anggun berwibawa; memiliki penampilan perkasa",
+      "sinonim": ["perkasa", "jantan", "berani", "tampan", "berwibawa"],
+      "antonim": ["lemah", "pengecut", "kerdil", "loyo"],
+      "bentuk_turunan": {
+        "kegagahan": "sifat gagah; keperkasaan yang memukau",
+        "bergagah-gagahan": "bersikap gagah secara berlebihan; pamer kegagahan"
+      },
+      "contoh_kalimat": [
+        "Tentara itu tampak sangat gagah dalam seragam kebesarannya.",
+        "Kegagahan para pahlawan nasional patut diteladani generasi muda.",
+        "Ia bergagah-gagahan di depan teman-temannya agar terlihat keren."
+      ],
+      "variasi_typo": ["gahah", "gagahh", "gagag"],
+      "koreksi_typo": "gagah",
+      "catatan": "Gagah biasanya dipakai untuk laki-laki; padanan untuk perempuan adalah 'cantik' atau 'anggun'"
+    },
+    {
+      "id": "kv_009",
+      "kata_dasar": "harap",
+      "kelas_kata": "verba/nomina",
+      "definisi": "keinginan atau kehendak agar sesuatu terjadi; asa yang belum tentu terkabul",
+      "sinonim": ["asa", "doa", "cita-cita", "keinginan", "impian"],
+      "antonim": ["keputusasaan", "pesimisme", "pasrah tanpa usaha"],
+      "bentuk_turunan": {
+        "berharap": "menaruh harapan; mengharapkan sesuatu dengan sungguh-sungguh",
+        "mengharapkan": "menginginkan sesuatu agar terwujud",
+        "harapan": "sesuatu yang diinginkan; asa; ekspektasi",
+        "pengharapan": "proses atau tindakan berharap; rasa asa yang kuat"
+      },
+      "contoh_kalimat": [
+        "Ia berharap bisa lulus ujian dengan nilai memuaskan.",
+        "Harapannya untuk menjadi dokter akhirnya terwujud juga.",
+        "Jangan padamkan pengharapan dalam setiap langkah hidupmu."
+      ],
+      "variasi_typo": ["haraap", "haarp", "harpa", "haap"],
+      "koreksi_typo": "harap",
+      "catatan": "Harapan berbeda dengan ekspektasi: harapan lebih emosional dan personal; ekspektasi lebih logis dan berbasis perhitungan"
+    },
+    {
+      "id": "kv_010",
+      "kata_dasar": "ikhlas",
+      "kelas_kata": "adjektiva",
+      "definisi": "bersih dan tulus hati dalam melakukan sesuatu; rela sepenuh hati tanpa pamrih",
+      "sinonim": ["tulus", "rela", "legowo", "sukarela", "tanpa pamrih"],
+      "antonim": ["terpaksa", "pamrih", "munafik", "berpura-pura"],
+      "bentuk_turunan": {
+        "mengikhlaskan": "merelakan sesuatu dengan sepenuh hati; melepas tanpa penyesalan",
+        "keikhlasan": "sifat ikhlas; ketulusan hati yang terdalam"
+      },
+      "contoh_kalimat": [
+        "Ia mengikhlaskan hartanya untuk membantu korban bencana.",
+        "Berbuat kebaikan harus dilandasi keikhlasan, bukan pujian.",
+        "Dengan ikhlas ia menerima kenyataan pahit tersebut."
+      ],
+      "variasi_typo": ["ikhals", "iklhas", "iklas", "ikhlash"],
+      "koreksi_typo": "ikhlas",
+      "catatan": "Ikhlas berasal dari bahasa Arab; maknanya lebih dalam dari sekadar 'tulus' karena menyiratkan pembebasan dari ego"
+    },
+    {
+      "id": "kv_011",
+      "kata_dasar": "jelas",
+      "kelas_kata": "adjektiva",
+      "definisi": "terang; nyata; tidak samar-samar; mudah dipahami tanpa interpretasi ganda",
+      "sinonim": ["terang", "nyata", "gamblang", "lugas", "transparan", "tegas"],
+      "antonim": ["kabur", "samar", "tidak jelas", "ambigu", "membingungkan"],
+      "bentuk_turunan": {
+        "menjelaskan": "menerangkan; membuat sesuatu menjadi mudah dipahami",
+        "penjelasan": "keterangan yang membuat sesuatu menjadi jelas",
+        "kejelasan": "sifat atau keadaan yang jelas; ketegasan informasi",
+        "sejelas-jelasnya": "sedetail dan setransparent mungkin"
+      },
+      "contoh_kalimat": [
+        "Tolong jelaskan kembali instruksi yang tadi disampaikan.",
+        "Penjelasan guru itu sangat mudah dipahami para murid.",
+        "Kami membutuhkan kejelasan terkait keputusan manajemen."
+      ],
+      "variasi_typo": ["jales", "jelsa", "jelass", "jleas"],
+      "koreksi_typo": "jelas",
+      "catatan": "Dapat digunakan untuk mendeskripsikan visual (gambar jelas), verbal (penjelasan jelas), maupun hukum (aturan jelas)"
+    },
+    {
+      "id": "kv_012",
+      "kata_dasar": "karya",
+      "kelas_kata": "nomina",
+      "definisi": "hasil perbuatan; buatan; ciptaan yang dihasilkan dengan kemampuan dan keahlian seseorang",
+      "sinonim": ["ciptaan", "kreasi", "buatan", "produk", "hasil kerja"],
+      "antonim": [],
+      "bentuk_turunan": {
+        "berkarya": "menghasilkan karya; aktif menciptakan sesuatu yang bernilai",
+        "karya tulis": "tulisan yang merupakan hasil pemikiran seseorang",
+        "karya seni": "hasil kreasi yang memiliki nilai estetika"
+      },
+      "contoh_kalimat": [
+        "Novelis itu telah berkarya selama lebih dari tiga puluh tahun.",
+        "Karya seni batik ini dipajang di museum nasional.",
+        "Ia menghasilkan karya terbaiknya justru di usia senja."
+      ],
+      "variasi_typo": ["karaya", "kariy", "karaya"],
+      "koreksi_typo": "karya",
+      "catatan": "Karya lebih bermartabat dari 'buatan'; mengandung makna usaha kreatif yang bermakna"
+    },
+    {
+      "id": "kv_013",
+      "kata_dasar": "lembut",
+      "kelas_kata": "adjektiva",
+      "definisi": "lunak dan halus secara fisik; tidak keras; tidak kasar dalam sikap atau tutur kata",
+      "sinonim": ["halus", "lunak", "santun", "ramah", "luwes"],
+      "antonim": ["kasar", "keras", "kaku", "garang", "tajam"],
+      "bentuk_turunan": {
+        "melembutkan": "menjadikan sesuatu lebih lembut secara fisik atau sikap",
+        "kelembutan": "sifat lembut; kehalusan budi pekerti yang menyentuh hati"
+      },
+      "contoh_kalimat": [
+        "Kelembutan sikapnya membuat semua orang nyaman bersamanya.",
+        "Ia berbicara dengan nada lembut kepada anaknya yang menangis.",
+        "Kulit bayi terasa sangat lembut seperti kapas."
+      ],
+      "variasi_typo": ["lmebut", "lembot", "lembutt", "lembott"],
+      "koreksi_typo": "lembut",
+      "catatan": "Lembut dapat merujuk pada sifat fisik maupun karakter. 'Halus' lebih ke detail fisik; 'lembut' lebih ke tekstur dan perasaan"
+    },
+    {
+      "id": "kv_014",
+      "kata_dasar": "maju",
+      "kelas_kata": "verba/adjektiva",
+      "definisi": "bergerak ke depan; berkembang pesat; meningkat ke kondisi yang lebih baik dari sebelumnya",
+      "sinonim": ["berkembang", "meningkat", "progresif", "melangkah maju"],
+      "antonim": ["mundur", "merosot", "terbelakang", "stagnan"],
+      "bentuk_turunan": {
+        "kemajuan": "hal yang maju; perkembangan ke arah yang lebih baik",
+        "memajukan": "menjadikan lebih maju; meningkatkan taraf sesuatu",
+        "termaju": "paling maju di antara yang lain"
+      },
+      "contoh_kalimat": [
+        "Bangsa yang maju adalah bangsa yang menghargai pendidikan.",
+        "Kemajuan teknologi telah mengubah cara hidup umat manusia.",
+        "Kita harus bersama-sama memajukan daerah yang tertinggal."
+      ],
+      "variasi_typo": ["majuu", "mjau", "maaju"],
+      "koreksi_typo": "maju",
+      "catatan": "Maju bisa bersifat spasial (bergerak ke depan) maupun metaforis (berkembang)"
+    },
+    {
+      "id": "kv_015",
+      "kata_dasar": "nyaman",
+      "kelas_kata": "adjektiva",
+      "definisi": "segar; sehat; sedap; enak; memberi perasaan menyenangkan dan tidak terganggu",
+      "sinonim": ["enak", "tenteram", "segar", "menyenangkan", "comfortable"],
+      "antonim": ["tidak nyaman", "gelisah", "risih", "tidak enak", "tegang"],
+      "bentuk_turunan": {
+        "kenyamanan": "keadaan nyaman; kondisi yang membuat seseorang merasa enak",
+        "menyamankan": "membuat menjadi nyaman; menciptakan suasana yang kondusif"
+      },
+      "contoh_kalimat": [
+        "Ruangan ber-AC ini sangat nyaman untuk belajar dan bekerja.",
+        "Kenyamanan penumpang adalah prioritas utama maskapai kami.",
+        "Ia berusaha menyamankan suasana yang sempat menegangkan."
+      ],
+      "variasi_typo": ["inyaman", "nyamaan", "nayaman"],
+      "koreksi_typo": "nyaman",
+      "catatan": "Nyaman mencakup dimensi fisik dan psikologis"
+    },
+    {
+      "id": "kv_016",
+      "kata_dasar": "otak",
+      "kelas_kata": "nomina",
+      "definisi": "organ lunak dalam tengkorak yang berfungsi sebagai pusat saraf; secara kiasan berarti akal atau pikiran",
+      "sinonim": ["akal", "pikiran", "kecerdasan", "inteligensi"],
+      "antonim": [],
+      "bentuk_turunan": {
+        "berotak": "mempunyai akal; cerdas; pandai berpikir",
+        "mengotaki": "menjadi dalang atau otak di balik suatu rencana atau tindakan"
+      },
+      "contoh_kalimat": [
+        "Berolahraga secara teratur terbukti baik untuk kesehatan otak.",
+        "Polisi sedang mencari siapa yang mengotaki kejahatan ini.",
+        "Otak manusia menyimpan kapasitas yang jauh melebihi perkiraan."
+      ],
+      "variasi_typo": ["otakk", "oatk", "oatk"],
+      "koreksi_typo": "otak",
+      "catatan": "Dalam bahasa informal, 'otak' sering dipakai kiasan untuk menyebut seseorang yang pandai"
+    },
+    {
+      "id": "kv_017",
+      "kata_dasar": "pantang",
+      "kelas_kata": "nomina/verba",
+      "definisi": "larangan berdasarkan adat, kepercayaan, atau kondisi kesehatan; sesuatu yang tidak boleh dilakukan",
+      "sinonim": ["larangan", "tabu", "prohibisi", "cegahan", "tegahan"],
+      "antonim": ["boleh", "diizinkan", "diperkenankan", "bebas"],
+      "bentuk_turunan": {
+        "berpantang": "menghindari sesuatu karena pantangan; tidak mau melakukan sesuatu",
+        "memantangkan": "melarang sesuatu berdasarkan aturan adat atau kepercayaan"
+      },
+      "contoh_kalimat": [
+        "Pantang baginya untuk menyerah sebelum berhasil.",
+        "Ibu berpantang makan makanan pedas selama masa pemulihan.",
+        "Ada beberapa hal yang dipantangkan dalam tradisi adat ini."
+      ],
+      "variasi_typo": ["pantag", "pntang", "pantangg"],
+      "koreksi_typo": "pantang",
+      "catatan": "Pantang berbeda dari 'larangan resmi'; pantang biasanya berkaitan dengan keyakinan atau kondisi tertentu"
+    },
+    {
+      "id": "kv_018",
+      "kata_dasar": "rajin",
+      "kelas_kata": "adjektiva",
+      "definisi": "suka dan tekun bekerja; giat dan bersungguh-sungguh dalam melakukan sesuatu",
+      "sinonim": ["tekun", "giat", "getol", "ulet", "bersemangat"],
+      "antonim": ["malas", "pemalas", "ogah-ogahan", "loyo"],
+      "bentuk_turunan": {
+        "kerajinan": "sifat rajin; ketekunan; juga berarti hasil kerja tangan bernilai seni",
+        "merajinkan": "mendorong atau membiasakan seseorang agar menjadi rajin"
+      },
+      "contoh_kalimat": [
+        "Siswa yang rajin belajar pasti akan menuai hasil yang baik.",
+        "Kerajinan tangan dari daerah ini sangat diminati para wisatawan.",
+        "Orang tuanya selalu merajinkan anak-anaknya untuk membaca."
+      ],
+      "variasi_typo": ["raijn", "rajiin", "rjain"],
+      "koreksi_typo": "rajin",
+      "catatan": "Rajin bisa berarti tekun (dalam belajar/kerja) atau sering (rajin datang ke acara)"
+    },
+    {
+      "id": "kv_019",
+      "kata_dasar": "sabar",
+      "kelas_kata": "adjektiva",
+      "definisi": "tahan menghadapi cobaan dan kesulitan; tidak lekas marah; tidak lekas putus asa",
+      "sinonim": ["tabah", "tegar", "tenang", "telaten", "lapang dada"],
+      "antonim": ["terburu-buru", "emosional", "gegabah", "pemarah", "tidak tahan"],
+      "bentuk_turunan": {
+        "kesabaran": "sifat sabar; kemampuan menahan diri dalam menghadapi cobaan",
+        "menyabarkan": "berusaha membuat seseorang menjadi lebih tenang dan sabar"
+      },
+      "contoh_kalimat": [
+        "Sabar adalah kunci utama dalam melewati masa-masa sulit.",
+        "Kesabaran guru itu dalam mendidik murid patut diapresiasi.",
+        "Temannya berusaha menyabarkan dirinya yang sedang marah besar."
+      ],
+      "variasi_typo": ["sabbar", "saabr", "sbara"],
+      "koreksi_typo": "sabar",
+      "catatan": "Sabar bukan berarti pasif; seseorang yang sabar tetap berusaha tetapi tidak kehilangan ketenangan"
+    },
+    {
+      "id": "kv_020",
+      "kata_dasar": "tangguh",
+      "kelas_kata": "adjektiva",
+      "definisi": "kuat dan sukar dikalahkan; andal dan dapat diandalkan; mampu bertahan dalam situasi paling sulit sekalipun",
+      "sinonim": ["kuat", "tegar", "andal", "handal", "ulet", "kokoh"],
+      "antonim": ["lemah", "rapuh", "mudah menyerah", "lembek"],
+      "bentuk_turunan": {
+        "ketangguhan": "sifat tangguh; kekuatan serta keandalan yang teruji"
+      },
+      "contoh_kalimat": [
+        "Tim itu dikenal tangguh dan sulit dikalahkan lawan manapun.",
+        "Ketangguhan mentalnya benar-benar diuji saat menghadapi krisis.",
+        "Ia adalah atlet tangguh yang disiplin menjaga kondisi tubuhnya."
+      ],
+      "variasi_typo": ["tanggug", "tanggoh", "tanguh"],
+      "koreksi_typo": "tangguh",
+      "catatan": "Tangguh mencakup ketangguhan fisik maupun mental"
+    },
+    {
+      "id": "kv_021",
+      "kata_dasar": "bisa",
+      "kelas_kata": "polisemi",
+      "definisi_polisemi": [
+        {
+          "indeks": 1,
+          "makna": "dapat; mampu melakukan sesuatu",
+          "kelas_kata": "verba modal",
+          "contoh": "Dia bisa berbicara tiga bahasa sekaligus."
+        },
+        {
+          "indeks": 2,
+          "makna": "racun yang dihasilkan binatang berbisa seperti ular, lebah, atau kalajengking",
+          "kelas_kata": "nomina",
+          "contoh": "Bisa ular kobra itu sangat mematikan."
+        }
+      ],
+      "sinonim": ["dapat, mampu (makna 1)", "racun, toksin (makna 2)"],
+      "catatan_polisemi": "Makna ditentukan oleh konteks kalimat. Jika subjek kalimat adalah makhluk hidup aktif, makna 1 lebih mungkin. Jika berkaitan dengan binatang berbahaya atau medis, makna 2 lebih mungkin.",
+      "variasi_typo": ["bissa", "bsia", "bsia"],
+      "koreksi_typo": "bisa"
+    },
+    {
+      "id": "kv_022",
+      "kata_dasar": "cerah",
+      "kelas_kata": "adjektiva",
+      "definisi": "terang benderang; bersinar; tidak mendung; juga bermakna gembira dan penuh semangat (kiasan)",
+      "sinonim": ["terang", "bersinar", "jernih", "gembira (kiasan)"],
+      "antonim": ["mendung", "gelap", "murung", "suram"],
+      "bentuk_turunan": {
+        "kecerahan": "sifat atau keadaan yang cerah",
+        "mencerahkan": "membuat menjadi cerah; memberikan pencerahan"
+      },
+      "contoh_kalimat": [
+        "Langit hari ini cerah tidak ada awan sama sekali.",
+        "Wajahnya tampak cerah setelah mendengar kabar baik itu.",
+        "Ceramah itu sangat mencerahkan pikiran para hadirin."
+      ],
+      "variasi_typo": ["cerahh", "ceara", "cerahh"],
+      "koreksi_typo": "cerah"
+    },
+    {
+      "id": "kv_023",
+      "kata_dasar": "giat",
+      "kelas_kata": "adjektiva/verba",
+      "definisi": "aktif bekerja; bersemangat dan penuh tenaga dalam melakukan sesuatu",
+      "sinonim": ["rajin", "tekun", "aktif", "bersemangat"],
+      "antonim": ["malas", "lesu", "loyo", "lamban"],
+      "bentuk_turunan": {
+        "menggiatkan": "mendorong atau memacu agar lebih aktif dan bersemangat",
+        "kegiatgiatan": "terlalu aktif hingga terlihat berlebihan"
+      },
+      "contoh_kalimat": [
+        "Ia giat berlatih setiap hari menjelang kompetisi.",
+        "Program ini bertujuan menggiatkan minat baca masyarakat.",
+        "Kegiatan belajar harus dilakukan secara konsisten dan giat."
+      ],
+      "variasi_typo": ["giaat", "gaiat", "giaat"],
+      "koreksi_typo": "giat"
+    },
+    {
+      "id": "kv_024",
+      "kata_dasar": "hemat",
+      "kelas_kata": "adjektiva",
+      "definisi": "berhati-hati dalam menggunakan sesuatu (uang, barang, waktu); tidak boros",
+      "sinonim": ["irit", "cermat", "efisien", "berhati-hati"],
+      "antonim": ["boros", "hambur", "foya-foya", "tidak efisien"],
+      "bentuk_turunan": {
+        "menghemat": "berusaha menggunakan sesuatu dengan lebih sedikit dari biasanya",
+        "penghematan": "proses atau upaya menggunakan sesuatu secara efisien",
+        "kehematan": "sifat hemat; kebiasaan tidak boros"
+      },
+      "contoh_kalimat": [
+        "Biasakan hemat listrik dengan mematikan lampu yang tidak terpakai.",
+        "Program penghematan energi nasional berjalan dengan baik.",
+        "Kehematan dalam pengelolaan keuangan keluarga sangat penting."
+      ],
+      "variasi_typo": ["hematt", "heemat", "hematt"],
+      "koreksi_typo": "hemat"
+    },
+    {
+      "id": "kv_025",
+      "kata_dasar": "insaf",
+      "kelas_kata": "verba/adjektiva",
+      "definisi": "menyadari kesalahan atau kekhilafan diri sendiri; bertobat; mengerti akan keadaan yang sebenarnya",
+      "sinonim": ["sadar", "tobat", "menyesal", "tahu diri"],
+      "antonim": ["tidak sadar", "tidak tobat", "keras kepala"],
+      "bentuk_turunan": {
+        "menginsafi": "menyadari sesuatu dengan sepenuh hati",
+        "keinsafan": "kesadaran atas kesalahan; pertobatan hati"
+      },
+      "contoh_kalimat": [
+        "Setelah lama tersesat, ia akhirnya insaf dan kembali ke jalan benar.",
+        "Keinsafan dirinya datang terlambat setelah banyak kerugian.",
+        "Kita harus menginsafi bahwa hidup ini sementara adanya."
+      ],
+      "variasi_typo": ["insap", "insaff", "isaf"],
+      "koreksi_typo": "insaf"
+    },
+    {
+      "id": "kv_026",
+      "kata_dasar": "jiwa",
+      "kelas_kata": "nomina",
+      "definisi": "roh manusia; bagian non-fisik manusia yang dianggap sebagai esensi kehidupan; semangat atau inti dari sesuatu",
+      "sinonim": ["roh", "sukma", "semangat", "nyawa", "spirit"],
+      "antonim": ["jasad", "raga", "tubuh"],
+      "bentuk_turunan": {
+        "berjiwa": "mempunyai jiwa; memiliki semangat tertentu",
+        "jiwa raga": "seluruh aspek manusia, lahir dan batin"
+      },
+      "contoh_kalimat": [
+        "Berjiwa besar adalah kemampuan menerima kritik dengan lapang.",
+        "Ia mendedikasikan jiwa raga untuk kemajuan bangsanya.",
+        "Jiwa kepemimpinannya tampak sejak ia masih sangat muda."
+      ],
+      "variasi_typo": ["jiwaa", "jwia", "jiwwa"],
+      "koreksi_typo": "jiwa"
+    },
+    {
+      "id": "kv_027",
+      "kata_dasar": "kuat",
+      "kelas_kata": "adjektiva",
+      "definisi": "banyak tenaganya; tidak mudah patah, goyah, atau rusak; teguh dan tidak mudah terpengaruh",
+      "sinonim": ["tangguh", "kokoh", "tegar", "keras", "solid"],
+      "antonim": ["lemah", "rapuh", "goyah", "ringkih"],
+      "bentuk_turunan": {
+        "menguatkan": "menjadikan lebih kuat; memberi kekuatan",
+        "kekuatan": "sifat kuat; tenaga; daya"
+      },
+      "contoh_kalimat": [
+        "Fondasi bangunan itu harus kuat menopang beban di atasnya.",
+        "Doa orang tua menguatkan semangat anaknya yang sedang berjuang.",
+        "Kekuatan tekad adalah modal utama dalam meraih impian."
+      ],
+      "variasi_typo": ["kuaat", "kuatt", "kuuat"],
+      "koreksi_typo": "kuat"
+    },
+    {
+      "id": "kv_028",
+      "kata_dasar": "lapang",
+      "kelas_kata": "adjektiva",
+      "definisi": "luas; tidak sempit; dalam makna kiasan berarti lega, bebas, atau plong",
+      "sinonim": ["luas", "lega", "longgar", "bebas", "plong"],
+      "antonim": ["sempit", "sesak", "terkungkung", "sumpek"],
+      "bentuk_turunan": {
+        "melapangkan": "membuat menjadi lebih lapang; melonggarkan",
+        "kelapangan": "kondisi lapang; keluasaan; keleluasaan"
+      },
+      "contoh_kalimat": [
+        "Ia selalu berusaha lapang dada menerima cobaan hidup.",
+        "Proyek ini bertujuan melapangkan jalan nasional yang krodit.",
+        "Dalam kelapangan maupun kesempitan, bersyukurlah selalu."
+      ],
+      "variasi_typo": ["laapang", "lapangg", "laapng"],
+      "koreksi_typo": "lapang"
+    },
+    {
+      "id": "kv_029",
+      "kata_dasar": "mulia",
+      "kelas_kata": "adjektiva",
+      "definisi": "tinggi derajatnya; luhur budi pekertinya; terhormat dan dihormati banyak orang",
+      "sinonim": ["luhur", "terhormat", "agung", "terpuji", "bermartabat"],
+      "antonim": ["hina", "rendah", "tercela", "nista"],
+      "bentuk_turunan": {
+        "memuliakan": "menghormati; mengangkat derajat seseorang",
+        "kemuliaan": "sifat mulia; kehormatan; keagungan"
+      },
+      "contoh_kalimat": [
+        "Memuliakan tamu adalah tradisi luhur bangsa Indonesia.",
+        "Kemuliaan sejati bukan dari harta, melainkan dari akhlak.",
+        "Profesi guru adalah profesi yang mulia dan terhormat."
+      ],
+      "variasi_typo": ["mulyia", "muliaa", "mluia"],
+      "koreksi_typo": "mulia"
+    },
+    {
+      "id": "kv_030",
+      "kata_dasar": "nalar",
+      "kelas_kata": "nomina/verba",
+      "definisi": "pertimbangan tentang baik dan buruk; akal budi; kemampuan berpikir secara logis",
+      "sinonim": ["akal", "logika", "pikiran sehat", "rasio", "penalaran"],
+      "antonim": ["irasional", "tidak masuk akal"],
+      "bentuk_turunan": {
+        "menalar": "menggunakan nalar; berpikir secara logis",
+        "penalaran": "proses atau cara menalar; alur berpikir yang sistematis"
+      },
+      "contoh_kalimat": [
+        "Gunakan nalar sehat sebelum menyebarkan informasi di media sosial.",
+        "Ia menalar setiap masalah dengan tenang dan sistematis.",
+        "Kemampuan penalaran yang baik sangat dibutuhkan dalam sains."
+      ],
+      "variasi_typo": ["naalr", "nalarr", "nalar"],
+      "koreksi_typo": "nalar"
+    }
+  ],
+
+  "tata_bahasa_struktur_kalimat": [
+    {
+      "id": "tb_001",
+      "kategori": "SPOK - Struktur Dasar",
+      "penjelasan": "Kalimat bahasa Indonesia yang baik mengikuti pola Subjek (S) - Predikat (P) - Objek (O) - Keterangan (K). Tidak semua unsur wajib hadir, tetapi S dan P adalah inti kalimat.",
+      "contoh_benar": [
+        {
+          "kalimat": "Ani (S) membaca (P) buku (O) di perpustakaan (K).",
+          "analisis": "S=Ani, P=membaca, O=buku, K=di perpustakaan"
+        },
+        {
+          "kalimat": "Para siswa (S) mengerjakan (P) tugas (O) dengan tekun (K).",
+          "analisis": "S=Para siswa, P=mengerjakan, O=tugas, K=dengan tekun"
+        }
+      ],
+      "contoh_salah": [
+        {
+          "kalimat_salah": "Buku membaca Ani di perpustakaan.",
+          "kalimat_benar": "Ani membaca buku di perpustakaan.",
+          "penjelasan_koreksi": "Subjek (pelaku) harus berada di awal kalimat aktif"
+        }
+      ]
+    },
+    {
+      "id": "tb_002",
+      "kategori": "Koreksi Urutan Kata",
+      "kalimat_input": "Saya pergi sekolah ke",
+      "kalimat_output": "Saya pergi ke sekolah.",
+      "penjelasan": "Preposisi 'ke' harus langsung mendahului kata benda yang dituju. Pola yang benar: subjek + predikat + preposisi + objek.",
+      "aturan": "Preposisi (ke, dari, di, dengan, untuk, dll.) selalu diletakkan sebelum kata benda atau frasa nomina yang menjadi tujuannya."
+    },
+    {
+      "id": "tb_003",
+      "kategori": "Koreksi Urutan Kata",
+      "kalimat_input": "Dengan semangat dia belajar selalu.",
+      "kalimat_output": "Dia selalu belajar dengan semangat.",
+      "penjelasan": "Keterangan cara (dengan semangat) lebih alami diletakkan di akhir kalimat. Kata keterangan frekuensi (selalu) umumnya diletakkan sebelum predikat.",
+      "aturan": "Urutan yang disarankan: S + K.frekuensi + P + K.cara"
+    },
+    {
+      "id": "tb_004",
+      "kategori": "Koreksi Urutan Kata",
+      "kalimat_input": "Kemarin dia pergi sudah.",
+      "kalimat_output": "Dia sudah pergi kemarin.",
+      "penjelasan": "Kata aspektual 'sudah' harus ditempatkan sebelum predikat, bukan di akhir kalimat. Keterangan waktu bisa di awal atau akhir.",
+      "aturan": "Kata aspektual (sudah, telah, sedang, belum, akan) selalu ditempatkan sebelum predikat."
+    },
+    {
+      "id": "tb_005",
+      "kategori": "Penggunaan Imbuhan - Aktif vs Pasif",
+      "topik": "me- vs di-",
+      "penjelasan": "Imbuhan 'me-' membentuk kalimat aktif (subjek melakukan tindakan). Imbuhan 'di-' membentuk kalimat pasif (subjek menerima tindakan).",
+      "contoh": [
+        {
+          "aktif": "Ibu memasak nasi goreng.",
+          "pasif": "Nasi goreng dimasak oleh ibu.",
+          "catatan": "Kedua bentuk benar, hanya berbeda fokus"
+        },
+        {
+          "aktif": "Andi mengambil buku itu.",
+          "pasif": "Buku itu diambil oleh Andi.",
+          "catatan": "Imbuhan disesuaikan dengan pola kalimat"
+        }
+      ],
+      "kesalahan_umum": [
+        {
+          "salah": "Buku itu diambilkan oleh Andi.",
+          "benar": "Buku itu diambil oleh Andi.",
+          "penjelasan": "'Diambilkan' bermakna 'mengambilkan untuk orang lain', bukan sekadar mengambil"
+        }
+      ]
+    },
+    {
+      "id": "tb_006",
+      "kategori": "Penggunaan Imbuhan - Transitif",
+      "topik": "me-kan vs me-i",
+      "penjelasan": "Imbuhan '-kan' menunjukkan tindakan dilakukan untuk orang lain atau objek tidak langsung. Imbuhan '-i' menunjukkan tindakan yang dilakukan berulang atau mengenai tempat/objek.",
+      "contoh": [
+        {
+          "kalimat": "Ia membelikan adiknya mainan.",
+          "analisis": "Membeli sesuatu untuk adiknya (benefitif, '-kan')"
+        },
+        {
+          "kalimat": "Ia membubuhi dokumen itu dengan tanda tangan.",
+          "analisis": "Tindakan mengenai objek langsung ('-i')"
+        }
+      ],
+      "kesalahan_umum": [
+        {
+          "salah": "Tolong mengambilkan buku itu untukku.",
+          "benar": "Tolong ambilkan buku itu untukku.",
+          "penjelasan": "Kalimat imperatif (perintah) tidak memakai imbuhan 'me-'"
+        }
+      ]
+    },
+    {
+      "id": "tb_007",
+      "kategori": "Penulisan Huruf Kapital",
+      "aturan": "Huruf kapital digunakan pada: (1) awal kalimat, (2) nama diri (orang, kota, negara), (3) nama jabatan diikuti nama, (4) nama hari dan bulan, (5) judul karya tulis.",
+      "contoh_benar": [
+        "Presiden Joko Widodo meresmikan jembatan itu.",
+        "Hari Senin, 17 Agustus adalah Hari Kemerdekaan Indonesia.",
+        "Ia tinggal di Kota Bandung, Provinsi Jawa Barat."
+      ],
+      "contoh_salah": [
+        {
+          "salah": "presiden joko widodo meresmikan Jembatan itu.",
+          "benar": "Presiden Joko Widodo meresmikan jembatan itu.",
+          "penjelasan": "Nama orang dan jabatan diikuti nama ditulis kapital; kata umum seperti 'jembatan' tidak"
+        }
+      ]
+    },
+    {
+      "id": "tb_008",
+      "kategori": "Penulisan Kata Depan",
+      "aturan": "Kata depan (di, ke, dari) ditulis terpisah dari kata yang mengikutinya bila menunjukkan tempat atau arah. Ditulis serangkai jika merupakan bagian dari imbuhan (awalan).",
+      "contoh_benar": [
+        {
+          "kalimat": "Ia pergi ke pasar pagi tadi.",
+          "catatan": "'ke' = kata depan, ditulis terpisah"
+        },
+        {
+          "kalimat": "Buku itu ada di meja belajar.",
+          "catatan": "'di' = kata depan, ditulis terpisah"
+        },
+        {
+          "kalimat": "Makanan itu dimakan oleh adik.",
+          "catatan": "'di-' = awalan, ditulis serangkai"
+        }
+      ],
+      "cara_membedakan": "Kata depan menunjukkan lokasi/arah (bisa ditanya 'di mana?' atau 'ke mana?'). Imbuhan 'di-' membentuk kata kerja pasif (bisa diganti dengan 'me-' untuk aktifnya)."
+    },
+    {
+      "id": "tb_009",
+      "kategori": "Tanda Baca - Koma",
+      "aturan": "Koma digunakan untuk: (1) memisahkan anak kalimat dari induk kalimat, (2) memisahkan unsur-unsur dalam perincian, (3) sebelum kata hubung pertentangan (tetapi, namun, melainkan).",
+      "contoh_benar": [
+        "Ia pandai, tetapi malas belajar.",
+        "Kami membeli apel, jeruk, dan mangga.",
+        "Karena sakit, ia tidak masuk sekolah hari ini."
+      ],
+      "kesalahan_umum": [
+        {
+          "salah": "Ia pandai tetapi malas belajar.",
+          "benar": "Ia pandai, tetapi malas belajar.",
+          "penjelasan": "Diperlukan koma sebelum 'tetapi' yang menghubungkan dua klausa"
+        }
+      ]
+    },
+    {
+      "id": "tb_010",
+      "kategori": "Kalimat Majemuk - Konjungsi",
+      "topik": "karena vs sehingga",
+      "penjelasan": "'Karena' menunjukkan sebab, digunakan di awal klausa penyebab. 'Sehingga' menunjukkan akibat, digunakan di awal klausa akibat.",
+      "contoh_benar": [
+        "Ia tidak masuk karena sakit.",
+        "Ia sakit sehingga tidak masuk.",
+        "Karena hujan deras, pertandingan ditunda."
+      ],
+      "kesalahan_umum": [
+        {
+          "salah": "Sehingga dia sakit, dia tidak masuk.",
+          "benar": "Karena dia sakit, dia tidak masuk.",
+          "penjelasan": "'Sehingga' tidak bisa mengawali kalimat sebab; gunakan 'karena' atau 'oleh karena'"
+        }
+      ]
+    },
+    {
+      "id": "tb_011",
+      "kategori": "Kalimat Aktif dan Pasif",
+      "penjelasan": "Kalimat aktif: subjek melakukan perbuatan (ber-me-). Kalimat pasif: subjek dikenai perbuatan (ber-di-). Pemilihan aktif/pasif bergantung pada fokus pembicaraan.",
+      "pasangan_aktif_pasif": [
+        {
+          "aktif": "Dokter memeriksa pasien itu.",
+          "pasif": "Pasien itu diperiksa oleh dokter."
+        },
+        {
+          "aktif": "Pemerintah membangun jembatan baru.",
+          "pasif": "Jembatan baru dibangun oleh pemerintah."
+        },
+        {
+          "aktif": "Anak-anak menyanyikan lagu kebangsaan.",
+          "pasif": "Lagu kebangsaan dinyanyikan oleh anak-anak."
+        }
+      ]
+    },
+    {
+      "id": "tb_012",
+      "kategori": "Penggunaan 'yang'",
+      "penjelasan": "'Yang' digunakan untuk membentuk klausa relatif yang menjelaskan kata benda sebelumnya. 'Yang' tidak boleh dihilangkan jika klausa penjelas penting untuk identifikasi.",
+      "contoh_benar": [
+        "Buku yang ada di meja itu milik saya.",
+        "Siswa yang rajin belajar pasti akan berhasil.",
+        "Gedung yang baru dibangun itu sangat megah."
+      ],
+      "kesalahan_umum": [
+        {
+          "salah": "Buku ada di meja itu milik saya.",
+          "benar": "Buku yang ada di meja itu milik saya.",
+          "penjelasan": "'Yang' diperlukan untuk menghubungkan klausa penjelas dengan kata benda 'buku'"
+        }
+      ]
+    },
+    {
+      "id": "tb_013",
+      "kategori": "Penulisan Angka dan Bilangan",
+      "aturan": "Bilangan yang dapat dinyatakan dalam satu atau dua kata ditulis dengan huruf. Bilangan lebih dari dua kata ditulis dengan angka. Bilangan di awal kalimat selalu ditulis dengan huruf.",
+      "contoh_benar": [
+        "Saya memiliki dua ekor kucing.",
+        "Perusahaan itu memiliki 1.250 karyawan.",
+        "Dua puluh siswa mengikuti olimpiade matematika."
+      ],
+      "kesalahan_umum": [
+        {
+          "salah": "2 siswa tidak hadir hari ini.",
+          "benar": "Dua siswa tidak hadir hari ini.",
+          "penjelasan": "Angka di awal kalimat wajib ditulis dengan huruf"
+        }
+      ]
+    },
+    {
+      "id": "tb_014",
+      "kategori": "Kalimat Efektif - Kesepadanan Struktur",
+      "penjelasan": "Kalimat efektif harus memiliki satu subjek yang jelas dan tidak ganda. Penggunaan kata 'bagi', 'untuk', 'dalam' di awal kalimat menghilangkan subjek.",
+      "contoh_benar": [
+        "Mahasiswa harus aktif dalam kegiatan kampus.",
+        "Kesehatan adalah investasi terbaik dalam hidup."
+      ],
+      "kesalahan_umum": [
+        {
+          "salah": "Bagi mahasiswa harus aktif dalam kegiatan kampus.",
+          "benar": "Mahasiswa harus aktif dalam kegiatan kampus.",
+          "penjelasan": "'Bagi' di awal kalimat menjadikan kalimat tidak bersubjek"
+        },
+        {
+          "salah": "Dalam rapat itu membahas anggaran tahunan.",
+          "benar": "Rapat itu membahas anggaran tahunan.",
+          "penjelasan": "'Dalam' di awal kalimat menyembunyikan subjek sebenarnya"
+        }
+      ]
+    },
+    {
+      "id": "tb_015",
+      "kategori": "Penggunaan 'adalah' dan 'ialah'",
+      "penjelasan": "'Adalah' digunakan untuk mendefinisikan atau menjelaskan sesuatu; subjeknya bisa berupa kata benda, frasa, maupun klausa. 'Ialah' digunakan untuk memperkenalkan atau merincikan; biasanya subjeknya sudah diketahui.",
+      "contoh_benar": [
+        "Pancasila adalah dasar negara Republik Indonesia.",
+        "Yang dimaksud dengan korupsi ialah penyalahgunaan wewenang.",
+        "Bahasa Indonesia adalah bahasa persatuan kita."
+      ],
+      "kesalahan_umum": [
+        {
+          "salah": "Dia adalah pergi ke pasar.",
+          "benar": "Dia pergi ke pasar.",
+          "penjelasan": "'Adalah' tidak digunakan sebelum kata kerja; hanya untuk definisi dan identifikasi"
+        }
+      ]
+    },
+    {
+      "id": "tb_016",
+      "kategori": "Penulisan Kata Ulang",
+      "aturan": "Kata ulang ditulis dengan tanda hubung (-) di antara kedua unsurnya. Tidak boleh ditulis tanpa tanda hubung atau dirangkaikan.",
+      "contoh_benar": [
+        "anak-anak", "sayur-mayur", "buku-buku", "buah-buahan", "berlari-lari"
+      ],
+      "contoh_salah": [
+        {
+          "salah": "anakanak perlu bimbingan orang tua.",
+          "benar": "Anak-anak perlu bimbingan orang tua.",
+          "penjelasan": "Kata ulang selalu ditulis dengan tanda hubung"
+        }
+      ]
+    },
+    {
+      "id": "tb_017",
+      "kategori": "Konjungsi Subordinatif Waktu",
+      "topik": "ketika, saat, sewaktu, tatkala",
+      "penjelasan": "Semua konjungsi ini menunjukkan hubungan waktu. 'Ketika' dan 'saat' lebih umum digunakan. 'Sewaktu' menunjukkan kesamaan waktu. 'Tatkala' lebih formal/sastra.",
+      "contoh_benar": [
+        "Ia menangis ketika mendengar berita itu.",
+        "Saat hujan turun, kami berteduh di bawah pohon.",
+        "Sewaktu kecil, ia sering bermain di sungai.",
+        "Tatkala fajar menyingsing, para petani mulai berangkat."
+      ]
+    },
+    {
+      "id": "tb_018",
+      "kategori": "Kalimat Perintah (Imperatif)",
+      "penjelasan": "Kalimat perintah tidak menggunakan imbuhan 'me-' pada predikatnya. Predikatnya berupa kata kerja dasar atau berimbuhan '-kan'/'-i'.",
+      "contoh_benar": [
+        "Buka pintu itu!",
+        "Tutupkan jendelanya!",
+        "Ambilkan saya segelas air!",
+        "Dengarkan baik-baik penjelasan ini."
+      ],
+      "kesalahan_umum": [
+        {
+          "salah": "Tolong membuka pintu itu.",
+          "benar": "Tolong buka pintu itu.",
+          "penjelasan": "Kalimat imperatif (perintah/permintaan) tidak memakai awalan 'me-'"
+        }
+      ]
+    },
+    {
+      "id": "tb_019",
+      "kategori": "Penggunaan Kata Tanya",
+      "penjelasan": "Kata tanya dalam bahasa Indonesia: apa (benda/hal), siapa (orang), di mana (tempat), kapan (waktu), mengapa/kenapa (alasan), bagaimana (cara), berapa (jumlah).",
+      "contoh_benar": [
+        "Apa yang sedang kamu kerjakan?",
+        "Siapa yang bertanggung jawab atas kejadian ini?",
+        "Di mana kamu meletakkan kunci rumah?",
+        "Kapan kamu akan pulang ke kampung halaman?",
+        "Mengapa kamu terlambat datang hari ini?",
+        "Bagaimana cara membuat rendang yang lezat?",
+        "Berapa harga sepatu yang kamu beli kemarin?"
+      ]
+    },
+    {
+      "id": "tb_020",
+      "kategori": "Penulisan Gabungan Kata",
+      "aturan": "Gabungan kata yang sudah lazim dianggap satu kata ditulis serangkai. Gabungan kata yang belum padu ditulis terpisah.",
+      "contoh_serangkai": ["kacamata", "olahraga", "saputangan", "matahari", "bumiputra"],
+      "contoh_terpisah": ["kerja sama", "tanggung jawab", "terima kasih", "tanda tangan"],
+      "kesalahan_umum": [
+        {
+          "salah": "Kita harus bertanggungjawab atas perbuatan sendiri.",
+          "benar": "Kita harus bertanggung jawab atas perbuatan sendiri.",
+          "penjelasan": "'Tanggung jawab' ditulis terpisah; ketika diberi imbuhan 'ber-', tetap ditulis terpisah: 'bertanggung jawab'"
+        }
+      ]
+    },
+    {
+      "id": "tb_021",
+      "kategori": "Kalimat Majemuk Setara",
+      "penjelasan": "Kalimat majemuk setara menggabungkan dua atau lebih klausa yang setara dengan konjungsi: dan (penambahan), tetapi/namun (pertentangan), atau (pilihan), bahkan (penguatan).",
+      "contoh_benar": [
+        "Ia rajin belajar dan selalu mengerjakan tugas tepat waktu.",
+        "Dia pintar, tetapi kurang percaya diri.",
+        "Kita bisa pergi besok atau lusa sesuai kesepakatan.",
+        "Ia tidak hanya pandai berbicara, bahkan pandai bernyanyi juga."
+      ]
+    },
+    {
+      "id": "tb_022",
+      "kategori": "Penggunaan Imbuhan ber-",
+      "penjelasan": "Imbuhan 'ber-' bermakna: (1) memiliki sesuatu, (2) melakukan sesuatu, (3) dalam keadaan, (4) menggunakan sesuatu.",
+      "contoh": [
+        {"kalimat": "Ia berambut panjang dan lurus.", "makna": "memiliki rambut"},
+        {"kalimat": "Mereka berlari mengejar bus.", "makna": "melakukan lari"},
+        {"kalimat": "Anak itu bersedih setelah diejek.", "makna": "dalam keadaan sedih"},
+        {"kalimat": "Ia bersepeda ke kantor setiap hari.", "makna": "menggunakan sepeda"}
+      ]
+    },
+    {
+      "id": "tb_023",
+      "kategori": "Penulisan Tanda Hubung",
+      "aturan": "Tanda hubung digunakan untuk: (1) kata ulang, (2) merangkaikan imbuhan dengan nama diri/singkatan/kata asing, (3) memperjelas hubungan bagian kata.",
+      "contoh_benar": [
+        "anak-anak, buku-buku (kata ulang)",
+        "di-PHK, di-upgrade, ber-KTP (imbuhan + singkatan/kata asing)",
+        "ulang-alik, tanya-jawab (rangkaian setara)"
+      ]
+    },
+    {
+      "id": "tb_024",
+      "kategori": "Kalimat Langsung vs Tidak Langsung",
+      "penjelasan": "Kalimat langsung mengutip ucapan asli pembicara dan diapit tanda petik. Kalimat tidak langsung melaporkan isi ucapan tanpa tanda petik.",
+      "contoh_langsung": "Guru berkata, \"Kerjakan soal nomor satu sampai sepuluh!\"",
+      "contoh_tidak_langsung": "Guru berkata agar kami mengerjakan soal nomor satu sampai sepuluh.",
+      "aturan_penulisan": "Tanda petik mengapit seluruh kalimat yang dikutip. Tanda baca penutup kalimat (titik, koma, tanda seru) ditulis sebelum tanda petik penutup."
+    },
+    {
+      "id": "tb_025",
+      "kategori": "Penghematan Kata (Pleonasme)",
+      "penjelasan": "Pleonasme adalah penggunaan kata berlebihan yang bermakna sama atau tumpang tindih. Kalimat yang baik menghindari pleonasme.",
+      "contoh_pleonasme": [
+        {
+          "salah": "Ia naik ke atas gedung itu.",
+          "benar": "Ia naik ke gedung itu.",
+          "penjelasan": "'Naik' sudah bermakna ke atas"
+        },
+        {
+          "salah": "Mereka maju ke depan menghadapi tantangan.",
+          "benar": "Mereka maju menghadapi tantangan.",
+          "penjelasan": "'Maju' sudah bermakna ke depan"
+        },
+        {
+          "salah": "Saling tolong-menolong satu sama lain.",
+          "benar": "Saling tolong-menolong.",
+          "penjelasan": "'Saling' dan 'tolong-menolong' sudah mengandung makna bersama"
+        }
+      ]
+    },
+    {
+      "id": "tb_026",
+      "kategori": "Penulisan Kata Serapan",
+      "aturan": "Kata serapan dari bahasa asing disesuaikan ejaannya dengan kaidah bahasa Indonesia. Beberapa tetap ditulis seperti aslinya jika belum ada padanan resmi.",
+      "contoh": [
+        {"asing": "system", "serapan": "sistem"},
+        {"asing": "active", "serapan": "aktif"},
+        {"asing": "quality", "serapan": "kualitas"},
+        {"asing": "technique", "serapan": "teknik"},
+        {"asing": "economy", "serapan": "ekonomi"}
+      ]
+    },
+    {
+      "id": "tb_027",
+      "kategori": "Kalimat Efektif - Kehematan Subjek",
+      "penjelasan": "Dalam kalimat majemuk, subjek yang sama tidak perlu disebutkan dua kali.",
+      "contoh_benar": [
+        "Ia datang ke sekolah, lalu mengerjakan tugas.",
+        "Setelah makan siang, kami beristirahat sebentar."
+      ],
+      "kesalahan_umum": [
+        {
+          "salah": "Ia datang ke sekolah, lalu ia mengerjakan tugas.",
+          "benar": "Ia datang ke sekolah, lalu mengerjakan tugas.",
+          "penjelasan": "Subjek 'ia' tidak perlu diulang jika masih merujuk pelaku yang sama"
+        }
+      ]
+    },
+    {
+      "id": "tb_028",
+      "kategori": "Penggunaan Kata Keterangan Modalitas",
+      "topik": "harus, wajib, perlu, sebaiknya, seharusnya",
+      "penjelasan": "Kata-kata ini menunjukkan tingkat keharusan yang berbeda: 'harus/wajib' (keharusan mutlak), 'perlu' (kebutuhan), 'sebaiknya' (saran), 'seharusnya' (sesuai norma/aturan).",
+      "contoh": [
+        "Kamu harus hadir dalam rapat itu. (wajib hadir)",
+        "Kamu perlu istirahat yang cukup. (dibutuhkan)",
+        "Sebaiknya kamu meminta maaf terlebih dahulu. (saran)",
+        "Seharusnya kamu tahu aturan itu sejak awal. (sesuai aturan)"
+      ]
+    },
+    {
+      "id": "tb_029",
+      "kategori": "Penggunaan Huruf Miring",
+      "aturan": "Huruf miring digunakan untuk: (1) judul buku, film, atau karya seni, (2) kata atau frasa asing yang belum diserap, (3) istilah teknis yang perlu ditegaskan.",
+      "contoh_benar": [
+        "Novel *Laskar Pelangi* karya Andrea Hirata sangat inspiratif.",
+        "Proses *trial and error* diperlukan dalam penelitian.",
+        "Fenomena *sinkhole* kini sering terjadi di kota-kota besar."
+      ]
+    },
+    {
+      "id": "tb_030",
+      "kategori": "Kalimat Efektif - Paralelisme",
+      "penjelasan": "Dalam daftar atau perincian, bentuk kata yang digunakan harus paralel (sama jenisnya: semua kata benda, semua kata kerja, dll.).",
+      "contoh_benar": [
+        "Ia suka membaca, menulis, dan berolahraga. (semua kata kerja)",
+        "Kami membutuhkan kejujuran, kerja keras, dan kreativitas. (semua kata benda)"
+      ],
+      "kesalahan_umum": [
+        {
+          "salah": "Ia suka membaca, menulis, dan olahraga.",
+          "benar": "Ia suka membaca, menulis, dan berolahraga.",
+          "penjelasan": "Tidak paralel: 'membaca' dan 'menulis' adalah kata kerja, 'olahraga' adalah kata benda"
+        }
+      ]
+    }
+  ],
+
+  "konteks_penggunaan_kata": [
+    {
+      "id": "ks_001",
+      "kata": "bisa",
+      "jenis": "polisemi",
+      "makna_berdasarkan_konteks": [
+        {
+          "konteks": "Ia bisa berbicara tiga bahasa.",
+          "makna": "dapat; mampu melakukan sesuatu",
+          "indikator_konteks": "subjek adalah manusia atau makhluk yang memiliki kemampuan",
+          "kelas_kata": "verba modal"
+        },
+        {
+          "konteks": "Bisa ular kobra itu sangat mematikan.",
+          "makna": "zat beracun dari binatang berbisa",
+          "indikator_konteks": "berdekatan dengan nama binatang berbisa; berkaitan dengan bahaya atau kematian",
+          "kelas_kata": "nomina"
+        }
+      ],
+      "cara_membedakan": "Perhatikan subjek kalimat. Jika subjek bisa melakukan tindakan sadar, 'bisa' bermakna 'dapat'. Jika konteks medis atau nama binatang, 'bisa' bermakna racun.",
+      "latihan": [
+        {
+          "kalimat": "Dokter itu menyuntik penawar bisa ke tubuh korban.",
+          "jawaban": "bisa = racun (konteks medis dan korban keracunan)"
+        },
+        {
+          "kalimat": "Apakah kamu bisa membantu saya besok?",
+          "jawaban": "bisa = dapat/mampu (pertanyaan tentang kemampuan)"
+        }
+      ]
+    },
+    {
+      "id": "ks_002",
+      "kata": "jalan",
+      "jenis": "polisemi",
+      "makna_berdasarkan_konteks": [
+        {
+          "konteks": "Jalan di depan rumahku sedang diperbaiki.",
+          "makna": "infrastruktur untuk dilalui kendaraan atau orang",
+          "kelas_kata": "nomina"
+        },
+        {
+          "konteks": "Ia berjalan kaki ke sekolah setiap hari.",
+          "makna": "bergerak dengan melangkahkan kaki",
+          "kelas_kata": "verba"
+        },
+        {
+          "konteks": "Mesin itu tidak mau jalan lagi.",
+          "makna": "berfungsi; bekerja",
+          "kelas_kata": "verba"
+        },
+        {
+          "konteks": "Ini adalah satu-satunya jalan keluar dari masalah itu.",
+          "makna": "solusi; cara penyelesaian (kiasan)",
+          "kelas_kata": "nomina kiasan"
+        }
+      ]
+    },
+    {
+      "id": "ks_003",
+      "kata": "ringan",
+      "jenis": "polisemi",
+      "makna_berdasarkan_konteks": [
+        {
+          "konteks": "Tas ini sangat ringan meski besar.",
+          "makna": "tidak berat secara fisik",
+          "kelas_kata": "adjektiva"
+        },
+        {
+          "konteks": "Hukuman yang diberikan sangat ringan.",
+          "makna": "tidak berat; tidak terlalu keras",
+          "kelas_kata": "adjektiva kiasan"
+        },
+        {
+          "konteks": "Penyakit yang dideritanya masih tergolong ringan.",
+          "makna": "tidak parah; tidak serius",
+          "kelas_kata": "adjektiva"
+        },
+        {
+          "konteks": "Ia adalah orang yang ringan tangan.",
+          "makna": "suka membantu; dermawan (idiom)",
+          "kelas_kata": "idiom"
+        }
+      ]
+    },
+    {
+      "id": "ks_004",
+      "topik": "Koreksi Typo Berbasis Konteks",
+      "kalimat_input": "Saya suha makan",
+      "kalimat_output": "Saya sudah makan.",
+      "penjelasan_koreksi": "'suha' dikoreksi menjadi 'sudah' karena: (1) posisi kata setelah subjek dan sebelum predikat cocok dengan kata aspektual, (2) secara fonetis 'suha' paling mirip 'sudah', (3) kalimat bermakna lengkap dengan 'sudah makan'.",
+      "metode_koreksi": "Gabungkan kemiripan fonetis + posisi gramatikal + kelengkapan makna kalimat"
+    },
+    {
+      "id": "ks_005",
+      "topik": "Koreksi Typo Berbasis Konteks",
+      "kalimat_input": "Dia memebri hadiah kepada adiknya",
+      "kalimat_output": "Dia memberi hadiah kepada adiknya.",
+      "penjelasan_koreksi": "'memebri' dikoreksi menjadi 'memberi' karena: (1) huruf-hurufnya sama hanya posisi terbalik ('me-mberi' vs 'me-beri'), (2) posisi predikat aktif setelah subjek 'dia', (3) konteks 'hadiah kepada' cocok dengan kata kerja memberi.",
+      "metode_koreksi": "Pengenalan pola metatesis (pertukaran posisi huruf) + validasi konteks"
+    },
+    {
+      "id": "ks_006",
+      "topik": "Koreksi Typo Berbasis Konteks",
+      "kalimat_input": "Aku mau pergi ke blei buku",
+      "kalimat_output": "Aku mau pergi ke beli buku.",
+      "penjelasan_koreksi": "'blei' dikoreksi menjadi 'beli' (metatesis: bl→be, ei→li). Konteks 'pergi ke ... buku' mengarahkan pada kata kerja tindakan berbelanja.",
+      "metode_koreksi": "Analisis fonetis + konteks kalimat"
+    },
+    {
+      "id": "ks_007",
+      "topik": "Nuansa Makna",
+      "kata_1": "pergi",
+      "kata_2": "berangkat",
+      "persamaan": "Keduanya menunjukkan tindakan meninggalkan suatu tempat menuju tempat lain.",
+      "perbedaan": [
+        {
+          "kata": "pergi",
+          "nuansa": "Netral; sekadar meninggalkan tempat tanpa konotasi khusus tentang tujuan atau persiapan.",
+          "contoh": "Dia pergi ke warung sebentar.",
+          "konteks_tepat": "Kepergian singkat, tidak formal, atau tanpa persiapan khusus"
+        },
+        {
+          "kata": "berangkat",
+          "nuansa": "Bermakna memulai perjalanan dengan tujuan tertentu; sering menyiratkan persiapan dan formalitas.",
+          "contoh": "Pesawat berangkat pukul 08.00 pagi.",
+          "konteks_tepat": "Perjalanan resmi, terencana, atau memiliki momen keberangkatan yang jelas"
+        }
+      ],
+      "saran_penggunaan": "Gunakan 'berangkat' untuk perjalanan terencana atau formal (berangkat kerja, berangkat haji). Gunakan 'pergi' untuk kepindahan umum atau informal."
+    },
+    {
+      "id": "ks_008",
+      "topik": "Nuansa Makna",
+      "kata_1": "mengatakan",
+      "kata_2": "berkata",
+      "kata_3": "menyatakan",
+      "kata_4": "mengungkapkan",
+      "perbedaan": [
+        {
+          "kata": "mengatakan",
+          "nuansa": "Menyampaikan sesuatu kepada orang lain; memiliki objek penerima.",
+          "contoh": "Ia mengatakan kebenaran kepada kami."
+        },
+        {
+          "kata": "berkata",
+          "nuansa": "Berbicara; lebih fokus pada tindakan berbicara itu sendiri.",
+          "contoh": "Ia berkata dengan suara lembut."
+        },
+        {
+          "kata": "menyatakan",
+          "nuansa": "Mengumumkan atau menegaskan sesuatu secara resmi atau tegas.",
+          "contoh": "Presiden menyatakan negara dalam keadaan darurat."
+        },
+        {
+          "kata": "mengungkapkan",
+          "nuansa": "Mengeluarkan sesuatu yang sebelumnya tersimpan atau tersembunyi (perasaan, rahasia).",
+          "contoh": "Ia mengungkapkan perasaannya setelah lama memendam."
+        }
+      ]
+    },
+    {
+      "id": "ks_009",
+      "topik": "Formal vs Informal",
+      "pasangan": [
+        {"formal": "mengapa", "informal": "kenapa", "konteks_formal": "tulisan resmi, pidato", "konteks_informal": "percakapan sehari-hari"},
+        {"formal": "tidak", "informal": "nggak / enggak / gak", "konteks_formal": "dokumen resmi", "konteks_informal": "obrolan"},
+        {"formal": "mereka", "informal": "mereka / dia-dia", "catatan": "sama, tapi 'dia-dia' sangat informal"},
+        {"formal": "saya", "informal": "aku / gue", "catatan": "'saya' untuk situasi resmi; 'aku' netral; 'gue' sangat informal/pergaulan"},
+        {"formal": "mempersilakan", "informal": "silain / monggo", "catatan": "perbedaan register sangat mencolok"}
+      ],
+      "panduan": "Pilih register bahasa sesuai situasi: (1) surat resmi, presentasi, wawancara kerja → bahasa formal; (2) percakapan dengan teman, media sosial → bahasa informal."
+    },
+    {
+      "id": "ks_010",
+      "topik": "Nuansa Makna",
+      "kata_1": "melihat",
+      "kata_2": "memandang",
+      "kata_3": "menatap",
+      "kata_4": "mengamati",
+      "perbedaan": [
+        {"kata": "melihat", "nuansa": "Persepsi visual dasar; mata menangkap objek tanpa intensi khusus", "contoh": "Saya melihat kucing di jalan."},
+        {"kata": "memandang", "nuansa": "Melihat dengan fokus tertentu; ada arah pandang yang jelas", "contoh": "Ia memandang cakrawala dengan penuh lamunan."},
+        {"kata": "menatap", "nuansa": "Melihat lekat-lekat tanpa berkedip; intensitasnya tinggi", "contoh": "Mereka saling menatap dengan penuh tanya."},
+        {"kata": "mengamati", "nuansa": "Melihat dengan seksama dan teliti untuk tujuan analisis atau pemahaman", "contoh": "Ilmuwan itu mengamati perilaku semut selama berjam-jam."}
+      ]
+    },
+    {
+      "id": "ks_011",
+      "topik": "Konteks Emosional dalam Kata",
+      "kata_1": "sedih",
+      "kata_2": "pilu",
+      "kata_3": "murung",
+      "kata_4": "nestapa",
+      "perbedaan": [
+        {"kata": "sedih", "nuansa": "Perasaan tidak senang karena sesuatu yang menyakitkan; umum dan netral", "intensitas": "sedang"},
+        {"kata": "pilu", "nuansa": "Sedih yang sangat dalam dan mengharukan; biasanya memunculkan empati orang lain", "intensitas": "tinggi"},
+        {"kata": "murung", "nuansa": "Tampak sedih dan tidak bersemangat; terlihat dari ekspresi dan perilaku", "intensitas": "sedang"},
+        {"kata": "nestapa", "nuansa": "Kesedihan mendalam yang bercampur kesengsaraan; bernuansa sastra/formal", "intensitas": "sangat tinggi"}
+      ]
+    },
+    {
+      "id": "ks_012",
+      "topik": "Kata dengan Makna Berlapis",
+      "kata": "berat",
+      "makna_kontekstual": [
+        {"konteks": "Batu ini berat sekali.", "makna": "memiliki bobot fisik yang besar"},
+        {"konteks": "Hukumannya sangat berat.", "makna": "serius; tidak ringan"},
+        {"konteks": "Ia menanggung beban yang berat.", "makna": "sulit; menyulitkan secara mental/emosional"},
+        {"konteks": "Pelajaran ini terlalu berat bagi siswa SD.", "makna": "sukar; terlalu sulit"},
+        {"konteks": "Ia berhati berat untuk pergi meninggalkan kampung.", "makna": "tidak rela; enggan (idiom)"}
+      ]
+    },
+    {
+      "id": "ks_013",
+      "topik": "Nuansa Makna - Kata Kerja Perpindahan",
+      "kata_1": "datang",
+      "kata_2": "tiba",
+      "kata_3": "sampai",
+      "perbedaan": [
+        {"kata": "datang", "nuansa": "Bergerak menuju tempat pembicara atau tempat tertentu; proses pergerakan lebih menonjol", "contoh": "Tamu itu baru saja datang."},
+        {"kata": "tiba", "nuansa": "Mencapai tujuan setelah perjalanan; menekankan momen pencapaian", "contoh": "Kereta tiba tepat waktu."},
+        {"kata": "sampai", "nuansa": "Mencapai tempat atau batas tertentu; lebih netral; bisa digunakan untuk benda dan orang", "contoh": "Suratnya belum sampai hingga kini."}
+      ]
+    },
+    {
+      "id": "ks_014",
+      "topik": "Koreksi Kontekstual - Pilihan Kata",
+      "contoh_koreksi": [
+        {
+          "input": "Ia memakai baju yang sangat cantik.",
+          "output_disarankan": "Ia mengenakan baju yang sangat cantik.",
+          "penjelasan": "'Memakai' lebih umum dan sehari-hari. 'Mengenakan' lebih formal dan elegan untuk konteks busana."
+        },
+        {
+          "input": "Presiden bilang akan ada kebijakan baru.",
+          "output_disarankan": "Presiden mengatakan akan ada kebijakan baru.",
+          "penjelasan": "'Bilang' bersifat informal. Untuk konteks pejabat tinggi dalam tulisan resmi, gunakan 'mengatakan', 'menyampaikan', atau 'menyatakan'."
+        },
+        {
+          "input": "Kami bikin program baru untuk masyarakat.",
+          "output_disarankan": "Kami membuat program baru untuk masyarakat.",
+          "penjelasan": "'Bikin' adalah bentuk informal dari 'membuat'. Dalam tulisan resmi atau formal, gunakan 'membuat', 'merancang', atau 'menggagas'."
+        }
+      ]
+    },
+    {
+      "id": "ks_015",
+      "topik": "Koreksi Typo Berbasis Konteks",
+      "kalimat_input": "Tolong bantu saya mencrai solusinya",
+      "kalimat_output": "Tolong bantu saya mencari solusinya.",
+      "penjelasan_koreksi": "'mencrai' dikoreksi menjadi 'mencari' (metatesis: r dan a tertukar). Konteks kalimat permintaan bantuan dengan objek 'solusi' mengarah pada kata kerja mencari.",
+      "metode_koreksi": "Deteksi metatesis + validasi makna konteks"
+    },
+    {
+      "id": "ks_016",
+      "topik": "Idiom dan Ungkapan",
+      "daftar_idiom": [
+        {
+          "idiom": "angkat kaki",
+          "makna_literal": "mengangkat kaki",
+          "makna_idiomatis": "pergi; meninggalkan tempat",
+          "contoh": "Setelah berdebat panjang, ia angkat kaki dari ruangan."
+        },
+        {
+          "idiom": "buah tangan",
+          "makna_literal": "buah yang ada di tangan",
+          "makna_idiomatis": "oleh-oleh; bingkisan dari perjalanan",
+          "contoh": "Ia membawa buah tangan dari Bali untuk semua keluarga."
+        },
+        {
+          "idiom": "panjang tangan",
+          "makna_literal": "tangan yang panjang",
+          "makna_idiomatis": "suka mencuri",
+          "contoh": "Hati-hati, orang itu terkenal panjang tangan."
+        },
+        {
+          "idiom": "kepala dingin",
+          "makna_literal": "kepala yang dingin",
+          "makna_idiomatis": "tenang; tidak mudah terpancing emosi",
+          "contoh": "Hadapi masalah ini dengan kepala dingin."
+        },
+        {
+          "idiom": "meja hijau",
+          "makna_literal": "meja berwarna hijau",
+          "makna_idiomatis": "pengadilan",
+          "contoh": "Kasus korupsi itu akhirnya dibawa ke meja hijau."
+        }
+      ]
+    },
+    {
+      "id": "ks_017",
+      "topik": "Makna Konotatif vs Denotatif",
+      "penjelasan": "Makna denotatif adalah makna harfiah kamus. Makna konotatif adalah makna tambahan yang muncul dari konteks sosial, budaya, dan emosi.",
+      "contoh": [
+        {
+          "kata": "kurus",
+          "denotatif": "berbadan ramping; kurang gemuk",
+          "konotatif_negatif": "terlihat tidak sehat; kekurangan gizi",
+          "konotatif_positif": "bisa berarti 'langsing' dalam konteks mode/kecantikan"
+        },
+        {
+          "kata": "rumah",
+          "denotatif": "bangunan tempat tinggal",
+          "konotatif": "keamanan, kenyamanan, keluarga; 'rumah' terasa lebih hangat dari 'gedung' atau 'bangunan'"
+        },
+        {
+          "kata": "tua",
+          "denotatif": "sudah lanjut usia",
+          "konotatif_negatif": "lemah, tidak relevan",
+          "konotatif_positif": "berpengalaman, bijaksana (tergantung konteks)"
+        }
+      ]
+    },
+    {
+      "id": "ks_018",
+      "topik": "Kata Bersinonim dengan Nuansa Berbeda",
+      "kata_1": "minta",
+      "kata_2": "mohon",
+      "kata_3": "memohon",
+      "perbedaan": [
+        {"kata": "minta", "nuansa": "Netral dan umum; digunakan dalam percakapan sehari-hari", "contoh": "Minta tolong dong!", "register": "informal–netral"},
+        {"kata": "mohon", "nuansa": "Lebih sopan dan formal dari 'minta'; menunjukkan hormat", "contoh": "Mohon maaf atas ketidaknyamanan ini.", "register": "formal"},
+        {"kata": "memohon", "nuansa": "Meminta dengan sangat sungguh-sungguh; bernuansa kerendahan hati dan kesungguhan", "contoh": "Ia memohon ampun atas kesalahannya.", "register": "formal–resmi"}
+      ]
+    },
+    {
+      "id": "ks_019",
+      "topik": "Konteks Budaya dalam Kata",
+      "kata": "gotong royong",
+      "definisi": "bekerja bersama-sama untuk kepentingan bersama; nilai budaya Indonesia yang menekankan kerja sama komunal",
+      "konteks_penggunaan": [
+        "Warga bergotong royong membersihkan lingkungan sekitar.",
+        "Semangat gotong royong adalah warisan leluhur yang harus dijaga.",
+        "Dengan gotong royong, proyek besar pun dapat diselesaikan."
+      ],
+      "catatan_budaya": "Gotong royong adalah konsep asli Indonesia yang sulit diterjemahkan secara tepat ke bahasa lain. Lebih dari sekadar 'kerja sama', ia mengandung nilai solidaritas, keikhlasan, dan kepedulian komunal.",
+      "sinonim_mendekati": ["kerja sama", "bahu-membahu", "tolong-menolong"]
+    },
+    {
+      "id": "ks_020",
+      "topik": "Kata Ambigu dalam Konteks",
+      "kata": "atas",
+      "makna_kontekstual": [
+        {"konteks": "Buku itu ada di atas meja.", "makna": "posisi yang lebih tinggi secara fisik"},
+        {"konteks": "Atas nama rakyat Indonesia, kami menyatakan kemerdekaan.", "makna": "mewakili; berdasarkan"},
+        {"konteks": "Atas permintaan keluarga, acara dibatalkan.", "makna": "berdasarkan; karena alasan"},
+        {"konteks": "Terima kasih atas perhatian dan bantuannya.", "makna": "untuk; sehubungan dengan (ungkapan formal)"}
+      ]
+    },
+    {
+      "id": "ks_021",
+      "topik": "Padanan Kata Formal-Informal",
+      "pasangan_kata": [
+        {"informal": "kasih tahu", "formal": "memberitahukan / menginformasikan"},
+        {"informal": "nonton", "formal": "menonton / menyaksikan"},
+        {"informal": "makan siang bareng", "formal": "makan siang bersama"},
+        {"informal": "ngerti", "formal": "memahami / mengerti"},
+        {"informal": "kerjain", "formal": "mengerjakan"},
+        {"informal": "bahas", "formal": "membahas / mendiskusikan"},
+        {"informal": "foto", "formal": "berfoto / mengambil gambar"},
+        {"informal": "nunggu", "formal": "menunggu"}
+      ],
+      "panduan": "Dalam surat resmi, laporan, presentasi profesional, dan komunikasi dengan atasan → pilih kata formal. Dalam percakapan sehari-hari, media sosial → kata informal lebih natural."
+    },
+    {
+      "id": "ks_022",
+      "topik": "Eufemisme",
+      "penjelasan": "Eufemisme adalah penggunaan kata atau ungkapan yang lebih halus untuk menggantikan kata yang dianggap kasar, tabu, atau menyakitkan.",
+      "contoh": [
+        {"langsung": "meninggal dunia / mati", "eufemisme": "berpulang, wafat, tutup usia, pergi untuk selamanya"},
+        {"langsung": "dipecat", "eufemisme": "dirumahkan, diberhentikan, terkena PHK"},
+        {"langsung": "miskin", "eufemisme": "kurang mampu, prasejahtera"},
+        {"langsung": "penjara", "eufemisme": "lembaga pemasyarakatan"},
+        {"langsung": "mabuk", "eufemisme": "tidak sadar diri, kehilangan kendali"}
+      ],
+      "catatan": "Eufemisme berguna dalam diplomasi dan komunikasi yang sopan, tetapi berlebihan bisa mengaburkan makna. Gunakan secara bijaksana."
+    },
+    {
+      "id": "ks_023",
+      "topik": "Kata dengan Makna Ganda dalam Konteks Berbeda",
+      "kata": "keras",
+      "makna_kontekstual": [
+        {"konteks": "Batu itu sangat keras.", "makna": "sifat fisik; tidak lunak; tidak mudah ditembus"},
+        {"konteks": "Ia belajar dengan keras untuk ujian.", "makna": "sungguh-sungguh; dengan intensitas tinggi"},
+        {"konteks": "Jangan bicara dengan nada keras di sini.", "makna": "volume tinggi; lantang"},
+        {"konteks": "Kepala dingin lebih baik daripada kepala keras.", "makna": "keras kepala = tidak mau mendengar; ngotot (idiom)"},
+        {"konteks": "Minuman keras dilarang dijual di sini.", "makna": "minuman beralkohol tinggi (frasa baku)"}
+      ]
+    },
+    {
+      "id": "ks_024",
+      "topik": "Koreksi Kesalahan Pilihan Kata Umum",
+      "contoh_koreksi": [
+        {
+          "salah": "Dia berhasil meraih juara pertama.",
+          "benar": "Dia berhasil meraih juara pertama. / Dia meraih juara pertama.",
+          "catatan": "Sebenarnya 'berhasil meraih' sedikit redundan karena 'meraih juara' sudah implisit keberhasilan. Boleh digunakan namun perhatikan efisiensi."
+        },
+        {
+          "salah": "Para hadirin sekalian yang saya hormati.",
+          "benar": "Hadirin yang saya hormati.",
+          "penjelasan": "'Para' dan 'sekalian' sama-sama menunjukkan jamak; tidak perlu dipakai bersamaan dengan 'hadirin' yang sudah jamak."
+        },
+        {
+          "salah": "Kami mendiskusikan tentang masalah ini.",
+          "benar": "Kami mendiskusikan masalah ini.",
+          "penjelasan": "Kata 'mendiskusikan' sudah transitif; tidak perlu diikuti preposisi 'tentang'."
+        }
+      ]
+    },
+    {
+      "id": "ks_025",
+      "topik": "Koreksi Typo - Kata Berfonetik Mirip",
+      "pasangan_kata_mirip": [
+        {
+          "kata_1": "sangat",
+          "kata_2": "sangad",
+          "catatan": "'sangad' adalah typo umum dari 'sangat'. Konteks: 'Dia sangad pintar' → 'Dia sangat pintar'"
+        },
+        {
+          "kata_1": "sudah",
+          "kata_2": "sudah",
+          "variasi_typo": ["suah", "sdah", "suadah"],
+          "koreksi": "sudah"
+        },
+        {
+          "kata_1": "karena",
+          "variasi_typo": ["karna", "krena", "karnea"],
+          "koreksi": "karena",
+          "catatan": "'Karna' sangat umum digunakan secara informal meski tidak baku"
+        },
+        {
+          "kata_1": "dengan",
+          "variasi_typo": ["dnegan", "dengn", "degan"],
+          "koreksi": "dengan"
+        }
+      ]
+    },
+    {
+      "id": "ks_026",
+      "topik": "Nuansa Makna - Kata Sifat Positif",
+      "kata_1": "pintar",
+      "kata_2": "cerdas",
+      "kata_3": "pandai",
+      "kata_4": "cendekia",
+      "perbedaan": [
+        {"kata": "pintar", "nuansa": "Kemampuan belajar yang baik; bisa merujuk pada keterampilan praktis maupun akademis; umum digunakan", "contoh": "Anak itu pintar matematika."},
+        {"kata": "cerdas", "nuansa": "Kemampuan berpikir cepat dan tepat; lebih menekankan pada ketajaman nalar dan adaptasi", "contoh": "Ia cerdas dalam menghadapi situasi sulit."},
+        {"kata": "pandai", "nuansa": "Memiliki banyak kemampuan atau keahlian; sering merujuk pada kemahiran spesifik", "contoh": "Ia pandai memasak dan menjahit."},
+        {"kata": "cendekia", "nuansa": "Sangat berpendidikan dan berpengetahuan luas; bernuansa formal dan akademis; setara 'intelektual'", "contoh": "Para cendekia berkumpul untuk mendiskusikan masa depan bangsa."}
+      ]
+    },
+    {
+      "id": "ks_027",
+      "topik": "Makna Kata dalam Konteks Kalimat Negatif",
+      "penjelasan": "Beberapa kata mengubah makna secara signifikan ketika digunakan dalam konteks negasi.",
+      "contoh": [
+        {
+          "positif": "Ia adalah orang yang bisa dipercaya.",
+          "negatif": "Ia adalah orang yang tidak bisa dipercaya.",
+          "catatan": "Makna berbalik total; 'tidak bisa dipercaya' lebih kuat dari sekadar 'kurang dipercaya'"
+        },
+        {
+          "positif": "Dia tahu apa yang harus dilakukan.",
+          "negatif": "Dia tidak tahu apa yang harus dilakukan.",
+          "catatan": "Negasi mengubah kepastian menjadi kebingungan total"
+        }
+      ]
+    },
+    {
+      "id": "ks_028",
+      "topik": "Pilihan Kata Sesuai Situasi Komunikasi",
+      "situasi": "Menyampaikan kritik",
+      "panduan": [
+        {
+          "situasi": "Kepada teman sebaya (informal)",
+          "kata_tepat": "Menurutku sih, bagian ini kurang pas.",
+          "kata_kurang_tepat": "Bagian ini salah total."
+        },
+        {
+          "situasi": "Kepada atasan (formal)",
+          "kata_tepat": "Mohon izin menyampaikan, mungkin perlu ada evaluasi pada bagian ini.",
+          "kata_kurang_tepat": "Bos, ini ada yang salah nih."
+        },
+        {
+          "situasi": "Dalam tulisan resmi/akademis",
+          "kata_tepat": "Terdapat beberapa kelemahan yang perlu diperbaiki pada bagian tersebut.",
+          "kata_kurang_tepat": "Bagian ini jelek."
+        }
+      ]
+    },
+    {
+      "id": "ks_029",
+      "topik": "Kata Populer vs Kata Baku",
+      "pasangan": [
+        {"populer": "aktifkan", "baku": "aktifkan", "catatan": "Keduanya benar; 'aktifkan' dari kata dasar 'aktif'"},
+        {"populer": "nasehat", "baku": "nasihat", "catatan": "'Nasihat' adalah bentuk baku; 'nasehat' sangat umum tapi tidak baku"},
+        {"populer": "resiko", "baku": "risiko", "catatan": "'Risiko' adalah bentuk baku sesuai KBBI"},
+        {"populer": "ijin", "baku": "izin", "catatan": "'Izin' adalah bentuk baku sesuai KBBI"},
+        {"populer": "praktek", "baku": "praktik", "catatan": "'Praktik' adalah bentuk baku; 'praktek' umum tapi tidak baku"},
+        {"populer": "apotik", "baku": "apotek", "catatan": "'Apotek' adalah bentuk baku"},
+        {"populer": "jadual", "baku": "jadwal", "catatan": "'Jadwal' adalah bentuk baku sesuai KBBI"}
+      ]
+    },
+    {
+      "id": "ks_030",
+      "topik": "Ringkasan Strategi Koreksi Kontekstual AI",
+      "strategi": [
+        {
+          "nama": "Koreksi Fonetis",
+          "penjelasan": "Temukan kata yang paling mirip secara bunyi dengan kata yang salah ketik.",
+          "contoh": "'suha' → 'sudah' (fonetis mirip, h-a bertukar posisi)"
+        },
+        {
+          "nama": "Koreksi Berbasis Posisi Gramatikal",
+          "penjelasan": "Tentukan kata apa yang secara gramatikal tepat di posisi tersebut dalam kalimat.",
+          "contoh": "Setelah subjek dan sebelum predikat, kata yang tepat adalah aspektual: sudah, sedang, akan"
+        },
+        {
+          "nama": "Koreksi Berbasis Makna Konteks",
+          "penjelasan": "Gunakan makna keseluruhan kalimat untuk menentukan kata yang dimaksud.",
+          "contoh": "'saya lapar mau mencari mkaan' → 'makanan' (konteks lapar + mencari)"
+        },
+        {
+          "nama": "Koreksi Metatesis",
+          "penjelasan": "Deteksi pertukaran posisi huruf dalam kata.",
+          "contoh": "'mencrai' → 'mencari', 'memebri' → 'memberi'"
+        },
+        {
+          "nama": "Koreksi Penghilangan Huruf",
+          "penjelasan": "Deteksi huruf yang terlewat dalam pengetikan.",
+          "contoh": "'membntu' → 'membantu', 'brjalan' → 'berjalan'"
+        }
+      ]
+    }
+  ]
+}

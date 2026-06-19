@@ -1,0 +1,244 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Saya pengen ganti oli minggu depan, ada slot jam berapa saja?"
+      },
+      {
+        "role": "assistant",
+        "content": "Baik! Untuk Ganti Oli, kami punya slot minggu depan di berbagai jam. Hari apa Anda lebih prefer? Estimasi durasi Ganti Oli adalah sekitar 30-45 menit, jadi cukup cepat kok."
+      }
+    ],
+    "role": "customer",
+    "context": "booking",
+    "system_integration": "booking_duration",
+    "status": "active"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Berapa harga ganti oli sama filter udara?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ganti Oli di Milky Garage harganya tergantung jenis servis yang dipilih. Kalau Anda ambil paket Servis Ringan, sudah termasuk ganti oli dan filter udara. Mau saya kasih tau harganya?"
+      }
+    ],
+    "role": "customer",
+    "context": "masterdata_pricing",
+    "system_integration": "service_catalog",
+    "note": "Response harus referensi ke master data harga yang dinamis"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Saya sudah booking servis, biayanya 120 ribu. Saldo ZeroPay saya 50 ribu. Gimana?"
+      },
+      {
+        "role": "assistant",
+        "content": "Saldo ZeroPay Anda kurang Rp 70.000. Bisa langsung top-up dulu di menu Top-up. Minimal top-up Rp 10.000, jadi Anda bisa top-up 100 ribu aja biar nyisa. Nanti waktu pembayaran tinggal pilih ZeroPay dan saldo otomatis kepotong."
+      }
+    ],
+    "role": "customer",
+    "context": "payment_topup_flow",
+    "system_integration": "zeropay_topup",
+    "error_handling": "insufficient_balance"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Service saya berapa lama lagi selesai?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tunggu sebentar, saya cek status servis Anda... Servis Anda sedang dikerjakan sama mekanik. Estimasi selesai sekitar 1 jam lagi. Kami kasih tau kalau sudah selesai dan ready untuk dibayar ya."
+      }
+    ],
+    "role": "customer",
+    "context": "status_check",
+    "system_integration": "booking_status_tracking"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Motor saya susah hidup pagi, terus hitam asapnya. Apakah perlu service? Kira-kira layanan apa?"
+      },
+      {
+        "role": "assistant",
+        "content": "Uh oh, itu bisa beberapa kemungkinan: busi lemah, karburator kotor, atau kompresi mesin berkurang. Dari gejala Anda, kira-kira butuh layanan 'Servis Menengah' atau 'Overhaul Ringan'. Mau saya bantu booking untuk diagnosis lebih detail? Mekanik kami bisa cek dan kasih solusi yang tepat."
+      }
+    ],
+    "role": "customer",
+    "context": "troubleshooting_to_booking",
+    "system_integration": "diagnosis_to_service_mapping",
+    "technique_integration": "hard_start_smoke_diagnosis"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Abang, saya ada booking service pukul 2 siang tapi lupa harus bawa apa?"
+      },
+      {
+        "role": "assistant",
+        "content": "Santai, gampang! Cukup bawa motor dan dokumen STNK. Kunci cadangan juga lumayan buat jaga-jaga. Selebihnya serba-serbi yang mungkin Anda perlukan buat mengisi data booking ada di tempat kami. Sebelum sampai, pastiin saldo ZeroPay cukup atau siapkan uang tunai ya!"
+      }
+    ],
+    "role": "customer",
+    "context": "booking_preparation",
+    "tone": "santai_friendly"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Saya mekanik. Berapa gaji saya bulan ini?"
+      },
+      {
+        "role": "assistant",
+        "content": "Halo! Gaji Anda bulan ini bisa dilihat di menu Laporan Gaji. Total gaji Anda dari 12 servis yang selesai dibayar adalah Rp [AMOUNT]. Setiap servis kami hitung berdasarkan jenis layanan yang Anda selesaikan. Kalo mau detail per servis, bisa expand di laporan."
+      }
+    ],
+    "role": "mechanic",
+    "context": "salary_report",
+    "system_integration": "mechanic_salary_calculation",
+    "visibility": "mechanic"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Saya kasir. Saya bisa tarik saldo ZeroPay saya berapa?"
+      },
+      {
+        "role": "assistant",
+        "content": "Saldo ZeroPay Anda sekarang Rp [AMOUNT]. Bisa langsung tarik semua atau sebagian, tergau kebutuhan. Caranya: buka menu Kelola Saldo ZeroPay, pilih Withdraw, masukkin nominal, pilih tujuan (e-wallet atau rekening), terus masukkan PIN Anda (4 digit). Nanti saldo otomatis berkurang."
+      }
+    ],
+    "role": "cashier",
+    "context": "withdraw_flow",
+    "system_integration": "zeropay_withdrawal",
+    "visibility": "cashier"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Saya owner. Ubah harga Ganti Oli jadi Rp 100.000"
+      },
+      {
+        "role": "assistant",
+        "content": "Baik! Saya ubah harga Ganti Oli di Master Data menjadi Rp 100.000. Perubahan langsung berlaku untuk booking dan servis yang akan datang. Booking sebelumnya yang sudah selesai tetap harga lama. Perlu ubah jenis servis lain atau ada yang lain?"
+      }
+    ],
+    "role": "owner",
+    "context": "master_data_modification",
+    "system_integration": "executive_command",
+    "visibility": "owner",
+    "action": "execute"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Saya owner. Berapa pendapatan hari ini? Sparepart mana yang habis?"
+      },
+      {
+        "role": "assistant",
+        "content": "Laporan hari ini:\n\nPendapatan: Rp [TOTAL_REVENUE]\n- Dari 8 servis selesai\n- Profit bersih: Rp [PROFIT]\n\nSparepart yang habis:\n1. Busi Motor - perlu restock ASAP (paling sering dipakai)\n2. Filter Oli - stok 0\n\nPerlu saya restock kedua item ini? Atau ada layanan lain yang perlu dianalisa?"
+      }
+    ],
+    "role": "owner",
+    "context": "daily_report_executive",
+    "system_integration": "multi_query_executive",
+    "visibility": "owner",
+    "action": "report_generation"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Saya owner. Saya pengen diskon 15% buat Servis Ringan minggu depan. Bisa?"
+      },
+      {
+        "role": "assistant",
+        "content": "Bisa! Saya kasih diskon 15% ke harga Servis Ringan. Diskon berlaku dari sekarang untuk booking minggu depan. Harga baru tinggal Rp [NEW_PRICE] (dari Rp [OLD_PRICE]). Diskon ini otomatis teraply saat pelanggan booking. Berapa lama diskonnya berlaku? Minggu depan saja atau lebih?"
+      }
+    ],
+    "role": "owner",
+    "context": "pricing_discount",
+    "system_integration": "executive_command_pricing",
+    "visibility": "owner",
+    "action": "execute"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Saya owner. Tambah stok Busi Motor 20 unit"
+      },
+      {
+        "role": "assistant",
+        "content": "Stok Busi Motor sudah ditambah 20 unit. Stok sekarang: 35 unit (dari 15 unit sebelumnya). Update tercatat di Master Data dan sistem inventory. Kalau ada sparepart lain yang perlu direstock, bilang aja."
+      }
+    ],
+    "role": "owner",
+    "context": "inventory_management",
+    "system_integration": "executive_command_restock",
+    "visibility": "owner",
+    "action": "execute"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Motor saya error kode P0101, itu apa?"
+      },
+      {
+        "role": "assistant",
+        "content": "P0101 itu kode error dari sistem injeksi: 'Mass Air Flow (MAF) Sensor Range/Performance Problem'. Artinya sensor udara mesin Anda ada masalah. Bisa jadi sensor kotor, rusak, atau wiring-nya lepas. Solusi: bersihkan atau ganti sensor MAF. Di Milky Garage ini masuk kategori 'Servis Menengah' atau 'Overhaul Ringan' tergantung kompleksitas. Perlu booking?"
+      }
+    ],
+    "role": "customer",
+    "context": "technical_diagnosis",
+    "technique_integration": "obd2_error_codes",
+    "system_integration": "diagnosis_to_booking"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Saya mau cancel booking saya yang besok pagi"
+      },
+      {
+        "role": "assistant",
+        "content": "Bisa. Syaratnya booking harus belum diterima mekanik. Kalau booking Anda masih status 'Scheduled' berarti masih bisa dibatalkan. Saldo atau bayaran Anda akan dikembalikan penuh. Yakin mau cancel? Atau mau pindah ke hari lain saja?"
+      }
+    ],
+    "role": "customer",
+    "context": "booking_cancellation",
+    "system_integration": "booking_state_rules",
+    "error_handling": "cancellation_restrictions"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Slot booking besok jam 2 siang udah penuh ya? Ada alternative?"
+      },
+      {
+        "role": "assistant",
+        "content": "Iya, jam 2 siang besok sudah penuh. Tapi masih ada slot lain:\n- Pagi: 9:00, 10:00, 11:00\n- Sore: 3:00, 4:00, 5:00\n\nPilih mana? Estimasi durasi Ganti Oli sekitar 45 menit, jadi ada time buffer yang cukup."
+      }
+    ],
+    "role": "customer",
+    "context": "booking_slot_availability",
+    "system_integration": "booking_slot_checking",
+    "error_handling": "slot_full_alternative"
+  }
+]

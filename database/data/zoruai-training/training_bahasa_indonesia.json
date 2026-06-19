@@ -1,0 +1,665 @@
+{
+  "metadata": {
+    "nama_dataset": "Training Data Bahasa Indonesia Baik dan Benar",
+    "versi": "1.0.0",
+    "deskripsi": "Dataset pelatihan model AI untuk penulisan dan penyusunan Bahasa Indonesia yang baik dan benar sesuai kaidah EYD (Ejaan Yang Disempurnakan) / PUEBI (Pedoman Umum Ejaan Bahasa Indonesia) dan tata bahasa baku.",
+    "jumlah_entri": 80,
+    "kategori": [
+      "ejaan",
+      "tanda_baca",
+      "kalimat_efektif",
+      "diksi",
+      "paragraf",
+      "konjungsi",
+      "kata_baku",
+      "struktur_kalimat",
+      "penulisan_angka",
+      "penulisan_surat_resmi"
+    ],
+    "dibuat_pada": "2026-05-21",
+    "format": "instruction-input-output"
+  },
+  "data": [
+
+    {
+      "id": "BI-001",
+      "kategori": "kata_baku",
+      "instruksi": "Perbaiki kata-kata tidak baku dalam kalimat berikut menjadi kata baku sesuai KBBI.",
+      "input": "Saya udah bilang ke dia supaya jangan telat dateng ke kantor.",
+      "output": "Saya sudah mengatakan kepadanya agar tidak terlambat datang ke kantor.",
+      "penjelasan": "'Udah' → 'sudah', 'bilang' → 'mengatakan', 'telat' → 'terlambat', 'dateng' → 'datang'. Kata-kata tersebut merupakan bentuk tidak baku yang sering digunakan dalam percakapan sehari-hari, namun tidak tepat digunakan dalam penulisan formal."
+    },
+    {
+      "id": "BI-002",
+      "kategori": "kata_baku",
+      "instruksi": "Identifikasi dan perbaiki penggunaan kata tidak baku dalam teks berikut.",
+      "input": "Aktifitas belajar di sekolah harus dilakukan secara sistimatis agar murid dapat menyerap ilmu dengan baik.",
+      "output": "Aktivitas belajar di sekolah harus dilakukan secara sistematis agar siswa dapat menyerap ilmu dengan baik.",
+      "penjelasan": "'Aktifitas' → 'aktivitas', 'sistimatis' → 'sistematis', 'murid' dapat diganti 'siswa' dalam konteks formal. Kesalahan ini umumnya terjadi karena pengaruh pengucapan sehari-hari."
+    },
+    {
+      "id": "BI-003",
+      "kategori": "kata_baku",
+      "instruksi": "Pilih kata baku yang tepat dan susun dalam kalimat yang benar.",
+      "input": "Pilih kata yang baku: (a) Praktek atau Praktik, (b) Kwalitas atau Kualitas, (c) Ijin atau Izin",
+      "output": "Kata baku yang benar: (a) Praktik, (b) Kualitas, (c) Izin.\n\nContoh kalimat: 'Praktik kerja lapangan ini bertujuan meningkatkan kualitas siswa agar memperoleh izin usaha di kemudian hari.'",
+      "penjelasan": "KBBI menetapkan 'praktik', 'kualitas', dan 'izin' sebagai bentuk baku. Bentuk 'praktek', 'kwalitas', dan 'ijin' adalah bentuk tidak baku yang masih sering keliru digunakan."
+    },
+    {
+      "id": "BI-004",
+      "kategori": "ejaan",
+      "instruksi": "Perbaiki penulisan huruf kapital dalam kalimat berikut sesuai PUEBI.",
+      "input": "presiden joko widodo meresmikan jembatan suramadu di surabaya pada hari senin.",
+      "output": "Presiden Joko Widodo meresmikan Jembatan Suramadu di Surabaya pada hari Senin.",
+      "penjelasan": "Huruf kapital digunakan pada: (1) awal kalimat, (2) nama orang (Joko Widodo), (3) nama geografis dan bangunan resmi (Jembatan Suramadu, Surabaya), (4) nama hari (Senin). Gelar/jabatan 'Presiden' ditulis kapital karena diikuti nama orang."
+    },
+    {
+      "id": "BI-005",
+      "kategori": "ejaan",
+      "instruksi": "Perbaiki penulisan huruf kapital yang salah dalam kalimat ini.",
+      "input": "Dia belajar Bahasa Indonesia, Matematika, dan ilmu Pengetahuan Alam di sekolah Dasar.",
+      "output": "Dia belajar bahasa Indonesia, matematika, dan ilmu pengetahuan alam di sekolah dasar.",
+      "penjelasan": "Nama mata pelajaran tidak menggunakan huruf kapital kecuali 'Indonesia' karena merupakan nama diri (nama bangsa). 'Sekolah dasar' juga tidak dikapitalkan karena bukan nama lembaga spesifik."
+    },
+    {
+      "id": "BI-006",
+      "kategori": "ejaan",
+      "instruksi": "Perbaiki penulisan kata berimbuhan dan kata depan dalam kalimat berikut.",
+      "input": "Dia ber-jalan ke arah di mana teman-temannya berkumpul di depan gedung.",
+      "output": "Dia berjalan ke arah tempat teman-temannya berkumpul di depan gedung.",
+      "penjelasan": "Awalan 'ber-' ditulis serangkai dengan kata dasarnya: 'berjalan' (bukan 'ber-jalan'). 'Di mana' dalam kalimat ini lebih tepat diganti dengan 'tempat'. Kata depan 'di' ditulis terpisah dari kata yang mengikutinya."
+    },
+    {
+      "id": "BI-007",
+      "kategori": "ejaan",
+      "instruksi": "Perbaiki penulisan kata depan 'di' dan awalan 'di-' dalam kalimat berikut.",
+      "input": "Buku itu ditaruh diatas meja yang diletakkan didalam ruangan.",
+      "output": "Buku itu ditaruh di atas meja yang diletakkan di dalam ruangan.",
+      "penjelasan": "'Di' sebagai kata depan (menunjukkan tempat/lokasi) ditulis TERPISAH dari kata yang mengikutinya: 'di atas', 'di dalam'. 'Di-' sebagai awalan (menunjukkan kata kerja pasif) ditulis SERANGKAI: 'ditaruh', 'diletakkan'."
+    },
+    {
+      "id": "BI-008",
+      "kategori": "ejaan",
+      "instruksi": "Perbaiki penulisan kata ulang dalam kalimat berikut.",
+      "input": "Para siswa2 berlari lari di lapangan sambil bermain main.",
+      "output": "Para siswa berlari-lari di lapangan sambil bermain-main.",
+      "penjelasan": "Kata ulang ditulis dengan tanda hubung (-): 'berlari-lari', 'bermain-main'. Penulisan angka 2 sebagai penanda pengulangan (siswa2) tidak sesuai PUEBI. 'Para' sudah bermakna jamak sehingga tidak perlu diulang: cukup 'para siswa', bukan 'para siswa-siswa'."
+    },
+    {
+      "id": "BI-009",
+      "kategori": "tanda_baca",
+      "instruksi": "Tambahkan tanda baca yang tepat pada kalimat berikut.",
+      "input": "Ibu membeli sayuran tomat wortel bayam dan buncis di pasar",
+      "output": "Ibu membeli sayuran: tomat, wortel, bayam, dan buncis di pasar.",
+      "penjelasan": "Tanda titik dua (:) digunakan sebelum rincian/perincian. Tanda koma (,) digunakan untuk memisahkan unsur-unsur dalam suatu perincian yang terdiri atas tiga unsur atau lebih. Tanda titik (.) digunakan pada akhir kalimat pernyataan."
+    },
+    {
+      "id": "BI-010",
+      "kategori": "tanda_baca",
+      "instruksi": "Perbaiki penggunaan tanda baca dalam kalimat berikut.",
+      "input": "\"Apakah kamu sudah makan\" tanya ibu, \"kalau belum, ayo segera makan\".",
+      "output": "\"Apakah kamu sudah makan?\" tanya ibu. \"Kalau belum, ayo segera makan!\"",
+      "penjelasan": "Kalimat tanya diakhiri tanda tanya (?). Setelah keterangan 'tanya ibu' digunakan tanda titik (.) karena kalimat kutipan pertama sudah selesai. Kalimat perintah/ajakan diakhiri tanda seru (!). Huruf awal kalimat kutipan kedua ditulis kapital."
+    },
+    {
+      "id": "BI-011",
+      "kategori": "tanda_baca",
+      "instruksi": "Perbaiki penggunaan tanda koma dalam kalimat berikut.",
+      "input": "Karena hujan deras kami tidak jadi pergi ke pantai namun kami tetap menikmati hari itu di rumah.",
+      "output": "Karena hujan deras, kami tidak jadi pergi ke pantai; namun, kami tetap menikmati hari itu di rumah.",
+      "penjelasan": "Tanda koma digunakan setelah anak kalimat yang mendahului induk kalimat ('Karena hujan deras,'). Tanda titik koma (;) digunakan untuk memisahkan dua kalimat yang setara. Konjungsi 'namun' sebagai konjungsi antarkalimat diikuti tanda koma."
+    },
+    {
+      "id": "BI-012",
+      "kategori": "tanda_baca",
+      "instruksi": "Perbaiki penggunaan tanda hubung dan tanda pisah dalam kalimat berikut.",
+      "input": "Proyek itu berlangsung dari tahun 2020 2025 dan membutuhkan dana sebesar Rp 500.000.000.",
+      "output": "Proyek itu berlangsung dari tahun 2020–2025 dan membutuhkan dana sebesar Rp500.000.000,00.",
+      "penjelasan": "Tanda pisah (–) atau en-dash digunakan untuk menyatakan rentang waktu/nilai: '2020–2025'. Penulisan rupiah: 'Rp' ditulis serangkai tanpa spasi sebelum angka, dan angka rupiah diakhiri ',00' untuk menunjukkan nilai pasti."
+    },
+    {
+      "id": "BI-013",
+      "kategori": "kalimat_efektif",
+      "instruksi": "Ubah kalimat tidak efektif berikut menjadi kalimat efektif.",
+      "input": "Bagi para mahasiswa-mahasiswa yang ingin mendaftar beasiswa, mereka diharuskan untuk melengkapi semua berkas-berkas persyaratan yang diperlukan.",
+      "output": "Mahasiswa yang ingin mendaftar beasiswa diharuskan melengkapi semua berkas persyaratan.",
+      "penjelasan": "Kalimat efektif menghindari: (1) pemborosan kata: 'bagi para' dan 'mereka' tidak perlu karena subjek sudah jelas, (2) pengulangan tidak perlu: 'mahasiswa-mahasiswa' → 'mahasiswa' (sudah didahului 'para' implisit), 'berkas-berkas' → 'berkas', (3) kata mubazir: 'untuk' setelah 'diharuskan' tidak diperlukan, 'yang diperlukan' sudah tersirat."
+    },
+    {
+      "id": "BI-014",
+      "kategori": "kalimat_efektif",
+      "instruksi": "Identifikasi kelemahan dan perbaiki kalimat berikut agar menjadi efektif.",
+      "input": "Adalah sangat penting sekali bagi kita semua untuk selalu menjaga kesehatan tubuh kita masing-masing setiap hari.",
+      "output": "Menjaga kesehatan tubuh setiap hari sangat penting.",
+      "penjelasan": "Kalimat asal mengandung banyak pemborosan: 'Adalah' (tidak diperlukan di awal), 'sangat...sekali' (pilih salah satu), 'bagi kita semua' dan 'kita masing-masing' (tumpang tindih dan tidak perlu). Kalimat efektif langsung menyampaikan pokok pikiran."
+    },
+    {
+      "id": "BI-015",
+      "kategori": "kalimat_efektif",
+      "instruksi": "Perbaiki kalimat yang ambigu berikut menjadi kalimat yang jelas maknanya.",
+      "input": "Guru menghukum murid yang nakal itu dengan senang hati.",
+      "output": "Opsi 1: Dengan senang hati, guru menghukum murid yang nakal itu.\nOpsi 2: Guru menghukum murid nakal yang bertingkah dengan senang hati.",
+      "penjelasan": "Kalimat asli ambigu: 'dengan senang hati' bisa menerangkan guru atau murid. Pemindahan letak frasa dapat memperjelas makna. Kalimat efektif harus bermakna tunggal (tidak ambigu)."
+    },
+    {
+      "id": "BI-016",
+      "kategori": "kalimat_efektif",
+      "instruksi": "Perbaiki kalimat yang tidak logis berikut.",
+      "input": "Waktu dan tempat kami persilakan kepada Bapak Direktur untuk menyampaikan sambutan.",
+      "output": "Kami mempersilakan Bapak Direktur untuk menyampaikan sambutan.",
+      "penjelasan": "Kalimat asli tidak logis: 'waktu dan tempat' adalah benda abstrak yang tidak bisa dipersilakan. Yang dipersilakan seharusnya adalah orangnya (Bapak Direktur). Kalimat efektif harus logis dan masuk akal."
+    },
+    {
+      "id": "BI-017",
+      "kategori": "diksi",
+      "instruksi": "Pilih diksi (pilihan kata) yang tepat untuk mengisi bagian yang rumpang dalam kalimat berikut.",
+      "input": "Penelitian ini _______ (tujuan/bertujuan/mempunyai tujuan) untuk menganalisis dampak perubahan iklim terhadap ketahanan pangan.",
+      "output": "Penelitian ini bertujuan untuk menganalisis dampak perubahan iklim terhadap ketahanan pangan.",
+      "penjelasan": "'Bertujuan' adalah diksi yang paling tepat dan efisien karena sudah mengandung makna 'mempunyai tujuan' dalam satu kata. 'Tujuan' saja tidak bisa karena memerlukan predikat lain. 'Mempunyai tujuan' terlalu panjang dan boros."
+    },
+    {
+      "id": "BI-018",
+      "kategori": "diksi",
+      "instruksi": "Jelaskan perbedaan penggunaan kata berikut dan buat contoh kalimatnya masing-masing.",
+      "input": "Jelaskan perbedaan antara kata 'mengubah' dan 'merubah', serta 'memukul' dan 'memukulkan'.",
+      "output": "'Mengubah' (baku) vs 'merubah' (tidak baku): Bentuk baku adalah 'mengubah' karena mengikuti kaidah afiksasi me- + ubah = mengubah.\nContoh: 'Pemerintah mengubah kebijakan fiskal tahun ini.'\n\n'Memukul' vs 'memukulkan': 'Memukul' artinya melakukan pukulan secara langsung pada objek. 'Memukulkan' artinya menggunakan sesuatu sebagai alat untuk memukul.\nContoh: 'Dia memukul meja dengan keras.' vs 'Dia memukulkan tongkatnya ke dinding.'",
+      "penjelasan": "Pemilihan kata kerja yang tepat sangat penting dalam Bahasa Indonesia. Imbuhan yang berbeda menghasilkan makna yang berbeda pula."
+    },
+    {
+      "id": "BI-019",
+      "kategori": "diksi",
+      "instruksi": "Perbaiki penggunaan kata yang tidak tepat dalam kalimat berikut.",
+      "input": "Kami menghaturkan banyak-banyak terima kasih atas pertolongan Anda selama ini.",
+      "output": "Kami mengucapkan terima kasih atas bantuan Anda selama ini.",
+      "penjelasan": "'Menghaturkan' adalah kata dari bahasa Jawa Krama yang digunakan dalam konteks adat, bukan ungkapan terima kasih formal. Gunakan 'mengucapkan'. 'Banyak-banyak' setelah 'terima kasih' adalah pemborosan. 'Pertolongan' bisa diganti 'bantuan' yang lebih netral secara register."
+    },
+    {
+      "id": "BI-020",
+      "kategori": "diksi",
+      "instruksi": "Tentukan diksi yang tepat untuk kalimat formal dan informal berikut.",
+      "input": "Tuliskan versi formal dan informal dari kalimat: 'Kita perlu bicarain masalah ini sebelum terlambat.'",
+      "output": "Formal: 'Kita perlu membicarakan permasalahan ini sebelum terlambat.'\nAtau: 'Permasalahan ini perlu segera kita diskusikan agar tidak terlambat ditangani.'\n\nInformal (percakapan sehari-hari): 'Kita perlu ngomongin masalah ini sebelum terlambat.'",
+      "penjelasan": "Diksi disesuaikan dengan konteks dan register bahasa. Bahasa formal menggunakan kata-kata baku, kalimat lengkap, dan menghindari singkatan/kata sehari-hari. 'Bicarain' → 'membicarakan' (formal) atau 'ngomongin' (sangat informal)."
+    },
+    {
+      "id": "BI-021",
+      "kategori": "paragraf",
+      "instruksi": "Susun kalimat-kalimat berikut menjadi paragraf yang padu dan kohesif.",
+      "input": "1) Hal ini berdampak pada penurunan kualitas udara di kota-kota besar. 2) Polusi udara menjadi salah satu masalah lingkungan yang serius. 3) Oleh karena itu, diperlukan kebijakan tegas untuk mengurangi emisi kendaraan bermotor. 4) Meningkatnya jumlah kendaraan bermotor menjadi salah satu penyebab utamanya.",
+      "output": "Polusi udara menjadi salah satu masalah lingkungan yang serius. Meningkatnya jumlah kendaraan bermotor menjadi salah satu penyebab utamanya. Hal ini berdampak pada penurunan kualitas udara di kota-kota besar. Oleh karena itu, diperlukan kebijakan tegas untuk mengurangi emisi kendaraan bermotor.",
+      "penjelasan": "Paragraf yang baik memiliki struktur: (1) kalimat topik/utama → (2) kalimat penjelas/pengembang → (3) kalimat penutup/simpulan. Urutan yang logis: masalah umum → penyebab → akibat → solusi."
+    },
+    {
+      "id": "BI-022",
+      "kategori": "paragraf",
+      "instruksi": "Identifikasi kalimat yang tidak padu dalam paragraf berikut dan perbaiki.",
+      "input": "Indonesia memiliki kekayaan alam yang luar biasa. Hutan hujan tropisnya menyimpan ribuan spesies flora dan fauna yang unik. Ibu kota Indonesia adalah Jakarta. Lautan Indonesia juga kaya akan biota laut yang beragam. Oleh karena itu, pelestarian lingkungan menjadi tanggung jawab bersama.",
+      "output": "Kalimat yang tidak padu: 'Ibu kota Indonesia adalah Jakarta.'\n\nParagraf yang diperbaiki:\n'Indonesia memiliki kekayaan alam yang luar biasa. Hutan hujan tropisnya menyimpan ribuan spesies flora dan fauna yang unik. Lautan Indonesia juga kaya akan biota laut yang beragam. Oleh karena itu, pelestarian lingkungan menjadi tanggung jawab bersama.'",
+      "penjelasan": "Paragraf yang baik harus memiliki kesatuan (unity): semua kalimat harus mendukung satu gagasan utama. Kalimat tentang ibu kota tidak berkaitan dengan tema kekayaan alam, sehingga harus dihapus."
+    },
+    {
+      "id": "BI-023",
+      "kategori": "paragraf",
+      "instruksi": "Kembangkan kalimat topik berikut menjadi paragraf yang baik minimal 4 kalimat.",
+      "input": "Membaca buku memiliki banyak manfaat bagi perkembangan intelektual seseorang.",
+      "output": "Membaca buku memiliki banyak manfaat bagi perkembangan intelektual seseorang. Melalui membaca, seseorang dapat memperluas wawasan dan pengetahuan tentang berbagai hal yang belum pernah dialaminya secara langsung. Selain itu, kebiasaan membaca juga melatih kemampuan berpikir kritis dan analitis karena pembaca dituntut untuk memahami, mengevaluasi, dan menghubungkan informasi yang diperoleh. Dengan demikian, membaca buku merupakan investasi terbaik bagi pengembangan diri yang dampaknya akan dirasakan sepanjang hayat.",
+      "penjelasan": "Paragraf yang baik terdiri atas: kalimat topik (pernyataan umum), kalimat penjelas (mendukung topik dengan detail/alasan), dan kalimat penutup (simpulan/penegasan kembali). Konjungsi seperti 'melalui', 'selain itu', 'dengan demikian' membantu kohesi paragraf."
+    },
+    {
+      "id": "BI-024",
+      "kategori": "konjungsi",
+      "instruksi": "Pilih konjungsi yang tepat untuk menghubungkan kalimat-kalimat berikut.",
+      "input": "Dia rajin belajar. Nilainya selalu bagus. (Hubungkan dengan konjungsi yang menunjukkan sebab-akibat)",
+      "output": "Karena dia rajin belajar, nilainya selalu bagus.\nATAU: Dia rajin belajar sehingga nilainya selalu bagus.\nATAU: Dia rajin belajar; akibatnya, nilainya selalu bagus.",
+      "penjelasan": "Konjungsi sebab-akibat: 'karena' (menunjukkan sebab, diletakkan di awal anak kalimat), 'sehingga' (menunjukkan akibat), 'akibatnya' (konjungsi antarkalimat). Pemilihan konjungsi mempengaruhi struktur dan penekanan kalimat."
+    },
+    {
+      "id": "BI-025",
+      "kategori": "konjungsi",
+      "instruksi": "Perbaiki penggunaan konjungsi yang salah dalam kalimat berikut.",
+      "input": "Walaupun dia sakit, tetapi dia tetap masuk kerja.",
+      "output": "Walaupun dia sakit, dia tetap masuk kerja.\nATAU: Dia sakit, tetapi dia tetap masuk kerja.",
+      "penjelasan": "Konjungsi 'walaupun' dan 'tetapi' tidak boleh digunakan bersama-sama dalam satu kalimat karena keduanya sudah menyatakan pertentangan/konsesi. Ini disebut konjungsi ganda yang rancu. Pilih salah satu: 'walaupun...,(tanpa tetapi)' atau '..., tetapi...'."
+    },
+    {
+      "id": "BI-026",
+      "kategori": "konjungsi",
+      "instruksi": "Jelaskan perbedaan penggunaan 'dan', 'serta', dan 'beserta' beserta contohnya.",
+      "input": "Kapan harus menggunakan 'dan', 'serta', dan 'beserta'? Berikan penjelasan dan contoh.",
+      "output": "'Dan': konjungsi koordinatif umum untuk menggabungkan dua unsur setara.\nContoh: 'Ibu dan ayah pergi ke pasar.'\n\n'Serta': konjungsi yang menambahkan unsur yang memiliki hubungan lebih erat, sering untuk hal-hal yang sejenis.\nContoh: 'Dia pintar, rajin, serta disiplin dalam belajar.'\n\n'Beserta': berarti 'bersama dengan', menyatakan keikutsertaan, diikuti nomina.\nContoh: 'Presiden beserta rombongan tiba di Bandara Soekarno-Hatta.'",
+      "penjelasan": "Ketiga kata ini sering dipertukarkan, padahal memiliki nuansa makna yang berbeda. 'Beserta' tidak dapat menggantikan 'dan' dalam semua konteks karena menyatakan kebersamaan fisik."
+    },
+    {
+      "id": "BI-027",
+      "kategori": "struktur_kalimat",
+      "instruksi": "Identifikasi dan beri label unsur-unsur kalimat (S-P-O-K) dalam kalimat berikut.",
+      "input": "Presiden Joko Widodo meresmikan Tol Trans-Jawa di Jawa Tengah pada tahun 2019.",
+      "output": "S (Subjek): Presiden Joko Widodo\nP (Predikat): meresmikan\nO (Objek): Tol Trans-Jawa\nK (Keterangan tempat): di Jawa Tengah\nK (Keterangan waktu): pada tahun 2019\n\nStruktur: S - P - O - K(tempat) - K(waktu)",
+      "penjelasan": "Kalimat bahasa Indonesia umumnya berpola S-P-O-K. Keterangan (K) bersifat manasuka (opsional) dan dapat dipindah tempatnya. Predikat berupa kata kerja transitif ('meresmikan') memerlukan objek."
+    },
+    {
+      "id": "BI-028",
+      "kategori": "struktur_kalimat",
+      "instruksi": "Ubah kalimat aktif berikut menjadi kalimat pasif yang benar.",
+      "input": "Para ilmuwan telah menemukan vaksin baru untuk mengatasi virus tersebut.",
+      "output": "Vaksin baru telah ditemukan (oleh para ilmuwan) untuk mengatasi virus tersebut.",
+      "penjelasan": "Transformasi aktif ke pasif: (1) Objek aktif ('vaksin baru') menjadi subjek pasif, (2) Predikat aktif 'menemukan' → 'ditemukan' (awalan me- diganti dengan di-), (3) Subjek aktif ('para ilmuwan') menjadi pelengkap opsional dengan 'oleh'. Keterangan tetap di tempatnya."
+    },
+    {
+      "id": "BI-029",
+      "kategori": "struktur_kalimat",
+      "instruksi": "Perbaiki kalimat majemuk berikut agar strukturnya benar dan logis.",
+      "input": "Ketika sudah dewasa nanti, orang tua saya berharap agar saya menjadi dokter yang berguna bagi masyarakat.",
+      "output": "Orang tua saya berharap agar kelak saya dewasa menjadi dokter yang berguna bagi masyarakat.\nATAU: Kelak ketika dewasa, saya diharapkan orang tua untuk menjadi dokter yang berguna bagi masyarakat.",
+      "penjelasan": "Kalimat asli memiliki kerancuan: subjek 'orang tua saya' tidak logis 'menjadi dewasa'. Kalimat harus diperjelas siapa yang akan dewasa (saya) dan siapa yang berharap (orang tua). Restrukturisasi membuat hubungan logis antar-klausa menjadi jelas."
+    },
+    {
+      "id": "BI-030",
+      "kategori": "penulisan_angka",
+      "instruksi": "Perbaiki penulisan angka dan bilangan dalam teks berikut sesuai PUEBI.",
+      "input": "Ada 3 orang yang hadir dalam rapat itu. Mereka bekerja selama 8 jam sehari. Proyek ini membutuhkan dana Rp. 1.500.000,-",
+      "output": "Ada tiga orang yang hadir dalam rapat itu. Mereka bekerja selama delapan jam sehari. Proyek ini membutuhkan dana Rp1.500.000,00.",
+      "penjelasan": "PUEBI mengatur: (1) Bilangan satu digit (1-9) ditulis dengan huruf dalam kalimat: 'tiga', 'delapan'. (2) Tanda titik setelah 'Rp' tidak diperlukan karena 'Rp' bukan singkatan melainkan lambang. (3) Tanda '-' di akhir angka diganti ',00'. (4) 'Rp' ditulis serangkai dengan angkanya."
+    },
+    {
+      "id": "BI-031",
+      "kategori": "penulisan_angka",
+      "instruksi": "Tentukan penulisan angka yang benar dalam konteks kalimat formal berikut.",
+      "input": "Sebanyak 1500 peserta mengikuti seminar nasional yang berlangsung selama 2 hari di 3 kota besar.",
+      "output": "Sebanyak 1.500 peserta mengikuti seminar nasional yang berlangsung selama dua hari di tiga kota besar.",
+      "penjelasan": "Aturan penulisan angka: (1) Angka besar menggunakan titik sebagai pemisah ribuan: '1.500'. (2) Bilangan yang dapat dinyatakan dengan satu atau dua kata ditulis dengan huruf dalam teks: 'dua hari', 'tiga kota'. (3) Angka di awal kalimat harus ditulis dengan huruf."
+    },
+    {
+      "id": "BI-032",
+      "kategori": "penulisan_surat_resmi",
+      "instruksi": "Perbaiki penulisan kepala surat dan salam pembuka berikut agar sesuai format surat resmi.",
+      "input": "Kepada Yth:\nBapak/Ibu Kepala Dinas Pendidikan\ndi - Semarang\n\nDengan Hormat,",
+      "output": "Yth.\nKepala Dinas Pendidikan\ndi Semarang\n\nDengan hormat,",
+      "penjelasan": "Aturan surat resmi: (1) 'Kepada' tidak diperlukan sebelum 'Yth.'. (2) 'Yth.' diikuti titik (singkatan). (3) Jabatan tanpa Bapak/Ibu kecuali nama disebut. (4) 'di' ditulis tanpa tanda hubung dan diikuti spasi. (5) 'hormat' dalam 'Dengan hormat' tidak dikapitalisasi karena bukan awal kalimat utuh. (6) Diakhiri koma (,)."
+    },
+    {
+      "id": "BI-033",
+      "kategori": "penulisan_surat_resmi",
+      "instruksi": "Susun paragraf pembuka, isi, dan penutup surat resmi permohonan izin yang baik.",
+      "input": "Buat surat resmi singkat dari seorang siswa kepada kepala sekolah untuk memohon izin tidak masuk sekolah karena sakit.",
+      "output": "Paragraf Pembuka:\nDengan hormat, saya yang bertanda tangan di bawah ini, Ahmad Fauzi, siswa kelas XI IPA 2, bermaksud menyampaikan permohonan izin kepada Bapak/Ibu Kepala Sekolah.\n\nParagraf Isi:\nBerkenaan dengan kondisi kesehatan saya yang kurang baik, dokter menyarankan agar saya beristirahat di rumah selama tiga hari, yaitu pada tanggal 20–22 Mei 2026. Oleh karena itu, saya memohon izin untuk tidak menghadiri kegiatan belajar-mengajar pada hari-hari tersebut. Surat keterangan dokter terlampir sebagai bukti pendukung.\n\nParagraf Penutup:\nAtas perhatian dan kebijaksanaan Bapak/Ibu, saya mengucapkan terima kasih.",
+      "penjelasan": "Surat resmi yang baik memiliki: (1) Pembuka: identifikasi diri dan tujuan surat, (2) Isi: penjelasan lengkap dan alasan, (3) Penutup: ucapan terima kasih. Gunakan bahasa formal, kalimat lengkap, dan hindari bahasa sehari-hari."
+    },
+    {
+      "id": "BI-034",
+      "kategori": "ejaan",
+      "instruksi": "Perbaiki penulisan kata serapan dari bahasa asing dalam kalimat berikut.",
+      "input": "Dia melakukan analisa data menggunakan methode kualitatif dan kwantitatif dalam risetnya.",
+      "output": "Dia melakukan analisis data menggunakan metode kualitatif dan kuantitatif dalam penelitiannya.",
+      "penjelasan": "'Analisa' (dari bahasa Belanda 'analyse') → 'analisis' (baku dalam KBBI). 'Methode' → 'metode'. 'Kwantitatif' → 'kuantitatif' (huruf kw- pada kata serapan disesuaikan menjadi ku-). 'Riset' dapat diganti 'penelitian' yang merupakan padanan Indonesia."
+    },
+    {
+      "id": "BI-035",
+      "kategori": "ejaan",
+      "instruksi": "Perbaiki penulisan kata majemuk dalam kalimat berikut.",
+      "input": "Pemerintah akan membangun sarana olah raga dan rumah sakit jiwa di daerah terpencil.",
+      "output": "Pemerintah akan membangun sarana olahraga dan rumah sakit jiwa di daerah terpencil.",
+      "penjelasan": "'Olahraga' ditulis serangkai (satu kata) karena sudah membentuk satu konsep baru. 'Rumah sakit jiwa' ditulis terpisah karena merupakan gabungan kata biasa. Penulisan kata majemuk dalam PUEBI: ditulis serangkai jika sudah menyatu maknanya, terpisah jika belum."
+    },
+    {
+      "id": "BI-036",
+      "kategori": "kalimat_efektif",
+      "instruksi": "Perbaiki kalimat yang mengandung pleonasme (kata mubazir) berikut.",
+      "input": "Sejak dari kecil, dia sudah menunjukkan bakat seni yang sangat luar biasa sekali.",
+      "output": "Sejak kecil, dia sudah menunjukkan bakat seni yang luar biasa.",
+      "penjelasan": "Pleonasme adalah penggunaan kata yang berlebihan dan tidak menambah makna: (1) 'Sejak dari' → pilih 'sejak' atau 'dari', (2) 'sangat...sekali' → pilih salah satu, keduanya sudah bermakna superlatif, (3) 'sangat luar biasa' atau 'luar biasa sekali' sudah cukup kuat."
+    },
+    {
+      "id": "BI-037",
+      "kategori": "diksi",
+      "instruksi": "Jelaskan perbedaan kata 'sebab', 'karena', dan 'oleh karena' serta konteks penggunaannya.",
+      "input": "Apa perbedaan penggunaan 'sebab', 'karena', dan 'oleh karena' dalam kalimat bahasa Indonesia?",
+      "output": "'Sebab': konjungsi yang menyatakan alasan, biasa digunakan di awal anak kalimat (formal).\nContoh: 'Pertandingan ditunda sebab cuaca buruk.'\n\n'Karena': lebih umum dan fleksibel, digunakan baik dalam konteks formal maupun informal.\nContoh: 'Karena sakit, dia tidak hadir.' / 'Dia tidak hadir karena sakit.'\n\n'Oleh karena': digunakan dalam bahasa formal/tulisan, biasanya sebagai konjungsi antarkalimat 'Oleh karena itu'.\nContoh: 'Hujan turun deras. Oleh karena itu, acara ditunda.'",
+      "penjelasan": "Ketiga kata ini bersinonim namun berbeda dalam hal formalitas dan posisi dalam kalimat. Dalam ragam formal, 'sebab' dan 'oleh karena' lebih dianjurkan."
+    },
+    {
+      "id": "BI-038",
+      "kategori": "struktur_kalimat",
+      "instruksi": "Perbaiki kalimat yang memiliki subjek ganda atau tidak jelas.",
+      "input": "Dalam laporan tersebut menunjukkan bahwa tingkat kemiskinan menurun signifikan.",
+      "output": "Laporan tersebut menunjukkan bahwa tingkat kemiskinan menurun secara signifikan.\nATAU: Dalam laporan tersebut, ditunjukkan bahwa tingkat kemiskinan menurun secara signifikan.",
+      "penjelasan": "Kalimat asli tidak memiliki subjek yang jelas: frasa 'Dalam laporan tersebut' adalah keterangan, bukan subjek. Predikat 'menunjukkan' memerlukan subjek. Perbaikan: (1) hilangkan 'dalam' agar 'laporan' menjadi subjek, atau (2) ubah ke bentuk pasif."
+    },
+    {
+      "id": "BI-039",
+      "kategori": "paragraf",
+      "instruksi": "Buat sebuah paragraf argumentatif yang baik dengan topik 'Pentingnya Literasi Digital di Era Modern'.",
+      "input": "Tulis paragraf argumentatif dengan struktur: pernyataan tesis → argumen + bukti → simpulan.",
+      "output": "Literasi digital merupakan kecakapan yang tidak dapat dipisahkan dari kehidupan masyarakat di era modern. Di tengah derasnya arus informasi digital, kemampuan untuk memilah, mengevaluasi, dan menggunakan informasi secara bijak menjadi kebutuhan mendasar setiap individu. Data dari Kominfo (2023) menunjukkan bahwa lebih dari 60% masyarakat Indonesia aktif menggunakan media sosial, namun sebagian besar belum memiliki kemampuan yang memadai untuk mendeteksi hoaks dan informasi yang menyesatkan. Kondisi ini menunjukkan bahwa peningkatan literasi digital bukan sekadar pilihan, melainkan sebuah keharusan yang perlu diintegrasikan ke dalam sistem pendidikan nasional.",
+      "penjelasan": "Paragraf argumentatif yang baik terdiri atas: (1) tesis/klaim yang jelas, (2) argumen yang logis dan didukung bukti/data, (3) simpulan yang menegaskan tesis. Bahasa harus lugas, formal, dan kalimat-kalimatnya saling terhubung secara logis."
+    },
+    {
+      "id": "BI-040",
+      "kategori": "ejaan",
+      "instruksi": "Perbaiki penulisan singkatan dan akronim dalam kalimat berikut.",
+      "input": "S.D. Negeri 1 Semarang bekerja sama dengan PT. Maju Jaya, Tbk untuk mengadakan program beasiswa.",
+      "output": "SD Negeri 1 Semarang bekerja sama dengan PT Maju Jaya Tbk. untuk mengadakan program beasiswa.",
+      "penjelasan": "Penulisan singkatan: (1) 'S.D.' → 'SD' (singkatan nama lembaga pendidikan tanpa tanda titik di antara huruf). (2) 'PT.' → 'PT' (singkatan yang terdiri atas huruf kapital tidak menggunakan titik). (3) 'Tbk.' → 'Tbk.' (singkatan yang merupakan kependekan kata biasa menggunakan titik di akhir)."
+    },
+    {
+      "id": "BI-041",
+      "kategori": "tanda_baca",
+      "instruksi": "Perbaiki penggunaan tanda kurung dalam kalimat berikut.",
+      "input": "Bahasa Indonesia (BI) adalah bahasa resmi Republik Indonesia (RI) yang digunakan dalam segala aspek kehidupan berbangsa.",
+      "output": "Bahasa Indonesia (BI) adalah bahasa resmi Republik Indonesia (RI) yang digunakan dalam segala aspek kehidupan berbangsa.",
+      "penjelasan": "Kalimat ini sudah benar. Tanda kurung digunakan untuk mengapit keterangan tambahan atau singkatan yang pertama kali diperkenalkan. Setelah singkatan didefinisikan, cukup gunakan singkatan tersebut tanpa tanda kurung di kemunculan selanjutnya."
+    },
+    {
+      "id": "BI-042",
+      "kategori": "kalimat_efektif",
+      "instruksi": "Ubah kalimat berikut dari bentuk bertele-tele menjadi kalimat yang padat dan efektif.",
+      "input": "Sehubungan dengan hal tersebut di atas, maka dengan ini kami sampaikan bahwa kegiatan yang telah kita rencanakan bersama-sama sebelumnya akan kami laksanakan pada hari Senin yang akan datang.",
+      "output": "Kegiatan yang telah kita rencanakan bersama akan dilaksanakan pada Senin mendatang.",
+      "penjelasan": "Kalimat surat formal sering mengandung frasa klise yang tidak perlu: 'Sehubungan dengan hal tersebut di atas' (tidak perlu jika tidak ada konteks sebelumnya), 'maka dengan ini kami sampaikan bahwa' (pembuka mubazir), 'bersama-sama' (cukup 'bersama'), 'yang akan datang' (cukup 'mendatang')."
+    },
+    {
+      "id": "BI-043",
+      "kategori": "diksi",
+      "instruksi": "Perbaiki penggunaan kata hubung antarkalimat yang salah posisi.",
+      "input": "Namun, cuaca buruk membatalkan rencana kami. Kami tetap semangat pergi.",
+      "output": "Cuaca buruk membatalkan rencana kami. Namun, kami tetap semangat pergi.",
+      "penjelasan": "'Namun' adalah konjungsi antarkalimat yang menyatakan pertentangan. Konjungsi antarkalimat selalu diletakkan di awal kalimat KEDUA (yang bertentangan), bukan di awal kalimat PERTAMA. Letaknya harus setelah kalimat yang menjadi dasar pertentangan."
+    },
+    {
+      "id": "BI-044",
+      "kategori": "struktur_kalimat",
+      "instruksi": "Gabungkan dua kalimat berikut menjadi kalimat majemuk yang padu.",
+      "input": "Kalimat 1: Pemerintah menaikkan harga bahan bakar minyak. Kalimat 2: Masyarakat ekonomi lemah semakin terbebani.",
+      "output": "Pemerintah menaikkan harga bahan bakar minyak sehingga masyarakat ekonomi lemah semakin terbebani.\nATAU: Kenaikan harga bahan bakar minyak oleh pemerintah menyebabkan masyarakat ekonomi lemah semakin terbebani.",
+      "penjelasan": "Dua kalimat dapat digabungkan dengan konjungsi koordinatif atau subordinatif sesuai hubungan logisnya. Hubungan sebab-akibat menggunakan 'sehingga' atau 'menyebabkan'. Penggabungan menghasilkan kalimat yang lebih efisien dan eksplisit menunjukkan hubungan antarkalimat."
+    },
+    {
+      "id": "BI-045",
+      "kategori": "kata_baku",
+      "instruksi": "Koreksi penggunaan kata 'daripada' yang tidak tepat dalam kalimat berikut.",
+      "input": "Tujuan daripada penelitian ini adalah untuk mengetahui penyebab inflasi.",
+      "output": "Tujuan penelitian ini adalah untuk mengetahui penyebab inflasi.",
+      "penjelasan": "'Daripada' dalam bahasa Indonesia berfungsi sebagai kata perbandingan (misalnya: 'lebih baik A daripada B'). Penggunaan 'daripada' setelah kata benda seperti 'tujuan daripada penelitian' adalah pengaruh dari Bahasa Melayu atau terjemahan harfiah yang tidak tepat. Cukup gunakan 'tujuan penelitian ini'."
+    },
+    {
+      "id": "BI-046",
+      "kategori": "ejaan",
+      "instruksi": "Perbaiki penulisan gelar akademik dalam kalimat berikut.",
+      "input": "dr Ahmad Santoso S.Ked menjadi pembicara utama, didampingi Prof. Dr. Sri Wahyuni m.Pd.",
+      "output": "dr. Ahmad Santoso, S.Ked. menjadi pembicara utama, didampingi Prof. Dr. Sri Wahyuni, M.Pd.",
+      "penjelasan": "Penulisan gelar: (1) 'dr.' (dokter umum) ditulis huruf kecil dengan titik. (2) Gelar dipisahkan dari nama dengan tanda koma. (3) 'S.Ked.' diakhiri titik. (4) 'Prof.' dan 'Dr.' diawali huruf kapital. (5) 'M.Pd.' (bukan 'm.Pd.') — gelar akademik diawali huruf kapital."
+    },
+    {
+      "id": "BI-047",
+      "kategori": "paragraf",
+      "instruksi": "Tuliskan paragraf deskriptif yang baik tentang sebuah pasar tradisional.",
+      "input": "Buat paragraf deskriptif minimal 5 kalimat yang menggambarkan suasana pasar tradisional dengan detail yang kaya.",
+      "output": "Pasar Johar di Semarang menyimpan kehidupan yang selalu bergerak sejak dini hari. Deretan kios berjejer rapat menawarkan aneka barang dari sayuran segar yang masih berembun hingga rempah-rempah yang menguar aroma tajamnya ke segala penjuru. Para penjual menyapa pembeli dengan suara nyaring sambil tangan mereka cekatan menimbang dan membungkus dagangan. Di antara celah sempit lorong pasar, pembeli berlalu-lalang membawa keranjang belanja yang semakin hari semakin penuh. Suara tawar-menawar, denting uang logam, dan tawa renyah melebur menjadi simfoni khas yang hanya bisa dirasakan di pasar tradisional.",
+      "penjelasan": "Paragraf deskriptif yang baik: (1) menggunakan kata-kata konkret dan indrawi (visual, auditif, olfaktori), (2) menggambarkan detail spesifik, bukan umum, (3) menggunakan kata kerja aktif yang hidup, (4) mengalir runtut dari satu detail ke detail lain, (5) menciptakan kesan menyeluruh bagi pembaca."
+    },
+    {
+      "id": "BI-048",
+      "kategori": "konjungsi",
+      "instruksi": "Identifikasi kesalahan konjungsi dan perbaiki kalimat berikut.",
+      "input": "Meskipun demikian, namun ia tetap berusaha untuk menyelesaikan tugasnya tepat waktu.",
+      "output": "Meskipun demikian, ia tetap berusaha menyelesaikan tugasnya tepat waktu.\nATAU: Ia tetap berusaha menyelesaikan tugasnya tepat waktu.",
+      "penjelasan": "'Meskipun demikian' dan 'namun' adalah dua konjungsi pertentangan yang tidak bisa digunakan bersamaan dalam satu kalimat. Gunakan salah satu. 'Untuk' setelah 'berusaha' juga tidak diperlukan karena 'berusaha menyelesaikan' sudah membentuk frasa verbal yang tepat."
+    },
+    {
+      "id": "BI-049",
+      "kategori": "kalimat_efektif",
+      "instruksi": "Perbaiki kesalahan paralelisme dalam kalimat berikut.",
+      "input": "Kegiatan ekstrakurikuler itu meliputi: bermain musik, melukis, dan pencak silat.",
+      "output": "Kegiatan ekstrakurikuler itu meliputi: bermain musik, melukis, dan berlatih pencak silat.",
+      "penjelasan": "Paralelisme mengharuskan unsur-unsur dalam satu deret memiliki bentuk gramatikal yang sama. 'Bermain' dan 'melukis' adalah kata kerja (verba), sedangkan 'pencak silat' adalah kata benda (nomina). Agar paralel, ubah menjadi: 'bermain musik, melukis, dan berlatih pencak silat' (semua verba)."
+    },
+    {
+      "id": "BI-050",
+      "kategori": "ejaan",
+      "instruksi": "Perbaiki penulisan unsur serapan dari bahasa asing berikut.",
+      "input": "Dia mendapat Scholarship untuk melanjutkan study di luar negeri dengan fokus pada bidang bioteknologi dan pharmasi.",
+      "output": "Dia mendapat beasiswa untuk melanjutkan studi di luar negeri dengan fokus pada bidang bioteknologi dan farmasi.",
+      "penjelasan": "'Scholarship' → 'beasiswa' (padanan Indonesia yang lebih tepat digunakan). 'Study' → 'studi' (disesuaikan ejaan Indonesia). 'Pharmasi' → 'farmasi' (ph- dalam kata serapan menjadi f- dalam bahasa Indonesia)."
+    },
+    {
+      "id": "BI-051",
+      "kategori": "diksi",
+      "instruksi": "Gantikan kata-kata klise atau stereotip dalam kalimat berikut dengan ekspresi yang lebih segar.",
+      "input": "Pada era globalisasi ini, kita harus bahu membahu untuk memajukan bangsa demi anak cucu di masa depan.",
+      "output": "Di tengah arus globalisasi, kerja sama lintas sektor menjadi kunci untuk membangun Indonesia yang berkelanjutan bagi generasi mendatang.",
+      "penjelasan": "Ungkapan klise seperti 'era globalisasi', 'bahu membahu', 'demi anak cucu', 'masa depan' terlalu sering digunakan sehingga kehilangan daya ungkapnya. Tulisan yang baik menggunakan ekspresi yang lebih spesifik, segar, dan bermakna."
+    },
+    {
+      "id": "BI-052",
+      "kategori": "penulisan_surat_resmi",
+      "instruksi": "Perbaiki penulisan nomor dan perihal surat resmi berikut.",
+      "input": "No : 012/SK/Dinas-Pend/V/2026\nHal : Undangan rapat koordinasi",
+      "output": "Nomor : 012/SK/Disdik/V/2026\nHal     : Undangan Rapat Koordinasi",
+      "penjelasan": "Penulisan surat resmi: (1) 'No' diganti 'Nomor' (tidak disingkat dalam format resmi). (2) Kode instansi sebaiknya singkatan resmi yang diakui. (3) 'Hal' sudah tepat (bukan 'Perihal' atau 'Re'). (4) Isi 'Hal' menggunakan huruf kapital di setiap awal kata. (5) Posisi titik dua disejajarkan untuk estetika."
+    },
+    {
+      "id": "BI-053",
+      "kategori": "struktur_kalimat",
+      "instruksi": "Jelaskan dan berikan contoh kalimat tunggal, majemuk setara, dan majemuk bertingkat.",
+      "input": "Apa perbedaan kalimat tunggal, majemuk setara, dan majemuk bertingkat? Berikan contoh masing-masing.",
+      "output": "1. Kalimat Tunggal: hanya memiliki satu klausa (satu S-P).\nContoh: 'Mahasiswa itu mengerjakan skripsinya.'\n\n2. Kalimat Majemuk Setara: memiliki dua klausa atau lebih yang setara/sejajar, dihubungkan konjungsi koordinatif.\nContoh: 'Mahasiswa itu mengerjakan skripsinya dan adiknya membantu mencari referensi.'\n\n3. Kalimat Majemuk Bertingkat: memiliki klausa utama dan klausa bawahan yang tidak sejajar, dihubungkan konjungsi subordinatif.\nContoh: 'Mahasiswa itu mengerjakan skripsinya meskipun kondisi kesehatannya kurang baik.'",
+      "penjelasan": "Perbedaan utama terletak pada hubungan antarklausa: setara (koordinatif) berarti kedua klausa berkedudukan sama, bertingkat (subordinatif) berarti satu klausa tergantung pada klausa lain."
+    },
+    {
+      "id": "BI-054",
+      "kategori": "tanda_baca",
+      "instruksi": "Perbaiki penggunaan tanda petik dalam kalimat berikut.",
+      "input": "Dia berkata bahwa 'saya tidak akan menyerah'. Tema diskusi hari ini adalah \"Peran Pemuda dalam Pembangunan\".",
+      "output": "Dia berkata bahwa dirinya tidak akan menyerah. Tema diskusi hari ini adalah \"Peran Pemuda dalam Pembangunan\".",
+      "penjelasan": "Tanda petik tunggal ('...') dalam PUEBI digunakan untuk mengapit makna, terjemahan, atau penjelasan kata. Untuk kutipan langsung, gunakan tanda petik ganda (\"...\"). Dalam contoh kalimat pertama, kutipan sudah berubah menjadi tidak langsung (parafrase), sehingga tanda petik dihilangkan. Judul tema tetap menggunakan tanda petik ganda."
+    },
+    {
+      "id": "BI-055",
+      "kategori": "kata_baku",
+      "instruksi": "Identifikasi dan koreksi kata-kata tidak baku berikut beserta pembentukannya.",
+      "input": "Daftar kata: (1) mentri, (2) propinsi, (3) hakekat, (4) hipotesa, (5) nasehat",
+      "output": "(1) mentri → menteri\n(2) propinsi → provinsi\n(3) hakekat → hakikat\n(4) hipotesa → hipotesis\n(5) nasehat → nasihat\n\nContoh kalimat: 'Menteri Dalam Negeri mengeluarkan peraturan baru tentang tata kelola pemerintah provinsi yang berlandaskan hakikat otonomi daerah.'",
+      "penjelasan": "Kata-kata ini sering salah dieja karena pengaruh pengucapan atau bahasa daerah. KBBI menetapkan bentuk baku yang harus diikuti dalam penulisan resmi dan formal."
+    },
+    {
+      "id": "BI-056",
+      "kategori": "diksi",
+      "instruksi": "Jelaskan perbedaan 'di mana' (relatif) dan 'dimana' serta penggunaannya yang benar.",
+      "input": "Apakah 'di mana' ditulis terpisah atau serangkai? Kapan digunakan masing-masing?",
+      "output": "Dalam PUEBI dan KBBI:\n\n'Di mana' (dua kata, terpisah): digunakan sebagai kata tanya atau pronomen relatif.\n- Kata tanya: 'Di mana kamu tinggal?'\n- Pronomen relatif: 'Kota di mana saya lahir sangat indah.'\n\nCatatan: 'Dimana' (serangkai) TIDAK ADA dalam PUEBI dan KBBI. Penulisannya selalu 'di mana' (terpisah).\n\nKesalahan umum: 'Kondisi dimana ekonomi sedang melemah...' → Seharusnya: 'Kondisi ketika/saat ekonomi sedang melemah...' atau hindari 'di mana' untuk merujuk bukan tempat.",
+      "penjelasan": "'Di mana' dalam bahasa Indonesia idealnya hanya digunakan untuk merujuk tempat. Penggunaan 'di mana' untuk konteks non-tempat (seperti situasi atau kondisi) seringkali merupakan pengaruh terjemahan harfiah dari 'where' dalam bahasa Inggris dan sebaiknya dihindari."
+    },
+    {
+      "id": "BI-057",
+      "kategori": "paragraf",
+      "instruksi": "Buat paragraf eksposisi yang informatif tentang manfaat membatik bagi perekonomian Indonesia.",
+      "input": "Tulis paragraf eksposisi dengan data dan fakta yang memaparkan manfaat industri batik bagi perekonomian Indonesia.",
+      "output": "Industri batik memegang peranan penting dalam menggerakkan roda perekonomian nasional. Berdasarkan data Kementerian Perindustrian, nilai ekspor batik Indonesia mencapai lebih dari 58 juta dolar AS per tahun, dengan pasar utama di Jepang, Amerika Serikat, dan negara-negara Eropa. Di dalam negeri, industri ini menyerap jutaan tenaga kerja, mulai dari pengrajin, pedagang, hingga pelaku usaha di sektor pariwisata yang mengandalkan batik sebagai daya tarik budaya. Lebih dari itu, batik juga mendorong tumbuhnya usaha mikro, kecil, dan menengah (UMKM) di berbagai daerah, sehingga berkontribusi pada pemerataan pembangunan ekonomi.",
+      "penjelasan": "Paragraf eksposisi yang baik: (1) memaparkan fakta dan data secara objektif, (2) menggunakan bahasa yang lugas dan informatif, (3) tidak mengandung opini atau ajakan, (4) disusun secara logis dari umum ke khusus atau sebaliknya."
+    },
+    {
+      "id": "BI-058",
+      "kategori": "ejaan",
+      "instruksi": "Perbaiki penulisan kata berimbuhan 'me-' yang mengalami perubahan fonem.",
+      "input": "Dia meng-ketik laporan sambil men-dengarkan musik dan men-cuci piring.",
+      "output": "Dia mengetik laporan sambil mendengarkan musik dan mencuci piring.",
+      "penjelasan": "Awalan 'me-' mengalami perubahan fonem (asimilasi) dan ditulis serangkai: (1) me- + ketik → mengetik (sebelum k, g, h, kh: menjadi meng-). (2) me- + dengarkan → mendengarkan (sebelum d, t: menjadi men-). (3) me- + cuci → mencuci (sebelum c, j, sy: menjadi men-). Penulisan dengan tanda hubung (-) tidak diperlukan."
+    },
+    {
+      "id": "BI-059",
+      "kategori": "kalimat_efektif",
+      "instruksi": "Ubah kalimat pasif yang tidak tepat menjadi kalimat yang lebih tepat.",
+      "input": "Hadirin dimohon untuk dapat berdiri sejenak dalam rangka untuk menyambut kedatangan Bapak Gubernur.",
+      "output": "Hadirin dimohon berdiri sejenak untuk menyambut kedatangan Bapak Gubernur.",
+      "penjelasan": "Pemangkasan kata mubazir: (1) 'untuk dapat' → cukup 'untuk' atau langsung predikat, (2) 'dalam rangka untuk' → tautologi, cukup 'untuk', (3) 'kedatangan' sudah cukup tanpa 'dalam rangka menyambut kedatangan'. Kalimat efektif menggunakan kata seminimal mungkin untuk menyampaikan makna semaksimal mungkin."
+    },
+    {
+      "id": "BI-060",
+      "kategori": "penulisan_angka",
+      "instruksi": "Perbaiki penulisan tanggal dan waktu dalam kalimat formal berikut.",
+      "input": "Rapat akan diadakan pada tgl. 25/05/2026 pukul 09.00 pagi di ruang serbaguna.",
+      "output": "Rapat akan diadakan pada tanggal 25 Mei 2026 pukul 09.00 di ruang serbaguna.",
+      "penjelasan": "Penulisan tanggal resmi: (1) 'tgl.' → 'tanggal' (tidak disingkat dalam kalimat). (2) Format tanggal dalam bahasa Indonesia: tanggal - bulan (ditulis huruf) - tahun: '25 Mei 2026'. (3) 'pukul 09.00' sudah menyatakan waktu, sehingga 'pagi' tidak diperlukan (redundan kecuali dibutuhkan untuk kejelasan)."
+    },
+    {
+      "id": "BI-061",
+      "kategori": "kata_baku",
+      "instruksi": "Perbaiki penggunaan kata 'merasa' dan 'dirasakan' yang salah dalam kalimat.",
+      "input": "Banyak masyarakat yang merasa terasa keberatan dengan kebijakan baru tersebut.",
+      "output": "Banyak masyarakat yang merasa keberatan dengan kebijakan baru tersebut.\nATAU: Kebijakan baru tersebut dirasakan memberatkan oleh banyak masyarakat.",
+      "penjelasan": "'Merasa terasa' adalah bentuk berlebihan karena kedua kata memiliki makna yang hampir sama dalam konteks ini. Pilih salah satu: 'merasa keberatan' (aktif) atau 'dirasakan memberatkan' (pasif). Hindari pleonasme dalam penggunaan kata kerja."
+    },
+    {
+      "id": "BI-062",
+      "kategori": "diksi",
+      "instruksi": "Jelaskan perbedaan 'mempengaruhi' dan 'memengaruhi' serta gunakan yang benar.",
+      "input": "Mana yang benar: 'mempengaruhi' atau 'memengaruhi'? Berikan alasan dan contoh.",
+      "output": "Bentuk baku yang benar adalah 'memengaruhi'.\n\nAlasan: Kata dasar 'pengaruh' diawali huruf 'p'. Menurut kaidah afiksasi, awalan 'me-' + kata berawalan 'p' → 'mem-' dan huruf 'p' luluh.\nme- + pengaruh → mem + (p luluh) + engaruh → memengaruhi ✓\n'Mempengaruhi' ✗ (huruf 'p' seharusnya luluh)\n\nContoh kalimat:\n'Cuaca buruk memengaruhi hasil panen para petani di Jawa Tengah.'",
+      "penjelasan": "Kaidah perubahan fonem awalan me-: huruf awal kata dasar p, t, k, s akan luluh saat mendapat awalan me-. Contoh lain: me + tulis → menulis (bukan 'mentulis'), me + sapu → menyapu (bukan 'mensapu')."
+    },
+    {
+      "id": "BI-063",
+      "kategori": "tanda_baca",
+      "instruksi": "Kapan menggunakan titik koma (;) dan kapan menggunakan koma (,)? Berikan contoh.",
+      "input": "Jelaskan perbedaan fungsi tanda koma dan titik koma dalam kalimat bahasa Indonesia beserta contoh.",
+      "output": "Tanda Koma (,) digunakan untuk:\n1. Memisahkan unsur dalam perincian: 'Dia membeli buku, pensil, dan penggaris.'\n2. Memisahkan anak kalimat dari induk kalimat: 'Karena sakit, dia tidak masuk sekolah.'\n3. Memisahkan kata sapaan: 'Selamat pagi, Pak Ahmad.'\n\nTanda Titik Koma (;) digunakan untuk:\n1. Memisahkan kalimat setara yang panjang: 'Ibu memasak di dapur; ayah membaca koran di ruang tamu; adik bermain di halaman.'\n2. Memisahkan unsur-unsur perincian yang sudah mengandung koma: 'Peserta berasal dari Semarang, Jawa Tengah; Surabaya, Jawa Timur; dan Bandung, Jawa Barat.'",
+      "penjelasan": "Titik koma lebih kuat dari koma tetapi lebih lemah dari titik. Ia digunakan ketika koma saja tidak cukup memisahkan, tetapi hubungan antarklausa masih erat sehingga tidak perlu dipisahkan dengan titik."
+    },
+    {
+      "id": "BI-064",
+      "kategori": "paragraf",
+      "instruksi": "Tulis paragraf persuasif yang mengajak pembaca untuk menjaga lingkungan.",
+      "input": "Buat paragraf persuasif yang kuat dengan kalimat ajakan yang jelas, argumen yang meyakinkan, dan penutup yang memotivasi.",
+      "output": "Bumi adalah satu-satunya rumah yang kita miliki, dan kita sedang membiarkannya rusak secara perlahan. Setiap tahun, jutaan ton sampah plastik mencemari lautan kita, dan ribuan hektar hutan hilang akibat deforestasi yang tidak terkendali. Jika tidak ada tindakan nyata hari ini, generasi yang akan datang akan mewarisi planet yang tidak lagi layak huni. Oleh karena itu, marilah kita mulai dari langkah-langkah sederhana: mengurangi penggunaan plastik sekali pakai, memilah sampah, dan menanam pohon di sekitar kita. Perubahan besar selalu dimulai dari tindakan kecil yang dilakukan secara konsisten. Masa depan bumi ada di tangan kita.",
+      "penjelasan": "Paragraf persuasif yang efektif menggunakan: (1) fakta dan data untuk membangun kredibilitas, (2) emotional appeal untuk menyentuh pembaca, (3) ajakan konkret yang dapat dilakukan, (4) penutup yang membangkitkan motivasi. Bahasa lugas namun emosional."
+    },
+    {
+      "id": "BI-065",
+      "kategori": "ejaan",
+      "instruksi": "Perbaiki penulisan kata majemuk berikut sesuai PUEBI.",
+      "input": "Dia bekerja sebagai wartawan foto yang sering meliput acara olah raga dan kegiatan tanda tangan kontrak atlet.",
+      "output": "Dia bekerja sebagai wartawan foto yang sering meliput acara olahraga dan kegiatan penandatanganan kontrak atlet.",
+      "penjelasan": "'Olahraga' ditulis serangkai (sudah menjadi satu konsep). 'Tanda tangan' sebagai nomina ditulis terpisah, tetapi 'menandatangani' atau 'penandatanganan' sebagai verba/nomina turunan ditulis serangkai dengan imbuhan."
+    },
+    {
+      "id": "BI-066",
+      "kategori": "konjungsi",
+      "instruksi": "Perbaiki penggunaan 'yang mana' dalam kalimat berikut.",
+      "input": "Kami mengunjungi museum Sangiran, yang mana di sana terdapat fosil-fosil manusia purba.",
+      "output": "Kami mengunjungi Museum Sangiran, tempat ditemukannya fosil-fosil manusia purba.\nATAU: Kami mengunjungi Museum Sangiran yang menyimpan fosil-fosil manusia purba.",
+      "penjelasan": "'Yang mana' adalah terjemahan harfiah dari 'which' dalam bahasa Inggris dan tidak dianjurkan dalam bahasa Indonesia baku. Ganti dengan 'yang', 'tempat', 'di mana' (hanya jika merujuk tempat), atau restrukturisasi kalimat. Nama museum ditulis kapital karena merupakan nama diri."
+    },
+    {
+      "id": "BI-067",
+      "kategori": "kalimat_efektif",
+      "instruksi": "Ubah kalimat berikut dari konstruksi pasif yang janggal menjadi kalimat yang lebih natural.",
+      "input": "Keputusan tersebut telah dibuat oleh rapat pleno yang dilaksanakan kemarin.",
+      "output": "Rapat pleno kemarin menghasilkan keputusan tersebut.\nATAU: Keputusan tersebut dihasilkan melalui rapat pleno yang digelar kemarin.",
+      "penjelasan": "Kalimat pasif dengan 'dibuat oleh' terkesan kaku. Variasi: ubah ke kalimat aktif dengan subjek yang jelas ('rapat pleno'), atau gunakan predikat yang lebih tepat ('dihasilkan', bukan 'dibuat') untuk konteks keputusan resmi."
+    },
+    {
+      "id": "BI-068",
+      "kategori": "diksi",
+      "instruksi": "Pilih kata yang lebih tepat untuk menggantikan kata asing yang tidak perlu dalam kalimat.",
+      "input": "Meeting hari ini akan di-cancel karena speaker utama tidak bisa attend.",
+      "output": "Rapat hari ini akan dibatalkan karena pembicara utama tidak dapat hadir.",
+      "penjelasan": "Dalam konteks formal Indonesia, gunakan padanan bahasa Indonesia: 'meeting' → 'rapat', 'cancel/di-cancel' → 'dibatalkan', 'speaker' → 'pembicara', 'attend' → 'hadir'. Penggunaan kata asing yang sudah ada padanannya dalam bahasa Indonesia tidak dianjurkan dalam tulisan resmi."
+    },
+    {
+      "id": "BI-069",
+      "kategori": "struktur_kalimat",
+      "instruksi": "Perbaiki kalimat yang mengandung kontaminasi (percampuran dua konstruksi) berikut.",
+      "input": "Hal itu tergantung dari situasi yang ada.",
+      "output": "Hal itu bergantung pada situasi yang ada.\nATAU: Hal itu tergantung pada situasi yang ada.",
+      "penjelasan": "Kalimat asli adalah kontaminasi dari dua konstruksi: 'bergantung pada' dan 'tergantung dari'. Bentuk yang baku: 'bergantung pada' atau 'tergantung pada'. 'Tergantung dari' merupakan bentuk yang salah secara kaidah preposisi."
+    },
+    {
+      "id": "BI-070",
+      "kategori": "penulisan_surat_resmi",
+      "instruksi": "Tulis paragraf penutup surat resmi yang baik dan benar.",
+      "input": "Buat tiga variasi penutup surat resmi yang formal dan sopan.",
+      "output": "Variasi 1 (Permohonan):\n'Demikian permohonan ini kami sampaikan. Atas perhatian dan kebijaksanaan Bapak/Ibu, kami mengucapkan terima kasih.'\n\nVariasi 2 (Undangan):\n'Demikian undangan ini kami sampaikan. Kehadiran Bapak/Ibu sangat kami harapkan. Atas perhatian Bapak/Ibu, kami mengucapkan terima kasih.'\n\nVariasi 3 (Pemberitahuan):\n'Demikian pemberitahuan ini kami sampaikan untuk dapat dimaklumi. Atas perhatian Bapak/Ibu, kami mengucapkan terima kasih.'",
+      "penjelasan": "Penutup surat resmi yang baik: (1) diawali 'Demikian...' yang merujuk pada isi surat, (2) menyertakan harapan atau permohonan yang relevan, (3) diakhiri ucapan terima kasih yang tulus, (4) tidak menggunakan ungkapan berlebihan atau tidak formal."
+    },
+    {
+      "id": "BI-071",
+      "kategori": "kata_baku",
+      "instruksi": "Perbaiki penggunaan kata 'dimana' dan 'yang mana' dalam teks ilmiah berikut.",
+      "input": "Penelitian ini dilakukan di Universitas Diponegoro dimana terdapat laboratorium canggih, yang mana memungkinkan pengujian sampel dilakukan dengan presisi tinggi.",
+      "output": "Penelitian ini dilakukan di Universitas Diponegoro yang memiliki laboratorium canggih, sehingga pengujian sampel dapat dilakukan dengan presisi tinggi.",
+      "penjelasan": "Dalam teks ilmiah formal: (1) 'dimana' tidak baku; gunakan 'yang', 'tempat', atau restrukturisasi kalimat. (2) 'Yang mana' tidak dianjurkan; ganti dengan 'yang' atau konjungsi yang tepat. (3) Kalimat hasil perbaikan lebih efisien dan tidak kehilangan makna."
+    },
+    {
+      "id": "BI-072",
+      "kategori": "ejaan",
+      "instruksi": "Perbaiki penulisan kata dengan awalan 'ke-' sebagai kata depan dan awalan.",
+      "input": "Dia pergi kepasar lalu ketoko buku sebelum pulang kerumah.",
+      "output": "Dia pergi ke pasar lalu ke toko buku sebelum pulang ke rumah.",
+      "penjelasan": "'Ke' sebagai kata depan yang menyatakan arah atau tujuan ditulis TERPISAH dari kata yang mengikutinya: 'ke pasar', 'ke toko', 'ke rumah'. Berbeda dengan 'ke-' sebagai awalan yang membentuk kata benda: 'ketua', 'ketiga', 'kemarin' (ditulis serangkai)."
+    },
+    {
+      "id": "BI-073",
+      "kategori": "kalimat_efektif",
+      "instruksi": "Susun teks prosedur berikut menjadi kalimat instruksi yang efektif dan sistematis.",
+      "input": "Cara membuat teh: ambil teko, lalu nanti isi dengan air panas, setelah itu masukkan kantong teh ke dalamnya, biarkan dulu beberapa saat, kemudian angkat kantong teh, dan terakhir boleh ditambahkan gula sesuai selera.",
+      "output": "Cara Membuat Teh:\n1. Siapkan teko yang bersih.\n2. Isi teko dengan air panas.\n3. Masukkan kantong teh ke dalam teko.\n4. Diamkan selama 3–5 menit hingga teh terseduh.\n5. Angkat kantong teh.\n6. Tambahkan gula sesuai selera.",
+      "penjelasan": "Teks prosedur yang baik: (1) menggunakan kalimat perintah (imperatif) yang singkat dan jelas, (2) disusun secara kronologis/berurutan, (3) tidak menggunakan kata-kata ragu ('nanti', 'dulu', 'boleh', 'beberapa saat'), (4) lebih baik diberi detail konkret ('3–5 menit') daripada abstrak."
+    },
+    {
+      "id": "BI-074",
+      "kategori": "diksi",
+      "instruksi": "Jelaskan kapan harus menggunakan 'agar' dan kapan menggunakan 'supaya'.",
+      "input": "Apakah ada perbedaan antara 'agar' dan 'supaya' dalam bahasa Indonesia?",
+      "output": "'Agar' dan 'supaya' pada dasarnya bersinonim, keduanya menyatakan tujuan. Perbedaannya terletak pada register:\n\n'Agar': lebih formal, lebih banyak digunakan dalam tulisan ilmiah, surat resmi, dan teks formal.\nContoh: 'Program ini dirancang agar masyarakat memiliki akses pendidikan yang merata.'\n\n'Supaya': lebih umum dan natural dalam percakapan serta tulisan non-formal.\nContoh: 'Belajarlah dengan sungguh-sungguh supaya nilaimu bagus.'\n\nDalam tulisan formal, 'agar' lebih dianjurkan.",
+      "penjelasan": "Meskipun sinonim, pemilihan antara 'agar' dan 'supaya' mencerminkan kepekaan terhadap register bahasa. Tulisan akademis dan dokumen resmi sebaiknya menggunakan 'agar'."
+    },
+    {
+      "id": "BI-075",
+      "kategori": "paragraf",
+      "instruksi": "Identifikasi dan perbaiki masalah koherensi dalam paragraf berikut.",
+      "input": "Teknologi digital membawa banyak manfaat. Smartphone semakin murah harganya. Anak-anak sekarang lebih suka bermain gadget daripada di luar. Namun, internet bisa berbahaya. Orang tua harus mengawasi.",
+      "output": "Teknologi digital membawa banyak manfaat sekaligus tantangan bagi kehidupan keluarga. Kemudahan akses terhadap perangkat digital, termasuk smartphone yang semakin terjangkau, menyebabkan anak-anak lebih banyak menghabiskan waktu dengan gadget daripada bermain di luar ruangan. Di sisi lain, konten internet yang tidak terfilter dapat membahayakan perkembangan anak. Oleh karena itu, pengawasan aktif dari orang tua menjadi kunci agar anak dapat memanfaatkan teknologi secara positif.",
+      "penjelasan": "Paragraf asli memiliki masalah koherensi: kalimat-kalimatnya pendek dan tidak terhubung secara logis. Perbaikan dilakukan dengan: (1) menambahkan kalimat topik yang mencakup semua ide, (2) menghubungkan ide dengan konjungsi yang tepat, (3) memperlihatkan relasi sebab-akibat dan kontras secara eksplisit."
+    },
+    {
+      "id": "BI-076",
+      "kategori": "ejaan",
+      "instruksi": "Perbaiki penulisan nama hari, bulan, dan tahun dalam kalimat resmi.",
+      "input": "Rapat tersebut direncanakan pada Hari Jum'at, bulan Pebruari tahun dua ribu dua puluh enam.",
+      "output": "Rapat tersebut direncanakan pada Jumat, Februari 2026.",
+      "penjelasan": "(1) 'Hari' sebelum nama hari tidak diperlukan dalam konteks kalimat biasa. (2) 'Jum'at' → 'Jumat' (tanpa tanda apostrof; bentuk baku). (3) 'Pebruari' → 'Februari' (bentuk baku). (4) Tahun dalam konteks formal lebih efisien ditulis dengan angka: '2026', bukan dieja panjang."
+    },
+    {
+      "id": "BI-077",
+      "kategori": "kalimat_efektif",
+      "instruksi": "Perbaiki kalimat yang memiliki kesalahan konflik kata (antonim dalam satu frasa).",
+      "input": "Perbedaan-perbedaan persamaan antara kedua metode tersebut perlu dianalisis lebih mendalam.",
+      "output": "Persamaan dan perbedaan antara kedua metode tersebut perlu dianalisis lebih mendalam.",
+      "penjelasan": "'Perbedaan-perbedaan persamaan' adalah konflik kata yang tidak logis: tidak ada 'perbedaan dari suatu persamaan' sebagai satu frasa. Yang dimaksud adalah dua hal berbeda: persamaan DAN perbedaan. Kalimat efektif harus logis dan tidak mengandung kontradiksi internal."
+    },
+    {
+      "id": "BI-078",
+      "kategori": "penulisan_angka",
+      "instruksi": "Perbaiki penulisan persen, desimal, dan satuan dalam kalimat ilmiah berikut.",
+      "input": "Tingkat keberhasilan program ini mencapai 87,5% dengan standar deviasi sebesar 2.3 dan suhu percobaan 37°C.",
+      "output": "Tingkat keberhasilan program ini mencapai 87,5% dengan standar deviasi sebesar 2,3 dan suhu percobaan 37°C.",
+      "penjelasan": "Dalam bahasa Indonesia, tanda desimal menggunakan KOMA (,), bukan titik (.): '2,3' bukan '2.3'. Titik digunakan sebagai pemisah ribuan: '1.500'. Penulisan persen (%) dan derajat Celsius (°C) sudah benar: langsung setelah angka tanpa spasi."
+    },
+    {
+      "id": "BI-079",
+      "kategori": "diksi",
+      "instruksi": "Perbaiki penggunaan kata 'dikarenakan' yang tidak tepat.",
+      "input": "Proyek ini terlambat dikarenakan oleh beberapa faktor eksternal yang tidak terduga.",
+      "output": "Proyek ini terlambat karena beberapa faktor eksternal yang tidak terduga.",
+      "penjelasan": "(1) 'Dikarenakan' bukan kata baku; gunakan 'karena' (konjungsi) atau 'disebabkan oleh' (verba pasif). (2) 'Dikarenakan oleh' merupakan bentuk ganda yang salah: pilih 'karena' saja atau 'disebabkan oleh'. Bentuk baku: 'Proyek ini terlambat karena...' atau 'Keterlambatan proyek ini disebabkan oleh...'."
+    },
+    {
+      "id": "BI-080",
+      "kategori": "penulisan_surat_resmi",
+      "instruksi": "Lengkapi dan perbaiki format surat resmi berikut secara menyeluruh.",
+      "input": "Buatkan contoh format surat resmi yang lengkap dan benar dari instansi pemerintah.",
+      "output": "KOP SURAT\nPEMERINTAH KOTA SEMARANG\nDINAS PENDIDIKAN\nJalan Pemuda No. 148, Semarang 50132\nTelepon (024) 3515668 | Faksimile (024) 3515669\n\n─────────────────────────────────────\n\nNomor   : 420/1234/Disdik/V/2026\nLampiran: Satu berkas\nHal     : Undangan Rapat Koordinasi\n\nYth.\nKepala UPTD Pendidikan\nse-Kota Semarang\n\nDengan hormat,\n\nDalam rangka meningkatkan mutu pendidikan di Kota Semarang, kami mengundang Bapak/Ibu Kepala UPTD Pendidikan untuk menghadiri rapat koordinasi dengan ketentuan sebagai berikut.\n\nHari, tanggal : Senin, 25 Mei 2026\nWaktu          : Pukul 09.00–12.00\nTempat         : Aula Dinas Pendidikan Kota Semarang\nAgenda         : Evaluasi Program Semester Genap 2025/2026\n\nDemikian undangan ini kami sampaikan. Kehadiran Bapak/Ibu tepat waktu sangat kami harapkan. Atas perhatian Bapak/Ibu, kami mengucapkan terima kasih.\n\nSemarang, 21 Mei 2026\nKepala Dinas Pendidikan\nKota Semarang,\n\n\n[tanda tangan]\n\nDr. Hj. Siti Rahayu, M.Pd.\nNIP 197208151999032001",
+      "penjelasan": "Komponen surat resmi yang lengkap: (1) Kop surat dengan identitas instansi, (2) Nomor/lampiran/hal, (3) Alamat tujuan dengan 'Yth.', (4) Salam pembuka 'Dengan hormat,', (5) Paragraf pembuka-isi-penutup, (6) Tempat-tanggal, (7) Jabatan penandatangan, (8) Tanda tangan, (9) Nama lengkap dengan gelar dan NIP."
+    }
+  ]
+}

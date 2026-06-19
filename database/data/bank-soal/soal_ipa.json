@@ -1,0 +1,982 @@
+{
+  "mata_pelajaran": "IPA (Sains Terpadu)",
+  "total_soal": 75,
+  "deskripsi": "Kumpulan soal IPA mencakup Fisika, Kimia, dan Biologi dengan masing-masing 25 soal dan berbagai tingkat kesulitan (mudah, normal, hard)",
+  "soal": [
+    {
+      "id": 1,
+      "sub_mata_pelajaran": "Fisika",
+      "tingkat": "mudah",
+      "pertanyaan": "Apa pengertian dari gaya?",
+      "pilihan": {
+        "a": "Kecepatan suatu benda",
+        "b": "Tarikan atau dorongan yang dapat mengubah gerak atau bentuk benda",
+        "c": "Massa suatu benda",
+        "d": "Percepatan suatu benda"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 2,
+      "sub_mata_pelajaran": "Fisika",
+      "tingkat": "mudah",
+      "pertanyaan": "Satuan dari gaya dalam Sistem Internasional adalah...",
+      "pilihan": {
+        "a": "Kilogram (kg)",
+        "b": "Meter (m)",
+        "c": "Newton (N)",
+        "d": "Joule (J)"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 3,
+      "sub_mata_pelajaran": "Fisika",
+      "tingkat": "mudah",
+      "pertanyaan": "Kecepatan adalah besaran...",
+      "pilihan": {
+        "a": "Skalar",
+        "b": "Vektor",
+        "c": "Turunan",
+        "d": "Fundamental"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 4,
+      "sub_mata_pelajaran": "Fisika",
+      "tingkat": "mudah",
+      "pertanyaan": "Percepatan gravitasi bumi adalah...",
+      "pilihan": {
+        "a": "5 m/s²",
+        "b": "9,8 m/s²",
+        "c": "15 m/s²",
+        "d": "20 m/s²"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 5,
+      "sub_mata_pelajaran": "Fisika",
+      "tingkat": "mudah",
+      "pertanyaan": "Energi potensial gravitasi bergantung pada...",
+      "pilihan": {
+        "a": "Kecepatan dan massa",
+        "b": "Tinggi dan jenis benda",
+        "c": "Massa, gravitasi, dan ketinggian",
+        "d": "Kecepatan dan ketinggian"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 6,
+      "sub_mata_pelajaran": "Fisika",
+      "tingkat": "mudah",
+      "pertanyaan": "Bunyi merambat melalui...",
+      "pilihan": {
+        "a": "Ruang hampa",
+        "b": "Medium seperti udara, air, atau benda padat",
+        "c": "Cahaya",
+        "d": "Gelombang elektromagnetik"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 7,
+      "sub_mata_pelajaran": "Fisika",
+      "tingkat": "mudah",
+      "pertanyaan": "Suhu adalah ukuran dari...",
+      "pilihan": {
+        "a": "Energi panas dalam benda",
+        "b": "Gerakan acak partikel-partikel dalam benda",
+        "c": "Jumlah kalor yang diterima benda",
+        "d": "Derajat panas suatu benda"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 8,
+      "sub_mata_pelajaran": "Fisika",
+      "tingkat": "mudah",
+      "pertanyaan": "Hukum Newton pertama menyatakan bahwa...",
+      "pilihan": {
+        "a": "Gaya sama dengan massa dikali percepatan",
+        "b": "Benda yang bergerak akan terus bergerak kecuali ada gaya yang menghentikannya",
+        "c": "Aksi dan reaksi sama besar dan berlawanan arah",
+        "d": "Percepatan berbanding terbalik dengan gaya"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 9,
+      "sub_mata_pelajaran": "Fisika",
+      "tingkat": "normal",
+      "pertanyaan": "Sebuah benda bermassa 5 kg didorong dengan gaya 20 N. Berapakah percepatan benda tersebut? (asumsikan tidak ada gesekan)",
+      "pilihan": {
+        "a": "2 m/s²",
+        "b": "3 m/s²",
+        "c": "4 m/s²",
+        "d": "5 m/s²"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 10,
+      "sub_mata_pelajaran": "Fisika",
+      "tingkat": "normal",
+      "pertanyaan": "Sebuah benda jatuh bebas dari ketinggian 20 m. Berapakah kecepatan benda saat mencapai tanah? (g = 10 m/s²)",
+      "pilihan": {
+        "a": "10 m/s",
+        "b": "15 m/s",
+        "c": "20 m/s",
+        "d": "25 m/s"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 11,
+      "sub_mata_pelajaran": "Fisika",
+      "tingkat": "normal",
+      "pertanyaan": "Energi kinetik suatu benda bergantung pada...",
+      "pilihan": {
+        "a": "Massa dan ketinggian",
+        "b": "Kecepatan dan massa",
+        "c": "Gaya dan percepatan",
+        "d": "Tekanan dan volume"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 12,
+      "sub_mata_pelajaran": "Fisika",
+      "tingkat": "normal",
+      "pertanyaan": "Panjang gelombang dan frekuensi gelombang memiliki hubungan...",
+      "pilihan": {
+        "a": "Berbanding lurus",
+        "b": "Berbanding terbalik",
+        "c": "Independen satu sama lain",
+        "d": "Sama besar"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 13,
+      "sub_mata_pelajaran": "Fisika",
+      "tingkat": "normal",
+      "pertanyaan": "Dalam mekanika fluida, prinsip Archimedes menyatakan bahwa...",
+      "pilihan": {
+        "a": "Tekanan dalam fluida meningkat seiring kedalaman",
+        "b": "Gaya apung yang dialami benda sama dengan berat fluida yang dipindahkan",
+        "c": "Kecepatan fluida berbanding terbalik dengan tekanannya",
+        "d": "Volume fluida sama dengan volume benda yang tenggelam"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 14,
+      "sub_mata_pelajaran": "Fisika",
+      "tingkat": "normal",
+      "pertanyaan": "Daya adalah...",
+      "pilihan": {
+        "a": "Energi yang disimpan dalam benda",
+        "b": "Laju perubahan energi atau usaha per satuan waktu",
+        "c": "Gaya yang diberikan pada benda",
+        "d": "Kecepatan benda bergerak"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 15,
+      "sub_mata_pelajaran": "Fisika",
+      "tingkat": "normal",
+      "pertanyaan": "Konduktor adalah material yang...",
+      "pilihan": {
+        "a": "Menghambat aliran listrik",
+        "b": "Memungkinkan aliran listrik dengan mudah",
+        "c": "Tidak merespon medan listrik",
+        "d": "Mengubah energi listrik menjadi panas"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 16,
+      "sub_mata_pelajaran": "Fisika",
+      "tingkat": "hard",
+      "pertanyaan": "Dalam termodinamika, hukum pertama termodinamika menyatakan bahwa...",
+      "pilihan": {
+        "a": "Entropi sistem selalu meningkat",
+        "b": "Perubahan energi internal sama dengan kalor yang ditambahkan dikurangi usaha yang dilakukan oleh sistem",
+        "c": "Suhu tidak dapat mencapai nol mutlak",
+        "d": "Semua energi dapat diubah menjadi bentuk lain tanpa kehilangan"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 17,
+      "sub_mata_pelajaran": "Fisika",
+      "tingkat": "hard",
+      "pertanyaan": "Dalam mekanika kuantum, prinsip ketidakpastian Heisenberg menyatakan bahwa...",
+      "pilihan": {
+        "a": "Posisi dan momentum partikel dapat diukur secara akurat secara bersamaan",
+        "b": "Tidak mungkin menentukan posisi dan momentum partikel secara akurat secara bersamaan",
+        "c": "Energi dan waktu dapat diukur dengan presisi sempurna",
+        "d": "Partikel subatomik selalu berada dalam keadaan stasioner"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 18,
+      "sub_mata_pelajaran": "Fisika",
+      "tingkat": "hard",
+      "pertanyaan": "Dalam relativitas khusus Einstein, E = mc² menunjukkan bahwa...",
+      "pilihan": {
+        "a": "Energi dan massa adalah dua bentuk berbeda yang tidak berhubungan",
+        "b": "Massa dapat diubah menjadi energi dalam jumlah yang sangat besar",
+        "c": "Kecepatan cahaya bergantung pada energi benda",
+        "d": "Energi kinetik sama dengan energi potensial"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 19,
+      "sub_mata_pelajaran": "Fisika",
+      "tingkat": "hard",
+      "pertanyaan": "Dalam optika, fenomena interferensi cahaya membuktikan bahwa...",
+      "pilihan": {
+        "a": "Cahaya adalah partikel murni",
+        "b": "Cahaya adalah gelombang elektromagnetik",
+        "c": "Cahaya tidak memiliki sifat gelombang",
+        "d": "Cahaya hanya berpindah dalam garis lurus"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 20,
+      "sub_mata_pelajaran": "Fisika",
+      "tingkat": "hard",
+      "pertanyaan": "Medan magnetik yang dihasilkan oleh arus listrik menurut Hukum Ampère menunjukkan hubungan antara...",
+      "pilihan": {
+        "a": "Kecepatan dan percepatan",
+        "b": "Arus listrik dan medan magnetik yang dihasilkannya",
+        "c": "Suhu dan volume gas",
+        "d": "Gaya gravitasi dan jarak"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 21,
+      "sub_mata_pelajaran": "Fisika",
+      "tingkat": "hard",
+      "pertanyaan": "Gerak harmonik sederhana pada pegas memiliki periode yang bergantung pada...",
+      "pilihan": {
+        "a": "Amplitudo dan gaya eksternal",
+        "b": "Masa pegas dan konstanta pegas",
+        "c": "Kecepatan awal benda",
+        "d": "Ketinggian pegas dari tanah"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 22,
+      "sub_mata_pelajaran": "Fisika",
+      "tingkat": "hard",
+      "pertanyaan": "Dalam mekanika orbital, hukum Kepler ketiga menyatakan bahwa...",
+      "pilihan": {
+        "a": "Semua planet bergerak dalam lintasan lingkaran sempurna",
+        "b": "Kuadrat periode orbit berbanding lurus dengan pangkat tiga dari jarak rata-rata planet ke matahari",
+        "c": "Kecepatan planet konstan sepanjang orbitnya",
+        "d": "Matahari berada di pusat orbit planet"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 23,
+      "sub_mata_pelajaran": "Fisika",
+      "tingkat": "hard",
+      "pertanyaan": "Dalam kalorimetri, kapasitas panas spesifik suatu bahan adalah...",
+      "pilihan": {
+        "a": "Total energi panas yang dapat disimpan benda",
+        "b": "Energi panas yang diperlukan untuk menaikkan suhu 1 kg benda sebesar 1°C",
+        "c": "Laju perubahan suhu benda",
+        "d": "Massa benda dikali perubahan suhu"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 24,
+      "sub_mata_pelajaran": "Fisika",
+      "tingkat": "hard",
+      "pertanyaan": "Dalam teori relativitas umum Einstein, gravitasi dijelaskan sebagai...",
+      "pilihan": {
+        "a": "Gaya tarik-menarik antara dua benda bermassa",
+        "b": "Kelengkungan ruang-waktu yang disebabkan oleh kehadiran massa dan energi",
+        "c": "Medan listrik yang dihasilkan oleh muatan",
+        "d": "Medan magnetik yang melingkupi planet"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 25,
+      "sub_mata_pelajaran": "Fisika",
+      "tingkat": "hard",
+      "pertanyaan": "Dalam fisika plasma, plasma adalah...",
+      "pilihan": {
+        "a": "Zat padat yang dipanaskan hingga menjadi cairan",
+        "b": "Gas yang terdiri dari ion dan elektron bebas dalam keadaan netral secara keseluruhan",
+        "c": "Cairan yang mengalami perubahan fase",
+        "d": "Campuran gas dan uap air"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 26,
+      "sub_mata_pelajaran": "Kimia",
+      "tingkat": "mudah",
+      "pertanyaan": "Apa definisi dari atom?",
+      "pilihan": {
+        "a": "Partikel yang dapat dipecah lebih lanjut",
+        "b": "Satuan terkecil dari suatu elemen yang mempertahankan sifat-sifat elemen tersebut",
+        "c": "Kombinasi dari dua atau lebih elemen",
+        "d": "Partikel yang bermuatan listrik"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 27,
+      "sub_mata_pelajaran": "Kimia",
+      "tingkat": "mudah",
+      "pertanyaan": "Proton memiliki muatan...",
+      "pilihan": {
+        "a": "Negatif",
+        "b": "Positif",
+        "c": "Netral",
+        "d": "Tidak ada"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 28,
+      "sub_mata_pelajaran": "Kimia",
+      "tingkat": "mudah",
+      "pertanyaan": "Neutron memiliki muatan...",
+      "pilihan": {
+        "a": "Negatif",
+        "b": "Positif",
+        "c": "Netral",
+        "d": "Ganda"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 29,
+      "sub_mata_pelajaran": "Kimia",
+      "tingkat": "mudah",
+      "pertanyaan": "Nomor atom menunjukkan...",
+      "pilihan": {
+        "a": "Jumlah neutron dalam atom",
+        "b": "Jumlah proton dalam atom",
+        "c": "Jumlah elektron dalam atom",
+        "d": "Massa atom total"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 30,
+      "sub_mata_pelajaran": "Kimia",
+      "tingkat": "mudah",
+      "pertanyaan": "Isotop adalah atom dari elemen yang sama dengan...",
+      "pilihan": {
+        "a": "Jumlah proton berbeda",
+        "b": "Jumlah elektron berbeda",
+        "c": "Jumlah neutron berbeda",
+        "d": "Muatan listrik berbeda"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 31,
+      "sub_mata_pelajaran": "Kimia",
+      "tingkat": "mudah",
+      "pertanyaan": "Apa yang dimaksud dengan valensi?",
+      "pilihan": {
+        "a": "Kemampuan atom untuk bereaksi",
+        "b": "Kemampuan atom untuk membentuk ikatan dengan atom lain",
+        "c": "Jumlah elektron dalam atom",
+        "d": "Massa atom relatif"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 32,
+      "sub_mata_pelajaran": "Kimia",
+      "tingkat": "mudah",
+      "pertanyaan": "Ikatan kovalen terbentuk ketika...",
+      "pilihan": {
+        "a": "Atom saling menukar elektron",
+        "b": "Atom saling berbagi pasangan elektron",
+        "c": "Atom saling menarik melalui gaya elektrostatik",
+        "d": "Atom melepaskan semua elektronnya"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 33,
+      "sub_mata_pelajaran": "Kimia",
+      "tingkat": "mudah",
+      "pertanyaan": "Ikatan ionik terbentuk antara...",
+      "pilihan": {
+        "a": "Dua atom nonlogam",
+        "b": "Logam dan nonlogam di mana elektron ditransfer",
+        "c": "Dua atom logam",
+        "d": "Atom yang memiliki elektron valensi sama"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 34,
+      "sub_mata_pelajaran": "Kimia",
+      "tingkat": "mudah",
+      "pertanyaan": "Asam adalah zat yang...",
+      "pilihan": {
+        "a": "Dapat menerima proton (H+)",
+        "b": "Dapat memberikan proton (H+)",
+        "c": "Memiliki pH lebih dari 7",
+        "d": "Memiliki rasa manis"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 35,
+      "sub_mata_pelajaran": "Kimia",
+      "tingkat": "normal",
+      "pertanyaan": "Pada reaksi: 2H₂ + O₂ → 2H₂O, berapakah koefisien steikiometri untuk O₂?",
+      "pilihan": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "id": 36,
+      "sub_mata_pelajaran": "Kimia",
+      "tingkat": "normal",
+      "pertanyaan": "Apa yang dimaksud dengan mol?",
+      "pilihan": {
+        "a": "Satuan massa suatu zat",
+        "b": "Satuan jumlah zat yang mengandung bilangan Avogadro (6,02 × 10²³) partikel",
+        "c": "Satuan konsentrasi zat",
+        "d": "Satuan kecepatan reaksi"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 37,
+      "sub_mata_pelajaran": "Kimia",
+      "tingkat": "normal",
+      "pertanyaan": "Dalam tabel periodik, elemen-elemen diatur berdasarkan...",
+      "pilihan": {
+        "a": "Massa atom dan warna",
+        "b": "Nomor atom dan properti kimia yang berulang",
+        "c": "Kepadatan dan titik leleh",
+        "d": "Reaktivitas dan asal penemuan"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 38,
+      "sub_mata_pelajaran": "Kimia",
+      "tingkat": "normal",
+      "pertanyaan": "pH adalah...",
+      "pilihan": {
+        "a": "Jumlah H+ dalam larutan",
+        "b": "Negatif logaritma konsentrasi ion H+",
+        "c": "Bobot proton dalam atom",
+        "d": "Potensial hidrogen dalam listrik"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 39,
+      "sub_mata_pelajaran": "Kimia",
+      "tingkat": "normal",
+      "pertanyaan": "Larutan netral memiliki pH...",
+      "pilihan": {
+        "a": "< 7",
+        "b": "= 7",
+        "c": "> 7",
+        "d": "= 0"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 40,
+      "sub_mata_pelajaran": "Kimia",
+      "tingkat": "normal",
+      "pertanyaan": "Reaksi endotermik adalah reaksi yang...",
+      "pilihan": {
+        "a": "Melepaskan energi panas",
+        "b": "Menyerap energi panas dari lingkungan",
+        "c": "Tidak menghasilkan perubahan energi",
+        "d": "Menghasilkan cahaya"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 41,
+      "sub_mata_pelajaran": "Kimia",
+      "tingkat": "normal",
+      "pertanyaan": "Katalis dalam reaksi kimia berfungsi untuk...",
+      "pilihan": {
+        "a": "Menambah jumlah produk yang dihasilkan",
+        "b": "Mempercepat laju reaksi tanpa berkonsumsi",
+        "c": "Menurunkan suhu reaksi",
+        "d": "Mengubah arah reaksi"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 42,
+      "sub_mata_pelajaran": "Kimia",
+      "tingkat": "normal",
+      "pertanyaan": "Dalam proses fotosintesis, gas yang diserap oleh tumbuhan adalah...",
+      "pilihan": {
+        "a": "O₂",
+        "b": "N₂",
+        "c": "CO₂",
+        "d": "H₂O"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 43,
+      "sub_mata_pelajaran": "Kimia",
+      "tingkat": "normal",
+      "pertanyaan": "Oksidasi adalah proses kehilangan...",
+      "pilihan": {
+        "a": "Elektron",
+        "b": "Proton",
+        "c": "Neutron",
+        "d": "Inti atom"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "id": 44,
+      "sub_mata_pelajaran": "Kimia",
+      "tingkat": "normal",
+      "pertanyaan": "Reduksi adalah proses penambahan...",
+      "pilihan": {
+        "a": "Proton",
+        "b": "Elektron",
+        "c": "Neutron",
+        "d": "Foton"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 45,
+      "sub_mata_pelajaran": "Kimia",
+      "tingkat": "normal",
+      "pertanyaan": "Dalam larutan, ion Na+ dan Cl- berasal dari...",
+      "pilihan": {
+        "a": "NaCl yang terionisasi",
+        "b": "Reaksi antara Na dan Cl₂",
+        "c": "Dekomposisi air",
+        "d": "Reaksi asam-basa"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "id": 46,
+      "sub_mata_pelajaran": "Kimia",
+      "tingkat": "hard",
+      "pertanyaan": "Dalam termodinamika kimia, entalpi pembentukan standar (ΔH°f) adalah...",
+      "pilihan": {
+        "a": "Energi yang dibutuhkan untuk memecah semua ikatan dalam molekul",
+        "b": "Perubahan entalpi ketika 1 mol senyawa terbentuk dari elemennya dalam keadaan standar",
+        "c": "Energi kinetic rata-rata molekul",
+        "d": "Kapasitas panas spesifik zat"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 47,
+      "sub_mata_pelajaran": "Kimia",
+      "tingkat": "hard",
+      "pertanyaan": "Mekanisme reaksi elementer menunjukkan...",
+      "pilihan": {
+        "a": "Hasil akhir dari reaksi keseluruhan",
+        "b": "Langkah-langkah rinci bagaimana reaktan berubah menjadi produk",
+        "c": "Energi aktivasi reaksi",
+        "d": "Laju konstan reaksi"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 48,
+      "sub_mata_pelajaran": "Kimia",
+      "tingkat": "hard",
+      "pertanyaan": "Konstanta kesetimbangan (K) menunjukkan...",
+      "pilihan": {
+        "a": "Kecepatan reaksi maju",
+        "b": "Rasio konsentrasi produk terhadap reaktan pada kesetimbangan",
+        "c": "Jumlah mol yang bereaksi",
+        "d": "Suhu pada saat kesetimbangan tercapai"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 49,
+      "sub_mata_pelajaran": "Kimia",
+      "tingkat": "hard",
+      "pertanyaan": "Dalam elektrokimia, sel galvanik menggunakan...",
+      "pilihan": {
+        "a": "Reaksi redoks spontan untuk menghasilkan arus listrik",
+        "b": "Arus listrik untuk mendorong reaksi redoks",
+        "c": "Magnet untuk memisahkan ion",
+        "d": "Panas untuk mempercepat reaksi"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "id": 50,
+      "sub_mata_pelajaran": "Kimia",
+      "tingkat": "hard",
+      "pertanyaan": "Dalam kimia organik, isomer struktural adalah...",
+      "pilihan": {
+        "a": "Molekul dengan formula molekul yang berbeda",
+        "b": "Molekul dengan formula molekul sama tetapi struktur berbeda",
+        "c": "Molekul dengan massa molar berbeda",
+        "d": "Molekul dengan titik leleh sama"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 51,
+      "sub_mata_pelajaran": "Biologi",
+      "tingkat": "mudah",
+      "pertanyaan": "Apa ciri utama dari makhluk hidup?",
+      "pilihan": {
+        "a": "Bergerak dan memiliki warna",
+        "b": "Dapat bereproduksi dan memiliki metabolisme",
+        "c": "Berukuran besar dan dapat berbicara",
+        "d": "Memiliki sel dan tidak pernah mati"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 52,
+      "sub_mata_pelajaran": "Biologi",
+      "tingkat": "mudah",
+      "pertanyaan": "Sel adalah...",
+      "pilihan": {
+        "a": "Satuan terkecil dari kehidupan yang dapat menjalankan semua fungsi hidup",
+        "b": "Organel yang berada di dalam inti sel",
+        "c": "Jaringan yang menyusun organ",
+        "d": "Bagian dari mitokondria"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "id": 53,
+      "sub_mata_pelajaran": "Biologi",
+      "tingkat": "mudah",
+      "pertanyaan": "Perbedaan utama antara sel prokariotik dan eukariotik adalah...",
+      "pilihan": {
+        "a": "Sel prokariotik memiliki inti sedangkan eukariotik tidak",
+        "b": "Sel eukariotik memiliki inti yang terbungkus membran sedangkan prokariotik tidak",
+        "c": "Sel prokariotik lebih besar dari eukariotik",
+        "d": "Sel eukariotik hanya terdapat pada tanaman"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 54,
+      "sub_mata_pelajaran": "Biologi",
+      "tingkat": "mudah",
+      "pertanyaan": "Mitokondria berfungsi sebagai...",
+      "pilihan": {
+        "a": "Tempat fotosintesis",
+        "b": "Pusat kontrol sel",
+        "c": "Pembangkit energi sel",
+        "d": "Pabrik protein"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 55,
+      "sub_mata_pelajaran": "Biologi",
+      "tingkat": "mudah",
+      "pertanyaan": "Kloroplas ditemukan pada...",
+      "pilihan": {
+        "a": "Sel hewan",
+        "b": "Sel tumbuhan dan alga",
+        "c": "Bakteri",
+        "d": "Semua jenis sel"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 56,
+      "sub_mata_pelajaran": "Biologi",
+      "tingkat": "mudah",
+      "pertanyaan": "Proses pernapasan sel menghasilkan...",
+      "pilihan": {
+        "a": "Glukosa dan oksigen",
+        "b": "Karbondioksida dan air serta energi ATP",
+        "c": "Protein dan lemak",
+        "d": "Vitamin dan mineral"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 57,
+      "sub_mata_pelajaran": "Biologi",
+      "tingkat": "mudah",
+      "pertanyaan": "DNA adalah...",
+      "pilihan": {
+        "a": "Protein yang mengatur metabolisme",
+        "b": "Asam nukleat yang membawa informasi genetik",
+        "c": "Karbohidrat untuk menyimpan energi",
+        "d": "Lipid untuk melindungi sel"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 58,
+      "sub_mata_pelajaran": "Biologi",
+      "tingkat": "mudah",
+      "pertanyaan": "Gen adalah...",
+      "pilihan": {
+        "a": "Segmen DNA yang mengkode protein atau sifat tertentu",
+        "b": "Seluruh DNA dalam sel",
+        "c": "Tipe sel dalam tubuh",
+        "d": "Hormon yang mengatur pertumbuhan"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "id": 59,
+      "sub_mata_pelajaran": "Biologi",
+      "tingkat": "normal",
+      "pertanyaan": "Dalam proses mitosis, sel induk menghasilkan...",
+      "pilihan": {
+        "a": "Dua sel anak dengan jumlah kromosom setengah dari induk",
+        "b": "Empat sel anak dengan jumlah kromosom berbeda",
+        "c": "Dua sel anak dengan jumlah kromosom sama dengan induk",
+        "d": "Satu sel anak dengan kromosom berlipat ganda"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 60,
+      "sub_mata_pelajaran": "Biologi",
+      "tingkat": "normal",
+      "pertanyaan": "Meiosis menghasilkan...",
+      "pilihan": {
+        "a": "Sel somatik untuk pertumbuhan",
+        "b": "Gamet (sel kelamin) dengan setengah jumlah kromosom induk",
+        "c": "Sel identik untuk reproduksi aseksual",
+        "d": "Sel dengan kromosom berlipat ganda"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 61,
+      "sub_mata_pelajaran": "Biologi",
+      "tingkat": "normal",
+      "pertanyaan": "Ekosistem adalah...",
+      "pilihan": {
+        "a": "Kelompok organisme sejenis yang hidup di tempat sama",
+        "b": "Komunitas organisme dan lingkungan fisik yang berinteraksi",
+        "c": "Lapisan atmosfer tempat makhluk hidup",
+        "d": "Semua makhluk hidup di bumi"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 62,
+      "sub_mata_pelajaran": "Biologi",
+      "tingkat": "normal",
+      "pertanyaan": "Dalam rantai makanan, produsen adalah...",
+      "pilihan": {
+        "a": "Herbivora yang memakan tumbuhan",
+        "b": "Karnivora yang memakan daging",
+        "c": "Organisme autotrofik seperti tumbuhan yang menghasilkan makanannya sendiri",
+        "d": "Bakteri pengurai"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 63,
+      "sub_mata_pelajaran": "Biologi",
+      "tingkat": "normal",
+      "pertanyaan": "Fotosintesis terjadi di dalam...",
+      "pilihan": {
+        "a": "Mitokondria",
+        "b": "Ribosom",
+        "c": "Kloroplas",
+        "d": "Vakuola"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 64,
+      "sub_mata_pelajaran": "Biologi",
+      "tingkat": "normal",
+      "pertanyaan": "Hasil dari fotosintesis adalah...",
+      "pilihan": {
+        "a": "Karbon dioksida dan air",
+        "b": "Glukosa dan oksigen",
+        "c": "ATP dan ADP",
+        "d": "Protein dan lemak"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 65,
+      "sub_mata_pelajaran": "Biologi",
+      "tingkat": "normal",
+      "pertanyaan": "Sistem reproduksi pada tumbuhan berbunga melibatkan bagian...",
+      "pilihan": {
+        "a": "Akar dan batang",
+        "b": "Daun dan tangkai",
+        "c": "Bunga sebagai organ reproduksi seksual",
+        "d": "Epidermis dan korteks"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 66,
+      "sub_mata_pelajaran": "Biologi",
+      "tingkat": "normal",
+      "pertanyaan": "Hereditas adalah...",
+      "pilihan": {
+        "a": "Proses pertumbuhan organisme",
+        "b": "Pewarisan sifat dari induk ke anak",
+        "c": "Perubahan sifat organisme seiring waktu",
+        "d": "Adaptasi terhadap lingkungan"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 67,
+      "sub_mata_pelajaran": "Biologi",
+      "tingkat": "normal",
+      "pertanyaan": "Dalam teori evolusi Darwin, seleksi alam adalah...",
+      "pilihan": {
+        "a": "Pilihan yang dibuat manusia dalam pembiakan selektif",
+        "b": "Proses di mana organisme dengan sifat yang menguntungkan lebih mungkin bertahan dan bereproduksi",
+        "c": "Perubahan lingkungan yang memaksa evolusi",
+        "d": "Mutasi acak dalam DNA"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 68,
+      "sub_mata_pelajaran": "Biologi",
+      "tingkat": "hard",
+      "pertanyaan": "Proses replikasi DNA melibatkan enzim...",
+      "pilihan": {
+        "a": "Helikase dan DNA polimerase",
+        "b": "Protease dan lipase",
+        "c": "Amilase dan selulase",
+        "d": "Katalase dan peroksidase"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "id": 69,
+      "sub_mata_pelajaran": "Biologi",
+      "tingkat": "hard",
+      "pertanyaan": "Sintesis protein meliputi transkripsi dan translasi. Transkripsi adalah...",
+      "pilihan": {
+        "a": "Sintesis protein di ribosom menggunakan mRNA",
+        "b": "Pembentukan mRNA dari template DNA di inti sel",
+        "c": "Penguraian protein menjadi asam amino",
+        "d": "Penghancuran DNA yang rusak"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 70,
+      "sub_mata_pelajaran": "Biologi",
+      "tingkat": "hard",
+      "pertanyaan": "Mutasi adalah...",
+      "pilihan": {
+        "a": "Perubahan permanen dalam urutan DNA yang dapat menghasilkan variasi genetik",
+        "b": "Proses pembelahan sel secara mitosis",
+        "c": "Penggabungan gamet jantan dan betina",
+        "d": "Penguraian protein dalam sel"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "id": 71,
+      "sub_mata_pelajaran": "Biologi",
+      "tingkat": "hard",
+      "pertanyaan": "Persilangan dihibrid (dihybrid cross) melibatkan penelusuran dua sifat yang dikontrol oleh...",
+      "pilihan": {
+        "a": "Satu gen dengan dua alel",
+        "b": "Dua gen yang berbeda masing-masing dengan dua alel",
+        "c": "Tiga atau lebih gen yang berbeda",
+        "d": "Gen yang terhubung pada kromosom yang sama"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 72,
+      "sub_mata_pelajaran": "Biologi",
+      "tingkat": "hard",
+      "pertanyaan": "Dalam imunologi, antibodi adalah...",
+      "pilihan": {
+        "a": "Tipe bakteri yang menyebabkan infeksi",
+        "b": "Protein yang diproduksi oleh sistem kekebalan untuk melawan antigen",
+        "c": "Zat kimia yang membunuh semua mikroorganisme",
+        "d": "Sel yang memakan patogen"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 73,
+      "sub_mata_pelajaran": "Biologi",
+      "tingkat": "hard",
+      "pertanyaan": "Dalam ekologi, carrying capacity adalah...",
+      "pilihan": {
+        "a": "Kecepatan pertumbuhan populasi",
+        "b": "Jumlah maksimum individu dalam populasi yang dapat didukung oleh lingkungan",
+        "c": "Tingkat migrasi ke dalam dan keluar populasi",
+        "d": "Umur rata-rata individu dalam populasi"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 74,
+      "sub_mata_pelajaran": "Biologi",
+      "tingkat": "hard",
+      "pertanyaan": "Homeostasis adalah...",
+      "pilihan": {
+        "a": "Evolusi yang menghasilkan spesies baru",
+        "b": "Proses pemeliharaan kondisi internal yang stabil dalam organisme meskipun lingkungan eksternal berubah",
+        "c": "Migrasi organisme ke habitat baru",
+        "d": "Reproduksi aseksual untuk menghasilkan keturunan identik"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 75,
+      "sub_mata_pelajaran": "Biologi",
+      "tingkat": "hard",
+      "pertanyaan": "Dalam teori endosimbiosis, mitokondria dan kloroplas diyakini berasal dari...",
+      "pilihan": {
+        "a": "Perlipatan membran sel yang terus berkembang",
+        "b": "Organisme prokariotik yang ditangkap oleh sel eukariotik ancestral",
+        "c": "Mutasi spontan dari DNA sel induk",
+        "d": "Proses evolusi sederhana dari molekul organik"
+      },
+      "jawaban_benar": "b"
+    }
+  ]
+}

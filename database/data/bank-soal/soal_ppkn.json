@@ -1,0 +1,925 @@
+{
+  "mata_pelajaran": "Pendidikan Pancasila dan Kewarganegaraan (PPKN)",
+  "total_soal": 75,
+  "keterangan": "Setiap soal memiliki 4 pilihan jawaban (A, B, C, D) dengan 1 jawaban benar.",
+  "tingkatan": [
+    {
+      "level": "mudah",
+      "jumlah_soal": 25,
+      "soal": [
+        {
+          "id": 1,
+          "pertanyaan": "Berapa jumlah sila dalam Pancasila?",
+          "pilihan": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6"
+          },
+          "jawaban_benar": "C",
+          "penjelasan": "Pancasila terdiri dari 5 sila sebagai dasar negara Indonesia."
+        },
+        {
+          "id": 2,
+          "pertanyaan": "Apa bunyi sila pertama Pancasila?",
+          "pilihan": {
+            "A": "Kemanusiaan yang adil dan beradab",
+            "B": "Ketuhanan Yang Maha Esa",
+            "C": "Persatuan Indonesia",
+            "D": "Keadilan sosial bagi seluruh rakyat Indonesia"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Sila pertama Pancasila berbunyi 'Ketuhanan Yang Maha Esa'."
+        },
+        {
+          "id": 3,
+          "pertanyaan": "Lambang negara Indonesia adalah...",
+          "pilihan": {
+            "A": "Burung Merak",
+            "B": "Burung Cendrawasih",
+            "C": "Burung Garuda",
+            "D": "Burung Elang"
+          },
+          "jawaban_benar": "C",
+          "penjelasan": "Lambang negara Indonesia adalah Garuda Pancasila."
+        },
+        {
+          "id": 4,
+          "pertanyaan": "Semboyan negara Indonesia adalah...",
+          "pilihan": {
+            "A": "Bhineka Tunggal Ika",
+            "B": "Satu Nusa Satu Bangsa",
+            "C": "Gemah Ripah Loh Jinawi",
+            "D": "Tan Hana Dharma Mangrwa"
+          },
+          "jawaban_benar": "A",
+          "penjelasan": "Semboyan negara Indonesia adalah 'Bhineka Tunggal Ika' yang berarti berbeda-beda tetapi tetap satu."
+        },
+        {
+          "id": 5,
+          "pertanyaan": "Dasar negara Republik Indonesia adalah...",
+          "pilihan": {
+            "A": "UUD 1945",
+            "B": "Pancasila",
+            "C": "Piagam Jakarta",
+            "D": "Tap MPR"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Pancasila merupakan dasar negara (philosophische grondslag) Republik Indonesia."
+        },
+        {
+          "id": 6,
+          "pertanyaan": "Tanggal berapa Indonesia memproklamasikan kemerdekaannya?",
+          "pilihan": {
+            "A": "17 Agustus 1945",
+            "B": "1 Juni 1945",
+            "C": "18 Agustus 1945",
+            "D": "20 Mei 1908"
+          },
+          "jawaban_benar": "A",
+          "penjelasan": "Proklamasi kemerdekaan Indonesia dibacakan oleh Soekarno-Hatta pada 17 Agustus 1945."
+        },
+        {
+          "id": 7,
+          "pertanyaan": "Siapakah Presiden pertama Republik Indonesia?",
+          "pilihan": {
+            "A": "Mohammad Hatta",
+            "B": "Soekarno",
+            "C": "Soeharto",
+            "D": "Tan Malaka"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Ir. Soekarno adalah Presiden pertama Republik Indonesia."
+        },
+        {
+          "id": 8,
+          "pertanyaan": "Lambang sila ke-3 Pancasila (Persatuan Indonesia) adalah...",
+          "pilihan": {
+            "A": "Bintang",
+            "B": "Rantai",
+            "C": "Pohon Beringin",
+            "D": "Kepala Banteng"
+          },
+          "jawaban_benar": "C",
+          "penjelasan": "Pohon Beringin melambangkan sila ke-3, Persatuan Indonesia."
+        },
+        {
+          "id": 9,
+          "pertanyaan": "Apa arti semboyan 'Bhineka Tunggal Ika'?",
+          "pilihan": {
+            "A": "Bersatu kita teguh bercerai kita runtuh",
+            "B": "Berbeda-beda tetapi tetap satu",
+            "C": "Satu nusa satu bangsa satu bahasa",
+            "D": "Persatuan dalam keberagaman"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "'Bhineka Tunggal Ika' berasal dari bahasa Sansekerta yang berarti 'berbeda-beda tetapi tetap satu'."
+        },
+        {
+          "id": 10,
+          "pertanyaan": "UUD 1945 ditetapkan oleh...",
+          "pilihan": {
+            "A": "DPR",
+            "B": "MPR",
+            "C": "PPKI",
+            "D": "BPUPKI"
+          },
+          "jawaban_benar": "C",
+          "penjelasan": "UUD 1945 ditetapkan oleh PPKI (Panitia Persiapan Kemerdekaan Indonesia) pada 18 Agustus 1945."
+        },
+        {
+          "id": 11,
+          "pertanyaan": "Hak warga negara untuk mendapatkan pendidikan dijamin dalam UUD 1945 pasal...",
+          "pilihan": {
+            "A": "Pasal 27",
+            "B": "Pasal 28",
+            "C": "Pasal 31",
+            "D": "Pasal 33"
+          },
+          "jawaban_benar": "C",
+          "penjelasan": "Hak mendapatkan pendidikan diatur dalam Pasal 31 UUD 1945."
+        },
+        {
+          "id": 12,
+          "pertanyaan": "Bunyi sila ke-5 Pancasila adalah...",
+          "pilihan": {
+            "A": "Kerakyatan yang dipimpin oleh hikmat kebijaksanaan dalam permusyawaratan/perwakilan",
+            "B": "Persatuan Indonesia",
+            "C": "Kemanusiaan yang adil dan beradab",
+            "D": "Keadilan sosial bagi seluruh rakyat Indonesia"
+          },
+          "jawaban_benar": "D",
+          "penjelasan": "Sila ke-5 berbunyi 'Keadilan sosial bagi seluruh rakyat Indonesia'."
+        },
+        {
+          "id": 13,
+          "pertanyaan": "MPR adalah singkatan dari...",
+          "pilihan": {
+            "A": "Majelis Perwakilan Rakyat",
+            "B": "Majelis Permusyawaratan Rakyat",
+            "C": "Musyawarah Perwakilan Rakyat",
+            "D": "Majelis Persatuan Rakyat"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "MPR adalah Majelis Permusyawaratan Rakyat."
+        },
+        {
+          "id": 14,
+          "pertanyaan": "Lagu kebangsaan Indonesia adalah...",
+          "pilihan": {
+            "A": "Garuda Pancasila",
+            "B": "Satu Nusa Satu Bangsa",
+            "C": "Indonesia Raya",
+            "D": "Maju Tak Gentar"
+          },
+          "jawaban_benar": "C",
+          "penjelasan": "'Indonesia Raya' adalah lagu kebangsaan Republik Indonesia ciptaan W.R. Supratman."
+        },
+        {
+          "id": 15,
+          "pertanyaan": "Lambang sila ke-1 Pancasila (Ketuhanan Yang Maha Esa) adalah...",
+          "pilihan": {
+            "A": "Rantai",
+            "B": "Bintang",
+            "C": "Pohon Beringin",
+            "D": "Padi dan Kapas"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Bintang emas berlatar hitam melambangkan sila ke-1, Ketuhanan Yang Maha Esa."
+        },
+        {
+          "id": 16,
+          "pertanyaan": "Bendera nasional Indonesia berwarna...",
+          "pilihan": {
+            "A": "Merah, Putih, Biru",
+            "B": "Merah dan Putih",
+            "C": "Merah, Kuning, Hijau",
+            "D": "Putih dan Biru"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Bendera Indonesia berwarna Merah (atas) dan Putih (bawah)."
+        },
+        {
+          "id": 17,
+          "pertanyaan": "Tanggal 1 Juni diperingati sebagai hari apa?",
+          "pilihan": {
+            "A": "Hari Pendidikan Nasional",
+            "B": "Hari Kebangkitan Nasional",
+            "C": "Hari Lahir Pancasila",
+            "D": "Hari Sumpah Pemuda"
+          },
+          "jawaban_benar": "C",
+          "penjelasan": "1 Juni diperingati sebagai Hari Lahir Pancasila, saat Soekarno pertama kali mengemukakan istilah Pancasila pada 1945."
+        },
+        {
+          "id": 18,
+          "pertanyaan": "Sumpah Pemuda terjadi pada tanggal...",
+          "pilihan": {
+            "A": "17 Agustus 1945",
+            "B": "20 Mei 1908",
+            "C": "28 Oktober 1928",
+            "D": "10 November 1945"
+          },
+          "jawaban_benar": "C",
+          "penjelasan": "Sumpah Pemuda dikumandangkan pada 28 Oktober 1928."
+        },
+        {
+          "id": 19,
+          "pertanyaan": "Kewajiban warga negara membela negara diatur dalam UUD 1945 pasal...",
+          "pilihan": {
+            "A": "Pasal 26",
+            "B": "Pasal 27 ayat (3)",
+            "C": "Pasal 28",
+            "D": "Pasal 30"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Kewajiban bela negara diatur dalam Pasal 27 ayat (3) UUD 1945."
+        },
+        {
+          "id": 20,
+          "pertanyaan": "Ibu kota negara Indonesia adalah...",
+          "pilihan": {
+            "A": "Surabaya",
+            "B": "Bandung",
+            "C": "Jakarta",
+            "D": "Yogyakarta"
+          },
+          "jawaban_benar": "C",
+          "penjelasan": "Ibu kota Republik Indonesia adalah Jakarta (DKI Jakarta)."
+        },
+        {
+          "id": 21,
+          "pertanyaan": "DPR adalah singkatan dari...",
+          "pilihan": {
+            "A": "Dewan Perwakilan Rakyat",
+            "B": "Dewan Perwakilan Republik",
+            "C": "Dewan Persatuan Rakyat",
+            "D": "Dewan Permusyawaratan Rakyat"
+          },
+          "jawaban_benar": "A",
+          "penjelasan": "DPR adalah Dewan Perwakilan Rakyat, lembaga legislatif Indonesia."
+        },
+        {
+          "id": 22,
+          "pertanyaan": "Lambang sila ke-2 Pancasila (Kemanusiaan yang Adil dan Beradab) adalah...",
+          "pilihan": {
+            "A": "Bintang",
+            "B": "Rantai",
+            "C": "Pohon Beringin",
+            "D": "Kepala Banteng"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Rantai emas melambangkan sila ke-2, Kemanusiaan yang Adil dan Beradab."
+        },
+        {
+          "id": 23,
+          "pertanyaan": "Pancasila sebagai pandangan hidup bangsa disebut juga...",
+          "pilihan": {
+            "A": "Staatsfundamentalnorm",
+            "B": "Way of life",
+            "C": "Philosophische grondslag",
+            "D": "Rechtsidee"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Pancasila sebagai pandangan hidup bangsa disebut sebagai 'way of life' atau pedoman hidup rakyat Indonesia."
+        },
+        {
+          "id": 24,
+          "pertanyaan": "Bahasa resmi negara Indonesia adalah...",
+          "pilihan": {
+            "A": "Bahasa Jawa",
+            "B": "Bahasa Melayu",
+            "C": "Bahasa Indonesia",
+            "D": "Bahasa Sansekerta"
+          },
+          "jawaban_benar": "C",
+          "penjelasan": "Bahasa Indonesia adalah bahasa resmi negara sebagaimana tercantum dalam Pasal 36 UUD 1945."
+        },
+        {
+          "id": 25,
+          "pertanyaan": "Sistem pemerintahan Indonesia adalah...",
+          "pilihan": {
+            "A": "Sistem Parlementer",
+            "B": "Sistem Presidensial",
+            "C": "Sistem Monarki Konstitusional",
+            "D": "Sistem Oligarki"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Indonesia menganut sistem pemerintahan Presidensial di mana presiden berperan sebagai kepala negara sekaligus kepala pemerintahan."
+        }
+      ]
+    },
+    {
+      "level": "normal",
+      "jumlah_soal": 25,
+      "soal": [
+        {
+          "id": 26,
+          "pertanyaan": "Amandemen UUD 1945 dilakukan sebanyak berapa kali?",
+          "pilihan": {
+            "A": "2 kali",
+            "B": "3 kali",
+            "C": "4 kali",
+            "D": "5 kali"
+          },
+          "jawaban_benar": "C",
+          "penjelasan": "UUD 1945 diamandemen sebanyak 4 kali, yaitu pada tahun 1999, 2000, 2001, dan 2002."
+        },
+        {
+          "id": 27,
+          "pertanyaan": "Hak Asasi Manusia di Indonesia diatur secara khusus dalam UUD 1945 pada...",
+          "pilihan": {
+            "A": "Pasal 27",
+            "B": "Pasal 28A–28J",
+            "C": "Pasal 29",
+            "D": "Pasal 30"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Hak Asasi Manusia diatur secara komprehensif dalam Pasal 28A hingga 28J UUD 1945 hasil amandemen."
+        },
+        {
+          "id": 28,
+          "pertanyaan": "Lembaga yang berwenang menguji undang-undang terhadap UUD 1945 adalah...",
+          "pilihan": {
+            "A": "Mahkamah Agung",
+            "B": "Komisi Yudisial",
+            "C": "Mahkamah Konstitusi",
+            "D": "DPR"
+          },
+          "jawaban_benar": "C",
+          "penjelasan": "Mahkamah Konstitusi (MK) berwenang melakukan judicial review, yaitu menguji undang-undang terhadap UUD 1945."
+        },
+        {
+          "id": 29,
+          "pertanyaan": "Dalam sistem demokrasi Pancasila, pengambilan keputusan diutamakan melalui...",
+          "pilihan": {
+            "A": "Voting",
+            "B": "Musyawarah untuk mufakat",
+            "C": "Keputusan pemimpin tertinggi",
+            "D": "Referendum"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Demokrasi Pancasila mengutamakan musyawarah untuk mufakat sebagai cara pengambilan keputusan."
+        },
+        {
+          "id": 30,
+          "pertanyaan": "Tugas utama Komisi Yudisial (KY) adalah...",
+          "pilihan": {
+            "A": "Mengadili perkara pidana",
+            "B": "Mengusulkan pengangkatan hakim agung dan menjaga kehormatan hakim",
+            "C": "Menguji undang-undang",
+            "D": "Mengawasi pelaksanaan APBN"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Komisi Yudisial berwenang mengusulkan pengangkatan Hakim Agung dan menjaga kehormatan, keluhuran martabat, serta perilaku hakim."
+        },
+        {
+          "id": 31,
+          "pertanyaan": "Otonomi daerah di Indonesia dilandasi oleh asas...",
+          "pilihan": {
+            "A": "Sentralisasi",
+            "B": "Desentralisasi",
+            "C": "Dekonsentrasi",
+            "D": "Medebewind"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Otonomi daerah dilandasi asas desentralisasi, yaitu penyerahan wewenang pemerintahan dari pemerintah pusat kepada daerah."
+        },
+        {
+          "id": 32,
+          "pertanyaan": "Badan Pemeriksa Keuangan (BPK) bertugas untuk...",
+          "pilihan": {
+            "A": "Menyusun APBN",
+            "B": "Memeriksa pengelolaan dan tanggung jawab keuangan negara",
+            "C": "Mengadili perkara korupsi",
+            "D": "Mengawasi kinerja presiden"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "BPK bertugas memeriksa pengelolaan dan tanggung jawab keuangan negara berdasarkan Pasal 23E UUD 1945."
+        },
+        {
+          "id": 33,
+          "pertanyaan": "Warga negara Indonesia yang berada di luar negeri dapat menggunakan hak pilihnya melalui...",
+          "pilihan": {
+            "A": "Pos surat",
+            "B": "KBRI/KJRI setempat",
+            "C": "Aplikasi digital",
+            "D": "Perwakilan partai politik"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "WNI di luar negeri dapat memberikan suara melalui Kantor Kedutaan Besar atau Konsulat Jenderal RI setempat."
+        },
+        {
+          "id": 34,
+          "pertanyaan": "Masa jabatan Presiden dan Wakil Presiden Indonesia adalah...",
+          "pilihan": {
+            "A": "4 tahun dan dapat dipilih kembali tanpa batas",
+            "B": "5 tahun dan dapat dipilih kembali paling banyak satu kali",
+            "C": "6 tahun dan tidak dapat dipilih kembali",
+            "D": "5 tahun dan tidak dapat dipilih kembali"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Berdasarkan Pasal 7 UUD 1945, Presiden dan Wapres menjabat selama 5 tahun dan dapat dipilih kembali hanya untuk satu kali masa jabatan."
+        },
+        {
+          "id": 35,
+          "pertanyaan": "Nilai-nilai yang terkandung dalam sila ke-4 Pancasila antara lain...",
+          "pilihan": {
+            "A": "Toleransi beragama",
+            "B": "Musyawarah dan mufakat",
+            "C": "Gotong royong",
+            "D": "Persamaan derajat"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Sila ke-4 menekankan nilai kerakyatan dan demokrasi, yang diwujudkan melalui musyawarah untuk mencapai mufakat."
+        },
+        {
+          "id": 36,
+          "pertanyaan": "Konsep negara hukum (rechtsstaat) Indonesia tercermin dalam UUD 1945 pasal...",
+          "pilihan": {
+            "A": "Pasal 1 ayat (1)",
+            "B": "Pasal 1 ayat (2)",
+            "C": "Pasal 1 ayat (3)",
+            "D": "Pasal 2 ayat (1)"
+          },
+          "jawaban_benar": "C",
+          "penjelasan": "Pasal 1 ayat (3) UUD 1945 menyatakan 'Negara Indonesia adalah negara hukum'."
+        },
+        {
+          "id": 37,
+          "pertanyaan": "Pemilihan Umum di Indonesia diselenggarakan oleh...",
+          "pilihan": {
+            "A": "KPU (Komisi Pemilihan Umum)",
+            "B": "Bawaslu",
+            "C": "Mahkamah Konstitusi",
+            "D": "Kementerian Dalam Negeri"
+          },
+          "jawaban_benar": "A",
+          "penjelasan": "Komisi Pemilihan Umum (KPU) adalah lembaga penyelenggara Pemilu yang bersifat nasional, tetap, dan mandiri."
+        },
+        {
+          "id": 38,
+          "pertanyaan": "Salah satu fungsi utama DPR adalah...",
+          "pilihan": {
+            "A": "Menetapkan Peraturan Pemerintah",
+            "B": "Fungsi legislasi, fungsi anggaran, dan fungsi pengawasan",
+            "C": "Mengangkat dan memberhentikan presiden",
+            "D": "Memeriksa keuangan negara"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "DPR memiliki tiga fungsi utama: legislasi (membentuk UU), anggaran (membahas APBN), dan pengawasan terhadap pemerintah."
+        },
+        {
+          "id": 39,
+          "pertanyaan": "Pengakuan HAM secara internasional dinyatakan dalam...",
+          "pilihan": {
+            "A": "Konvensi Wina 1961",
+            "B": "Universal Declaration of Human Rights (UDHR) 1948",
+            "C": "Piagam PBB 1945",
+            "D": "Perjanjian Westphalia 1648"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Deklarasi Universal Hak Asasi Manusia (UDHR) dideklarasikan oleh PBB pada 10 Desember 1948."
+        },
+        {
+          "id": 40,
+          "pertanyaan": "Wawasan Nusantara merupakan cara pandang bangsa Indonesia tentang...",
+          "pilihan": {
+            "A": "Kebijakan luar negeri Indonesia",
+            "B": "Diri dan lingkungannya berdasarkan Pancasila dan UUD 1945",
+            "C": "Pengelolaan sumber daya alam",
+            "D": "Strategi pertahanan negara"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Wawasan Nusantara adalah cara pandang dan sikap bangsa Indonesia terhadap diri dan lingkungannya berdasarkan Pancasila dan UUD 1945."
+        },
+        {
+          "id": 41,
+          "pertanyaan": "Dalam konstitusi Indonesia, kedaulatan berada di tangan...",
+          "pilihan": {
+            "A": "Presiden",
+            "B": "MPR",
+            "C": "Rakyat",
+            "D": "DPR"
+          },
+          "jawaban_benar": "C",
+          "penjelasan": "Pasal 1 ayat (2) UUD 1945 menyatakan 'Kedaulatan berada di tangan rakyat dan dilaksanakan menurut UUD'."
+        },
+        {
+          "id": 42,
+          "pertanyaan": "Asas kepastian hukum merupakan bagian dari prinsip...",
+          "pilihan": {
+            "A": "Negara demokrasi",
+            "B": "Negara kesejahteraan",
+            "C": "Negara hukum",
+            "D": "Negara federasi"
+          },
+          "jawaban_benar": "C",
+          "penjelasan": "Kepastian hukum adalah salah satu prinsip utama dalam negara hukum (rechtsstaatprinciple)."
+        },
+        {
+          "id": 43,
+          "pertanyaan": "Hak imunitas anggota DPR berarti...",
+          "pilihan": {
+            "A": "Bebas dari pajak",
+            "B": "Tidak dapat dituntut di muka hukum atas pernyataan dalam sidang",
+            "C": "Kebal dari hukuman pidana",
+            "D": "Bebas dari pengawasan KPK"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Hak imunitas melindungi anggota DPR agar tidak dapat dituntut di muka pengadilan atas pernyataan, pertanyaan, atau pendapat yang dikemukakan dalam rapat DPR."
+        },
+        {
+          "id": 44,
+          "pertanyaan": "Apa yang dimaksud dengan 'rule of law'?",
+          "pilihan": {
+            "A": "Kekuasaan pemimpin di atas hukum",
+            "B": "Supremasi hukum yang berlaku sama bagi semua orang",
+            "C": "Aturan yang dibuat oleh penguasa",
+            "D": "Hukum yang berlaku hanya bagi rakyat biasa"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "'Rule of law' berarti supremasi hukum, di mana hukum berlaku sama dan mengikat semua orang tanpa kecuali."
+        },
+        {
+          "id": 45,
+          "pertanyaan": "Hak recall anggota DPR dilakukan oleh...",
+          "pilihan": {
+            "A": "Presiden",
+            "B": "MPR",
+            "C": "Partai politik yang bersangkutan",
+            "D": "Mahkamah Konstitusi"
+          },
+          "jawaban_benar": "C",
+          "penjelasan": "Hak recall (pemberhentian antar waktu) anggota DPR dilakukan oleh partai politik yang mengusulkan anggota tersebut."
+        },
+        {
+          "id": 46,
+          "pertanyaan": "Prinsip gotong royong merupakan perwujudan nilai-nilai...",
+          "pilihan": {
+            "A": "Sila ke-1 dan ke-2",
+            "B": "Sila ke-3 dan ke-5",
+            "C": "Sila ke-2 dan ke-4",
+            "D": "Sila ke-4 dan ke-5"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Gotong royong mencerminkan persatuan (sila ke-3) dan keadilan sosial (sila ke-5) Pancasila."
+        },
+        {
+          "id": 47,
+          "pertanyaan": "Fungsi pengawasan dalam demokrasi Indonesia salah satunya dilakukan oleh...",
+          "pilihan": {
+            "A": "TNI",
+            "B": "Lembaga swadaya masyarakat dan pers bebas",
+            "C": "Partai penguasa",
+            "D": "Presiden"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Dalam demokrasi, pengawasan tidak hanya dilakukan lembaga negara, tetapi juga oleh LSM dan pers bebas sebagai pilar keempat demokrasi."
+        },
+        {
+          "id": 48,
+          "pertanyaan": "Pada era reformasi, salah satu perubahan mendasar dalam UUD 1945 adalah...",
+          "pilihan": {
+            "A": "Penghapusan sistem presidensial",
+            "B": "Pembatasan masa jabatan presiden",
+            "C": "Penambahan jumlah provinsi",
+            "D": "Penghapusan pasal HAM"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Salah satu perubahan mendasar pada amandemen UUD 1945 adalah pembatasan masa jabatan presiden menjadi maksimal dua periode."
+        },
+        {
+          "id": 49,
+          "pertanyaan": "Lembaga yang bertugas mengawasi penyelenggaraan pemilu adalah...",
+          "pilihan": {
+            "A": "KPU",
+            "B": "Bawaslu",
+            "C": "DKPP",
+            "D": "KPK"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Badan Pengawas Pemilihan Umum (Bawaslu) bertugas mengawasi penyelenggaraan pemilu agar berjalan sesuai ketentuan."
+        },
+        {
+          "id": 50,
+          "pertanyaan": "Pasal 33 UUD 1945 mengatur tentang...",
+          "pilihan": {
+            "A": "Hak mendapatkan pendidikan",
+            "B": "Perekonomian nasional dan kesejahteraan sosial",
+            "C": "Kebebasan beragama",
+            "D": "Hak memperoleh pekerjaan"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Pasal 33 UUD 1945 mengatur tentang perekonomian nasional yang berasas kekeluargaan serta penguasaan negara atas SDA untuk kemakmuran rakyat."
+        }
+      ]
+    },
+    {
+      "level": "sulit",
+      "jumlah_soal": 25,
+      "soal": [
+        {
+          "id": 51,
+          "pertanyaan": "Dalam hierarki perundang-undangan Indonesia berdasarkan UU No. 12 Tahun 2011, kedudukan Ketetapan MPR berada di...",
+          "pilihan": {
+            "A": "Di bawah UUD 1945 dan di atas UU",
+            "B": "Sejajar dengan UUD 1945",
+            "C": "Di bawah Peraturan Pemerintah",
+            "D": "Di atas UUD 1945"
+          },
+          "jawaban_benar": "A",
+          "penjelasan": "Berdasarkan UU No. 12 Tahun 2011, hierarki peraturan perundang-undangan: UUD 1945 → TAP MPR → UU/Perppu → PP → Perpres → Perda Provinsi → Perda Kab/Kota."
+        },
+        {
+          "id": 52,
+          "pertanyaan": "Konsep 'trias politica' dikemukakan oleh...",
+          "pilihan": {
+            "A": "Jean-Jacques Rousseau",
+            "B": "John Locke",
+            "C": "Montesquieu",
+            "D": "Thomas Hobbes"
+          },
+          "jawaban_benar": "C",
+          "penjelasan": "Konsep trias politica (pemisahan kekuasaan menjadi legislatif, eksekutif, dan yudikatif) dikemukakan oleh Montesquieu dalam karyanya 'L'Esprit des Lois'."
+        },
+        {
+          "id": 53,
+          "pertanyaan": "Dalam sistem checks and balances di Indonesia, presiden dapat diimpeach oleh...",
+          "pilihan": {
+            "A": "DPR saja",
+            "B": "MPR atas usulan DPR setelah mendapat putusan MK",
+            "C": "MK secara langsung",
+            "D": "MA dan DPR secara bersama-sama"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Proses impeachment: DPR mengajukan usul ke MK → MK memutus → DPR mengajukan ke MPR → MPR memutuskan pemberhentian presiden."
+        },
+        {
+          "id": 54,
+          "pertanyaan": "Perbedaan mendasar antara HAM yang bersifat derogable dan non-derogable adalah...",
+          "pilihan": {
+            "A": "Derogable dapat dikurangi sementara dalam keadaan darurat, non-derogable tidak dapat dikurangi dalam kondisi apapun",
+            "B": "Derogable hak sipil, non-derogable hak ekonomi",
+            "C": "Derogable hak individu, non-derogable hak kolektif",
+            "D": "Keduanya dapat dibatasi melalui undang-undang"
+          },
+          "jawaban_benar": "A",
+          "penjelasan": "Hak derogable dapat ditangguhkan sementara pada keadaan darurat nasional, sementara hak non-derogable (seperti hak atas hidup dan larangan penyiksaan) tidak dapat dikurangi dalam kondisi apapun."
+        },
+        {
+          "id": 55,
+          "pertanyaan": "Asas lex superior derogat legi inferiori dalam hukum tata negara berarti...",
+          "pilihan": {
+            "A": "Hukum yang lebih baru mengesampingkan hukum yang lama",
+            "B": "Hukum yang lebih tinggi mengesampingkan hukum yang lebih rendah",
+            "C": "Hukum khusus mengesampingkan hukum umum",
+            "D": "Hukum yang lebih spesifik berlaku di daerah tertentu"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Lex superior derogat legi inferiori berarti peraturan perundang-undangan yang lebih tinggi kedudukannya mengesampingkan peraturan yang lebih rendah."
+        },
+        {
+          "id": 56,
+          "pertanyaan": "Konsep 'social contract' dalam pembentukan negara menurut Jean-Jacques Rousseau menekankan bahwa...",
+          "pilihan": {
+            "A": "Negara dibentuk atas dasar perjanjian antara raja dan rakyat",
+            "B": "Kedaulatan tertinggi berada pada kehendak umum rakyat (volonté générale)",
+            "C": "Negara adalah lembaga absolut yang tidak dapat digugat",
+            "D": "Kekuasaan negara bersumber dari Tuhan"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Rousseau berargumen bahwa kekuasaan negara bersumber dari kontrak sosial di mana rakyat menyerahkan kebebasan alamiah untuk mendapatkan kebebasan sipil, dan kedaulatan mutlak berada pada kehendak umum rakyat."
+        },
+        {
+          "id": 57,
+          "pertanyaan": "Mahkamah Konstitusi Indonesia dibentuk berdasarkan...",
+          "pilihan": {
+            "A": "UU No. 24 Tahun 2003 setelah amandemen ketiga UUD 1945",
+            "B": "Keputusan Presiden",
+            "C": "TAP MPR",
+            "D": "UU No. 48 Tahun 2009"
+          },
+          "jawaban_benar": "A",
+          "penjelasan": "MK dibentuk berdasarkan Pasal 24C UUD 1945 hasil amandemen ketiga dan diatur lebih lanjut dalam UU No. 24 Tahun 2003 tentang Mahkamah Konstitusi."
+        },
+        {
+          "id": 58,
+          "pertanyaan": "Dalam konteks hukum internasional, Indonesia menganut prinsip...",
+          "pilihan": {
+            "A": "Monisme dengan primat hukum internasional",
+            "B": "Dualisme",
+            "C": "Monisme dengan primat hukum nasional",
+            "D": "Pluralisme hukum murni"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Indonesia menganut paham dualisme, yaitu hukum internasional dan hukum nasional merupakan dua sistem hukum yang berbeda dan terpisah. Perjanjian internasional perlu diratifikasi agar berlaku sebagai hukum nasional."
+        },
+        {
+          "id": 59,
+          "pertanyaan": "Prinsip 'non-refoulement' dalam hukum internasional terkait HAM berarti...",
+          "pilihan": {
+            "A": "Larangan mengekstradisi warga negara sendiri",
+            "B": "Larangan mengusir atau mengembalikan pengungsi ke wilayah yang mengancam keselamatan mereka",
+            "C": "Prinsip persamaan hak antarnegara",
+            "D": "Kewajiban memberikan suaka politik"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Non-refoulement adalah prinsip fundamental dalam hukum pengungsi internasional yang melarang pengembalian seseorang ke negara di mana ia berisiko menghadapi penganiayaan."
+        },
+        {
+          "id": 60,
+          "pertanyaan": "Dalam UUD 1945, kekuasaan kehakiman yang merdeka dijamin pada pasal...",
+          "pilihan": {
+            "A": "Pasal 23",
+            "B": "Pasal 24 ayat (1)",
+            "C": "Pasal 25",
+            "D": "Pasal 27"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Pasal 24 ayat (1) UUD 1945 menyatakan 'Kekuasaan kehakiman merupakan kekuasaan yang merdeka untuk menyelenggarakan peradilan guna menegakkan hukum dan keadilan'."
+        },
+        {
+          "id": 61,
+          "pertanyaan": "Teori kedaulatan rakyat yang dikemukakan oleh John Locke bertumpu pada hak-hak alamiah manusia, kecuali...",
+          "pilihan": {
+            "A": "Hak atas kebebasan",
+            "B": "Hak atas kehidupan",
+            "C": "Hak atas kepemilikan (property)",
+            "D": "Hak atas kesamaan jabatan politik"
+          },
+          "jawaban_benar": "D",
+          "penjelasan": "John Locke dalam 'Two Treatises of Government' mengemukakan hak alamiah manusia meliputi life (kehidupan), liberty (kebebasan), dan property (kepemilikan)."
+        },
+        {
+          "id": 62,
+          "pertanyaan": "Apa yang dimaksud dengan 'constitutional complaint' dalam hukum tata negara?",
+          "pilihan": {
+            "A": "Pengujian undang-undang terhadap konstitusi",
+            "B": "Pengaduan warga negara atas pelanggaran hak konstitusionalnya oleh tindakan pemerintah",
+            "C": "Gugatan antar lembaga negara",
+            "D": "Petisi perubahan konstitusi oleh rakyat"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Constitutional complaint adalah mekanisme hukum yang memungkinkan warga negara mengadu langsung ke MK atas pelanggaran hak-hak konstitusional mereka oleh tindakan otoritas negara."
+        },
+        {
+          "id": 63,
+          "pertanyaan": "Dalam sistem pemerintahan Indonesia, peraturan pemerintah pengganti undang-undang (Perppu) dapat dikeluarkan oleh presiden jika terdapat...",
+          "pilihan": {
+            "A": "Persetujuan DPR terlebih dahulu",
+            "B": "Kegentingan yang memaksa (hal ikhwal kegentingan)",
+            "C": "Desakan dari partai koalisi",
+            "D": "Rekomendasi Mahkamah Agung"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Berdasarkan Pasal 22 UUD 1945, Presiden berhak menetapkan Perppu dalam hal ikhwal kegentingan yang memaksa, namun harus mendapat persetujuan DPR dalam persidangan berikutnya."
+        },
+        {
+          "id": 64,
+          "pertanyaan": "Perbedaan antara hak warga negara (citizen's rights) dan hak asasi manusia (human rights) terletak pada...",
+          "pilihan": {
+            "A": "HAM hanya dimiliki WNI, hak warga negara dimiliki semua orang",
+            "B": "Hak warga negara terikat kewarganegaraan, HAM melekat pada setiap manusia tanpa memandang kewarganegaraan",
+            "C": "Keduanya identik dan dapat dipertukarkan",
+            "D": "HAM diatur konstitusi, hak warga negara diatur undang-undang biasa"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "HAM bersifat universal dan melekat pada setiap manusia sejak lahir tanpa terkecuali, sementara hak warga negara bersifat partikular dan hanya dimiliki oleh mereka yang memenuhi syarat kewarganegaraan tertentu."
+        },
+        {
+          "id": 65,
+          "pertanyaan": "Resolusi konflik secara damai dalam negara demokrasi Pancasila dijamin melalui mekanisme...",
+          "pilihan": {
+            "A": "Dominasi mayoritas mutlak",
+            "B": "Pengadilan adat semata",
+            "C": "Sistem peradilan independen, kebebasan pers, dan mekanisme musyawarah",
+            "D": "Keputusan sepihak pemerintah pusat"
+          },
+          "jawaban_benar": "C",
+          "penjelasan": "Negara demokrasi menjamin penyelesaian konflik secara damai melalui lembaga peradilan yang independen, kebebasan pers sebagai watchdog, serta mekanisme musyawarah sesuai nilai Pancasila."
+        },
+        {
+          "id": 66,
+          "pertanyaan": "Dalam ketatanegaraan Indonesia, siapakah yang berwenang mengadili sengketa kewenangan lembaga negara?",
+          "pilihan": {
+            "A": "Mahkamah Agung",
+            "B": "Mahkamah Konstitusi",
+            "C": "DPR",
+            "D": "MPR"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Berdasarkan Pasal 24C UUD 1945, salah satu kewenangan MK adalah memutus sengketa kewenangan lembaga negara yang kewenangannya diberikan oleh UUD."
+        },
+        {
+          "id": 67,
+          "pertanyaan": "Asas 'pacta sunt servanda' dalam hukum internasional relevan dengan kewajiban Indonesia untuk...",
+          "pilihan": {
+            "A": "Tidak mencampuri urusan negara lain",
+            "B": "Menghormati dan melaksanakan perjanjian internasional yang telah diratifikasi",
+            "C": "Memberikan suaka kepada pengungsi",
+            "D": "Membayar iuran kepada PBB"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "'Pacta sunt servanda' berarti setiap perjanjian yang telah disepakati wajib dilaksanakan dengan itikad baik oleh para pihak yang terikat."
+        },
+        {
+          "id": 68,
+          "pertanyaan": "Mekanisme 'legislative review' berbeda dari 'judicial review' dalam hal...",
+          "pilihan": {
+            "A": "Legislative review dilakukan oleh pengadilan, judicial review oleh parlemen",
+            "B": "Legislative review adalah pengujian oleh parlemen sendiri, judicial review adalah pengujian oleh lembaga yudisial",
+            "C": "Keduanya dilakukan oleh badan yang sama",
+            "D": "Legislative review menguji peraturan daerah, judicial review menguji undang-undang"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Legislative review dilakukan secara internal oleh parlemen saat proses pembentukan UU, sementara judicial review adalah pengujian konstitusionalitas UU oleh lembaga peradilan (MK)."
+        },
+        {
+          "id": 69,
+          "pertanyaan": "Konsep 'warga negara aktif' dalam demokrasi Pancasila menuntut partisipasi dalam...",
+          "pilihan": {
+            "A": "Pemilu saja",
+            "B": "Kehidupan bernegara secara menyeluruh, termasuk pengawasan kebijakan publik dan kehidupan bermasyarakat",
+            "C": "Partai politik secara formal",
+            "D": "Kegiatan militer"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Warga negara aktif tidak hanya berpartisipasi dalam pemilu, tetapi juga dalam pengawasan kebijakan, pemberdayaan masyarakat, dan penegakan nilai-nilai Pancasila dalam kehidupan sehari-hari."
+        },
+        {
+          "id": 70,
+          "pertanyaan": "Pembukaan UUD 1945 alinea keempat memuat pokok pikiran, kecuali...",
+          "pilihan": {
+            "A": "Persatuan",
+            "B": "Keadilan sosial",
+            "C": "Kedaulatan rakyat",
+            "D": "Imperialisme dan kolonialisme"
+          },
+          "jawaban_benar": "D",
+          "penjelasan": "Empat pokok pikiran dalam Pembukaan UUD 1945 alinea keempat adalah: persatuan, keadilan sosial, kedaulatan rakyat (demokrasi), dan Ketuhanan serta kemanusiaan yang adil dan beradab."
+        },
+        {
+          "id": 71,
+          "pertanyaan": "Dalam perspektif hukum tata negara, kedudukan Pembukaan UUD 1945 bersifat...",
+          "pilihan": {
+            "A": "Dapat diubah melalui amandemen biasa",
+            "B": "Bagian integral dari batang tubuh UUD 1945",
+            "C": "Staatsfundamentalnorm yang tidak dapat diubah karena memuat norma dasar negara",
+            "D": "Bersifat deklaratif semata tanpa kekuatan hukum mengikat"
+          },
+          "jawaban_benar": "C",
+          "penjelasan": "Pembukaan UUD 1945 memiliki kedudukan sebagai staatsfundamentalnorm (norma dasar negara) yang merupakan sumber dari segala sumber hukum dan tidak dapat diubah oleh siapapun, termasuk MPR."
+        },
+        {
+          "id": 72,
+          "pertanyaan": "Hak petisi warga negara kepada pemerintah dan DPR dijamin berdasarkan...",
+          "pilihan": {
+            "A": "Pasal 28 UUD 1945 yang menjamin kebebasan berserikat dan berkumpul",
+            "B": "Pasal 28E ayat (3) tentang kebebasan berserikat dan hak menyampaikan pendapat",
+            "C": "UU No. 9 Tahun 1998 tentang Kemerdekaan Menyampaikan Pendapat di Muka Umum",
+            "D": "Semua pilihan di atas benar"
+          },
+          "jawaban_benar": "D",
+          "penjelasan": "Hak petisi warga negara dijamin oleh UUD 1945 (Pasal 28 dan 28E ayat 3) dan secara teknis diatur dalam UU No. 9 Tahun 1998, sehingga semua pilihan di atas bersumber hukum yang relevan."
+        },
+        {
+          "id": 73,
+          "pertanyaan": "Dalam konteks pemisahan kekuasaan di Indonesia, kekuasaan eksaminatif (inspektif) dipegang oleh...",
+          "pilihan": {
+            "A": "DPR",
+            "B": "Presiden",
+            "C": "BPK",
+            "D": "Mahkamah Agung"
+          },
+          "jawaban_benar": "C",
+          "penjelasan": "Selain tiga kekuasaan klasik (legislatif, eksekutif, yudikatif), Indonesia mengenal kekuasaan eksaminatif/inspektif yang dijalankan BPK dalam memeriksa pengelolaan keuangan negara."
+        },
+        {
+          "id": 74,
+          "pertanyaan": "Pengaturan tentang wilayah negara Indonesia secara yuridis diatur dalam UUD 1945 pada...",
+          "pilihan": {
+            "A": "Pasal 1 ayat (1)",
+            "B": "Pasal 25A",
+            "C": "Pasal 26",
+            "D": "Pasal 30"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Pasal 25A UUD 1945 (hasil amandemen kedua) mengatur bahwa 'Negara Kesatuan Republik Indonesia adalah sebuah negara kepulauan yang berciri Nusantara dengan wilayah yang batas-batas dan hak-haknya ditetapkan dengan undang-undang'."
+        },
+        {
+          "id": 75,
+          "pertanyaan": "Tanggung jawab negara (state responsibility) atas pelanggaran HAM yang dilakukan oleh aktor non-negara dapat dibebankan jika...",
+          "pilihan": {
+            "A": "Tidak pernah dapat dibebankan kepada negara",
+            "B": "Negara terbukti gagal melakukan due diligence dalam mencegah, menyelidiki, dan menghukum pelanggaran tersebut",
+            "C": "Aktor non-negara tersebut memiliki kewarganegaraan asing",
+            "D": "Pelanggaran terjadi di wilayah sengketa"
+          },
+          "jawaban_benar": "B",
+          "penjelasan": "Dalam hukum HAM internasional, negara memiliki kewajiban due diligence untuk melindungi warganya dari pelanggaran oleh aktor non-negara. Kelalaian negara dalam kewajiban ini dapat memunculkan tanggung jawab negara secara hukum internasional."
+        }
+      ]
+    }
+  ]
+}

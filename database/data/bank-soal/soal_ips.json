@@ -1,0 +1,2524 @@
+{
+  "metadata": {
+    "judul": "Soal Pilihan Ganda IPS",
+    "total_soal": 225,
+    "mata_pelajaran": ["Ekonomi", "Sosiologi", "Geografi"],
+    "soal_per_mata_pelajaran": 75,
+    "tingkat_kesulitan": ["mudah", "normal", "hard"],
+    "soal_per_tingkat": 25,
+    "pilihan_per_soal": 4
+  },
+  "mata_pelajaran": [
+    {
+      "nama": "Ekonomi",
+      "soal": [
+        {
+          "id": 1,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan ekonomi?",
+          "pilihan": {
+            "a": "Ilmu yang mempelajari cara manusia memenuhi kebutuhan dan keinginan mereka",
+            "b": "Sistem pertanian yang modern",
+            "c": "Kebijakan pemerintah dalam mengurus negara",
+            "d": "Cara berbisnis dengan modal besar"
+          },
+          "jawaban_benar": "a"
+        },
+        {
+          "id": 2,
+          "tingkat": "mudah",
+          "pertanyaan": "Barang yang diperlukan untuk memenuhi kebutuhan pokok adalah...",
+          "pilihan": {
+            "a": "Perhiasan dan aksesori",
+            "b": "Makanan, pakaian, dan tempat tinggal",
+            "c": "Mobil mewah",
+            "d": "Gadget terbaru"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 3,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan kebutuhan?",
+          "pilihan": {
+            "a": "Sesuatu yang diinginkan untuk mewah",
+            "b": "Sesuatu yang harus dipenuhi untuk hidup",
+            "c": "Barang yang mahal",
+            "d": "Produk yang dibuat oleh pabrik"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 4,
+          "tingkat": "mudah",
+          "pertanyaan": "Siapa yang dikatakan sebagai produsen?",
+          "pilihan": {
+            "a": "Orang yang membeli barang",
+            "b": "Orang yang menghasilkan atau membuat barang dan jasa",
+            "c": "Orang yang menggunakan barang",
+            "d": "Orang yang menyimpan barang"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 5,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa peran konsumen dalam ekonomi?",
+          "pilihan": {
+            "a": "Membuat barang dan jasa",
+            "b": "Membeli dan menggunakan barang serta jasa",
+            "c": "Mengurus perpajakan",
+            "d": "Membuat peraturan hukum"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 6,
+          "tingkat": "mudah",
+          "pertanyaan": "Sektor ekonomi apa yang mencakup pertanian, perkebunan, dan perikanan?",
+          "pilihan": {
+            "a": "Sektor primer",
+            "b": "Sektor sekunder",
+            "c": "Sektor tersier",
+            "d": "Sektor kuartner"
+          },
+          "jawaban_benar": "a"
+        },
+        {
+          "id": 7,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan barter?",
+          "pilihan": {
+            "a": "Pertukaran barang dengan uang",
+            "b": "Pertukaran barang dengan barang lain",
+            "c": "Penjualan barang dengan diskon",
+            "d": "Pemberian barang secara cuma-cuma"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 8,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa fungsi uang yang paling utama?",
+          "pilihan": {
+            "a": "Alat penimbun kekayaan",
+            "b": "Alat tukar dalam transaksi",
+            "c": "Simbol status sosial",
+            "d": "Hiasan koleksi"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 9,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan harga?",
+          "pilihan": {
+            "a": "Jumlah barang yang diproduksi",
+            "b": "Nilai uang yang diberikan untuk mendapatkan barang atau jasa",
+            "c": "Kualitas barang yang dijual",
+            "d": "Tempat penjualan barang"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 10,
+          "tingkat": "mudah",
+          "pertanyaan": "Perusahaan yang dimiliki oleh satu orang disebut...",
+          "pilihan": {
+            "a": "Koperasi",
+            "b": "BUMN",
+            "c": "Perusahaan perorangan",
+            "d": "Perseroan terbatas"
+          },
+          "jawaban_benar": "c"
+        },
+        {
+          "id": 11,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan permintaan dalam ekonomi?",
+          "pilihan": {
+            "a": "Jumlah barang yang dihasilkan",
+            "b": "Keinginan konsumen untuk membeli barang pada harga tertentu",
+            "c": "Kemampuan memproduksi barang",
+            "d": "Lokasi toko penjualan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 12,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan penawaran?",
+          "pilihan": {
+            "a": "Diskon yang diberikan toko",
+            "b": "Jumlah barang yang ingin dibeli konsumen",
+            "c": "Jumlah barang yang siap dijual produsen pada harga tertentu",
+            "d": "Promosi penjualan barang"
+          },
+          "jawaban_benar": "c"
+        },
+        {
+          "id": 13,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa peran bank dalam ekonomi?",
+          "pilihan": {
+            "a": "Hanya menyimpan uang nasabah",
+            "b": "Memberikan pinjaman dan menerima simpanan",
+            "c": "Memproduksi uang",
+            "d": "Mengatur harga barang"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 14,
+          "tingkat": "mudah",
+          "pertanyaan": "Siapa yang disebut sebagai tenaga kerja?",
+          "pilihan": {
+            "a": "Orang yang mempunyai uang banyak",
+            "b": "Orang yang bekerja menghasilkan barang dan jasa",
+            "c": "Orang yang memiliki tanah luas",
+            "d": "Orang yang memimpin perusahaan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 15,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan pajak?",
+          "pilihan": {
+            "a": "Pemberian uang kepada orang miskin",
+            "b": "Pungutan wajib yang diambil pemerintah dari rakyat",
+            "c": "Gaji karyawan",
+            "d": "Harga barang yang mahal"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 16,
+          "tingkat": "mudah",
+          "pertanyaan": "Sektor ekonomi mana yang mengolah bahan baku menjadi produk jadi?",
+          "pilihan": {
+            "a": "Sektor primer",
+            "b": "Sektor sekunder",
+            "c": "Sektor tersier",
+            "d": "Sektor kuartner"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 17,
+          "tingkat": "mudah",
+          "pertanyaan": "Sektor ekonomi apa yang bergerak di bidang jasa dan perdagangan?",
+          "pilihan": {
+            "a": "Sektor primer",
+            "b": "Sektor sekunder",
+            "c": "Sektor tersier",
+            "d": "Sektor kuartner"
+          },
+          "jawaban_benar": "c"
+        },
+        {
+          "id": 18,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan inflasi?",
+          "pilihan": {
+            "a": "Penurunan harga barang",
+            "b": "Kenaikan harga barang secara umum dan berkelanjutan",
+            "c": "Penghapusan harga barang",
+            "d": "Penetapan harga maksimal"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 19,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan impor?",
+          "pilihan": {
+            "a": "Menjual barang ke luar negeri",
+            "b": "Membeli barang dari luar negeri",
+            "c": "Membuat barang di dalam negeri",
+            "d": "Menyimpan barang di gudang"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 20,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan ekspor?",
+          "pilihan": {
+            "a": "Membeli barang dari luar negeri",
+            "b": "Menjual barang ke luar negeri",
+            "c": "Membuat barang baru",
+            "d": "Menyimpan barang di toko"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 21,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan modal?",
+          "pilihan": {
+            "a": "Kepemilikan tanah",
+            "b": "Sumber daya yang digunakan untuk menghasilkan barang dan jasa",
+            "c": "Tempat tinggal",
+            "d": "Kemampuan berbisnis"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 22,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa peran pemerintah dalam ekonomi?",
+          "pilihan": {
+            "a": "Hanya mengumpulkan pajak",
+            "b": "Membuat peraturan dan mengatur jalannya ekonomi",
+            "c": "Tidak ikut campur dalam ekonomi",
+            "d": "Hanya melayani orang kaya"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 23,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan laba?",
+          "pilihan": {
+            "a": "Semua uang yang diterima",
+            "b": "Selisih antara pendapatan dan pengeluaran yang positif",
+            "c": "Biaya operasional",
+            "d": "Hutang perusahaan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 24,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan rugi?",
+          "pilihan": {
+            "a": "Keuntungan penjualan",
+            "b": "Selisih antara pendapatan dan pengeluaran yang negatif",
+            "c": "Peningkatan modal",
+            "d": "Penghasilan tambahan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 25,
+          "tingkat": "mudah",
+          "pertanyaan": "Contoh barang mewah adalah...",
+          "pilihan": {
+            "a": "Nasi dan air minum",
+            "b": "Mobil sport dan perhiasan",
+            "c": "Pakaian dan sepatu",
+            "d": "Obat-obatan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 26,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana hubungan antara permintaan dan penawaran dalam menentukan harga pasar?",
+          "pilihan": {
+            "a": "Permintaan tidak berpengaruh pada harga",
+            "b": "Ketika permintaan tinggi dan penawaran rendah, harga cenderung naik",
+            "c": "Harga selalu sama tidak peduli permintaan dan penawaran",
+            "d": "Penawaran tidak pernah mempengaruhi harga"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 27,
+          "tingkat": "normal",
+          "pertanyaan": "Apa perbedaan utama antara sistem ekonomi tradisional dan modern?",
+          "pilihan": {
+            "a": "Keduanya sama dalam semua aspek",
+            "b": "Tradisional berbasis kebiasaan turun temurun, modern berbasis teknologi dan pasar",
+            "c": "Modern lebih sederhana dari tradisional",
+            "d": "Tradisional menggunakan uang digital"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 28,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana pengaruh teknologi terhadap produktivitas ekonomi?",
+          "pilihan": {
+            "a": "Teknologi mengurangi produktivitas",
+            "b": "Teknologi tidak memiliki pengaruh",
+            "c": "Teknologi meningkatkan efisiensi dan produktivitas",
+            "d": "Teknologi hanya untuk hiburan"
+          },
+          "jawaban_benar": "c"
+        },
+        {
+          "id": 29,
+          "tingkat": "normal",
+          "pertanyaan": "Apa dampak positif perdagangan internasional?",
+          "pilihan": {
+            "a": "Mengurangi produksi dalam negeri",
+            "b": "Memperluas pasar, meningkatkan variasi produk, dan efisiensi ekonomi",
+            "c": "Menghilangkan industri lokal",
+            "d": "Meningkatkan pengangguran"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 30,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana peran bank sentral dalam stabilitas ekonomi nasional?",
+          "pilihan": {
+            "a": "Tidak memiliki peran penting",
+            "b": "Mengatur inflasi, suku bunga, dan ketersediaan uang beredar",
+            "c": "Hanya mengelola aset pribadi",
+            "d": "Memberikan pinjaman pribadi kepada masyarakat"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 31,
+          "tingkat": "normal",
+          "pertanyaan": "Apa yang dimaksud dengan produktivitas dalam konteks ekonomi?",
+          "pilihan": {
+            "a": "Jumlah uang yang dimiliki",
+            "b": "Efisiensi dalam menghasilkan output dari input yang tersedia",
+            "c": "Lokasi perusahaan yang strategis",
+            "d": "Jumlah karyawan yang bekerja"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 32,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana cara mengatasi pengangguran dalam ekonomi?",
+          "pilihan": {
+            "a": "Tidak perlu mengatasi",
+            "b": "Melalui penciptaan lapangan kerja, pelatihan, dan investasi industri",
+            "c": "Membatasi jumlah pekerja",
+            "d": "Menaikkan upah saja"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 33,
+          "tingkat": "normal",
+          "pertanyaan": "Apa hubungan antara suku bunga dan investasi?",
+          "pilihan": {
+            "a": "Suku bunga tinggi mendorong investasi",
+            "b": "Tidak ada hubungan",
+            "c": "Suku bunga rendah cenderung mendorong lebih banyak investasi",
+            "d": "Investasi tidak dipengaruhi suku bunga"
+          },
+          "jawaban_benar": "c"
+        },
+        {
+          "id": 34,
+          "tingkat": "normal",
+          "pertanyaan": "Apa yang dimaksud dengan daya saing dalam ekonomi global?",
+          "pilihan": {
+            "a": "Kemampuan bersaing dalam harga saja",
+            "b": "Kemampuan negara menghasilkan barang berkualitas dengan harga kompetitif",
+            "c": "Tidak penting dalam perdagangan global",
+            "d": "Hanya tentang jumlah produksi"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 35,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana kebijakan fiskal mempengaruhi ekonomi?",
+          "pilihan": {
+            "a": "Tidak berpengaruh",
+            "b": "Melalui pengendalian pajak dan pengeluaran pemerintah",
+            "c": "Hanya mempengaruhi individu kaya",
+            "d": "Tidak dapat dikendalikan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 36,
+          "tingkat": "normal",
+          "pertanyaan": "Apa keuntungan utama dari spesialisasi ekonomi?",
+          "pilihan": {
+            "a": "Mengurangi efisiensi",
+            "b": "Meningkatkan efisiensi dan produktivitas",
+            "c": "Tidak memberikan keuntungan",
+            "d": "Memperumit proses produksi"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 37,
+          "tingkat": "normal",
+          "pertanyaan": "Apa dampak defisit anggaran pemerintah terhadap ekonomi?",
+          "pilihan": {
+            "a": "Selalu menguntungkan",
+            "b": "Dapat meningkatkan inflasi dan hutang nasional jika berkelanjutan",
+            "c": "Tidak memiliki dampak",
+            "d": "Selalu merugikan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 38,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana peran usaha kecil menengah dalam perekonomian nasional?",
+          "pilihan": {
+            "a": "Tidak penting",
+            "b": "Menciptakan lapangan kerja dan berkontribusi pada pertumbuhan ekonomi",
+            "c": "Hanya untuk kegiatan sampingan",
+            "d": "Menghambat pembangunan ekonomi"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 39,
+          "tingkat": "normal",
+          "pertanyaan": "Apa yang dimaksud dengan pertumbuhan ekonomi?",
+          "pilihan": {
+            "a": "Peningkatan jumlah uang di bank",
+            "b": "Peningkatan nilai total produksi barang dan jasa dalam suatu negara",
+            "c": "Peningkatan harga barang",
+            "d": "Peningkatan jumlah konsumen"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 40,
+          "pertanyaan": "Bagaimana pengaruh globalisasi terhadap ekonomi lokal?",
+          "tingkat": "normal",
+          "pilihan": {
+            "a": "Tidak ada pengaruh",
+            "b": "Membuka peluang sekaligus tantangan bagi industri lokal",
+            "c": "Hanya merugikan",
+            "d": "Hanya menguntungkan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 41,
+          "tingkat": "normal",
+          "pertanyaan": "Apa tujuan utama kebijakan moneter?",
+          "pilihan": {
+            "a": "Meningkatkan harga barang",
+            "b": "Mengendalikan inflasi dan mendorong pertumbuhan ekonomi",
+            "c": "Mengurangi investasi",
+            "d": "Membatasi perdagangan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 42,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana cara mengukur kemakmuran ekonomi suatu negara?",
+          "pilihan": {
+            "a": "Hanya dari jumlah uang di bank sentral",
+            "b": "Dari Produk Domestik Bruto (PDB) dan pendapatan per kapita",
+            "c": "Dari jumlah karyawan saja",
+            "d": "Dari harga barang saja"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 43,
+          "tingkat": "normal",
+          "pertanyaan": "Apa yang dimaksud dengan divisi kerja dalam ekonomi?",
+          "pilihan": {
+            "a": "Pembagian tanggung jawab antar negara",
+            "b": "Pembagian pekerjaan berdasarkan keahlian untuk meningkatkan efisiensi",
+            "c": "Pengurangan jumlah pekerja",
+            "d": "Penggabungan semua pekerjaan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 44,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana hubungan antara pendidikan dan produktivitas ekonomi?",
+          "pilihan": {
+            "a": "Tidak ada hubungan",
+            "b": "Pendidikan yang lebih baik menghasilkan tenaga kerja lebih produktif",
+            "c": "Pendidikan mengurangi produktivitas",
+            "d": "Produktivitas tidak bergantung pada pendidikan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 45,
+          "tingkat": "normal",
+          "pertanyaan": "Apa dampak kenaikan upah minimum terhadap ekonomi?",
+          "pilihan": {
+            "a": "Selalu menguntungkan semua pihak",
+            "b": "Dapat meningkatkan daya beli tetapi juga berpotensi meningkatkan biaya produksi",
+            "c": "Tidak memiliki dampak",
+            "d": "Selalu merugikan ekonomi"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 46,
+          "tingkat": "normal",
+          "pertanyaan": "Apa peran pasar dalam mengalokasikan sumber daya?",
+          "pilihan": {
+            "a": "Pasar tidak memiliki peran",
+            "b": "Pasar mengalokasikan melalui mekanisme harga dan permintaan penawaran",
+            "c": "Hanya pemerintah yang dapat mengalokasikan",
+            "d": "Alokasi tidak penting dalam ekonomi"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 47,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana sistem kredit membantu pertumbuhan ekonomi?",
+          "pilihan": {
+            "a": "Tidak membantu sama sekali",
+            "b": "Memungkinkan investasi dan konsumsi tanpa harus menunggu tabungan cukup",
+            "c": "Kredit hanya merugikan",
+            "d": "Tidak ada hubungan dengan pertumbuhan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 48,
+          "tingkat": "normal",
+          "pertanyaan": "Apa yang dimaksud dengan subsidi dalam kebijakan ekonomi?",
+          "pilihan": {
+            "a": "Pajak tambahan dari rakyat",
+            "b": "Bantuan finansial pemerintah untuk mendukung industri atau konsumen tertentu",
+            "c": "Potongan gaji karyawan",
+            "d": "Biaya tambahan untuk produk"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 49,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana mekanisme pasar bebas dalam menentukan harga?",
+          "pilihan": {
+            "a": "Pemerintah yang menentukan harga",
+            "b": "Harga ditentukan oleh kesepakatan pembeli dan penjual",
+            "c": "Harga tidak dapat ditentukan",
+            "d": "Harga ditentukan oleh lembaga internasional"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 50,
+          "tingkat": "normal",
+          "pertanyaan": "Apa keuntungan diversifikasi ekonomi untuk suatu negara?",
+          "pilihan": {
+            "a": "Mengurangi stabilitas",
+            "b": "Mengurangi ketergantungan pada satu sektor dan meningkatkan resiliensi ekonomi",
+            "c": "Tidak memberikan keuntungan",
+            "d": "Membuat ekonomi lebih rumit"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 51,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori Adam Smith tentang 'invisible hand' menjelaskan alokasi sumber daya dalam pasar bebas?",
+          "pilihan": {
+            "a": "Pemerintah secara langsung mengarahkan alokasi",
+            "b": "Kepentingan pribadi individu yang dipandu oleh pasar menghasilkan alokasi optimal",
+            "c": "Tidak ada alokasi yang efisien dalam pasar bebas",
+            "d": "Invisible hand berarti pemerintah harus tersembunyi"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 52,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana asimetri informasi mempengaruhi efisiensi pasar?",
+          "pilihan": {
+            "a": "Tidak berpengaruh",
+            "b": "Dapat menyebabkan market failure karena salah satu pihak memiliki informasi lebih banyak",
+            "c": "Selalu menguntungkan konsumen",
+            "d": "Selalu menguntungkan produsen"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 53,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana konsep elastisitas permintaan berguna dalam analisis ekonomi?",
+          "pilihan": {
+            "a": "Tidak berguna",
+            "b": "Mengukur seberapa responsif permintaan terhadap perubahan harga dan faktor lain",
+            "c": "Hanya untuk keperluan akademis",
+            "d": "Tidak dapat diukur"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 54,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana efek multiplier dalam kebijakan fiskal mempengaruhi perekonomian?",
+          "pilihan": {
+            "a": "Investasi pemerintah hanya memiliki dampak satu kali",
+            "b": "Investasi pemerintah memperbesar dampak melalui sirkulasi uang dalam ekonomi",
+            "c": "Multiplier effect tidak ada dalam ekonomi modern",
+            "d": "Hanya pihak swasta yang dapat menciptakan multiplier effect"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 55,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana krisis keuangan global dapat menular ke ekonomi nasional?",
+          "pilihan": {
+            "a": "Ekonomi nasional tidak terpengaruh krisis global",
+            "b": "Melalui perdagangan, investasi, dan sistem finansial yang terintegrasi",
+            "c": "Hanya melalui media massa",
+            "d": "Krisis tidak dapat menular antar negara"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 56,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori comparative advantage menjelaskan spesialisasi perdagangan internasional?",
+          "pilihan": {
+            "a": "Hanya negara dengan keunggulan absolut yang dapat berdagang",
+            "b": "Setiap negara harus memproduksi semua produk",
+            "c": "Negara sebaiknya berspesialisasi pada produk dengan opportunity cost terendah",
+            "d": "Tidak ada keuntungan dalam perdagangan internasional"
+          },
+          "jawaban_benar": "c"
+        },
+        {
+          "id": 57,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana moral hazard mempengaruhi sistem keuangan?",
+          "pilihan": {
+            "a": "Tidak berpengaruh",
+            "b": "Dapat menyebabkan risiko yang tidak perlu karena perlindungan asuransi",
+            "c": "Hanya menjadi masalah di negara berkembang",
+            "d": "Selalu menguntungkan sistem finansial"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 58,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana stagflasi berbeda dari inflasi biasa dan apa implikasinya?",
+          "pilihan": {
+            "a": "Stagflasi sama dengan inflasi biasa",
+            "b": "Stagflasi adalah kombinasi stagnasi dan inflasi yang sangat sulit ditangani",
+            "c": "Stagflasi hanya ada di teori",
+            "d": "Stagflasi menguntungkan produsen dan konsumen"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 59,
+          "tingkat": "hard",
+          "pertanyaan": "Apa hubungan antara indeks Gini dan ketimpangan ekonomi?",
+          "pilihan": {
+            "a": "Tidak ada hubungan",
+            "b": "Indeks Gini mengukur tingkat ketimpangan distribusi pendapatan",
+            "c": "Indeks Gini hanya untuk keperluan akademis",
+            "d": "Semakin tinggi indeks Gini semakin merata distribusi pendapatan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 60,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori ekonomi Keynes menjelaskan resesi dan solusinya?",
+          "pilihan": {
+            "a": "Resesi akan hilang dengan sendirinya tanpa intervensi",
+            "b": "Intervensi pemerintah melalui stimulus diperlukan untuk mengatasi resesi",
+            "c": "Resesi tidak dapat diatasi dengan kebijakan apapun",
+            "d": "Hanya pasar yang dapat mengatasi resesi"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 61,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana kebijakan quantitative easing mempengaruhi ekonomi?",
+          "pilihan": {
+            "a": "Tidak memiliki dampak signifikan",
+            "b": "Meningkatkan likuiditas dan uang beredar untuk merangsang ekonomi",
+            "c": "Hanya mengurangi inflasi",
+            "d": "Tidak dapat dilakukan oleh bank sentral"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 62,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana kurva Phillips menghubungkan inflasi dan pengangguran?",
+          "pilihan": {
+            "a": "Tidak ada hubungan antara keduanya",
+            "b": "Ada trade-off negatif: pengangguran rendah cenderung menyebabkan inflasi tinggi",
+            "c": "Pengangguran dan inflasi selalu berjalan beriringan",
+            "d": "Kurva Phillips hanya berlaku untuk negara maju"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 63,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori efisiensi pasar keuangan menjelaskan pergerakan harga aset?",
+          "pilihan": {
+            "a": "Harga selalu mudah diprediksi",
+            "b": "Harga aset mencerminkan semua informasi yang tersedia",
+            "c": "Harga aset tidak dipengaruhi informasi",
+            "d": "Hanya pemerintah yang dapat memprediksi harga aset"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 64,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana risiko sistemik dalam sistem keuangan dapat menyebabkan krisis?",
+          "pilihan": {
+            "a": "Risiko sistemik tidak memiliki dampak nyata",
+            "b": "Kegagalan satu institusi dapat menyebabkan keruntuhan seluruh sistem",
+            "c": "Hanya risiko individu yang penting",
+            "d": "Sistem keuangan tidak memiliki risiko"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 65,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori siklus bisnis menjelaskan fluktuasi ekonomi?",
+          "pilihan": {
+            "a": "Ekonomi selalu tumbuh tanpa fluktuasi",
+            "b": "Ekonomi mengalami siklus ekspansi dan kontraksi yang berulang",
+            "c": "Fluktuasi ekonomi hanya disebabkan oleh kebijakan pemerintah",
+            "d": "Siklus bisnis tidak bisa diprediksi"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 66,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori pertumbuhan endogen menjelaskan sumber pertumbuhan ekonomi jangka panjang?",
+          "pilihan": {
+            "a": "Pertumbuhan hanya berasal dari akumulasi modal fisik",
+            "b": "Inovasi, modal manusia, dan teknologi adalah faktor penting pertumbuhan berkelanjutan",
+            "c": "Pertumbuhan ekonomi tidak dapat berkelanjutan",
+            "d": "Pertumbuhan jangka panjang tidak mungkin terjadi"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 67,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana konsep net present value digunakan dalam pengambilan keputusan investasi?",
+          "pilihan": {
+            "a": "NPV tidak relevan untuk investasi",
+            "b": "NPV mengukur nilai sekarang dari aliran kas masa depan untuk mengevaluasi kelayakan investasi",
+            "c": "Semua investasi memiliki NPV yang sama",
+            "d": "NPV hanya untuk keperluan akademis"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 68,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori behavioral economics mengubah pemahaman tentang perilaku konsumen?",
+          "pilihan": {
+            "a": "Konsumen selalu rasional dalam keputusan ekonomi",
+            "b": "Konsumen sering membuat keputusan irasional dipengaruhi emosi dan bias kognitif",
+            "c": "Perilaku konsumen tidak penting untuk ekonomi",
+            "d": "Behavioral economics tidak ilmiah"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 69,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori game theory menjelaskan situasi ekonomi kompetitif?",
+          "pilihan": {
+            "a": "Game theory tidak relevan untuk ekonomi",
+            "b": "Menganalisis strategi optimal ketika hasil bergantung pada keputusan pihak lain",
+            "c": "Semua pemain dalam game selalu menang",
+            "d": "Game theory hanya untuk permainan hiburan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 70,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori equilibrium umum (general equilibrium) menjelaskan keseimbangan pasar?",
+          "pilihan": {
+            "a": "Pasar tidak dapat mencapai keseimbangan",
+            "b": "Semua pasar secara bersamaan mencapai keseimbangan harga dan kuantitas",
+            "c": "Hanya satu pasar yang dapat seimbang",
+            "d": "Keseimbangan pasar tidak penting"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 71,
+          "tingkat": "hard",
+          "pertanyaan": "Apa implikasi dari hukum diminishing returns dalam produksi jangka panjang?",
+          "pilihan": {
+            "a": "Produktivitas terus meningkat tanpa batas",
+            "b": "Penambahan input variable akan menghasilkan peningkatan output yang semakin menurun",
+            "c": "Diminishing returns tidak berlaku dalam ekonomi modern",
+            "d": "Output dapat terus meningkat dengan input tetap"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 72,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana eksternalitas positif dan negatif mempengaruhi efisiensi pasar?",
+          "pilihan": {
+            "a": "Eksternalitas tidak mempengaruhi efisiensi",
+            "b": "Dapat menyebabkan market failure karena harga pasar tidak mencerminkan biaya sosial sebenarnya",
+            "c": "Hanya eksternalitas positif yang penting",
+            "d": "Pasar selalu efisien meski ada eksternalitas"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 73,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori real business cycle menjelaskan fluktuasi ekonomi?",
+          "pilihan": {
+            "a": "Fluktuasi hanya disebabkan oleh kebijakan moneter",
+            "b": "Guncangan pada teknologi dan preferensi nyata menyebabkan fluktuasi ekonomi",
+            "c": "Fluktuasi ekonomi dapat dihilangkan sepenuhnya",
+            "d": "Tidak ada penjelasan rasional untuk fluktuasi ekonomi"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 74,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana konsep utility maximization menjelaskan pilihan konsumen?",
+          "pilihan": {
+            "a": "Konsumen tidak memilih barang berdasarkan utilitas",
+            "b": "Konsumen memilih kombinasi barang yang memberikan kepuasan maksimal dengan anggaran terbatas",
+            "c": "Semua konsumen memilih barang yang sama",
+            "d": "Utilitas tidak dapat diukur atau dianalisis"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 75,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana instrumen hedging digunakan dalam manajemen risiko keuangan?",
+          "pilihan": {
+            "a": "Hedging tidak dapat mengurangi risiko",
+            "b": "Menggunakan derivatif atau instrumen lain untuk melindungi dari fluktuasi harga masa depan",
+            "c": "Hedging selalu menguntungkan tanpa risiko",
+            "d": "Hedging hanya untuk spekulasi"
+          },
+          "jawaban_benar": "b"
+        }
+      ]
+    },
+    {
+      "nama": "Sosiologi",
+      "soal": [
+        {
+          "id": 76,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan sosiologi?",
+          "pilihan": {
+            "a": "Ilmu tentang cara hidup mewah",
+            "b": "Ilmu yang mempelajari masyarakat dan interaksi sosial manusia",
+            "c": "Ilmu tentang alam dan lingkungan",
+            "d": "Ilmu tentang sistem ekonomi"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 77,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan kelompok sosial?",
+          "pilihan": {
+            "a": "Orang-orang yang berdiri bersama di suatu tempat",
+            "b": "Orang-orang yang berinteraksi dan memiliki tujuan serta identitas bersama",
+            "c": "Orang-orang yang memiliki warna kulit sama",
+            "d": "Orang-orang yang tinggal di rumah yang sama"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 78,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan status sosial?",
+          "pilihan": {
+            "a": "Uang yang dimiliki seseorang",
+            "b": "Posisi seseorang dalam masyarakat",
+            "c": "Kemampuan fisik seseorang",
+            "d": "Umur seseorang"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 79,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan peran sosial?",
+          "pilihan": {
+            "a": "Jumlah uang yang diterima",
+            "b": "Perilaku yang diharapkan dari seseorang dalam statusnya",
+            "c": "Tempat tinggal seseorang",
+            "d": "Pekerjaan yang diinginkan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 80,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan norma sosial?",
+          "pilihan": {
+            "a": "Peraturan yang ditulis dalam hukum",
+            "b": "Standar perilaku yang diterima dalam masyarakat",
+            "c": "Cara berbusana yang bagus",
+            "d": "Aturan dalam olahraga"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 81,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan budaya?",
+          "pilihan": {
+            "a": "Cara berpakaian yang mewah",
+            "b": "Kepercayaan, nilai, tradisi, dan cara hidup yang dianut kelompok masyarakat",
+            "c": "Sesuatu yang hanya ada di kota besar",
+            "d": "Hiburan semata"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 82,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan sosialisasi?",
+          "pilihan": {
+            "a": "Proses berbisnis dengan orang lain",
+            "b": "Proses individu mempelajari dan menerima norma serta nilai budaya masyarakat",
+            "c": "Cara berinteraksi di media sosial",
+            "d": "Berkumpul dengan teman-teman"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 83,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan stratifikasi sosial?",
+          "pilihan": {
+            "a": "Cara merawat kulit",
+            "b": "Proses pengelompokan anggota masyarakat ke dalam kelas-kelas sosial yang berbeda",
+            "c": "Cara melapisi makanan",
+            "d": "Proses pembagian tanah"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 84,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan mobilitas sosial?",
+          "pilihan": {
+            "a": "Cara berpindah tempat tinggal",
+            "b": "Perpindahan seseorang dari satu status sosial ke status sosial lain",
+            "c": "Naik mobil yang cepat",
+            "d": "Bergerak di dalam ruangan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 85,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan deviansi?",
+          "pilihan": {
+            "a": "Perilaku yang sangat baik",
+            "b": "Perilaku yang menyimpang dari norma-norma sosial yang berlaku",
+            "c": "Cara berbusana yang rapi",
+            "d": "Kebiasaan yang disukainya"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 86,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan konflik sosial?",
+          "pilihan": {
+            "a": "Ketika dua orang bertemu",
+            "b": "Pertentangan antar individu atau kelompok yang memiliki kepentingan berbeda",
+            "c": "Perbedaan pendapat dalam keluarga kecil",
+            "d": "Letak geografis yang berbeda"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 87,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan kohesi sosial?",
+          "pilihan": {
+            "a": "Ketika semua orang kaya",
+            "b": "Kekuatan yang mengikat anggota masyarakat bersama",
+            "c": "Proses pekerjaan di pabrik",
+            "d": "Kecepatan dalam berlari"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 88,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan akulturasi budaya?",
+          "pilihan": {
+            "a": "Lupa akan budaya sendiri",
+            "b": "Proses penyesuaian satu budaya dengan budaya lain dengan tetap mempertahankan budaya asli",
+            "c": "Pelajaran tentang budaya",
+            "d": "Menolak budaya lain"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 89,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan institusi sosial?",
+          "pilihan": {
+            "a": "Sebuah bangunan fisik",
+            "b": "Sistem norma dan nilai yang mengatur perilaku dalam kelompok sosial",
+            "c": "Hanya universitas saja",
+            "d": "Organisasi yang tidak memiliki tujuan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 90,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan primordialisme?",
+          "pilihan": {
+            "a": "Keyakinan pada teknologi modern",
+            "b": "Penilai seseorang berdasarkan ikatan darah atau garis keturunan",
+            "c": "Cara modern berbisnis",
+            "d": "Keyakinan pada ilmu pengetahuan saja"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 91,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan pluralisme sosial?",
+          "pilihan": {
+            "a": "Sistem pemerintahan dengan banyak partai",
+            "b": "Keadaan masyarakat yang terdiri dari berbagai kelompok dengan latar belakang berbeda",
+            "c": "Saat semua orang sama",
+            "d": "Hanya ada satu budaya di masyarakat"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 92,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa contoh kelompok primer?",
+          "pilihan": {
+            "a": "Orang-orang di kelas besar",
+            "b": "Keluarga dan teman-teman dekat",
+            "c": "Semua pelanggan di toko",
+            "d": "Orang-orang di stadion"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 93,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa contoh kelompok sekunder?",
+          "pilihan": {
+            "a": "Keluarga inti",
+            "b": "Teman sekolah yang tidak dekat",
+            "c": "Organisasi formal seperti sekolah atau perkumpulan",
+            "d": "Ayah dan ibu"
+          },
+          "jawaban_benar": "c"
+        },
+        {
+          "id": 94,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan in-group?",
+          "pilihan": {
+            "a": "Kelompok yang tidak termasuk",
+            "b": "Kelompok yang kami anggap milik sendiri",
+            "c": "Kelompok asing",
+            "d": "Kelompok oposisi"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 95,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan out-group?",
+          "pilihan": {
+            "a": "Kelompok yang kami anggap milik sendiri",
+            "b": "Kelompok yang kami lihat sebagai berbeda atau di luar",
+            "c": "Semua orang dalam masyarakat",
+            "d": "Kelompok pemerintah"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 96,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan prasangka sosial?",
+          "pilihan": {
+            "a": "Penilaian yang adil terhadap kelompok lain",
+            "b": "Penilaian negatif yang terbentuk sebelum memiliki informasi lengkap",
+            "c": "Cara yang baik untuk menilai orang",
+            "d": "Rasa hormat terhadap orang lain"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 97,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan diskriminasi?",
+          "pilihan": {
+            "a": "Membedakan dengan baik antara hal-hal",
+            "b": "Perlakuan tidak adil terhadap individu atau kelompok berdasarkan ciri-ciri tertentu",
+            "c": "Cara memilih yang terbaik",
+            "d": "Sistem pendidikan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 98,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan stereotip?",
+          "pilihan": {
+            "a": "Alat musik",
+            "b": "Pandangan umum yang sering tidak akurat tentang suatu kelompok",
+            "c": "Cara membuat keputusan",
+            "d": "Sistem klasifikasi yang adil"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 99,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan integrasi sosial?",
+          "pilihan": {
+            "a": "Pemisahan kelompok masyarakat",
+            "b": "Proses penggabungan berbagai kelompok dalam satu masyarakat yang harmonis",
+            "c": "Penolakan terhadap perbedaan",
+            "d": "Konflik yang tidak terpecahkan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 100,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan anomia dalam sosiologi?",
+          "pilihan": {
+            "a": "Keadaan masyarakat yang tertib",
+            "b": "Keadaan masyarakat tanpa norma yang jelas atau ketidakjelasan norma",
+            "c": "Kemajuan peradaban",
+            "d": "Sistem nilai yang kuat"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 101,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana proses sosialisasi mempengaruhi pembentukan kepribadian individu?",
+          "pilihan": {
+            "a": "Sosialisasi tidak berpengaruh pada kepribadian",
+            "b": "Melalui internalisasi nilai dan norma budaya dalam proses interaksi sosial",
+            "c": "Kepribadian hanya ditentukan oleh faktor genetik",
+            "d": "Sosialisasi hanya terjadi pada masa kecil"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 102,
+          "tingkat": "normal",
+          "pertanyaan": "Apa perbedaan antara konformitas dan kepatuhan dalam konteks sosial?",
+          "pilihan": {
+            "a": "Keduanya sama persis",
+            "b": "Konformitas adalah perubahan nilai, kepatuhan adalah perubahan perilaku saja",
+            "c": "Konformitas hanya pada kelompok besar",
+            "d": "Kepatuhan lebih penting daripada konformitas"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 103,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana ketimpangan sosial dapat menyebabkan konflik dalam masyarakat?",
+          "pilihan": {
+            "a": "Ketimpangan tidak menyebabkan konflik",
+            "b": "Ketidakadilan dalam distribusi sumber daya dapat menimbulkan ketegangan antar kelompok",
+            "c": "Hanya ketidakadilan ekonomi yang menyebabkan konflik",
+            "d": "Semua masyarakat selalu harmonis"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 104,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana media massa mempengaruhi persepsi publik?",
+          "pilihan": {
+            "a": "Media massa tidak memiliki pengaruh",
+            "b": "Membentuk opini publik melalui penyajian informasi dan framing yang dapat bias",
+            "c": "Media selalu menyajikan informasi yang objektif",
+            "d": "Hanya media cetak yang berpengaruh"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 105,
+          "tingkat": "normal",
+          "pertanyaan": "Apa fungsi konflik sosial dalam dinamika masyarakat?",
+          "pilihan": {
+            "a": "Konflik selalu merugikan masyarakat",
+            "b": "Dapat mendorong perubahan sosial dan inovasi jika dikelola dengan baik",
+            "c": "Tidak ada fungsi positif dari konflik",
+            "d": "Hanya menimbulkan kerusakan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 106,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana mobilitas sosial vertikal berbeda dari mobilitas sosial horizontal?",
+          "pilihan": {
+            "a": "Keduanya sama",
+            "b": "Vertikal: perubahan status sosial naik atau turun; Horizontal: perpindahan ke status yang setara",
+            "c": "Vertikal hanya terjadi pada negara maju",
+            "d": "Horizontal tidak mungkin terjadi"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 107,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana sistem kasta berbeda dari sistem kelas dalam stratifikasi sosial?",
+          "pilihan": {
+            "a": "Keduanya identik",
+            "b": "Kasta bersifat tertutup dan turun-temurun; kelas lebih terbuka dan dapat berubah",
+            "c": "Kelas adalah sistem yang lebih kuno",
+            "d": "Tidak ada perbedaan nyata"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 108,
+          "tingkat": "normal",
+          "pertanyaan": "Apa peran sosialisasi sekunder dalam perkembangan individu?",
+          "pilihan": {
+            "a": "Tidak memiliki peran penting",
+            "b": "Memperdalam pembelajaran nilai-nilai dan keterampilan untuk fungsi sosial tertentu",
+            "c": "Hanya terjadi saat bersekolah",
+            "d": "Sosialisasi sekunder tidak diperlukan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 109,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana subkultur berbeda dari budaya dominan dalam masyarakat?",
+          "pilihan": {
+            "a": "Subkultur sama dengan budaya dominan",
+            "b": "Subkultur adalah bagian dari budaya dominan tapi memiliki karakteristik unik tersendiri",
+            "c": "Subkultur adalah budaya yang lebih tua",
+            "d": "Tidak ada subkultur dalam masyarakat modern"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 110,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana norma sosial diperanakkan dan ditegakkan dalam masyarakat?",
+          "pilihan": {
+            "a": "Norma tidak diperanakkan dengan cara apapun",
+            "b": "Melalui sosialisasi, penghargaan, dan sanksi sosial",
+            "c": "Hanya pemerintah yang dapat menegakkan norma",
+            "d": "Norma terbentuk secara alami tanpa proses"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 111,
+          "tingkat": "normal",
+          "pertanyaan": "Apa dampak globalisasi terhadap identitas budaya lokal?",
+          "pilihan": {
+            "a": "Globalisasi tidak berpengaruh pada budaya lokal",
+            "b": "Dapat menyebabkan akulturasi, homogenisasi, atau justru memperkuat identitas lokal",
+            "c": "Globalisasi selalu menghilangkan budaya lokal",
+            "d": "Budaya lokal tidak relevan lagi di era globalisasi"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 112,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana peran keluarga dalam sosialisasi nilai-nilai budaya?",
+          "pilihan": {
+            "a": "Keluarga tidak memiliki peran dalam sosialisasi",
+            "b": "Sebagai lembaga sosialisasi primer yang paling penting dalam menanamkan nilai budaya",
+            "c": "Hanya sekolah yang berperan dalam sosialisasi",
+            "d": "Keluarga modern tidak perlu mensosialisasikan nilai budaya"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 113,
+          "tingkat": "normal",
+          "pertanyaan": "Apa yang dimaksud dengan capital sosial dan bagaimana pengaruhnya?",
+          "pilihan": {
+            "a": "Capital sosial adalah uang masyarakat",
+            "b": "Jaringan hubungan dan kepercayaan yang meningkatkan kerja sama dan kemakmuran",
+            "c": "Modal yang diberikan pemerintah",
+            "d": "Capital sosial tidak memiliki pengaruh nyata"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 114,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana organisasi sosial mempengaruhi perilaku individu?",
+          "pilihan": {
+            "a": "Organisasi sosial tidak berpengaruh",
+            "b": "Memberikan struktur, norma, dan identitas yang membentuk perilaku anggota",
+            "c": "Hanya organisasi pemerintah yang berpengaruh",
+            "d": "Pengaruhnya minimal dan tidak signifikan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 115,
+          "tingkat": "normal",
+          "pertanyaan": "Apa dampak pengangguran terhadap kesejahteraan sosial masyarakat?",
+          "pilihan": {
+            "a": "Pengangguran tidak memiliki dampak sosial",
+            "b": "Dapat menyebabkan kemiskinan, kriminalitas, dan gangguan kesehatan mental",
+            "c": "Pengangguran menguntungkan masyarakat",
+            "d": "Hanya dampak ekonomi yang penting"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 116,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana perilaku kelompok berbeda dari perilaku individu?",
+          "pilihan": {
+            "a": "Tidak ada perbedaan",
+            "b": "Kelompok sering membuat keputusan lebih ekstrem dan terpengaruh dinamika kelompok",
+            "c": "Kelompok selalu membuat keputusan yang lebih baik",
+            "d": "Perilaku individu dan kelompok identik"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 117,
+          "tingkat": "normal",
+          "pertanyaan": "Apa peran pendidikan dalam mobilitas sosial?",
+          "pilihan": {
+            "a": "Pendidikan tidak berpengaruh pada mobilitas sosial",
+            "b": "Membuka akses untuk meningkatkan status sosial dan ekonomi",
+            "c": "Hanya pendidikan formal yang penting",
+            "d": "Pendidikan modern tidak efektif"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 118,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana teknologi komunikasi mengubah interaksi sosial?",
+          "pilihan": {
+            "a": "Teknologi tidak mengubah interaksi sosial",
+            "b": "Memungkinkan interaksi tanpa batas geografis tetapi dapat mengurangi kontak tatap muka",
+            "c": "Teknologi selalu meningkatkan kualitas interaksi",
+            "d": "Interaksi sosial tidak terpengaruh teknologi"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 119,
+          "tingkat": "normal",
+          "pertanyaan": "Apa hubungan antara solidaritas mekanik dan organik?",
+          "pilihan": {
+            "a": "Keduanya sama persis",
+            "b": "Mekanik: kesamaan, organik: saling ketergantungan; masyarakat berkembang dari mekanik ke organik",
+            "c": "Organik adalah bentuk yang lebih primitif",
+            "d": "Tidak ada hubungan antara keduanya"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 120,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana konsep habitus Bourdieu menjelaskan perilaku sosial?",
+          "pilihan": {
+            "a": "Habitus tidak mempengaruhi perilaku",
+            "b": "Sistem disposisi yang terbentuk dari pengalaman dan struktur sosial membimbing tindakan",
+            "c": "Habitus adalah pilihan sadar individu",
+            "d": "Perilaku sosial tidak dapat dijelaskan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 121,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori konstruksionis menjelaskan pembentukan realitas sosial?",
+          "pilihan": {
+            "a": "Realitas sosial ada secara objektif terlepas dari manusia",
+            "b": "Realitas sosial dikonstruksi melalui interaksi dan pemaknaan bersama anggota masyarakat",
+            "c": "Realitas sosial tidak dapat diketahui",
+            "d": "Konstruksi sosial hanya berlaku di masyarakat tertentu"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 122,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori labeling menjelaskan penyimpangan sosial?",
+          "pilihan": {
+            "a": "Penyimpangan adalah sifat inheren dari tindakan",
+            "b": "Penyimpangan didefinisikan melalui proses sosial ketika label negatif diterapkan pada individu",
+            "c": "Labeling tidak berpengaruh pada penyimpangan",
+            "d": "Semua tindakan sama-sama dianggap normal"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 123,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori dramaturgi Goffman menjelaskan interaksi sosial?",
+          "pilihan": {
+            "a": "Interaksi sosial murni dan autentik",
+            "b": "Individu memainkan peran seperti aktor, mempresentasikan diri sesuai situasi sosial",
+            "c": "Dramaturgi hanya berlaku di panggung teater",
+            "d": "Interaksi sosial tidak dapat dianalisis"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 124,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori konflik menjelaskan struktur masyarakat?",
+          "pilihan": {
+            "a": "Masyarakat dalam harmoni sempurna tanpa konflik",
+            "b": "Masyarakat adalah hasil dari persaingan untuk sumber daya dan kekuasaan",
+            "c": "Konflik tidak membentuk struktur masyarakat",
+            "d": "Hanya konsensus yang membentuk masyarakat"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 125,
+          "tingkat": "hard",
+          "pertanyaan": "Apa implikasi dari teori pertukaran sosial dalam memahami hubungan?",
+          "pilihan": {
+            "a": "Hubungan tidak didasarkan pada pertukaran apapun",
+            "b": "Hubungan berlanjut ketika keuntungan melampaui biaya bagi kedua belah pihak",
+            "c": "Semua hubungan identik dalam nilai pertukaran",
+            "d": "Pertukaran sosial hanya terjadi dalam ekonomi pasar"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 126,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori fungsionalisme menjelaskan peran institusi sosial?",
+          "pilihan": {
+            "a": "Institusi sosial tidak memiliki fungsi",
+            "b": "Setiap institusi memiliki fungsi untuk mempertahankan stabilitas dan integrasi sosial",
+            "c": "Institusi sosial hanya menghalangi kemajuan",
+            "d": "Fungsi institusi tidak penting untuk masyarakat"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 127,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana konsep habituasi menjelaskan pembentukan institusi sosial?",
+          "pilihan": {
+            "a": "Institusi terbentuk secara tiba-tiba tanpa proses",
+            "b": "Pola perilaku yang berulang menjadi kebiasaan kemudian mengkristal menjadi institusi",
+            "c": "Institusi tidak terbentuk dari kebiasaan",
+            "d": "Habituasi hanya terjadi pada individu"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 128,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori world-system menjelaskan ketimpangan global?",
+          "pilihan": {
+            "a": "Ketimpangan global tidak ada",
+            "b": "Sistem dunia yang tidak seimbang menciptakan inti yang kaya dan pinggiran yang miskin",
+            "c": "Semua negara memiliki kesempatan yang sama",
+            "d": "Ketimpangan hanya disebabkan oleh faktor budaya"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 129,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana konsep struktur dan agensi menjelaskan determinisme sosial?",
+          "pilihan": {
+            "a": "Hanya struktur yang menentukan perilaku manusia",
+            "b": "Adanya saling pengaruh antara struktur sosial dan tindakan individu yang sadar",
+            "c": "Individu memiliki kebebasan absolut tanpa pengaruh struktur",
+            "d": "Determinisme sosial tidak relevan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 130,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori hegemoni menjelaskan kontrol sosial dalam masyarakat?",
+          "pilihan": {
+            "a": "Tidak ada kontrol sosial dalam masyarakat",
+            "b": "Kelas dominan mempertahankan kekuasaan melalui persetujuan budaya dan ideologi",
+            "c": "Hegemoni hanya menggunakan kekerasan fisik",
+            "d": "Semua orang memiliki kekuasan yang sama"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 131,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori fenomenologi menjelaskan pengalaman hidup sehari-hari?",
+          "pilihan": {
+            "a": "Pengalaman sehari-hari tidak penting untuk dipelajari",
+            "b": "Makna sosial berasal dari cara individu menafsirkan dan mengalami dunia mereka",
+            "c": "Fenomenologi hanya berkaitan dengan hal-hal mistis",
+            "d": "Pengalaman individual tidak perlu analisis sosial"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 132,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori feminisme menjelaskan hubungan gender dalam masyarakat?",
+          "pilihan": {
+            "a": "Tidak ada hubungan antara gender dan struktur sosial",
+            "b": "Perbedaan gender mencerminkan ketidaksetaraan kekuasaan yang tertanam dalam institusi sosial",
+            "c": "Perbedaan gender hanya hasil dari perbedaan biologis",
+            "d": "Gender tidak perlu dianalisis dalam sosiologi"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 133,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori institutional isomorphism menjelaskan keseragaman organisasi?",
+          "pilihan": {
+            "a": "Organisasi selalu unik dan berbeda",
+            "b": "Organisasi cenderung mirip karena tekanan koersif, normatif, dan mimetik dari lingkungan",
+            "c": "Isomorphism hanya terjadi dalam organisasi pemerintah",
+            "d": "Keseragaman organisasi tidak dapat dijelaskan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 134,
+          "tingkat": "hard",
+          "pertanyaan": "Apa implikasi dari teori identitas sosial dalam memahami diskriminasi?",
+          "pilihan": {
+            "a": "Identitas sosial tidak mempengaruhi diskriminasi",
+            "b": "Keterikatan pada kelompok dapat menimbulkan bias dalam-kelompok dan diskriminasi luar-kelompok",
+            "c": "Diskriminasi hanya disebabkan oleh faktor ekonomi",
+            "d": "Identitas sosial adalah konsep modern yang tidak relevan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 135,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori liquid modernity menjelaskan kehidupan sosial kontemporer?",
+          "pilihan": {
+            "a": "Masyarakat modern memiliki struktur yang stabil dan permanen",
+            "b": "Identitas, nilai, dan institusi menjadi tidak stabil dan terus berubah dalam modernitas cair",
+            "c": "Liquid modernity hanya teori abstrak",
+            "d": "Kehidupan sosial kontemporer tidak mengalami perubahan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 136,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana konsep interseksionalitas menjelaskan pengalaman diskriminasi?",
+          "pilihan": {
+            "a": "Hanya satu dimensi identitas yang mempengaruhi diskriminasi",
+            "b": "Pengalaman diskriminasi kompleks dari perpotongan berbagai dimensi identitas seperti gender, ras, kelas",
+            "c": "Interseksionalitas adalah teori yang tidak relevan",
+            "d": "Semua orang mengalami diskriminasi dengan cara yang sama"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 137,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori path dependency menjelaskan perubahan sosial?",
+          "pilihan": {
+            "a": "Perubahan sosial dapat selalu memilih jalur apapun",
+            "b": "Keputusan dan peristiwa awal membatasi pilihan masa depan dalam jalur perkembangan",
+            "c": "Masa lalu tidak mempengaruhi pilihan masa depan",
+            "d": "Path dependency hanya berlaku di ekonomi"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 138,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori masyarakat jaringan menjelaskan organisasi sosial modern?",
+          "pilihan": {
+            "a": "Masyarakat modern masih terorganisir dalam struktur hierarkis tradisional",
+            "b": "Masyarakat diorganisir dalam jaringan terdesentralisasi dengan koneksi dinamis",
+            "c": "Jaringan sosial tidak memiliki dampak nyata",
+            "d": "Organisasi sosial modern tidak dapat dijelaskan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 139,
+          "tingkat": "hard",
+          "pertanyaan": "Apa peran teori performativitas dalam memahami konstruksi identitas gender?",
+          "pilihan": {
+            "a": "Gender adalah sifat biologis yang tetap",
+            "b": "Gender adalah hasil dari performativitas repetitif melalui tindakan dan bahasa yang terkodifikasi",
+            "c": "Identitas gender tidak dapat dikonstruksi",
+            "d": "Performativitas hanya relevan untuk seni pertunjukan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 140,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori rezistence menjelaskan agensi kelompok termarjinalisasi?",
+          "pilihan": {
+            "a": "Kelompok termarjinalisasi tidak dapat bergerak",
+            "b": "Kelompok termarjinalisasi dapat mengembangkan strategi dan budaya perlawanan terhadap dominasi",
+            "c": "Resistensi hanya terjadi dalam bentuk kekerasan",
+            "d": "Perlawanan kelompok termarjinalisasi tidak efektif"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 141,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana konsep habitus kelas menjelaskan reproduksi ketidaksetaraan?",
+          "pilihan": {
+            "a": "Ketidaksetaraan tidak terreproduksi",
+            "b": "Habitus kelas menyebabkan individu menginternalisasi posisi sosial mereka dan mereproduksinya",
+            "c": "Hanya sistem pendidikan yang mereproduksi ketidaksetaraan",
+            "d": "Reproduksi ketidaksetaraan tidak dapat dijelaskan dengan konsep habitus"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 142,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori moral panic menjelaskan reaksi sosial terhadap ancaman yang dirasakan?",
+          "pilihan": {
+            "a": "Reaksi panik moral selalu didasarkan pada ancaman nyata",
+            "b": "Panik moral dapat dikonstruksi melalui narasi media meski didasarkan pada ancaman minimal atau imajiner",
+            "c": "Media tidak memiliki peran dalam menciptakan panik moral",
+            "d": "Panik moral tidak relevan dalam masyarakat modern"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 143,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori third place menjelaskan pentingnya ruang sosial informal?",
+          "pilihan": {
+            "a": "Ruang sosial tidak penting dalam masyarakat modern",
+            "b": "Ruang informal di luar rumah dan kerja (third place) penting untuk integrasi sosial dan civic engagement",
+            "c": "Third place hanya relevan untuk negara berkembang",
+            "d": "Ruang informal tidak memiliki pengaruh sosial"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 144,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori cumulative disadvantage menjelaskan akumulasi ketimpangan?",
+          "pilihan": {
+            "a": "Ketimpangan tidak terakumulasi sepanjang waktu",
+            "b": "Keuntungan atau kerugian awal terakumulasi dan diperkuat, memperlebar kesenjangan seiring waktu",
+            "c": "Hanya faktor ekonomi yang dapat terakumulasi",
+            "d": "Cumulative disadvantage hanya teori abstrak"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 145,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana konsep testimoni dalam epistemologi sosial menjelaskan ketidakadilan epistemik?",
+          "pilihan": {
+            "a": "Testimoni selalu diterima dengan sama rata dari semua individu",
+            "b": "Beberapa kelompok mengalami ketidakadilan epistemik ketika testimoni mereka kurang dipercaya karena identitas sosial",
+            "c": "Epistemic justice tidak relevan dalam sosiologi",
+            "d": "Semua testimoni memiliki nilai epistemis yang sama"
+          },
+          "jawaban_benar": "b"
+        }
+      ]
+    },
+    {
+      "nama": "Geografi",
+      "soal": [
+        {
+          "id": 146,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan geografi?",
+          "pilihan": {
+            "a": "Ilmu tentang cara membuat peta",
+            "b": "Ilmu yang mempelajari bumi, manusia, dan hubungan mereka dengan lingkungan",
+            "c": "Ilmu tentang sejarah peradaban kuno",
+            "d": "Ilmu tentang pembangunan kota"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 147,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan peta?",
+          "pilihan": {
+            "a": "Gambaran detail planet dari luar angkasa",
+            "b": "Representasi visual permukaan bumi atau sebagian darinya",
+            "c": "Lukisan lanskap alam",
+            "d": "Fotografi dari udara"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 148,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan musim?",
+          "pilihan": {
+            "a": "Waktu saat hari lebih panjang dari malam",
+            "b": "Periode waktu dalam setahun dengan kondisi cuaca tertentu",
+            "c": "Waktu ketika bulan muncul di malam hari",
+            "d": "Periode ketika orang pergi berlibur"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 149,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan lintang dan bujur?",
+          "pilihan": {
+            "a": "Garis-garis pada peta untuk dekorasi",
+            "b": "Sistem koordinat untuk menentukan posisi di permukaan bumi",
+            "c": "Jarak antara dua kota",
+            "d": "Garis pantai suatu wilayah"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 150,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan iklim?",
+          "pilihan": {
+            "a": "Kondisi cuaca pada suatu hari tertentu",
+            "b": "Kondisi atmosfer jangka panjang suatu wilayah",
+            "c": "Suhu di permukaan laut",
+            "d": "Pola angin dalam satu hari"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 151,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan cuaca?",
+          "pilihan": {
+            "a": "Kondisi atmosfer jangka panjang",
+            "b": "Kondisi atmosfer pada waktu dan tempat tertentu yang singkat",
+            "c": "Perubahan musim",
+            "d": "Gerakan angin kencang"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 152,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan benua?",
+          "pilihan": {
+            "a": "Perairan besar yang dikelilingi daratan",
+            "b": "Daratan besar yang dikelilingi laut",
+            "c": "Kelompok pulau-pulau kecil",
+            "d": "Wilayah dengan satu negara"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 153,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan gunung?",
+          "pilihan": {
+            "a": "Daratan yang agak meninggi",
+            "b": "Bentuk lahan yang tinggi dengan lereng terjal",
+            "c": "Lembah yang dalam",
+            "d": "Dataran yang luas"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 154,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan lembah?",
+          "pilihan": {
+            "a": "Bentuk lahan yang tinggi",
+            "b": "Bentuk lahan yang rendah diantara dua dataran tinggi",
+            "c": "Tempat bertelur ikan",
+            "d": "Daerah pemukiman penduduk"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 155,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan pantai?",
+          "pilihan": {
+            "a": "Perairan yang dalam",
+            "b": "Perbatasan antara daratan dan laut",
+            "c": "Pulau kecil di laut",
+            "d": "Tempat berlabuh kapal"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 156,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan delta?",
+          "pilihan": {
+            "a": "Bentuk lahan yang tinggi",
+            "b": "Daerah dataran rendah di muara sungai",
+            "c": "Lereng yang curam",
+            "d": "Danau yang dalam"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 157,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan pulau?",
+          "pilihan": {
+            "a": "Daratan kecil yang dikelilingi laut",
+            "b": "Perairan yang dikelilingi daratan",
+            "c": "Puncak gunung",
+            "d": "Daerah pesisir"
+          },
+          "jawaban_benar": "a"
+        },
+        {
+          "id": 158,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan sungai?",
+          "pilihan": {
+            "a": "Aliran air darat yang mengalir menuju laut",
+            "b": "Danau yang dalam",
+            "c": "Selokan air kotor",
+            "d": "Kolam ikan"
+          },
+          "jawaban_benar": "a"
+        },
+        {
+          "id": 159,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan danau?",
+          "pilihan": {
+            "a": "Aliran air yang mengalir",
+            "b": "Badan air yang dikelilingi daratan",
+            "c": "Cekungan di pantai",
+            "d": "Waduk untuk irigasi"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 160,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa contoh negara tropis?",
+          "pilihan": {
+            "a": "Kanada dan Rusia",
+            "b": "Indonesia dan Brasil",
+            "c": "Norwegia dan Islandia",
+            "d": "Jepang dan Korea"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 161,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan deforestasi?",
+          "pilihan": {
+            "a": "Penanaman pohon baru",
+            "b": "Pengurangan luas hutan karena penebangan",
+            "c": "Pertumbuhan hutan yang cepat",
+            "d": "Jenis pohon yang langka"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 162,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan kota metropolitan?",
+          "pilihan": {
+            "a": "Kota kecil di pinggiran",
+            "b": "Kota besar dengan populasi tinggi dan pusat ekonomi penting",
+            "c": "Desa yang sedang berkembang",
+            "d": "Wilayah pertanian"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 163,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan densitas penduduk?",
+          "pilihan": {
+            "a": "Jumlah total penduduk suatu negara",
+            "b": "Jumlah penduduk per satuan luas wilayah",
+            "c": "Pertumbuhan penduduk per tahun",
+            "d": "Kepadatan bangunan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 164,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan migrasi penduduk?",
+          "pilihan": {
+            "a": "Perjalanan wisata sesaat",
+            "b": "Perpindahan penduduk dari satu wilayah ke wilayah lain",
+            "c": "Perubahan kebangsaan seseorang",
+            "d": "Perjalanan berlayar"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 165,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa saja sumber daya alam yang dapat diperbaharui?",
+          "pilihan": {
+            "a": "Minyak bumi dan batu bara",
+            "b": "Air, tanah, dan hutan",
+            "c": "Logam mulia",
+            "d": "Gas alam"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 166,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa saja sumber daya alam yang tidak dapat diperbaharui?",
+          "pilihan": {
+            "a": "Air dan tumbuhan",
+            "b": "Minyak bumi, batu bara, dan logam",
+            "c": "Ikan dan hewan buruan",
+            "d": "Energi surya"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 167,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan konservasi alam?",
+          "pilihan": {
+            "a": "Penebangan hutan secara liar",
+            "b": "Usaha melestarikan dan melindungi lingkungan alam",
+            "c": "Pembangunan industri besar-besaran",
+            "d": "Perburuan satwa liar"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 168,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa bentuk interaksi negara dalam geografi?",
+          "pilihan": {
+            "a": "Tidak ada interaksi antar negara",
+            "b": "Perdagangan, diplomasi, dan pertukaran budaya",
+            "c": "Hanya pertukaran militer",
+            "d": "Penolakan terhadap negara lain"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 169,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan bencana alam?",
+          "pilihan": {
+            "a": "Bencana yang disebabkan manusia",
+            "b": "Peristiwa alam yang merugikan manusia seperti gempa bumi dan banjir",
+            "c": "Kecelakaan industri",
+            "d": "Perang antar negara"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 170,
+          "tingkat": "mudah",
+          "pertanyaan": "Apa yang dimaksud dengan pemanasan global?",
+          "pilihan": {
+            "a": "Musim panas yang panjang",
+            "b": "Kenaikan suhu rata-rata bumi akibat emisi gas rumah kaca",
+            "c": "Panas dari gunung berapi",
+            "d": "Fenomena alam yang terjadi setiap tahun"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 171,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana proses terjadinya musim di bumi?",
+          "pilihan": {
+            "a": "Karena revolusi bumi mengelilingi matahari dengan kemiringan sumbu",
+            "b": "Karena perubahan jarak bumi dari matahari",
+            "c": "Karena perbedaan ketinggian wilayah",
+            "d": "Karena keadaan awan di atmosfer"
+          },
+          "jawaban_benar": "a"
+        },
+        {
+          "id": 172,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana pola angin mempengaruhi iklim suatu wilayah?",
+          "pilihan": {
+            "a": "Angin tidak mempengaruhi iklim",
+            "b": "Angin membawa kelembaban dan panas, mempengaruhi pola cuaca dan iklim",
+            "c": "Hanya cuaca lokal yang dipengaruhi angin",
+            "d": "Angin hanya mempengaruhi gunung"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 173,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana letak geografis mempengaruhi perkembangan ekonomi suatu negara?",
+          "pilihan": {
+            "a": "Letak geografis tidak mempengaruhi ekonomi",
+            "b": "Dapat mempengaruhi akses ke perdagangan, sumber daya, dan kondisi alam",
+            "c": "Hanya kekayaan alam yang penting",
+            "d": "Letak geografis hanya penting untuk pariwisata"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 174,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana kontur tanah mempengaruhi pola pemukiman manusia?",
+          "pilihan": {
+            "a": "Kontur tanah tidak berpengaruh",
+            "b": "Manusia cenderung bermukim di daerah datar, subur, dan dekat air",
+            "c": "Pemukiman selalu di dataran tinggi",
+            "d": "Lokasi pemukiman dipilih secara acak"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 175,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana ketersediaan air mempengaruhi kehidupan manusia dan ekonomi?",
+          "pilihan": {
+            "a": "Air tidak penting untuk manusia",
+            "b": "Air essential untuk pertanian, industri, minum, dan pembangkit listrik",
+            "c": "Air hanya penting untuk transportasi",
+            "d": "Ketersediaan air tidak mempengaruhi ekonomi"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 176,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana pembangunan infrastruktur mengubah lanskap geografis?",
+          "pilihan": {
+            "a": "Infrastruktur tidak mengubah lanskap",
+            "b": "Jalan, bendungan, dan bangun merubah topografi alami dan ekosistem",
+            "c": "Hanya industri yang mengubah lanskap",
+            "d": "Perubahan lanskap terjadi secara alami saja"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 177,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana urbanisasi mempengaruhi lingkungan?",
+          "pilihan": {
+            "a": "Urbanisasi tidak memiliki dampak lingkungan",
+            "b": "Dapat menyebabkan polusi, kemacetan, dan pengurangan area hijau",
+            "c": "Urbanisasi hanya menguntungkan lingkungan",
+            "d": "Dampak lingkungan tidak berkaitan dengan urbanisasi"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 178,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana penggunaan lahan secara tidak berkelanjutan mempengaruhi keberlanjutan?",
+          "pilihan": {
+            "a": "Penggunaan lahan tidak berkelanjutan tidak berbahaya",
+            "b": "Dapat menyebabkan erosi tanah, penurunan kesuburan, dan kerusakan ekosistem",
+            "c": "Hanya generasi sekarang yang terkena dampak",
+            "d": "Penggunaan lahan tidak mempengaruhi masa depan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 179,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana perubahan iklim mempengaruhi pola curah hujan?",
+          "pilihan": {
+            "a": "Perubahan iklim tidak mempengaruhi curah hujan",
+            "b": "Dapat mengubah pola musiman dan intensitas presipitasi di berbagai wilayah",
+            "c": "Curah hujan selalu konstan",
+            "d": "Perubahan iklim hanya menyebabkan peningkatan suhu"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 180,
+          "pertanyaan": "Bagaimana integrasi pasar global mempengaruhi perdagangan regional?",
+          "tingkat": "normal",
+          "pilihan": {
+            "a": "Tidak ada pengaruh pasar global",
+            "b": "Meningkatkan kompetisi dan peluang perdagangan antar wilayah",
+            "c": "Pasar global hanya merugikan negara berkembang",
+            "d": "Perdagangan regional tetap terisolasi"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 181,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana budaya lokal bertahan dalam era globalisasi?",
+          "pilihan": {
+            "a": "Budaya lokal akan menghilang",
+            "b": "Melalui pelestarian, pendidikan, dan adaptasi dengan nilai-nilai modern",
+            "c": "Globalisasi tidak mempengaruhi budaya lokal",
+            "d": "Budaya lokal tidak bisa bertahan bersama global"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 182,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana perbedaan ketinggian mempengaruhi jenis vegetasi?",
+          "pilihan": {
+            "a": "Ketinggian tidak mempengaruhi vegetasi",
+            "b": "Semakin tinggi elevasi, suhu menurun, menghasilkan zona vegetasi yang berbeda",
+            "c": "Vegetasi sama di semua ketinggian",
+            "d": "Hanya jenis tanah yang menentukan vegetasi"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 183,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana bencana alam berpengaruh pada pembangunan wilayah?",
+          "pilihan": {
+            "a": "Bencana alam tidak mempengaruhi pembangunan",
+            "b": "Dapat merusak infrastruktur dan memerlukan perencanaan pembangunan yang tahan bencana",
+            "c": "Hanya menyebabkan korban jiwa saja",
+            "d": "Bencana alam tidak dapat diprediksi"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 184,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana ketergantungan pada satu sumber daya alam mempengaruhi ekonomi?",
+          "pilihan": {
+            "a": "Tidak ada risiko ketergantungan pada satu sumber daya",
+            "b": "Membuat ekonomi rentan terhadap fluktuasi harga dan kelangkaan sumber daya",
+            "c": "Memastikan pertumbuhan ekonomi yang stabil",
+            "d": "Diversifikasi ekonomi tidak diperlukan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 185,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana pola migrasi musiman mempengaruhi demografi wilayah?",
+          "pilihan": {
+            "a": "Migrasi musiman tidak mempengaruhi demografi",
+            "b": "Dapat menyebabkan fluktuasi populasi dan tantangan sosial-ekonomi",
+            "c": "Hanya meningkatkan populasi permanen",
+            "d": "Migrasi musiman tidak terukur"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 186,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana sistem transportasi mempengaruhi konektivitas regional?",
+          "pilihan": {
+            "a": "Sistem transportasi tidak penting",
+            "b": "Meningkatkan akses, perdagangan, dan integrasi ekonomi antar wilayah",
+            "c": "Transportasi hanya untuk perjalanan wisata",
+            "d": "Konektivitas regional terbentuk secara alami"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 187,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana keseimbangan antara pembangunan dan pelestarian lingkungan dapat dicapai?",
+          "pilihan": {
+            "a": "Pembangunan dan lingkungan tidak dapat seimbang",
+            "b": "Melalui pembangunan berkelanjutan yang mempertimbangkan dampak lingkungan",
+            "c": "Tidak ada solusi untuk keseimbangan ini",
+            "d": "Pelestarian lingkungan menghambat pembangunan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 188,
+          "tingkat": "normal",
+          "pertanyaan": "Bagaimana variasi regional dalam sumber daya alam mempengaruhi spesialisasi ekonomi?",
+          "pilihan": {
+            "a": "Tidak ada pengaruh sumber daya pada spesialisasi",
+            "b": "Wilayah cenderung berspesialisasi pada industri yang memanfaatkan sumber daya lokal",
+            "c": "Semua wilayah memiliki ekonomi yang sama",
+            "d": "Spesialisasi ekonomi tidak tergantung pada sumber daya"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 189,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori determinisme geografis menjelaskan perbedaan peradaban?",
+          "pilihan": {
+            "a": "Peradaban berkembang tanpa dipengaruhi lingkungan geografis",
+            "b": "Lingkungan geografis menentukan perkembangan peradaban dan masyarakat",
+            "c": "Hanya faktor budaya yang mempengaruhi perkembangan",
+            "d": "Determinisme geografis adalah teori yang tidak berlaku"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 190,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori possibilisme menjelaskan hubungan manusia dengan lingkungan?",
+          "pilihan": {
+            "a": "Manusia sepenuhnya ditentukan oleh lingkungan",
+            "b": "Lingkungan memberikan kemungkinan dan batasan, tetapi manusia memiliki pilihan untuk memanfaatkannya",
+            "c": "Lingkungan tidak memiliki pengaruh pada manusia",
+            "d": "Manusia dapat mengubah lingkungan tanpa batas"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 191,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana konsep regional disparities menjelaskan ketimpangan pembangunan?",
+          "pilihan": {
+            "a": "Tidak ada perbedaan pembangunan antar wilayah",
+            "b": "Perbedaan dalam sumber daya, lokasi, dan investasi menciptakan kesenjangan pembangunan",
+            "c": "Semua wilayah berkembang pada laju yang sama",
+            "d": "Ketimpangan pembangunan tidak dapat diukur"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 192,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori core-periphery menjelaskan pola pembangunan geografis?",
+          "pilihan": {
+            "a": "Pembangunan merata di semua wilayah",
+            "b": "Pusat kota/daerah maju menarik investasi dan sumber daya, meninggalkan pinggiran tertinggal",
+            "c": "Pinggiran selalu berkembang lebih cepat",
+            "d": "Struktur geografis pembangunan tidak teratur"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 193,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana konsep sense of place mempengaruhi identitas komunitas?",
+          "pilihan": {
+            "a": "Lokasi geografis tidak mempengaruhi identitas",
+            "b": "Hubungan emosional dengan tempat membentuk identitas dan budaya komunitas",
+            "c": "Setiap komunitas memiliki sense of place yang sama",
+            "d": "Sense of place adalah konsep yang tidak relevan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 194,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori political ecology menjelaskan konflik atas sumber daya alam?",
+          "pilihan": {
+            "a": "Tidak ada hubungan antara politk dan sumber daya alam",
+            "b": "Kekuasaan dan kepentingan politik mempengaruhi distribusi dan pengelolaan sumber daya",
+            "c": "Sumber daya alam didistribusikan secara adil tanpa pertimbangan politk",
+            "d": "Konflik atas sumber daya hanya disebabkan faktor ekonomi"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 195,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana konsep geopolitik mempengaruhi hubungan internasional?",
+          "pilihan": {
+            "a": "Geopolitik tidak mempengaruhi hubungan internasional",
+            "b": "Letak geografis, sumber daya, dan kekuatan mempengaruhi strategi dan konflik antar negara",
+            "c": "Hubungan internasional sepenuhnya ditentukan oleh ideologi",
+            "d": "Geopolitik hanya relevan untuk negara besar"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 196,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori urban primacy menjelaskan konsentrasi pembangunan di kota besar?",
+          "pilihan": {
+            "a": "Pembangunan tersebar merata di semua kota",
+            "b": "Satu kota besar mendominasi ekonomi dan mengalihkan sumber daya dari kota lain",
+            "c": "Kota-kota kecil selalu berkembang lebih cepat",
+            "d": "Urban primacy adalah fenomena yang tidak umum"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 197,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana konsep sustainability menjelaskan hubungan antara pembangunan dan lingkungan?",
+          "pilihan": {
+            "a": "Pembangunan dan kelestarian lingkungan bertentangan",
+            "b": "Pembangunan yang memenuhi kebutuhan sekarang tanpa mengorbankan generasi mendatang",
+            "c": "Sustainability hanya perhatian akademis",
+            "d": "Lingkungan dapat terus dieksploitasi tanpa batas"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 198,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana climate change mempengaruhi food security global?",
+          "pilihan": {
+            "a": "Perubahan iklim tidak mempengaruhi produksi pangan",
+            "b": "Mengubah pola musim tanam, mengurangi hasil panen, dan mengancam ketahanan pangan",
+            "c": "Perubahan iklim selalu meningkatkan produksi pangan",
+            "d": "Food security tidak terkait dengan perubahan iklim"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 199,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori human-environment interaction menjelaskan adaptasi manusia?",
+          "pilihan": {
+            "a": "Manusia tidak beradaptasi dengan lingkungan",
+            "b": "Manusia mengembangkan strategi budaya dan teknologi untuk beradaptasi dengan lingkungan lokal",
+            "c": "Adaptasi hanya terjadi secara biologis",
+            "d": "Interaksi manusia-lingkungan tidak penting untuk dipelajari"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 200,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana konsep environmental justice menjelaskan distribusi beban lingkungan?",
+          "pilihan": {
+            "a": "Beban lingkungan didistribusikan secara merata",
+            "b": "Kelompok termarjinalisasi sering menerima beban lingkungan lebih besar dari keuntungan ekonomi",
+            "c": "Environmental justice hanya slogan politis",
+            "d": "Beban lingkungan tidak berhubungan dengan keadilan sosial"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 201,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori transnationalism menjelaskan mobilitas penduduk modern?",
+          "pilihan": {
+            "a": "Mobilitas penduduk tidak melintasi batas negara",
+            "b": "Individu mempertahankan ikatan dengan negara asal sambil bermigrasi ke negara baru",
+            "c": "Transnationalism hanya berlaku untuk bisnis",
+            "d": "Mobilitas modern tidak mengubah identitas nasional"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 202,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana konsep scaling dalam geografi menjelaskan analisis multiskaila?",
+          "pilihan": {
+            "a": "Hanya satu skala yang relevan untuk analisis geografis",
+            "b": "Fenomena geografis dapat dianalisis pada berbagai skala: lokal, nasional, dan global",
+            "c": "Skala tidak mempengaruhi analisis geografis",
+            "d": "Multiskala analysis adalah konsep yang terlalu kompleks"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 203,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori new regionalism menjelaskan kerjasama regional?",
+          "pilihan": {
+            "a": "Tidak ada kerjasama regional dalam ekonomi modern",
+            "b": "Wilayah membentuk aliansi ekonomi dan politis untuk meningkatkan kompetitivitas global",
+            "c": "Regionalism adalah fenomena kuno yang sudah usang",
+            "d": "Kerjasama regional tidak efektif"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 204,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana konsep ecological footprint mengukur dampak manusia pada lingkungan?",
+          "pilihan": {
+            "a": "Ecological footprint tidak dapat diukur",
+            "b": "Mengukur luas lahan yang dibutuhkan untuk mendukung gaya hidup dan konsumsi manusia",
+            "c": "Hanya negara kaya yang memiliki ecological footprint",
+            "d": "Ecological footprint tidak relevan untuk keberlanjutan"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 205,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori cultural landscapes menjelaskan modifikasi lingkungan?",
+          "pilihan": {
+            "a": "Lingkungan alami tidak dimodifikasi oleh manusia",
+            "b": "Manusia memodifikasi lanskap melalui praktik budaya yang mencerminkan nilai dan sistem kepercayaan",
+            "c": "Lanskap budaya hanya hasil kebetulan",
+            "d": "Modifikasi lingkungan tidak terkait dengan budaya"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 206,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana konsep global cities menjelaskan hierarki perkotaan?",
+          "pilihan": {
+            "a": "Semua kota memiliki fungsi yang sama dalam ekonomi global",
+            "b": "Kota-kota tertentu berfungsi sebagai pusat kontrol ekonomi global dan jaringan berskala internasional",
+            "c": "Global cities adalah fenomena baru yang belum terbukti",
+            "d": "Hierarki perkotaan tidak terstruktur"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 207,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana teori frontier menjelaskan ekspansi dan kolonisasi wilayah?",
+          "pilihan": {
+            "a": "Tidak ada konsep frontier dalam pembangunan geografis",
+            "b": "Batas antara wilayah yang sudah dan belum dikembangkan yang mendorong ekspansi ekonomi dan budaya",
+            "c": "Frontier hanya ada dalam sejarah masa lalu",
+            "d": "Ekspansi wilayah tidak memiliki pola geografis"
+          },
+          "jawaban_benar": "b"
+        },
+        {
+          "id": 208,
+          "tingkat": "hard",
+          "pertanyaan": "Bagaimana konsep virtual space mengubah pemahaman tentang geografi tradisional?",
+          "pilihan": {
+            "a": "Virtual space tidak memiliki relevansi geografis",
+            "b": "Interaksi digital menciptakan ruang sosial baru yang melampaui batasan geografis fisik",
+            "c": "Internet tidak mempengaruhi geografi",
+            "d": "Virtual space adalah konsep yang terlalu abstrak"
+          },
+          "jawaban_benar": "b"
+        }
+      ]
+    }
+  ]
+}

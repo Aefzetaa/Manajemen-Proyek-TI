@@ -1,0 +1,78 @@
+[
+  {
+    "instruction": "Apa itu ZeroPay pada sistem Milky Garage?",
+    "input": "zeropay zero pay dompet digital saldo pembayaran top up tarik dana",
+    "output": "ZeroPay adalah dompet digital internal pada sistem Milky Garage. ZeroPay bukan layanan publik asli seperti GoPay, OVO, DANA, atau ShopeePay; fitur ini adalah simulasi pembayaran offline yang dibuat khusus untuk proyek/demo Milky Garage.\n\nFungsi utama ZeroPay:\n1. Menyimpan saldo pengguna di akun.\n2. Dipakai pelanggan untuk membayar tagihan servis jika saldo cukup.\n3. Dipakai pelanggan untuk top-up saldo melalui simulasi e-wallet.\n4. Dipakai role internal untuk alur saldo sesuai hak aksesnya.\n5. Mencatat setiap perubahan saldo di Riwayat Akun.\n6. Membantu simulasi pembayaran bengkel secara lokal.\n\nKarena sistem ini berjalan lokal, transaksi ZeroPay tidak terhubung ke bank, payment gateway, QRIS nyata, atau API eksternal."
+  },
+  {
+    "instruction": "Bagaimana alur top-up ZeroPay?",
+    "input": "cara topup top up isi saldo zeropay nominal ewallet",
+    "output": "Alur top-up ZeroPay di Milky Garage:\n1. Pengguna membuka menu Top-up atau ikon tambah pada kartu ZeroPay.\n2. Pengguna memilih atau mengisi nominal. Nominal minimal top-up adalah Rp 10.000.\n3. Pengguna memilih metode simulasi e-wallet seperti GoPay, OVO, DANA, atau ShopeePay.\n4. Sistem menambahkan saldo ke akun pengguna secara langsung.\n5. Sistem membuat catatan aktivitas akun dengan tipe topup.\n\nTop-up ini adalah simulasi lokal. Tidak ada uang asli yang dikirim, tidak ada API payment gateway, dan tidak ada koneksi internet yang diperlukan."
+  },
+  {
+    "instruction": "Bagaimana alur pembayaran servis dengan ZeroPay?",
+    "input": "bayar servis pakai zeropay pembayaran pelanggan saldo cukup invoice nota",
+    "output": "Alur pembayaran servis dengan ZeroPay:\n1. Pelanggan melakukan booking servis.\n2. Mekanik menerima booking, mengerjakan servis, lalu membuat rincian servis dan sparepart.\n3. Kasir atau owner mengirim rincian biaya ke pelanggan.\n4. Pelanggan menyetujui rincian biaya.\n5. Di halaman Pembayaran, pelanggan memilih metode ZeroPay.\n6. Jika saldo cukup, saldo pelanggan dipotong sebesar tagihan.\n7. Status pembayaran menjadi lunas, order servis menjadi selesai, dan invoice/nota dibuat.\n8. Sistem mencatat aktivitas pembayaran ZeroPay di Riwayat Akun.\n\nJika saldo tidak cukup, pelanggan harus top-up terlebih dahulu atau memakai metode tunai jika tersedia."
+  },
+  {
+    "instruction": "Bagaimana cara tarik dana ZeroPay dan berapa PIN demo?",
+    "input": "withdraw tarik dana penarikan zeropay pin owner kasir mekanik rekening ewallet",
+    "output": "Tarik dana ZeroPay tersedia untuk owner, kasir, dan mekanik. Alurnya:\n1. Buka menu Withdraw atau Kelola Saldo ZeroPay.\n2. Masukkan nominal penarikan dan tujuan, misalnya e-wallet atau rekening.\n3. Konfirmasi penarikan.\n4. Sistem menampilkan modal verifikasi PIN 4 digit.\n5. Jika PIN benar dan saldo mencukupi, saldo pengguna berkurang.\n6. Sistem mencatat aktivitas withdraw di Riwayat Akun.\n\nPIN demo penarikan:\n- Owner: 0104\n- Kasir: 0000\n- Mekanik: 1111\n\nPelanggan fokus pada top-up dan pembayaran servis; fitur tarik dana dipakai oleh role internal.",
+    "visibility": "owner"
+  },
+  {
+    "instruction": "Apa saja fitur utama sistem Milky Garage?",
+    "input": "fitur sistem milky garage aplikasi bengkel motor zoruai zeropay booking pembayaran laporan",
+    "output": "Milky Garage adalah sistem manajemen bengkel motor berbasis Laravel untuk demo/tugas kuliah. Fitur utamanya meliputi:\n1. Autentikasi dan registrasi multi-role: customer, mechanic, cashier, dan owner.\n2. Verifikasi role internal dengan kode khusus.\n3. Dashboard sesuai peran pengguna.\n4. Booking service oleh pelanggan.\n5. ACC booking dan pengerjaan servis oleh mekanik.\n6. Pembuatan service order berisi jasa servis dan sparepart.\n7. Pembayaran servis melalui ZeroPay atau Tunai.\n8. Invoice/nota setelah pembayaran selesai.\n9. ZeroPay sebagai dompet digital simulasi lokal.\n10. Top-up saldo, penarikan dana, dan Riwayat Akun.\n11. Master Data untuk owner: jenis servis, harga, estimasi, gaji mekanik/kasir, sparepart, stok, dan restock.\n12. Laporan keuangan owner dan laporan kasir.\n13. Gaji mekanik dan fee kasir dari transaksi servis.\n14. ZoruAi, asisten AI offline yang menjawab pertanyaan sistem, bengkel motor, tata bahasa Indonesia, dan perintah owner tertentu.\n\nSistem ini dirancang berjalan lokal/offline tanpa API eksternal."
+  },
+  {
+    "instruction": "Apa saja role pengguna pada Milky Garage dan hak aksesnya?",
+    "input": "role pengguna customer pelanggan mekanik kasir owner hak akses kode verifikasi",
+    "output": "Role pengguna pada Milky Garage:\n\n1. Customer/Pelanggan\n- Registrasi tanpa kode verifikasi.\n- Membuat, mengedit, dan membatalkan booking sesuai aturan.\n- Melihat status servis.\n- Membayar tagihan servis dengan ZeroPay atau Tunai.\n- Top-up ZeroPay dan melihat Riwayat Akun.\n- Menggunakan Agent AI ZoruAi.\n\n2. Mechanic/Mekanik\n- Registrasi memakai kode MECH2026.\n- Mengambil/ACC booking yang masih scheduled.\n- Memulai pekerjaan servis.\n- Membuat rincian service order dan sparepart.\n- Melihat laporan gaji.\n- Menarik saldo ZeroPay dengan PIN demo 1111.\n- Menggunakan ZoruAi.\n\n3. Cashier/Kasir\n- Registrasi memakai kode CASH2026.\n- Mengelola pembayaran.\n- Mengirim nota/invoice.\n- Melihat laporan kasir dan gaji.\n- Mengklaim gaji yang belum diambil.\n- Menarik saldo ZeroPay dengan PIN demo 0000.\n- Menggunakan ZoruAi.\n\n4. Owner/Pemilik\n- Registrasi memakai kode OWNER2026 dan hanya boleh ada satu akun owner.\n- Mengakses laporan keuangan harian/bulanan.\n- Mengelola master data servis dan sparepart.\n- Mengubah harga, memberi diskon, dan restock melalui menu atau perintah ZoruAi.\n- Mengelola saldo ZeroPay dan menarik dana dengan PIN demo 0104.\n- Menggunakan mode eksekutif ZoruAi.",
+    "visibility": "owner"
+  },
+  {
+    "instruction": "Bagaimana alur booking servis di Milky Garage?",
+    "input": "booking service pesan servis jadwal slot pelanggan mekanik acc mulai kerja rincian biaya",
+    "output": "Alur booking servis di Milky Garage:\n1. Pelanggan membuka menu Booking Service.\n2. Pelanggan memilih kendaraan, jenis servis, tanggal, jam, dan menulis keluhan/deskripsi servis.\n3. Sistem mengecek slot tanggal dan jam agar tidak bentrok.\n4. Booking dibuat dengan status scheduled.\n5. Pelanggan masih bisa mengedit booking maksimal 1 jam setelah dibuat selama belum diambil mekanik.\n6. Pelanggan dapat membatalkan booking yang masih scheduled.\n7. Mekanik atau owner menerima booking.\n8. Status berubah menjadi accepted, lalu mekanik memulai pekerjaan sehingga status menjadi in_progress.\n9. Mekanik membuat rincian servis dan sparepart pada service order.\n10. Setelah rincian dikirim, pelanggan menyetujui biaya dan melanjutkan ke pembayaran.\n\nStatus penting booking antara lain scheduled, accepted, in_progress, completed, dan canceled."
+  },
+  {
+    "instruction": "Bagaimana alur service order dan sparepart pada Milky Garage?",
+    "input": "service order rincian servis sparepart stok jasa biaya subtotal mekanik kasir",
+    "output": "Service order adalah rincian pekerjaan setelah booking diterima dan dikerjakan. Mekanik atau owner membuat service order dari booking yang sedang in_progress.\n\nIsi service order:\n1. Data pelanggan dan kendaraan.\n2. Keluhan atau deskripsi servis dari booking.\n3. Jasa servis yang dipilih pelanggan.\n4. Sparepart tambahan jika dibutuhkan.\n5. Jumlah sparepart, harga, dan subtotal.\n6. Total biaya jasa dan sparepart.\n7. Status proses menuju pembayaran.\n\nSaat sparepart dipakai, stok sparepart dikurangi. Setelah service order dibuat, kasir/owner dapat meneruskan rincian biaya ke pelanggan untuk disetujui dan dibayar."
+  },
+  {
+    "instruction": "Apa fungsi Master Data pada Milky Garage?",
+    "input": "master data katalog service type jenis servis sparepart stok harga restock owner",
+    "output": "Master Data adalah menu khusus owner untuk mengelola katalog bengkel. Data ini menjadi sumber utama harga dan stok yang dipakai sistem.\n\nYang bisa dikelola di Master Data:\n1. Jenis servis, misalnya Servis Ringan, Ganti Oli, Tune Up Mesin, dan Perbaikan Rem.\n2. Estimasi durasi pengerjaan servis.\n3. Harga dasar jasa servis.\n4. Gaji mekanik dan fee kasir per jenis servis.\n5. Sparepart, SKU, harga, dan stok.\n6. Restock sparepart.\n7. Ubah dan hapus data katalog.\n\nZoruAi harus memakai master data sistem untuk pertanyaan harga servis/sparepart, bukan estimasi umum dari dataset bengkel motor.",
+    "visibility": "owner"
+  },
+  {
+    "instruction": "Apa itu ZoruAi pada sistem Milky Garage?",
+    "input": "zoruai agent ai asisten virtual offline milky garage training data",
+    "output": "ZoruAi adalah asisten virtual Milky Garage. ZoruAi berjalan lokal/offline di server aplikasi tanpa internet dan tanpa API eksternal.\n\nKemampuan ZoruAi:\n1. Menjawab pertanyaan tentang fitur Milky Garage seperti ZeroPay, booking, pembayaran, role, master data, laporan, dan riwayat akun.\n2. Menjawab pertanyaan teknik bengkel motor dari data training bengkel motor.\n3. Membantu koreksi atau penjelasan bahasa Indonesia dari dataset bahasa.\n4. Menggunakan master data sistem saat ditanya harga servis atau sparepart.\n5. Untuk owner, ZoruAi memiliki mode eksekutif yang bisa menjalankan perintah seperti analisa pendapatan, ubah harga servis, beri diskon, dan tambah stok sparepart.\n\nZoruAi tidak memakai ChatGPT/API luar; jawabannya berasal dari rule lokal, database aplikasi, dan file training di database/data/zoruai-training."
+  },
+  {
+    "instruction": "Apa saja perintah owner yang bisa dijalankan ZoruAi?",
+    "input": "owner zoruai mode eksekutif ubah harga diskon restock analisa pendapatan tren omzet",
+    "output": "Pada akun owner, ZoruAi memiliki mode eksekutif untuk membantu operasional. Contoh perintah yang bisa dijalankan:\n1. Analisa pendapatan hari ini.\n2. Analisis omzet bulan ini.\n3. Tampilkan tren performa bengkel.\n4. Ubah harga Servis Ringan menjadi 80000.\n5. Berikan diskon 10% untuk Ganti Oli.\n6. Tambah stok Busi Motor 5 unit.\n\nPerintah owner bekerja langsung pada database lokal. Untuk harga, ZoruAi mencari jenis servis di Master Data. Untuk restock, ZoruAi mencari sparepart di katalog sparepart. Jika nama item tidak cocok, ZoruAi akan memberi tahu bahwa item tidak ditemukan.",
+    "visibility": "owner"
+  },
+  {
+    "instruction": "Bagaimana sistem laporan dan gaji di Milky Garage?",
+    "input": "laporan keuangan laporan kasir laporan gaji mekanik fee kasir profit owner omzet",
+    "output": "Sistem laporan Milky Garage mencakup:\n1. Laporan keuangan owner: omzet hari ini, omzet bulan ini, order aktif, dan stok sparepart rendah.\n2. Laporan kasir: daftar pembayaran yang perlu dikonfirmasi atau sudah diproses.\n3. Laporan gaji mekanik: penghasilan mekanik dari servis yang selesai dibayar.\n4. Gaji/fee kasir: fee transaksi servis yang dapat diklaim ke saldo ZeroPay kasir.\n5. Riwayat Akun: catatan top-up, pembayaran, withdraw, gaji, fee, dan profit.\n\nPada pembayaran ZeroPay, sistem dapat mencatat pembagian transaksi: pelanggan membayar tagihan, mekanik menerima gaji sesuai jenis servis, kasir menerima fee, dan owner menerima profit bersih.",
+    "visibility": "owner"
+  },
+  {
+    "instruction": "Apa kode registrasi role internal Milky Garage?",
+    "input": "kode registrasi kode verifikasi owner mekanik kasir owner2026 mech2026 cash2026",
+    "output": "Kode registrasi role internal Milky Garage:\n- Owner: OWNER2026\n- Mechanic/Mekanik: MECH2026\n- Cashier/Kasir: CASH2026\n\nPelanggan/customer tidak memerlukan kode verifikasi. Username dibatasi maksimal 8 karakter dan dapat berisi huruf, angka, serta underscore. Hanya boleh ada satu akun owner pada sistem demo ini.",
+    "visibility": "owner"
+  },
+  {
+    "instruction": "Apakah Milky Garage membutuhkan internet atau payment gateway?",
+    "input": "offline internet api payment gateway qris nyata demo lokal",
+    "output": "Milky Garage dirancang untuk demo offline/lokal. Sistem tidak membutuhkan internet, payment gateway, bank, QRIS nyata, atau API eksternal.\n\nYang bersifat simulasi lokal:\n1. ZeroPay dan saldo pengguna.\n2. Top-up e-wallet.\n3. Withdraw/penarikan dana.\n4. QRIS/overlay scan jika digunakan pada demo pembayaran.\n5. ZoruAi sebagai asisten lokal.\n\nData penting seperti user, booking, service order, payment, invoice, sparepart, dan riwayat akun disimpan di database aplikasi."
+  }
+]

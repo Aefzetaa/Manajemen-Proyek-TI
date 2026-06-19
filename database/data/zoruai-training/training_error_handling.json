@@ -1,0 +1,209 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Saya mau bayar pakai ZeroPay tapi saldo saya cuma 20 ribu, biayanya 150 ribu"
+      },
+      {
+        "role": "assistant",
+        "content": "Saldo ZeroPay Anda kurang Rp 130.000. Anda bisa:\n\n1. **Top-up ZeroPay**: Minimal top-up Rp 10.000. Saya rekomendasikan top-up Rp 150.000 biar bisa langsung bayar dan ada sisa.\n2. **Bayar sebagian pakai ZeroPay**: Top-up 130 ribu lebih, terus bayar 150 ribu dari ZeroPay.\n3. **Pakai Tunai**: Jika lebih mudah, bisa langsung bayar tunai saat ambil motor.\n\nMau pilih opsi yang mana?"
+      }
+    ],
+    "role": "customer",
+    "error_type": "insufficient_zeropay_balance",
+    "solutions": ["topup", "partial_payment", "cash_alternative"],
+    "priority": "high"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Saya booking dengan mekanik tapi sekarang dia tidak respon. Gimana?"
+      },
+      {
+        "role": "assistant",
+        "content": "Booking Anda status 'Scheduled', artinya belum diterima mekanik mana pun. Jangan khawatir, owner atau mekanik lain akan terima booking Anda. Kalau sampai waktu booking lewat dan belum ada yang terima, hubungi owner untuk reschedule atau ganti jam. Perlu saya bantu cek status booking Anda?"
+      }
+    ],
+    "role": "customer",
+    "error_type": "mechanic_unresponsive",
+    "context": "booking_status",
+    "solution": "escalate_to_owner"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Saya mekanik. Saya mau ACC booking ini tapi gaada sparepart yang diminta pelanggan"
+      },
+      {
+        "role": "assistant",
+        "content": "Bisa ACC dulu, tapi saat membuat Service Order nanti, jelaskan ke pelanggan bahwa sparepart tidak tersedia. Opsi:\n\n1. **Tunggu restock**: Cek sama owner kapan sparepart bisa datang.\n2. **Alternatif sparepart**: Gunakan merk/type lain yang kompatibel (konsultasi owner).\n3. **Buat nota tanpa sparepart**: Hanya charge jasa servis saja, sparepart bisa beli sendiri pelanggan.\n\nMana yang Anda pilih? Owner bisa lihat di Master Data sparepart mana yang habis."
+      }
+    ],
+    "role": "mechanic",
+    "error_type": "sparepart_unavailable",
+    "context": "service_order_creation",
+    "solutions": ["wait_restock", "alternative_sparepart", "service_only"]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Booking saya udah 2 jam tapi mekanik masih bilang 'sedang proses'. Apa tidak lama-lama?"
+      },
+      {
+        "role": "assistant",
+        "content": "Estimasi durasi servis Anda adalah [ESTIMATE_DARI_MASTER_DATA]. Kalau sudah melewati estimasi, bisa jadi ada komplikasi atau mekanik pakai sparepart tambahan yang tidak direncanakan. Sebaiknya hubungi mekanik atau owner untuk update real-time. Mereka bisa kasih tau berapa lama lagi selesai."
+      }
+    ],
+    "role": "customer",
+    "error_type": "service_exceeds_estimate",
+    "context": "timeline_management",
+    "solution": "escalate_communication"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "PIN tarik dana saya salah terus. Sekarang gimana?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau PIN salah 3x berturut-turut, sistem akan lock withdraw selama 10 menit untuk keamanan. Tunggu sebentar terus coba lagi dengan PIN yang benar. PIN Anda sudah set saat registrasi. Kalau lupa, hubungi owner untuk reset PIN (perlu verifikasi identitas)."
+      }
+    ],
+    "role": "mechanic|cashier",
+    "error_type": "wrong_pin_withdrawal",
+    "context": "security",
+    "solution": "cooldown_and_owner_reset"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Saya owner. Mau ubah harga Servis Ringan tapi sistem bilang 'tidak bisa ubah karena ada booking pending'. Gimana?"
+      },
+      {
+        "role": "assistant",
+        "content": "Harga baru hanya berlaku untuk booking yang akan datang, bukan yang sedang pending. Sistem melindungi agar booking yang sudah ACC tidak tiba-tiba harganya berubah. Opsi:\n\n1. **Tunggu booking selesai**, terus ubah harga.\n2. **Ubah harga untuk booking mendatang saja** (sistem support ini).\n3. **Kasih diskon manual** ke pelanggan booking pending jika perlu adjustment.\n\nYakin lanjut ubah harga?"
+      }
+    ],
+    "role": "owner",
+    "error_type": "pricing_conflict_pending_booking",
+    "context": "master_data_integrity",
+    "solution": "explain_constraints"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Transaksi pembayaran ZeroPay saya failed. Gimana uangnya?"
+      },
+      {
+        "role": "assistant",
+        "content": "Kalau transaksi failed, saldo Anda tidak akan terpotong (sistem akan rollback otomatis). Coba bayar lagi. Kalau masih error, bisa:\n\n1. Gunakan metode Tunai sebagai alternative.\n2. Hubungi owner untuk cek status pembayaran di log sistem.\n3. Top-up ZeroPay lagi (mungkin ada timeout atau koneksi issue) terus coba pembayaran lagi.\n\nPerlu bantuan?"
+      }
+    ],
+    "role": "customer",
+    "error_type": "payment_transaction_failed",
+    "context": "payment_safety",
+    "solution": "rollback_and_alternative"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Saya owner. Berapa fee kasir bulan ini untuk booking yang belum bayar?"
+      },
+      {
+        "role": "assistant",
+        "content": "Fee kasir hanya dihitung dari pembayaran yang sudah selesai (status 'paid' atau 'completed'). Booking yang belum bayar (pending/unpaid) tidak termasuk fee. Jadi laporan bulan ini menghitung dari 45 booking yang sudah bayar dengan total fee: Rp [AMOUNT]. Booking yang masih pending akan dihitung bulan depan begitu dibayar."
+      }
+    ],
+    "role": "owner",
+    "error_type": "salary_calculation_query",
+    "context": "financial_accuracy",
+    "clarification": "pending_not_included"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Motor saya terdaftar tapi saya lupa tipe motor. Gimana?"
+      },
+      {
+        "role": "assistant",
+        "content": "Buka profil akun Anda, terus lihat daftar kendaraan/motor. Tipe motor Anda sudah tercatat saat registrasi. Kalau ingin tambah motor baru atau edit, bisa update dari menu Profil. Jangan lupa simpan perubahan."
+      }
+    ],
+    "role": "customer",
+    "error_type": "user_forgot_data",
+    "context": "profile_management",
+    "solution": "self_service"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Saya booking servis tapi sebelum ACC-nya saya mau ubah tanggal dan jam"
+      },
+      {
+        "role": "assistant",
+        "content": "Bisa! Asalkan booking masih 'Scheduled' dan belum diterima mekanik, Anda bisa edit tanggal/jam booking maksimal 1 jam setelah dibuat. Setelah 1 jam, harus batalkan booking lama terus buat booking baru. Atau hubungi owner untuk bantuan reschedule jika sudah lewat 1 jam."
+      }
+    ],
+    "role": "customer",
+    "error_type": "booking_modification_window",
+    "context": "booking_rules",
+    "constraints": "1_hour_window"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Saya kasir. Ada 5 pembayaran menunggu konfirmasi, tapi saya baru kerjakan 3. Gimana caranya?"
+      },
+      {
+        "role": "assistant",
+        "content": "Buka menu 'Laporan Kasir', lihat daftar pembayaran yang status 'Pending Confirmation'. Konfirmasi satu per satu berdasarkan bukti pembayaran (kalau tunai, lihat nota; kalau ZeroPay, sudah otomatis tercatat). Setelah konfirmasi, status berubah jadi 'Confirmed' dan invoice bisa dikirim ke pelanggan. Jangan lupa catat semua di riwayat akun."
+      }
+    ],
+    "role": "cashier",
+    "context": "payment_confirmation_workflow",
+    "task": "bulk_confirmation"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Saya owner. Saya ubah harga pakai ZoruAi tapi belum benar-benar tersimpan. Gimana?"
+      },
+      {
+        "role": "assistant",
+        "content": "Perintah ZoruAi langsung eksekusi ke database lokal. Jadi seharusnya sudah tersimpan otomatis. Cek di Master Data menu 'Jenis Servis' untuk verifikasi apakah harga sudah berubah. Kalau belum tercermin, mungkin ada error saat eksekusi (ZoruAi akan kasih notifikasi). Coba ulang atau refresh halaman."
+      }
+    ],
+    "role": "owner",
+    "error_type": "executive_command_not_saved",
+    "context": "zoruai_persistence",
+    "solution": "verify_and_retry"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Laporan gaji saya bulan ini 0 rupiah padahal saya kerja 10 servis"
+      },
+      {
+        "role": "assistant",
+        "content": "Gaji dihitung dari servis yang sudah selesai DIBAYAR oleh pelanggan. Kalau 10 servis belum ada yang dibayar atau masih status 'pending', gaji Anda belum terhitung. Cek di Laporan Gaji berapa servis yang sudah 'completed & paid'. Kalau ada servis yang sudah selesai tapi belum dibayar, ingatkan kasir/owner untuk konfirmasi pembayaran dulu."
+      }
+    ],
+    "role": "mechanic",
+    "error_type": "zero_salary_calculation",
+    "context": "salary_dependency",
+    "clarification": "payment_status_required"
+  }
+]

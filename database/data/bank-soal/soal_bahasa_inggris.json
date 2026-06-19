@@ -1,0 +1,914 @@
+{
+  "mata_pelajaran": "Bahasa Inggris",
+  "total_soal": 75,
+  "tingkatan": ["mudah", "normal", "hard"],
+  "soal_per_tingkatan": 25,
+  "soal": {
+    "mudah": [
+      {
+        "nomor": 1,
+        "tingkatan": "mudah",
+        "pertanyaan": "What is the English word for 'rumah'?",
+        "pilihan": {
+          "a": "House",
+          "b": "Car",
+          "c": "Tree",
+          "d": "Book"
+        },
+        "jawaban_benar": "a"
+      },
+      {
+        "nomor": 2,
+        "tingkatan": "mudah",
+        "pertanyaan": "How do you spell the color blue in English?",
+        "pilihan": {
+          "a": "Bloo",
+          "b": "Blew",
+          "c": "Blue",
+          "d": "Bleu"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 3,
+        "tingkatan": "mudah",
+        "pertanyaan": "Which one is a fruit?",
+        "pilihan": {
+          "a": "Carrot",
+          "b": "Potato",
+          "c": "Apple",
+          "d": "Broccoli"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 4,
+        "tingkatan": "mudah",
+        "pertanyaan": "What does 'Hello' mean?",
+        "pilihan": {
+          "a": "Goodbye",
+          "b": "Thank you",
+          "c": "Greeting/Welcome",
+          "d": "Excuse me"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 5,
+        "tingkatan": "mudah",
+        "pertanyaan": "Choose the correct spelling: 'Sience' or 'Science'?",
+        "pilihan": {
+          "a": "Sience",
+          "b": "Science",
+          "c": "Scienece",
+          "d": "Sciance"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 6,
+        "tingkatan": "mudah",
+        "pertanyaan": "What is the past tense of 'go'?",
+        "pilihan": {
+          "a": "Goes",
+          "b": "Going",
+          "c": "Went",
+          "d": "Gone"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 7,
+        "tingkatan": "mudah",
+        "pertanyaan": "Which animal says 'meow'?",
+        "pilihan": {
+          "a": "Dog",
+          "b": "Cat",
+          "c": "Bird",
+          "d": "Cow"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 8,
+        "tingkatan": "mudah",
+        "pertanyaan": "What is the opposite of 'hot'?",
+        "pilihan": {
+          "a": "Warm",
+          "b": "Cold",
+          "c": "Cool",
+          "d": "Freezing"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 9,
+        "tingkatan": "mudah",
+        "pertanyaan": "Complete: 'I _____ a teacher.'",
+        "pilihan": {
+          "a": "am",
+          "b": "is",
+          "c": "are",
+          "d": "be"
+        },
+        "jawaban_benar": "a"
+      },
+      {
+        "nomor": 10,
+        "tingkatan": "mudah",
+        "pertanyaan": "What is 'water' in English?",
+        "pilihan": {
+          "a": "Air",
+          "b": "Fire",
+          "c": "Water",
+          "d": "Earth"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 11,
+        "tingkatan": "mudah",
+        "pertanyaan": "Which day comes after Monday?",
+        "pilihan": {
+          "a": "Sunday",
+          "b": "Tuesday",
+          "c": "Wednesday",
+          "d": "Friday"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 12,
+        "tingkatan": "mudah",
+        "pertanyaan": "What color is the sky on a clear day?",
+        "pilihan": {
+          "a": "Green",
+          "b": "Red",
+          "c": "Blue",
+          "d": "Yellow"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 13,
+        "tingkatan": "mudah",
+        "pertanyaan": "Complete: 'She _____ a student.'",
+        "pilihan": {
+          "a": "am",
+          "b": "are",
+          "c": "is",
+          "d": "be"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 14,
+        "tingkatan": "mudah",
+        "pertanyaan": "What is the plural of 'child'?",
+        "pilihan": {
+          "a": "Childs",
+          "b": "Childes",
+          "c": "Children",
+          "d": "Childins"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 15,
+        "tingkatan": "mudah",
+        "pertanyaan": "Which is a vegetable?",
+        "pilihan": {
+          "a": "Orange",
+          "b": "Tomato",
+          "c": "Banana",
+          "d": "Grape"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 16,
+        "tingkatan": "mudah",
+        "pertanyaan": "What is the opposite of 'big'?",
+        "pilihan": {
+          "a": "Large",
+          "b": "Huge",
+          "c": "Small",
+          "d": "Tiny"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 17,
+        "tingkatan": "mudah",
+        "pertanyaan": "Complete: 'They _____ students.'",
+        "pilihan": {
+          "a": "is",
+          "b": "am",
+          "c": "are",
+          "d": "be"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 18,
+        "tingkatan": "mudah",
+        "pertanyaan": "What is the past tense of 'eat'?",
+        "pilihan": {
+          "a": "Eated",
+          "b": "Ate",
+          "c": "Eating",
+          "d": "Eats"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 19,
+        "tingkatan": "mudah",
+        "pertanyaan": "Which month comes after January?",
+        "pilihan": {
+          "a": "December",
+          "b": "February",
+          "c": "March",
+          "d": "April"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 20,
+        "tingkatan": "mudah",
+        "pertanyaan": "What is 'buku' in English?",
+        "pilihan": {
+          "a": "Pen",
+          "b": "Paper",
+          "c": "Book",
+          "d": "Pencil"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 21,
+        "tingkatan": "mudah",
+        "pertanyaan": "Which body part do you use to see?",
+        "pilihan": {
+          "a": "Ear",
+          "b": "Eye",
+          "c": "Nose",
+          "d": "Mouth"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 22,
+        "tingkatan": "mudah",
+        "pertanyaan": "What is the plural of 'book'?",
+        "pilihan": {
+          "a": "Bookes",
+          "b": "Bookz",
+          "c": "Books",
+          "d": "Bookies"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 23,
+        "tingkatan": "mudah",
+        "pertanyaan": "Complete: 'I _____ like coffee.'",
+        "pilihan": {
+          "a": "doesn't",
+          "b": "don't",
+          "c": "didn't",
+          "d": "not"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 24,
+        "tingkatan": "mudah",
+        "pertanyaan": "Which is a number?",
+        "pilihan": {
+          "a": "Red",
+          "b": "Run",
+          "c": "Seven",
+          "d": "Happy"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 25,
+        "tingkatan": "mudah",
+        "pertanyaan": "What is the English word for 'ibu'?",
+        "pilihan": {
+          "a": "Father",
+          "b": "Mother",
+          "c": "Sister",
+          "d": "Brother"
+        },
+        "jawaban_benar": "b"
+      }
+    ],
+    "normal": [
+      {
+        "nomor": 26,
+        "tingkatan": "normal",
+        "pertanyaan": "Which sentence is grammatically correct?",
+        "pilihan": {
+          "a": "She go to school every day.",
+          "b": "She goes to school every day.",
+          "c": "She going to school every day.",
+          "d": "She gone to school every day."
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 27,
+        "tingkatan": "normal",
+        "pertanyaan": "What is the correct form of the verb: 'She _____ breakfast when the phone rang.'",
+        "pilihan": {
+          "a": "was eating",
+          "b": "is eating",
+          "c": "eats",
+          "d": "has eaten"
+        },
+        "jawaban_benar": "a"
+      },
+      {
+        "nomor": 28,
+        "tingkatan": "normal",
+        "pertanyaan": "Choose the correct passive voice: 'The book _____ by John.'",
+        "pilihan": {
+          "a": "was written",
+          "b": "written",
+          "c": "is writing",
+          "d": "was write"
+        },
+        "jawaban_benar": "a"
+      },
+      {
+        "nomor": 29,
+        "tingkatan": "normal",
+        "pertanyaan": "Which word is a synonym for 'beautiful'?",
+        "pilihan": {
+          "a": "Ugly",
+          "b": "Lovely",
+          "c": "Sad",
+          "d": "Angry"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 30,
+        "tingkatan": "normal",
+        "pertanyaan": "Complete: 'If I _____ the exam, I will celebrate.'",
+        "pilihan": {
+          "a": "pass",
+          "b": "passed",
+          "c": "will pass",
+          "d": "am passing"
+        },
+        "jawaban_benar": "a"
+      },
+      {
+        "nomor": 31,
+        "tingkatan": "normal",
+        "pertanyaan": "Which sentence uses the present perfect tense correctly?",
+        "pilihan": {
+          "a": "I have gone to Paris last year.",
+          "b": "I have been to Paris.",
+          "c": "I was go to Paris.",
+          "d": "I am being to Paris."
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 32,
+        "tingkatan": "normal",
+        "pertanyaan": "What is the opposite of 'optimistic'?",
+        "pilihan": {
+          "a": "Positive",
+          "b": "Happy",
+          "c": "Pessimistic",
+          "d": "Confident"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 33,
+        "tingkatan": "normal",
+        "pertanyaan": "Choose the correct relative pronoun: 'The man _____ helped me is my uncle.'",
+        "pilihan": {
+          "a": "who",
+          "b": "which",
+          "c": "that",
+          "d": "whose"
+        },
+        "jawaban_benar": "a"
+      },
+      {
+        "nomor": 34,
+        "tingkatan": "normal",
+        "pertanyaan": "Complete: 'She asked me _____ I was going.'",
+        "pilihan": {
+          "a": "when",
+          "b": "where",
+          "c": "why",
+          "d": "how"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 35,
+        "tingkatan": "normal",
+        "pertanyaan": "Which word is a noun?",
+        "pilihan": {
+          "a": "Quickly",
+          "b": "Run",
+          "c": "Beautiful",
+          "d": "Computer"
+        },
+        "jawaban_benar": "d"
+      },
+      {
+        "nomor": 36,
+        "tingkatan": "normal",
+        "pertanyaan": "What does 'ambiguous' mean?",
+        "pilihan": {
+          "a": "Clear and simple",
+          "b": "Having more than one possible meaning",
+          "c": "Wrong or incorrect",
+          "d": "Obvious and certain"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 37,
+        "tingkatan": "normal",
+        "pertanyaan": "Choose the correct form: 'By the time you arrive, I _____ the dinner.'",
+        "pilihan": {
+          "a": "will prepare",
+          "b": "will have prepared",
+          "c": "am preparing",
+          "d": "have prepared"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 38,
+        "tingkatan": "normal",
+        "pertanyaan": "Which sentence is correct?",
+        "pilihan": {
+          "a": "Neither of the students have finished their work.",
+          "b": "Neither of the students has finished their work.",
+          "c": "Neither of the students are finishing their work.",
+          "d": "Neither of the students finish their work."
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 39,
+        "tingkatan": "normal",
+        "pertanyaan": "What is the correct spelling of a person who writes music?",
+        "pilihan": {
+          "a": "Composser",
+          "b": "Composer",
+          "c": "Compuser",
+          "d": "Composir"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 40,
+        "tingkatan": "normal",
+        "pertanyaan": "Complete: 'She _____ English and French fluently.'",
+        "pilihan": {
+          "a": "speak",
+          "b": "speaks",
+          "c": "is speaking",
+          "d": "has speaking"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 41,
+        "tingkatan": "normal",
+        "pertanyaan": "What is the meaning of 'procrastinate'?",
+        "pilihan": {
+          "a": "To work hard",
+          "b": "To delay or postpone",
+          "c": "To finish quickly",
+          "d": "To start something new"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 42,
+        "tingkatan": "normal",
+        "pertanyaan": "Which sentence uses conditional correctly?",
+        "pilihan": {
+          "a": "If you will study, you will pass.",
+          "b": "If you study, you will pass.",
+          "c": "If you studied, you passed.",
+          "d": "If you will study, you pass."
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 43,
+        "tingkatan": "normal",
+        "pertanyaan": "What is the comparative form of 'good'?",
+        "pilihan": {
+          "a": "Gooder",
+          "b": "More good",
+          "c": "Better",
+          "d": "Best"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 44,
+        "tingkatan": "normal",
+        "pertanyaan": "Choose the correct article: '_____ apple a day keeps the doctor away.'",
+        "pilihan": {
+          "a": "The",
+          "b": "An",
+          "c": "A",
+          "d": "Some"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 45,
+        "tingkatan": "normal",
+        "pertanyaan": "What is the plural of 'crisis'?",
+        "pilihan": {
+          "a": "Crises",
+          "b": "Crisisas",
+          "c": "Crisises",
+          "d": "Crisisez"
+        },
+        "jawaban_benar": "a"
+      },
+      {
+        "nomor": 46,
+        "tingkatan": "normal",
+        "pertanyaan": "Which word is an adverb?",
+        "pilihan": {
+          "a": "Happy",
+          "b": "Happiness",
+          "c": "Happily",
+          "d": "Happen"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 47,
+        "tingkatan": "normal",
+        "pertanyaan": "Complete: 'They would have attended if they _____ invited.'",
+        "pilihan": {
+          "a": "were",
+          "b": "had been",
+          "c": "have been",
+          "d": "was"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 48,
+        "tingkatan": "normal",
+        "pertanyaan": "What does 'meticulous' mean?",
+        "pilihan": {
+          "a": "Very careful and precise",
+          "b": "Rough and careless",
+          "c": "Quick and fast",
+          "d": "Slow and lazy"
+        },
+        "jawaban_benar": "a"
+      },
+      {
+        "nomor": 49,
+        "tingkatan": "normal",
+        "pertanyaan": "Choose the correct preposition: 'I am interested _____ learning new languages.'",
+        "pilihan": {
+          "a": "on",
+          "b": "at",
+          "c": "in",
+          "d": "for"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 50,
+        "tingkatan": "normal",
+        "pertanyaan": "Which sentence is punctuated correctly?",
+        "pilihan": {
+          "a": "She said, 'I love reading books'.",
+          "b": "She said 'I love reading books.'",
+          "c": "She said, \"I love reading books.\"",
+          "d": "She said, I love reading books."
+        },
+        "jawaban_benar": "c"
+      }
+    ],
+    "hard": [
+      {
+        "nomor": 51,
+        "tingkatan": "hard",
+        "pertanyaan": "Which sentence correctly demonstrates the subjunctive mood?",
+        "pilihan": {
+          "a": "I suggest that she goes to the meeting.",
+          "b": "I suggest that she go to the meeting.",
+          "c": "I suggest that she will go to the meeting.",
+          "d": "I suggest that she has gone to the meeting."
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 52,
+        "tingkatan": "hard",
+        "pertanyaan": "Complete: 'Despite _____ qualified for the job, he was not hired.'",
+        "pilihan": {
+          "a": "being",
+          "b": "been",
+          "c": "to be",
+          "d": "have been"
+        },
+        "jawaban_benar": "a"
+      },
+      {
+        "nomor": 53,
+        "tingkatan": "hard",
+        "pertanyaan": "What does 'serendipity' mean?",
+        "pilihan": {
+          "a": "Finding something good by chance",
+          "b": "A planned coincidence",
+          "c": "An unfortunate event",
+          "d": "A false belief"
+        },
+        "jawaban_benar": "a"
+      },
+      {
+        "nomor": 54,
+        "tingkatan": "hard",
+        "pertanyaan": "Which is the correct use of a dangling modifier?",
+        "pilihan": {
+          "a": "Running down the street, the bus passed by.",
+          "b": "The bus passed by, running down the street.",
+          "c": "Running down the street, I saw the bus pass by.",
+          "d": "I saw the bus running down the street pass by."
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 55,
+        "tingkatan": "hard",
+        "pertanyaan": "Complete: 'The committee _____ divided on the issue, with some members voting for and others voting against.'",
+        "pilihan": {
+          "a": "is",
+          "b": "are",
+          "c": "was",
+          "d": "were"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 56,
+        "tingkatan": "hard",
+        "pertanyaan": "What is the meaning of 'obfuscate'?",
+        "pilihan": {
+          "a": "To clarify something",
+          "b": "To make something obscure or unclear",
+          "c": "To observe carefully",
+          "d": "To object strongly"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 57,
+        "tingkatan": "hard",
+        "pertanyaan": "Choose the correctly structured parallel phrase: 'He likes swimming, _____, and to travel.'",
+        "pilihan": {
+          "a": "dancing",
+          "b": "to dance",
+          "c": "dance",
+          "d": "danced"
+        },
+        "jawaban_benar": "a"
+      },
+      {
+        "nomor": 58,
+        "tingkatan": "hard",
+        "pertanyaan": "Which sentence uses the correct subjunctive with a wish?",
+        "pilihan": {
+          "a": "I wish I am smarter.",
+          "b": "I wish I was smarter.",
+          "c": "I wish I were smarter.",
+          "d": "I wish I will be smarter."
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 59,
+        "tingkatan": "hard",
+        "pertanyaan": "What does 'ephemeral' mean?",
+        "pilihan": {
+          "a": "Lasting for a very short time",
+          "b": "Permanent and unchanging",
+          "c": "Transparent and light",
+          "d": "Mysterious and unclear"
+        },
+        "jawaban_benar": "a"
+      },
+      {
+        "nomor": 60,
+        "tingkatan": "hard",
+        "pertanyaan": "Choose the sentence with correct appositive placement: 'My friend Sarah, _____ is a doctor, will visit tomorrow.'",
+        "pilihan": {
+          "a": "who",
+          "b": "which",
+          "c": "whom",
+          "d": "that"
+        },
+        "jawaban_benar": "a"
+      },
+      {
+        "nomor": 61,
+        "tingkatan": "hard",
+        "pertanyaan": "What is the meaning of 'perspicacious'?",
+        "pilihan": {
+          "a": "Having keen insight or understanding",
+          "b": "Being physically attractive",
+          "c": "Making hasty decisions",
+          "d": "Lacking confidence"
+        },
+        "jawaban_benar": "a"
+      },
+      {
+        "nomor": 62,
+        "tingkatan": "hard",
+        "pertanyaan": "Which sentence correctly uses 'whom'?",
+        "pilihan": {
+          "a": "To whom are you speaking to?",
+          "b": "Whom did you see at the party?",
+          "c": "Whom told you about the accident?",
+          "d": "Whom will go with you?"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 63,
+        "tingkatan": "hard",
+        "pertanyaan": "Complete: 'Had she known the consequences, she _____ differently.'",
+        "pilihan": {
+          "a": "acted",
+          "b": "would have acted",
+          "c": "would act",
+          "d": "acts"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 64,
+        "tingkatan": "hard",
+        "pertanyaan": "What does 'obsequious' mean?",
+        "pilihan": {
+          "a": "Stubbornly resistant",
+          "b": "Excessively obedient or respectful",
+          "c": "Loud and boisterous",
+          "d": "Quiet and reserved"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 65,
+        "tingkatan": "hard",
+        "pertanyaan": "Choose the correct use of the semicolon: 'She studied for hours; _____ she still failed the exam.'",
+        "pilihan": {
+          "a": "however",
+          "b": "because",
+          "c": "therefore",
+          "d": "meanwhile"
+        },
+        "jawaban_benar": "a"
+      },
+      {
+        "nomor": 66,
+        "tingkatan": "hard",
+        "pertanyaan": "What is the meaning of 'sanguine'?",
+        "pilihan": {
+          "a": "Blood-like in color",
+          "b": "Optimistic and hopeful",
+          "c": "Violent and aggressive",
+          "d": "Calm and peaceful"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 67,
+        "tingkatan": "hard",
+        "pertanyaan": "Which demonstrates correct use of litotes?",
+        "pilihan": {
+          "a": "She is as fast as a cheetah.",
+          "b": "That's not a bad idea.",
+          "c": "The storm was furious.",
+          "d": "He walked like a wounded animal."
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 68,
+        "tingkatan": "hard",
+        "pertanyaan": "Complete: 'The data _____ analyzed and _____ ready for review.'",
+        "pilihan": {
+          "a": "has been, is",
+          "b": "have been, are",
+          "c": "has been, are",
+          "d": "have been, is"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 69,
+        "tingkatan": "hard",
+        "pertanyaan": "What does 'ameliorate' mean?",
+        "pilihan": {
+          "a": "To make worse",
+          "b": "To improve or make better",
+          "c": "To analyze carefully",
+          "d": "To delay unnecessarily"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 70,
+        "tingkatan": "hard",
+        "pertanyaan": "Choose the sentence with correct use of whose possessive: 'The author _____ book won the prize said she was honored.'",
+        "pilihan": {
+          "a": "whom",
+          "b": "who's",
+          "c": "whose",
+          "d": "which"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 71,
+        "tingkatan": "hard",
+        "pertanyaan": "What is the meaning of 'alacrity'?",
+        "pilihan": {
+          "a": "Fear or worry",
+          "b": "Eagerness or willingness",
+          "c": "Anger or resentment",
+          "d": "Confusion or doubt"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 72,
+        "tingkatan": "hard",
+        "pertanyaan": "Which sentence correctly uses 'neither...nor'?",
+        "pilihan": {
+          "a": "Neither John or Mary want to go.",
+          "b": "Neither John nor Mary want to go.",
+          "c": "Neither John nor Mary wants to go.",
+          "d": "Neither John and Mary wants to go."
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 73,
+        "tingkatan": "hard",
+        "pertanyaan": "Complete: '_____ the weather been favorable, we _____ completed the project.'",
+        "pilihan": {
+          "a": "If, would have",
+          "b": "Had, would have",
+          "c": "If, have",
+          "d": "Has, would"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 74,
+        "tingkatan": "hard",
+        "pertanyaan": "What does 'sycophant' mean?",
+        "pilihan": {
+          "a": "A loyal and honest friend",
+          "b": "A person who acts obsequiously toward someone important",
+          "c": "A medical professional",
+          "d": "A skilled craftsperson"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 75,
+        "tingkatan": "hard",
+        "pertanyaan": "Choose the sentence that demonstrates correct use of the subjunctive in reported speech: 'He insisted that she _____ on time.'",
+        "pilihan": {
+          "a": "arrives",
+          "b": "arrive",
+          "c": "will arrive",
+          "d": "has arrived"
+        },
+        "jawaban_benar": "b"
+      }
+    ]
+  }
+}

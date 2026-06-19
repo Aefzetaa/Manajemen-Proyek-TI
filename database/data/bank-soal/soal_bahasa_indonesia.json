@@ -1,0 +1,906 @@
+{
+  "mata_pelajaran": "Bahasa Indonesia",
+  "total_soal": 75,
+  "deskripsi": "Kumpulan soal Bahasa Indonesia dengan 3 tingkatan kesulitan: mudah (25 soal), normal (25 soal), dan hard (25 soal)",
+  "soal": [
+    {
+      "id": 1,
+      "tingkat": "mudah",
+      "pertanyaan": "Apa pengertian dari kata 'teks'?",
+      "pilihan": {
+        "a": "Gambar yang terdapat dalam buku",
+        "b": "Rangkaian kata-kata yang menyampaikan suatu makna atau pesan",
+        "c": "Judul dari sebuah cerita",
+        "d": "Daftar isi dalam buku"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 2,
+      "tingkat": "mudah",
+      "pertanyaan": "Sinonim dari kata 'besar' adalah...",
+      "pilihan": {
+        "a": "Kecil",
+        "b": "Luas",
+        "c": "Sempit",
+        "d": "Pendek"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 3,
+      "tingkat": "mudah",
+      "pertanyaan": "Berikut ini adalah jenis-jenis teks, kecuali...",
+      "pilihan": {
+        "a": "Teks deskripsi",
+        "b": "Teks eksposisi",
+        "c": "Teks narasi",
+        "d": "Teks gambar"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "id": 4,
+      "tingkat": "mudah",
+      "pertanyaan": "Apa yang dimaksud dengan 'kalimat efektif'?",
+      "pilihan": {
+        "a": "Kalimat yang panjang dan berbelit-belit",
+        "b": "Kalimat yang jelas, singkat, dan menyampaikan makna dengan tepat",
+        "c": "Kalimat yang tidak mengikuti kaidah bahasa",
+        "d": "Kalimat yang hanya terdiri dari satu kata"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 5,
+      "tingkat": "mudah",
+      "pertanyaan": "Berikut ini merupakan ciri-ciri paragraf, kecuali...",
+      "pilihan": {
+        "a": "Memiliki satu ide pokok",
+        "b": "Minimal terdiri dari tiga kalimat",
+        "c": "Selalu berwarna atau memiliki gambar",
+        "d": "Memiliki kalimat penjelas"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 6,
+      "tingkat": "mudah",
+      "pertanyaan": "Apa yang dimaksud dengan 'kata baku'?",
+      "pilihan": {
+        "a": "Kata yang belum pernah digunakan",
+        "b": "Kata yang sesuai dengan kaidah bahasa Indonesia yang benar",
+        "c": "Kata yang hanya digunakan di daerah tertentu",
+        "d": "Kata yang sering digunakan di media sosial"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 7,
+      "tingkat": "mudah",
+      "pertanyaan": "Bentuk kata kerja dari 'main' adalah...",
+      "pilihan": {
+        "a": "Memain",
+        "b": "Bermain",
+        "c": "Mainkan",
+        "d": "Mempermain"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 8,
+      "tingkat": "mudah",
+      "pertanyaan": "Kata penghubung yang tepat untuk menggabungkan dua kalimat independen adalah...",
+      "pilihan": {
+        "a": "Dan",
+        "b": "Atau",
+        "c": "Tetapi",
+        "d": "Juga"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "id": 9,
+      "tingkat": "mudah",
+      "pertanyaan": "Apa fungsi dari tanda baca titik (.)?",
+      "pilihan": {
+        "a": "Memisahkan antar kalimat",
+        "b": "Menunjukkan pertanyaan",
+        "c": "Mengakhiri kalimat pernyataan",
+        "d": "Menunjukkan rasa terkejut"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 10,
+      "tingkat": "mudah",
+      "pertanyaan": "Antonim dari kata 'cerah' adalah...",
+      "pilihan": {
+        "a": "Terang",
+        "b": "Gelap",
+        "c": "Bersih",
+        "d": "Indah"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 11,
+      "tingkat": "mudah",
+      "pertanyaan": "Berikut ini adalah unsur-unsur cerpen, kecuali...",
+      "pilihan": {
+        "a": "Tokoh dan penokohan",
+        "b": "Alur cerita",
+        "c": "Latar belakang",
+        "d": "Catatan kaki"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "id": 12,
+      "tingkat": "mudah",
+      "pertanyaan": "Apa yang dimaksud dengan 'istilah'?",
+      "pilihan": {
+        "a": "Kata-kata yang diambil dari bahasa asing",
+        "b": "Penggunaan kata-kata dalam suatu bidang khusus dengan makna tertentu",
+        "c": "Kata yang tidak memiliki makna yang jelas",
+        "d": "Kumpulan semua kata dalam bahasa Indonesia"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 13,
+      "tingkat": "mudah",
+      "pertanyaan": "Teks yang menjelaskan cara membuat atau menggunakan sesuatu disebut...",
+      "pilihan": {
+        "a": "Teks eksposisi",
+        "b": "Teks deskripsi",
+        "c": "Teks prosedur",
+        "d": "Teks narasi"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 14,
+      "tingkat": "mudah",
+      "pertanyaan": "Apa itu 'preposisi'?",
+      "pilihan": {
+        "a": "Kata yang menunjukkan nama orang atau tempat",
+        "b": "Kata yang menunjukkan hubungan antara kata-kata dalam kalimat",
+        "c": "Kata yang menyatakan tindakan atau keadaan",
+        "d": "Kata yang menggambarkan sifat atau ciri dari sesuatu"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 15,
+      "tingkat": "mudah",
+      "pertanyaan": "Dalam kalimat 'Anak itu berlari cepat', kata 'cepat' termasuk...",
+      "pilihan": {
+        "a": "Kata kerja",
+        "b": "Kata benda",
+        "c": "Kata sifat",
+        "d": "Kata keterangan"
+      },
+      "jawaban_benar": "d"
+    },
+    {
+      "id": 16,
+      "tingkat": "mudah",
+      "pertanyaan": "Apa yang dimaksud dengan 'tema'?",
+      "pilihan": {
+        "a": "Judul cerita yang menarik",
+        "b": "Pemikiran utama atau gagasan pokok dalam sebuah karya",
+        "c": "Watak dari tokoh utama",
+        "d": "Tempat terjadinya cerita"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 17,
+      "tingkat": "mudah",
+      "pertanyaan": "Berikut ini adalah tanda baca yang digunakan untuk dialog, yaitu...",
+      "pilihan": {
+        "a": "Tanda titik dua (:)",
+        "b": "Tanda petik (\") atau tanda kutip (')",
+        "c": "Tanda koma (,)",
+        "d": "Tanda tanya (?)"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 18,
+      "tingkat": "mudah",
+      "pertanyaan": "Apa yang dimaksud dengan 'konjungsi'?",
+      "pilihan": {
+        "a": "Kata yang menggambarkan sifat",
+        "b": "Kata yang menunjukkan jumlah",
+        "c": "Kata yang menghubungkan kata, frasa, atau klausa",
+        "d": "Kata yang menyatakan keberatan"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 19,
+      "tingkat": "mudah",
+      "pertanyaan": "Jenis teks yang menceritakan pengalaman pribadi atau peristiwa yang pernah terjadi adalah...",
+      "pilihan": {
+        "a": "Teks deskripsi",
+        "b": "Teks eksposisi",
+        "c": "Teks narasi",
+        "d": "Teks persuasi"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 20,
+      "tingkat": "mudah",
+      "pertanyaan": "Apa fungsi dari kalimat topik dalam sebuah paragraf?",
+      "pilihan": {
+        "a": "Mengakhiri paragraf",
+        "b": "Menjelaskan gambaran umum dari isi paragraf",
+        "c": "Memberikan detail tambahan",
+        "d": "Memberikan kesimpulan akhir"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 21,
+      "tingkat": "mudah",
+      "pertanyaan": "Dalam penulisan, 'ejaan' berarti...",
+      "pilihan": {
+        "a": "Cara mengucapkan kata",
+        "b": "Cara menuliskan kata dengan huruf-huruf yang sesuai dengan kaidah",
+        "c": "Cara membaca cerita dengan lancar",
+        "d": "Cara memahami makna kata"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 22,
+      "tingkat": "mudah",
+      "pertanyaan": "Berikut ini adalah jenis kata berdasarkan makna, kecuali...",
+      "pilihan": {
+        "a": "Kata dasar",
+        "b": "Sinonim",
+        "c": "Antonim",
+        "d": "Homonim"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "id": 23,
+      "tingkat": "mudah",
+      "pertanyaan": "Apa yang dimaksud dengan 'imbuhan' dalam bahasa Indonesia?",
+      "pilihan": {
+        "a": "Kata yang tidak mempunyai arti",
+        "b": "Bagian yang ditambahkan pada awal, akhir, atau awal-akhir kata dasar",
+        "c": "Pengulangan kata untuk penekanan",
+        "d": "Penggabungan dua kata berbeda"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 24,
+      "tingkat": "mudah",
+      "pertanyaan": "Teks yang bertujuan untuk memberikan informasi atau penjelasan adalah...",
+      "pilihan": {
+        "a": "Teks narasi",
+        "b": "Teks deskripsi",
+        "c": "Teks eksposisi",
+        "d": "Teks persuasi"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 25,
+      "tingkat": "mudah",
+      "pertanyaan": "Apa ciri utama dari kalimat perintah?",
+      "pilihan": {
+        "a": "Diakhiri dengan tanda titik",
+        "b": "Diakhiri dengan tanda tanya",
+        "c": "Diakhiri dengan tanda seru",
+        "d": "Diakhiri dengan tanda koma"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 26,
+      "tingkat": "normal",
+      "pertanyaan": "Analisis struktur dalam teks 'Hari itu, ketika mentari pagi mulai menyingsing di ufuk timur, Budi bersiap-siap untuk pergi ke sekolah. Dia bangun lebih awal dari biasanya karena ada ujian penting hari ini.' Fungsi kalimat pertama adalah...",
+      "pilihan": {
+        "a": "Memberikan informasi tentang waktu dan latar belakang cerita",
+        "b": "Menunjukkan alasan Budi bangun lebih awal",
+        "c": "Menjelaskan emosi Budi saat itu",
+        "d": "Memberikan kesimpulan dari cerita"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "id": 27,
+      "tingkat": "normal",
+      "pertanyaan": "Dalam menulis artikel ilmiah, prinsip yang harus diutamakan adalah...",
+      "pilihan": {
+        "a": "Menggunakan bahasa yang indah dan puitis",
+        "b": "Menggunakan sumber referensi yang terpercaya dan data yang akurat",
+        "c": "Menceritakan pengalaman pribadi penulis",
+        "d": "Menggunakan kata-kata yang jarang dan sulit dipahami"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 28,
+      "tingkat": "normal",
+      "pertanyaan": "Perbedaan utama antara teks deskripsi dan teks narasi adalah...",
+      "pilihan": {
+        "a": "Teks deskripsi selalu lebih panjang dari teks narasi",
+        "b": "Teks deskripsi melukiskan objek atau suasana, sementara teks narasi menceritakan peristiwa atau rangkaian kejadian",
+        "c": "Teks narasi tidak memiliki tokoh, sedangkan teks deskripsi memiliki tokoh",
+        "d": "Teks deskripsi selalu menggunakan kata sifat, sedangkan teks narasi menggunakan kata kerja"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 29,
+      "tingkat": "normal",
+      "pertanyaan": "Dalam kalimat 'Meskipun cuaca buruk, mereka tetap berangkat ke acara tersebut', konjungsi yang digunakan menunjukkan hubungan...",
+      "pilihan": {
+        "a": "Penambahan",
+        "b": "Penyebaban",
+        "c": "Pertentangan atau kontras",
+        "d": "Pilihan"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 30,
+      "tingkat": "normal",
+      "pertanyaan": "Fungsi dari paragraf penjelas dalam sebuah teks adalah...",
+      "pilihan": {
+        "a": "Memperkenalkan topik utama",
+        "b": "Memberikan detail, bukti, dan penjelasan lebih lanjut tentang ide pokok",
+        "c": "Menyimpulkan seluruh isi teks",
+        "d": "Memberikan saran kepada pembaca"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 31,
+      "tingkat": "normal",
+      "pertanyaan": "Dalam sebuah cerpen, tokoh yang melawan tokoh utama disebut...",
+      "pilihan": {
+        "a": "Protagonist",
+        "b": "Antagonist",
+        "c": "Figuran",
+        "d": "Deuteragonist"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 32,
+      "tingkat": "normal",
+      "pertanyaan": "Analisis gaya bahasa dalam kalimat 'Hatinya seperti batu yang keras' menunjukkan...",
+      "pilihan": {
+        "a": "Personifikasi",
+        "b": "Metafora",
+        "c": "Simile atau perbandingan",
+        "d": "Hiperbola"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 33,
+      "tingkat": "normal",
+      "pertanyaan": "Tujuan utama dari teks persuasi adalah...",
+      "pilihan": {
+        "a": "Mendeskripsikan sebuah objek dengan jelas",
+        "b": "Menceritakan pengalaman atau peristiwa",
+        "c": "Membujuk atau mempengaruhi pembaca untuk setuju dengan pendapat penulis",
+        "d": "Menjelaskan cara melakukan sesuatu"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 34,
+      "tingkat": "normal",
+      "pertanyaan": "Dalam konteks penulisan formal, penggunaan kata 'saya' harus diganti dengan...",
+      "pilihan": {
+        "a": "Aku",
+        "b": "Gue",
+        "c": "Penulis atau identitas resmi lainnya",
+        "d": "Hamba"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 35,
+      "tingkat": "normal",
+      "pertanyaan": "Berikut ini adalah ciri-ciri teks eksposisi, kecuali...",
+      "pilihan": {
+        "a": "Bersifat objektif dan informatif",
+        "b": "Bertujuan untuk membujuk pembaca",
+        "c": "Menyajikan fakta dan data",
+        "d": "Tidak memihak pada salah satu pihak"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 36,
+      "tingkat": "normal",
+      "pertanyaan": "Penggunaan tanda baca koma (,) dalam kalimat kompleks berfungsi untuk...",
+      "pilihan": {
+        "a": "Memisahkan klausa-klausa dalam kalimat untuk kejelasan pembacaan",
+        "b": "Menunjukkan akhir dari sebuah kalimat",
+        "c": "Menggabungkan dua kalimat yang terpisah",
+        "d": "Menunjukkan pertanyaan atau keragu-raguan"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "id": 37,
+      "tingkat": "normal",
+      "pertanyaan": "Dalam analisis sastra, 'alur maju' berarti...",
+      "pilihan": {
+        "a": "Cerita dimulai dari akhir kejadian kemudian kembali ke awal",
+        "b": "Cerita menceritakan peristiwa secara berurutan dari awal hingga akhir",
+        "c": "Cerita bercampur antara masa lalu dan masa kini",
+        "d": "Cerita tidak memiliki urutan yang jelas"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 38,
+      "tingkat": "normal",
+      "pertanyaan": "Apa perbedaan antara 'ide pokok' dan 'ide penjelas'?",
+      "pilihan": {
+        "a": "Ide pokok terletak di tengah paragraf, sementara ide penjelas di awal",
+        "b": "Ide pokok adalah gagasan utama paragraf, sementara ide penjelas memberikan rincian dan bukti",
+        "c": "Ide penjelas selalu lebih penting daripada ide pokok",
+        "d": "Kedua istilah memiliki makna yang sama"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 39,
+      "tingkat": "normal",
+      "pertanyaan": "Dalam penulisan surat formal, bagian yang berisi inti dari surat disebut...",
+      "pilihan": {
+        "a": "Pembukaan",
+        "b": "Isi surat",
+        "c": "Penutup",
+        "d": "Tanda tangan"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 40,
+      "tingkat": "normal",
+      "pertanyaan": "Analisis makna kata dalam kalimat 'Dia adalah cahaya dalam kegelapan hidupnya' menunjukkan penggunaan...",
+      "pilihan": {
+        "a": "Denotasi",
+        "b": "Konotasi positif",
+        "c": "Konotasi negatif",
+        "d": "Literal meaning"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 41,
+      "tingkat": "normal",
+      "pertanyaan": "Dalam konteks tata bahasa, 'frasa' adalah...",
+      "pilihan": {
+        "a": "Kalimat yang lengkap dengan subjek dan predikat",
+        "b": "Kelompok kata yang berfungsi sebagai satu kesatuan tanpa membentuk kalimat lengkap",
+        "c": "Rangkaian kalimat dalam satu paragraf",
+        "d": "Pengelompokan kata berdasarkan jumlah hurufnya"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 42,
+      "tingkat": "normal",
+      "pertanyaan": "Fungsi dari teks berita adalah...",
+      "pilihan": {
+        "a": "Menghibur pembaca dengan cerita fiktif",
+        "b": "Melaporkan peristiwa aktual yang terjadi dengan unsur 5W+1H",
+        "c": "Membujuk pembaca untuk membeli produk tertentu",
+        "d": "Mendeskripsikan keindahan alam"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 43,
+      "tingkat": "normal",
+      "pertanyaan": "Dalam penulisan paragraf deskripsi, penekanan biasanya diberikan pada...",
+      "pilihan": {
+        "a": "Urutan waktu peristiwa",
+        "b": "Detail visual dan sensori dari objek yang dideskripsikan",
+        "c": "Alasan mengapa sesuatu terjadi",
+        "d": "Kesimpulan dari peristiwa"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 44,
+      "tingkat": "normal",
+      "pertanyaan": "Pengertian dari 'parafrase' dalam tulisan adalah...",
+      "pilihan": {
+        "a": "Mengutip langsung dari sumber tanpa perubahan",
+        "b": "Menuliskan kembali gagasan atau pernyataan dalam kata-kata yang berbeda dengan makna yang sama",
+        "c": "Menghilangkan informasi tertentu dari sumber asli",
+        "d": "Menambahkan pendapat pribadi tanpa menyebutkan sumber"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 45,
+      "tingkat": "normal",
+      "pertanyaan": "Dalam analisis karya sastra, 'setting' mengacu pada...",
+      "pilihan": {
+        "a": "Tokoh-tokoh dalam cerita",
+        "b": "Waktu, tempat, dan keadaan sosial di mana cerita terjadi",
+        "c": "Pesan atau amanat dari cerita",
+        "d": "Cara penceritaan dalam naratif"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 46,
+      "tingkat": "normal",
+      "pertanyaan": "Apa yang dimaksud dengan 'plagiarisme' dalam penulisan akademik?",
+      "pilihan": {
+        "a": "Menggunakan kutipan dari berbagai sumber",
+        "b": "Mengambil gagasan atau karya orang lain dan mempresentasikannya sebagai milik sendiri tanpa memberikan kredit",
+        "c": "Menulis dengan gaya yang personal dan unik",
+        "d": "Menambahkan referensi di akhir tulisan"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 47,
+      "tingkat": "normal",
+      "pertanyaan": "Dalam sebuah naskah drama, 'stage direction' atau petunjuk panggung berfungsi untuk...",
+      "pilihan": {
+        "a": "Memberikan dialog kepada aktor",
+        "b": "Menjelaskan gerakan, ekspresi, dan tata letak panggung",
+        "c": "Memberikan judul untuk setiap babak",
+        "d": "Mendeskripsikan karakter secara detail"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 48,
+      "tingkat": "normal",
+      "pertanyaan": "Tujuan dari 'ringkasan' adalah...",
+      "pilihan": {
+        "a": "Menambah detail dan informasi baru",
+        "b": "Mengurangi informasi dengan tetap mempertahankan ide pokok dari teks asli",
+        "c": "Mengubah cerita menjadi puisi",
+        "d": "Menerjemahkan teks ke bahasa lain"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 49,
+      "tingkat": "normal",
+      "pertanyaan": "Analisis struktur kalimat 'Setelah makan siang, mereka pergi ke taman bermain' menunjukkan...",
+      "pilihan": {
+        "a": "Kalimat sederhana dengan satu subjek dan predikat",
+        "b": "Kalimat kompleks dengan anak kalimat yang mendahului induk kalimat",
+        "c": "Kalimat majemuk setara",
+        "d": "Kalimat tanya"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 50,
+      "pertanyaan": "Dalam konteks membaca kritis, pembaca harus mampu...",
+      "pilihan": {
+        "a": "Hanya menerima semua informasi tanpa pertanyaan",
+        "b": "Mengidentifikasi tujuan penulis, mengevaluasi kredibilitas, dan mengenali bias yang ada",
+        "c": "Menolak semua pendapat yang berbeda dengan pendapatnya",
+        "d": "Membaca dengan cepat tanpa memahami detailnya"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 51,
+      "tingkat": "hard",
+      "pertanyaan": "Dalam analisis semiotika, konsep 'signifikan' dan 'signifie' dalam karya sastra Saussure mengacu pada...",
+      "pilihan": {
+        "a": "Penulis dan pembaca dari sebuah teks",
+        "b": "Bentuk fisik tanda (signifie) dan makna atau konsep yang diwakilinya (signifiant)",
+        "c": "Pertentangan antara dua karakter dalam cerita",
+        "d": "Teknik naratif yang digunakan penulis"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 52,
+      "tingkat": "hard",
+      "pertanyaan": "Konsep 'intertekstualitas' dalam analisis sastra postmodern mengacu pada...",
+      "pilihan": {
+        "a": "Hubungan antar teks di mana satu karya merujuk, mengutip, atau mendalami karya lain",
+        "b": "Kemampuan membaca teks dengan cepat",
+        "c": "Penulisan teks yang tidak memiliki konteks historis",
+        "d": "Penggunaan bahasa yang sangat formal dalam sastra"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "id": 53,
+      "tingkat": "hard",
+      "pertanyaan": "Dalam teori naratologi, 'focalization' atau fokalisasi merujuk pada...",
+      "pilihan": {
+        "a": "Kecepatan dalam menceritakan kisah",
+        "b": "Perspektif atau sudut pandang dari mana peristiwa dinarasikan",
+        "c": "Jumlah paragraf dalam sebuah cerita",
+        "d": "Teknik untuk membuat cerita lebih menarik"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 54,
+      "tingkat": "hard",
+      "pertanyaan": "Analisis kritis terhadap teks 'Aku datang sebagai pembawa perubahan di tengah ketidakpastian zaman' menunjukkan penggunaan gaya bahasa yang disebut...",
+      "pilihan": {
+        "a": "Alusi",
+        "b": "Metafora ekstensif yang mengandung makna simbolis",
+        "c": "Ironi situasional",
+        "d": "Litotes"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 55,
+      "tingkat": "hard",
+      "pertanyaan": "Dalam hermeneutika, 'horizon ekspektasi' (horizon of expectation) dari pembaca berkontribusi pada...",
+      "pilihan": {
+        "a": "Ketepatan waktu penerbitan karya",
+        "b": "Interpretasi dan pemaknaan karya berdasarkan pengalaman, pengetahuan, dan konteks budaya pembaca",
+        "c": "Jumlah halaman buku yang harus dibaca",
+        "d": "Tingkat kesulitan kata-kata dalam teks"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 56,
+      "tingkat": "hard",
+      "pertanyaan": "Teori dekonstruksi Jacques Derrida dalam analisis sastra berpendapat bahwa...",
+      "pilihan": {
+        "a": "Makna teks sudah pasti dan objektif",
+        "b": "Makna teks tidak pernah sepenuhnya dapat ditentukan dan selalu mengandung kontradiksi internal yang dapat diungkap",
+        "c": "Penulis adalah satu-satunya penentu makna",
+        "d": "Sastra hanya berisi nilai hiburan"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 57,
+      "tingkat": "hard",
+      "pertanyaan": "Konsep 'implied author' dalam narasi berbeda dari penulis sebenarnya karena...",
+      "pilihan": {
+        "a": "Implied author selalu menulis dengan nama samaran",
+        "b": "Implied author adalah konstruksi tekstual yang mewakili nilai, sikap, dan perspektif yang tertanam dalam karya, berbeda dari identitas faktual penulis",
+        "c": "Implied author adalah karakter fiksi dalam cerita",
+        "d": "Implied author tidak memiliki peran penting dalam naratif"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 58,
+      "tingkat": "hard",
+      "pertanyaan": "Dalam analisis wacana kritis, 'hegemoni bahasa' mengacu pada...",
+      "pilihan": {
+        "a": "Jumlah kata yang digunakan dalam sebuah teks",
+        "b": "Dominasi kelompok tertentu melalui penggunaan bahasa yang membentuk realitas sosial dan kekuasaan",
+        "c": "Penggunaan bahasa yang sangat kompleks",
+        "d": "Kebijakan bahasa negara"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 59,
+      "tingkat": "hard",
+      "pertanyaan": "Pendekatan 'reader-response criticism' mengajukan bahwa...",
+      "pilihan": {
+        "a": "Makna teks ditentukan sepenuhnya oleh niat penulis",
+        "b": "Makna teks dibentuk melalui interaksi dinamis antara teks dan pengalaman, pengetahuan, serta interpretasi pembaca",
+        "c": "Pembaca tidak memiliki pengaruh terhadap pemaknaan teks",
+        "d": "Hanya kritikus profesional yang dapat memahami karya sastra"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 60,
+      "tingkat": "hard",
+      "pertanyaan": "Dalam teori feminisme sastra, 'female gaze' atau pandangan feminin berbeda dengan 'male gaze' dalam hal...",
+      "pilihan": {
+        "a": "Female gaze hanya digunakan dalam penulisan puisi",
+        "b": "Female gaze mengkritik dan menantang representasi perempuan yang mengeksploitasi mereka untuk kepuasan audiens dominan, sering kali laki-laki",
+        "c": "Male gaze lebih objektif daripada female gaze",
+        "d": "Keduanya tidak memiliki perbedaan yang signifikan"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 61,
+      "tingkat": "hard",
+      "pertanyaan": "Analisis stilistika dalam kalimat 'Dalam keheningan malam, bintang-bintang berbisik kepada jiwa yang gelisah' menunjukkan penggunaan...",
+      "pilihan": {
+        "a": "Hiperbola dan hipotesis",
+        "b": "Personifikasi ekstensif dan sinestesia yang menciptakan efek lirik dan spiritual",
+        "c": "Hanya metafora sederhana",
+        "d": "Litotes dan paradoks"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 62,
+      "tingkat": "hard",
+      "pertanyaan": "Dalam pragmatik bahasa, 'implicature' atau implikatur menurut Paul Grice mengacu pada...",
+      "pilihan": {
+        "a": "Makna literal dari kata-kata yang diucapkan",
+        "b": "Makna tambahan yang tersirat atau dapat diambil dari pernyataan berdasarkan konteks dan prinsip kerja sama",
+        "c": "Kesalahan dalam pengucapan kata",
+        "d": "Tata bahasa yang tidak sesuai dengan kaidah"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 63,
+      "tingkat": "hard",
+      "pertanyaan": "Konsep 'chronotope' yang dikemukakan Mikhail Bakhtin dalam teori sastra merujuk pada...",
+      "pilihan": {
+        "a": "Waktu penerbitan sebuah karya",
+        "b": "Kesatuan ruang-waktu dalam karya yang menentukan bentuk dan makna narasi, yang bervariasi menurut genre dan periode historis",
+        "c": "Teknik menceritakan cerita dengan cepat",
+        "d": "Jumlah halaman yang diperlukan untuk menyelesaikan cerita"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 64,
+      "tingkat": "hard",
+      "pertanyaan": "Dalam analisis tekstual, 'close reading' atau pembacaan seksama bertujuan untuk...",
+      "pilihan": {
+        "a": "Membaca teks dengan sangat cepat",
+        "b": "Menganalisis detail bahasa, struktur, dan makna tersirat dalam teks dengan sangat teliti untuk mengungkap lapisan makna yang kompleks",
+        "c": "Melewatkan bagian-bagian yang tidak penting",
+        "d": "Hanya mencari informasi utama tanpa memperhatikan detail"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 65,
+      "tingkat": "hard",
+      "pertanyaan": "Teori 'anxiety of influence' yang dikemukakan Harold Bloom menjelaskan...",
+      "pilihan": {
+        "a": "Kegelisahan pembaca dalam memahami karya sastra modern",
+        "b": "Hubungan kompleks antara penulis kontemporer dan pendahulu mereka, di mana penulis harus berjuang melawan pengaruh tradisi untuk menciptakan karya orisinal",
+        "c": "Pengaruh media massa terhadap sastra",
+        "d": "Kesulitan dalam menerjemahkan karya sastra"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 66,
+      "tingkat": "hard",
+      "pertanyaan": "Dalam analisis naratif postkolonial, 'subaltern' mengacu pada...",
+      "pilihan": {
+        "a": "Karakter yang kurang penting dalam cerita",
+        "b": "Kelompok yang terpinggirkan dan tidak memiliki representasi dalam narasi dominan, suara mereka sering kali hilang atau ditekan dalam diskursus kekuasaan",
+        "c": "Pembaca yang tidak berpendidikan",
+        "d": "Penerjemah karya sastra"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 67,
+      "tingkat": "hard",
+      "pertanyaan": "Konsep 'defamiliarization' atau 'ostranenie' dalam formalisme Rusia bertujuan untuk...",
+      "pilihan": {
+        "a": "Membuat teks mudah dipahami pembaca",
+        "b": "Menggunakan teknik sastra untuk membuat yang familiar menjadi asing, sehingga pembaca dapat melihat realitas dengan cara yang baru dan kritis",
+        "c": "Menghapus kemahiran penulis dari karya",
+        "d": "Mengganti bahasa standar dengan dialek daerah"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 68,
+      "tingkat": "hard",
+      "pertanyaan": "Dalam teori resepsi sastra, 'aesthetic experience' didefinisikan sebagai...",
+      "pilihan": {
+        "a": "Pengalaman membaca yang cepat dan efisien",
+        "b": "Pengalaman kompleks pembaca terhadap karya seni yang melibatkan emosi, inteleksi, dan sensitivitas estetik yang menghasilkan pemahaman mendalam tentang makna karya",
+        "c": "Kritik terhadap karya sastra yang tidak indah",
+        "d": "Pelatihan untuk menjadi kritikus sastra profesional"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 69,
+      "tingkat": "hard",
+      "pertanyaan": "Analisis wacana 'discursive formation' menurut Michel Foucault mengacu pada...",
+      "pilihan": {
+        "a": "Cara penulis membentuk kalimat dengan indah",
+        "b": "Sistem aturan dan praktik yang mengatur bagaimana pengetahuan diproduksi dan direpresentasikan dalam periode historis tertentu, yang membentuk apa yang dapat dikatakan dan dipikirkan",
+        "c": "Teknik retorika dalam berpidato",
+        "d": "Metode untuk mengorganisir perpustakaan"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 70,
+      "tingkat": "hard",
+      "pertanyaan": "Dalam kritik sastra, teori 'mimesis' mengusulkan bahwa...",
+      "pilihan": {
+        "a": "Sastra tidak memiliki hubungan dengan realitas",
+        "b": "Sastra adalah peniruan atau representasi dari realitas, meskipun representasi tersebut tidak pernah sempurna dan selalu diformat melalui medium sastra dan perspektif penulis",
+        "c": "Semua karya sastra harus bercerita tentang peristiwa nyata",
+        "d": "Pembaca harus mengabaikan konteks historis saat membaca sastra"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 71,
+      "tingkat": "hard",
+      "pertanyaan": "Konsep 'liminality' dalam analisis sastra dan budaya merujuk pada...",
+      "pilihan": {
+        "a": "Batas-batas geografis dalam cerita",
+        "b": "Status ambiguitas atau transisi antara dua keadaan, identitas, atau kategori sosial yang menciptakan ketidakpastian dan potensi transformasi",
+        "c": "Karakter yang berusia lanjut dalam cerita",
+        "d": "Kemampuan membaca catatan kaki"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 72,
+      "tingkat": "hard",
+      "pertanyaan": "Dalam teori sastra New Historicism, analisis karya sastra harus...",
+      "pilihan": {
+        "a": "Mengabaikan konteks historis demi apresiasi estetika murni",
+        "b": "Mempertimbangkan karya sastra sebagai bagian dari praktik budaya dan diskursif yang kompleks dalam periode historisnya untuk memahami produksi makna yang dialektis",
+        "c": "Hanya berfokus pada biografi penulis",
+        "d": "Menolak semua interpretasi akademis dari sastra"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 73,
+      "tingkat": "hard",
+      "pertanyaan": "Analisis 'polyphony' atau polifoni dalam karya Mikhail Bakhtin mengacu pada...",
+      "pilihan": {
+        "a": "Penggunaan nada yang berbeda-beda dalam puisi",
+        "b": "Kehadiran berbagai suara, perspektif, dan ideologi yang independen dalam teks, tidak saling mendominasi, menciptakan dialog yang dinamis dan kompleks",
+        "c": "Pengulangan kata-kata dalam sebuah cerita",
+        "d": "Jumlah penulis yang terlibat dalam satu karya"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 74,
+      "tingkat": "hard",
+      "pertanyaan": "Dalam analisis psikoanalitik sastra, konsep 'repression' atau represi merujuk pada...",
+      "pilihan": {
+        "a": "Teknik pengarang untuk membuat cerita lebih sedih",
+        "b": "Proses tak sadar di mana keinginan, pikiran, atau emosi yang tidak dapat diterima ditolak dari kesadaran, namun tetap mempengaruhi teks sastra melalui simbol dan ironi",
+        "c": "Kebijakan pemerintah yang membatasi penerbitan",
+        "d": "Cara pembaca menyukai atau tidak menyukai karya sastra"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 75,
+      "tingkat": "hard",
+      "pertanyaan": "Teori 'performativity' dalam studi bahasa dan identitas mengacu pada...",
+      "pilihan": {
+        "a": "Kemampuan aktor dalam membaca naskah drama",
+        "b": "Gagasan bahwa identitas, termasuk gender dan seksualitas, dibangun melalui pengulangan performa bahasa dan tindakan yang terstruktur, bukan merupakan esensi yang tetap",
+        "c": "Cara melihat pertunjukan teater",
+        "d": "Jumlah kata yang diucapkan dalam sebuah pidato"
+      },
+      "jawaban_benar": "b"
+    }
+  ]
+}

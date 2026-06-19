@@ -1,0 +1,907 @@
+{
+  "mata_pelajaran": "Matematika",
+  "total_soal": 75,
+  "deskripsi": "Kumpulan soal Matematika dengan 3 tingkatan kesulitan: mudah (25 soal), normal (25 soal), dan hard (25 soal)",
+  "soal": [
+    {
+      "id": 1,
+      "tingkat": "mudah",
+      "pertanyaan": "Berapakah hasil dari 5 + 7?",
+      "pilihan": {
+        "a": "11",
+        "b": "12",
+        "c": "13",
+        "d": "14"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 2,
+      "tingkat": "mudah",
+      "pertanyaan": "Berapakah hasil dari 8 × 3?",
+      "pilihan": {
+        "a": "22",
+        "b": "23",
+        "c": "24",
+        "d": "25"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 3,
+      "tingkat": "mudah",
+      "pertanyaan": "Berapakah hasil dari 20 ÷ 5?",
+      "pilihan": {
+        "a": "3",
+        "b": "4",
+        "c": "5",
+        "d": "6"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 4,
+      "tingkat": "mudah",
+      "pertanyaan": "Berapakah hasil dari 15 - 8?",
+      "pilihan": {
+        "a": "6",
+        "b": "7",
+        "c": "8",
+        "d": "9"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 5,
+      "tingkat": "mudah",
+      "pertanyaan": "Berapakah nilai dari 2³?",
+      "pilihan": {
+        "a": "4",
+        "b": "6",
+        "c": "8",
+        "d": "9"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 6,
+      "tingkat": "mudah",
+      "pertanyaan": "Berapakah akar kuadrat dari 16?",
+      "pilihan": {
+        "a": "2",
+        "b": "3",
+        "c": "4",
+        "d": "5"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 7,
+      "tingkat": "mudah",
+      "pertanyaan": "Berapakah keliling persegi dengan sisi 5 cm?",
+      "pilihan": {
+        "a": "15 cm",
+        "b": "20 cm",
+        "c": "25 cm",
+        "d": "30 cm"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 8,
+      "tingkat": "mudah",
+      "pertanyaan": "Berapakah luas persegi panjang dengan panjang 6 cm dan lebar 4 cm?",
+      "pilihan": {
+        "a": "20 cm²",
+        "b": "24 cm²",
+        "c": "28 cm²",
+        "d": "32 cm²"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 9,
+      "tingkat": "mudah",
+      "pertanyaan": "Berapakah nilai dari 50% dari 80?",
+      "pilihan": {
+        "a": "30",
+        "b": "40",
+        "c": "50",
+        "d": "60"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 10,
+      "tingkat": "mudah",
+      "pertanyaan": "Jika x + 3 = 10, maka nilai x adalah...",
+      "pilihan": {
+        "a": "5",
+        "b": "6",
+        "c": "7",
+        "d": "8"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 11,
+      "tingkat": "mudah",
+      "pertanyaan": "Berapakah nilai dari 1/2 + 1/4?",
+      "pilihan": {
+        "a": "1/4",
+        "b": "1/2",
+        "c": "3/4",
+        "d": "1"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 12,
+      "tingkat": "mudah",
+      "pertanyaan": "Berapakah nilai desimal dari 3/5?",
+      "pilihan": {
+        "a": "0.5",
+        "b": "0.6",
+        "c": "0.7",
+        "d": "0.8"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 13,
+      "tingkat": "mudah",
+      "pertanyaan": "Berapakah KPK dari 4 dan 6?",
+      "pilihan": {
+        "a": "8",
+        "b": "10",
+        "c": "12",
+        "d": "14"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 14,
+      "tingkat": "mudah",
+      "pertanyaan": "Berapakah FPB dari 12 dan 18?",
+      "pilihan": {
+        "a": "3",
+        "b": "4",
+        "c": "6",
+        "d": "9"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 15,
+      "tingkat": "mudah",
+      "pertanyaan": "Berapa banyak sisi yang dimiliki sebuah kubus?",
+      "pilihan": {
+        "a": "4",
+        "b": "6",
+        "c": "8",
+        "d": "12"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 16,
+      "tingkat": "mudah",
+      "pertanyaan": "Berapakah volume kubus dengan rusuk 3 cm?",
+      "pilihan": {
+        "a": "9 cm³",
+        "b": "18 cm³",
+        "c": "27 cm³",
+        "d": "36 cm³"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 17,
+      "tingkat": "mudah",
+      "pertanyaan": "Berapakah luas lingkaran dengan jari-jari 7 cm? (π = 22/7)",
+      "pilihan": {
+        "a": "126 cm²",
+        "b": "154 cm²",
+        "c": "176 cm²",
+        "d": "198 cm²"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 18,
+      "tingkat": "mudah",
+      "pertanyaan": "Berapakah keliling lingkaran dengan diameter 14 cm? (π = 22/7)",
+      "pilihan": {
+        "a": "22 cm",
+        "b": "44 cm",
+        "c": "66 cm",
+        "d": "88 cm"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 19,
+      "tingkat": "mudah",
+      "pertanyaan": "Jika 2x = 10, maka nilai x adalah...",
+      "pilihan": {
+        "a": "3",
+        "b": "4",
+        "c": "5",
+        "d": "6"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 20,
+      "tingkat": "mudah",
+      "pertanyaan": "Bilangan prima antara 10 dan 20 adalah...",
+      "pilihan": {
+        "a": "11, 13, 15, 17, 19",
+        "b": "11, 13, 17, 19",
+        "c": "12, 14, 16, 18, 20",
+        "d": "10, 15, 20"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 21,
+      "tingkat": "mudah",
+      "pertanyaan": "Berapakah mean dari data 3, 5, 7, 9?",
+      "pilihan": {
+        "a": "5",
+        "b": "6",
+        "c": "7",
+        "d": "8"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 22,
+      "tingkat": "mudah",
+      "pertanyaan": "Berapakah median dari data 2, 4, 6, 8, 10?",
+      "pilihan": {
+        "a": "4",
+        "b": "6",
+        "c": "8",
+        "d": "10"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 23,
+      "tingkat": "mudah",
+      "pertanyaan": "Jika sudut A = 45°, maka sudut B yang merupakan pelurus sudut A adalah...",
+      "pilihan": {
+        "a": "45°",
+        "b": "90°",
+        "c": "135°",
+        "d": "180°"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 24,
+      "tingkat": "mudah",
+      "pertanyaan": "Berapakah nilai dari (5 + 3) × 2?",
+      "pilihan": {
+        "a": "11",
+        "b": "13",
+        "c": "16",
+        "d": "18"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 25,
+      "tingkat": "mudah",
+      "pertanyaan": "Jika sebuah segitiga memiliki sisi 3 cm, 4 cm, dan 5 cm, maka segitiga tersebut adalah...",
+      "pilihan": {
+        "a": "Segitiga lancip",
+        "b": "Segitiga tumpul",
+        "c": "Segitiga siku-siku",
+        "d": "Segitiga sama kaki"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 26,
+      "tingkat": "normal",
+      "pertanyaan": "Seorang pedagang membeli barang dengan harga Rp 50.000 dan menjualnya dengan harga Rp 65.000. Berapakah persentase keuntungan pedagang tersebut?",
+      "pilihan": {
+        "a": "25%",
+        "b": "30%",
+        "c": "35%",
+        "d": "40%"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 27,
+      "tingkat": "normal",
+      "pertanyaan": "Sebuah trapesium memiliki sisi sejajar 8 cm dan 12 cm, dengan tinggi 5 cm. Berapakah luas trapesium tersebut?",
+      "pilihan": {
+        "a": "40 cm²",
+        "b": "50 cm²",
+        "c": "60 cm²",
+        "d": "80 cm²"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 28,
+      "tingkat": "normal",
+      "pertanyaan": "Jika 3x + 5 = 20, maka nilai x adalah...",
+      "pilihan": {
+        "a": "3",
+        "b": "5",
+        "c": "7",
+        "d": "9"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 29,
+      "tingkat": "normal",
+      "pertanyaan": "Sistem persamaan x + y = 7 dan x - y = 3 memiliki solusi...",
+      "pilihan": {
+        "a": "x = 3, y = 4",
+        "b": "x = 4, y = 3",
+        "c": "x = 5, y = 2",
+        "d": "x = 6, y = 1"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 30,
+      "tingkat": "normal",
+      "pertanyaan": "Berapakah nilai dari √64 + √36?",
+      "pilihan": {
+        "a": "12",
+        "b": "13",
+        "c": "14",
+        "d": "15"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 31,
+      "tingkat": "normal",
+      "pertanyaan": "Sebuah segitiga memiliki alas 10 cm dan tinggi 8 cm. Berapakah luasnya?",
+      "pilihan": {
+        "a": "30 cm²",
+        "b": "40 cm²",
+        "c": "50 cm²",
+        "d": "60 cm²"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 32,
+      "tingkat": "normal",
+      "pertanyaan": "Dalam sebuah kelas terdapat 40 siswa. Jika 60% siswa adalah laki-laki, berapa banyak siswa perempuan?",
+      "pilihan": {
+        "a": "12",
+        "b": "14",
+        "c": "16",
+        "d": "18"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 33,
+      "tingkat": "normal",
+      "pertanyaan": "Berapakah nilai x jika 2x - 3 = x + 5?",
+      "pilihan": {
+        "a": "6",
+        "b": "7",
+        "c": "8",
+        "d": "9"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 34,
+      "tingkat": "normal",
+      "pertanyaan": "Sebuah tabung memiliki jari-jari 7 cm dan tinggi 10 cm. Berapakah volume tabung tersebut? (π = 22/7)",
+      "pilihan": {
+        "a": "1.320 cm³",
+        "b": "1.540 cm³",
+        "c": "1.760 cm³",
+        "d": "1.980 cm³"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 35,
+      "tingkat": "normal",
+      "pertanyaan": "Berapakah nilai dari (3²)² + 2³?",
+      "pilihan": {
+        "a": "80",
+        "b": "89",
+        "c": "98",
+        "d": "99"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 36,
+      "tingkat": "normal",
+      "pertanyaan": "Jarak antara titik (0, 0) dan (3, 4) adalah...",
+      "pilihan": {
+        "a": "4",
+        "b": "5",
+        "c": "6",
+        "d": "7"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 37,
+      "tingkat": "normal",
+      "pertanyaan": "Jika sebuah segitiga memiliki sudut 60°, 60°, dan 60°, maka segitiga tersebut adalah...",
+      "pilihan": {
+        "a": "Segitiga sama kaki",
+        "b": "Segitiga sama sisi",
+        "c": "Segitiga siku-siku",
+        "d": "Segitiga sembarang"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 38,
+      "tingkat": "normal",
+      "pertanyaan": "Harga awal sebuah produk Rp 100.000. Jika diskon 20%, berapakah harga akhir produk tersebut?",
+      "pilihan": {
+        "a": "Rp 70.000",
+        "b": "Rp 75.000",
+        "c": "Rp 80.000",
+        "d": "Rp 85.000"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 39,
+      "tingkat": "normal",
+      "pertanyaan": "Berapakah nilai dari log₁₀ 100?",
+      "pilihan": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 40,
+      "tingkat": "normal",
+      "pertanyaan": "Dalam sebuah barisan aritmatika, suku pertama adalah 2 dan beda adalah 3. Berapakah suku ke-5?",
+      "pilihan": {
+        "a": "12",
+        "b": "13",
+        "c": "14",
+        "d": "15"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 41,
+      "tingkat": "normal",
+      "pertanyaan": "Berapakah jumlah 5 suku pertama dari barisan 2, 4, 8, 16, 32...?",
+      "pilihan": {
+        "a": "60",
+        "b": "62",
+        "c": "64",
+        "d": "66"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 42,
+      "tingkat": "normal",
+      "pertanyaan": "Sebuah bola memiliki jari-jari 6 cm. Berapakah luas permukaan bola tersebut? (π ≈ 3,14)",
+      "pilihan": {
+        "a": "452,16 cm²",
+        "b": "678,24 cm²",
+        "c": "904,32 cm²",
+        "d": "1128,2 cm²"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 43,
+      "tingkat": "normal",
+      "pertanyaan": "Berapakah hasil dari 25% × 80?",
+      "pilihan": {
+        "a": "15",
+        "b": "20",
+        "c": "25",
+        "d": "30"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 44,
+      "tingkat": "normal",
+      "pertanyaan": "Jika f(x) = 2x + 3, maka f(4) adalah...",
+      "pilihan": {
+        "a": "10",
+        "b": "11",
+        "c": "12",
+        "d": "13"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 45,
+      "tingkat": "normal",
+      "pertanyaan": "Berapakah nilai dari sin 90°?",
+      "pilihan": {
+        "a": "0",
+        "b": "0,5",
+        "c": "1",
+        "d": "-1"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 46,
+      "tingkat": "normal",
+      "pertanyaan": "Berapakah nilai dari cos 0°?",
+      "pilihan": {
+        "a": "0",
+        "b": "0,5",
+        "c": "1",
+        "d": "-1"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 47,
+      "tingkat": "normal",
+      "pertanyaan": "Sebuah limas segiempat memiliki alas berbentuk persegi dengan sisi 4 cm dan tinggi 6 cm. Berapakah volumnya?",
+      "pilihan": {
+        "a": "24 cm³",
+        "b": "32 cm³",
+        "c": "48 cm³",
+        "d": "64 cm³"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 48,
+      "tingkat": "normal",
+      "pertanyaan": "Berapakah nilai dari (2 + 3)² - (2 - 3)²?",
+      "pilihan": {
+        "a": "15",
+        "b": "20",
+        "c": "24",
+        "d": "25"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 49,
+      "tingkat": "normal",
+      "pertanyaan": "Modus dari data 3, 3, 5, 5, 5, 7, 9 adalah...",
+      "pilihan": {
+        "a": "3",
+        "b": "5",
+        "c": "7",
+        "d": "9"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 50,
+      "tingkat": "normal",
+      "pertanyaan": "Sebuah persegi panjang memiliki keliling 40 cm. Jika panjangnya 12 cm, maka lebarnya adalah...",
+      "pilihan": {
+        "a": "8 cm",
+        "b": "10 cm",
+        "c": "12 cm",
+        "d": "14 cm"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "id": 51,
+      "tingkat": "hard",
+      "pertanyaan": "Diketahui persamaan kuadrat x² - 5x + 6 = 0. Berapakah akar-akarnya?",
+      "pilihan": {
+        "a": "x = 1 atau x = 6",
+        "b": "x = 2 atau x = 3",
+        "c": "x = 3 atau x = 4",
+        "d": "x = -2 atau x = -3"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 52,
+      "tingkat": "hard",
+      "pertanyaan": "Sebuah fungsi kuadrat f(x) = ax² + bx + c memiliki titik puncak di (2, -4). Jika a = 1, maka fungsi tersebut adalah...",
+      "pilihan": {
+        "a": "f(x) = x² - 4x",
+        "b": "f(x) = x² - 4x + 4",
+        "c": "f(x) = x² - 4x + 2",
+        "d": "f(x) = x² - 4x - 4"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "id": 53,
+      "tingkat": "hard",
+      "pertanyaan": "Jika sin θ = 3/5 dan θ adalah sudut lancip, maka nilai dari tan θ adalah...",
+      "pilihan": {
+        "a": "3/4",
+        "b": "4/3",
+        "c": "3/5",
+        "d": "5/3"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "id": 54,
+      "tingkat": "hard",
+      "pertanyaan": "Limit dari (x² - 1)/(x - 1) ketika x mendekati 1 adalah...",
+      "pilihan": {
+        "a": "0",
+        "b": "1",
+        "c": "2",
+        "d": "Tidak terdefinisi"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 55,
+      "tingkat": "hard",
+      "pertanyaan": "Berapakah turunan dari f(x) = 3x² + 2x - 5?",
+      "pilihan": {
+        "a": "f'(x) = 6x + 2",
+        "b": "f'(x) = 6x - 2",
+        "c": "f'(x) = 3x + 2",
+        "d": "f'(x) = 6x + 5"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "id": 56,
+      "tingkat": "hard",
+      "pertanyaan": "Berapakah integral dari ∫(3x² + 2x) dx?",
+      "pilihan": {
+        "a": "x³ + x² + C",
+        "b": "x³ + 2x² + C",
+        "c": "3x³ + 2x² + C",
+        "d": "x³ - x² + C"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "id": 57,
+      "tingkat": "hard",
+      "pertanyaan": "Matriks A = [[2, 1], [3, 4]] dan B = [[1, 0], [2, 1]]. Berapakah A + B?",
+      "pilihan": {
+        "a": "[[3, 1], [5, 5]]",
+        "b": "[[2, 1], [5, 5]]",
+        "c": "[[3, 2], [5, 4]]",
+        "d": "[[1, 1], [1, 3]]"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "id": 58,
+      "tingkat": "hard",
+      "pertanyaan": "Determinan dari matriks [[3, 2], [1, 4]] adalah...",
+      "pilihan": {
+        "a": "10",
+        "b": "12",
+        "c": "14",
+        "d": "16"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "id": 59,
+      "tingkat": "hard",
+      "pertanyaan": "Bilangan kompleks (3 + 2i) × (1 - i) sama dengan...",
+      "pilihan": {
+        "a": "3 - 3i + 2i - 2i²",
+        "b": "5 - i",
+        "c": "3 - i",
+        "d": "5 + i"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 60,
+      "tingkat": "hard",
+      "pertanyaan": "Jika log₂ x = 3, maka nilai x adalah...",
+      "pilihan": {
+        "a": "6",
+        "b": "8",
+        "c": "9",
+        "d": "10"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 61,
+      "tingkat": "hard",
+      "pertanyaan": "Sebuah deret geometri memiliki suku pertama 2 dan rasio 1/2. Berapakah jumlah tak hingga deret tersebut?",
+      "pilihan": {
+        "a": "2",
+        "b": "3",
+        "c": "4",
+        "d": "5"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 62,
+      "tingkat": "hard",
+      "pertanyaan": "Permutasi dari 5 objek yang diambil 3 sekaligus adalah...",
+      "pilihan": {
+        "a": "20",
+        "b": "45",
+        "c": "60",
+        "d": "120"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 63,
+      "tingkat": "hard",
+      "pertanyaan": "Kombinasi dari 6 objek yang diambil 2 sekaligus adalah...",
+      "pilihan": {
+        "a": "10",
+        "b": "15",
+        "c": "20",
+        "d": "30"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 64,
+      "tingkat": "hard",
+      "pertanyaan": "Dalam sebuah kotak terdapat 4 bola merah dan 6 bola biru. Jika diambil 2 bola sekaligus, berapakah peluang kedua bola berwarna merah?",
+      "pilihan": {
+        "a": "1/15",
+        "b": "2/15",
+        "c": "3/15",
+        "d": "4/15"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 65,
+      "tingkat": "hard",
+      "pertanyaan": "Distribusi normal dengan rata-rata 100 dan standar deviasi 15. Berapa persen data yang berada dalam rentang 85-115?",
+      "pilihan": {
+        "a": "34%",
+        "b": "68%",
+        "c": "95%",
+        "d": "99,7%"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 66,
+      "tingkat": "hard",
+      "pertanyaan": "Sebuah bola dilempar dengan kecepatan awal 20 m/s dan sudut elevasi 45°. Berapa jarak horizontal maksimum yang dicapai? (g = 10 m/s²)",
+      "pilihan": {
+        "a": "20 m",
+        "b": "30 m",
+        "c": "40 m",
+        "d": "50 m"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 67,
+      "tingkat": "hard",
+      "pertanyaan": "Sistem persamaan linear 2x + 3y = 8 dan 4x + 6y = 16 memiliki...",
+      "pilihan": {
+        "a": "Solusi unik",
+        "b": "Solusi tak terbatas (infinite solutions)",
+        "c": "Tidak memiliki solusi",
+        "d": "Solusi kompleks"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 68,
+      "tingkat": "hard",
+      "pertanyaan": "Berapakah nilai dari cos(2π/3)?",
+      "pilihan": {
+        "a": "-1/2",
+        "b": "-√3/2",
+        "c": "1/2",
+        "d": "√3/2"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "id": 69,
+      "tingkat": "hard",
+      "pertanyaan": "Sebuah elips memiliki persamaan x²/25 + y²/16 = 1. Berapakah panjang sumbu mayor?",
+      "pilihan": {
+        "a": "5",
+        "b": "8",
+        "c": "10",
+        "d": "16"
+      },
+      "jawaban_benar": "c"
+    },
+    {
+      "id": 70,
+      "tingkat": "hard",
+      "pertanyaan": "Transformasi linear T(x, y) = (2x + y, x - y) memetakan titik (1, 2) ke...",
+      "pilihan": {
+        "a": "(4, -1)",
+        "b": "(3, -1)",
+        "c": "(4, 1)",
+        "d": "(3, 1)"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "id": 71,
+      "tingkat": "hard",
+      "pertanyaan": "Berapakah nilai dari ∑(i=1 hingga 100) i?",
+      "pilihan": {
+        "a": "5000",
+        "b": "5050",
+        "c": "5100",
+        "d": "5150"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 72,
+      "tingkat": "hard",
+      "pertanyaan": "Persamaan garis yang melalui titik (2, 3) dan (-1, 6) adalah...",
+      "pilihan": {
+        "a": "x - y + 1 = 0",
+        "b": "x + y - 5 = 0",
+        "c": "-x - y + 5 = 0",
+        "d": "x + y - 2 = 0"
+      },
+      "jawaban_benar": "b"
+    },
+    {
+      "id": 73,
+      "tingkat": "hard",
+      "pertanyaan": "Berapakah jarak titik (3, 4) ke garis 3x + 4y - 10 = 0?",
+      "pilihan": {
+        "a": "1",
+        "b": "1,2",
+        "c": "1,5",
+        "d": "2"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "id": 74,
+      "tingkat": "hard",
+      "pertanyaan": "Dalam teori himpunan, jika A = {1, 2, 3} dan B = {2, 3, 4}, maka A ∪ B adalah...",
+      "pilihan": {
+        "a": "{1, 2, 3, 4}",
+        "b": "{2, 3}",
+        "c": "{1, 4}",
+        "d": "{}"
+      },
+      "jawaban_benar": "a"
+    },
+    {
+      "id": 75,
+      "tingkat": "hard",
+      "pertanyaan": "Fungsi invers dari f(x) = (3x + 2)/(x - 1) adalah...",
+      "pilihan": {
+        "a": "f⁻¹(x) = (x + 2)/(x - 3)",
+        "b": "f⁻¹(x) = (x + 2)/(x + 3)",
+        "c": "f⁻¹(x) = (x + 2)/(x - 1)",
+        "d": "f⁻¹(x) = (x - 2)/(x - 3)"
+      },
+      "jawaban_benar": "a"
+    }
+  ]
+}

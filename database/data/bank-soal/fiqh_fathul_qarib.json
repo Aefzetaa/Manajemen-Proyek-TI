@@ -1,0 +1,847 @@
+{
+  "metadata": {
+    "title": "Kumpulan Soal Ilmu Fiqh Berdasarkan Kitab Fathul Qarib",
+    "author": "Syekh Abu Shujan Ahmad bin Al-Husain bin Ahmad Al-Ashfahani",
+    "total_questions": 75,
+    "difficulty_levels": {
+      "mudah": 25,
+      "normal": 25,
+      "sulit": 25
+    },
+    "options_per_question": 4,
+    "description": "Koleksi soal-soal pilihan ganda tentang ilmu Fiqh (hukum Islam) berdasarkan kitab klasik Fathul Qarib"
+  },
+  "questions": {
+    "mudah": [
+      {
+        "id": "mudah_1",
+        "question": "Apa yang dimaksud dengan Taharah menurut ilmu Fiqh?",
+        "options": {
+          "A": "Membersihkan diri dari hadats dan najis sebelum melaksanakan ibadah",
+          "B": "Mengeringkan tubuh setelah mandi",
+          "C": "Menggunakan parfum sebelum salat",
+          "D": "Memakai pakaian putih bersih"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": "mudah_2",
+        "question": "Berapa jumlah rukun Salat yang harus dilakukan dalam setiap rakaat?",
+        "options": {
+          "A": "8 rukun",
+          "B": "7 rukun",
+          "C": "9 rukun",
+          "D": "6 rukun"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_3",
+        "question": "Siapakah yang wajib mengeluarkan Zakat Fitrah pada bulan Ramadhan?",
+        "options": {
+          "A": "Setiap Muslim yang memiliki harta lebih dari nisab",
+          "B": "Setiap Muslim baik laki-laki maupun perempuan yang hidup hingga terbit fajar pada hari Idul Fitri",
+          "C": "Hanya kepala keluarga saja",
+          "D": "Setiap Muslim yang telah baligh dan berakal"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_4",
+        "question": "Apa syarat utama dalam melakukan wudu menurut Fiqh?",
+        "options": {
+          "A": "Menggunakan air suci yang mengalir",
+          "B": "Menggunakan air bersih dan suci dengan niat",
+          "C": "Mandi dengan air hangat",
+          "D": "Mencuci tangan dengan tiga kali"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_5",
+        "question": "Berapa banyak hal yang membatalkan wudu menurut mayoritas ulama?",
+        "options": {
+          "A": "3 hal",
+          "B": "4 hal",
+          "C": "5 hal",
+          "D": "6 hal"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_6",
+        "question": "Apa yang dimaksud dengan Hadats dalam ilmu Fiqh?",
+        "options": {
+          "A": "Najis yang sulit untuk dibersihkan",
+          "B": "Keadaan yang menghalangi dari kesucian untuk melakukan ibadah",
+          "C": "Minuman yang berbahaya",
+          "D": "Pakaian yang kotor"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_7",
+        "question": "Berapa ukuran nisab emas untuk wajib zakat menurut kesepakatan ulama?",
+        "options": {
+          "A": "10 dirham",
+          "B": "20 dirham",
+          "C": "30 dirham",
+          "D": "40 dirham"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_8",
+        "question": "Apakah disyariatkan Salat Sunnah sebelum masuk ke masjid?",
+        "options": {
+          "A": "Tidak boleh, karena akan mengganggu jamaah",
+          "B": "Boleh dua rakaat untuk menghormati masjid",
+          "C": "Hanya di waktu-waktu tertentu saja",
+          "D": "Tidak pernah disyariatkan"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_9",
+        "question": "Apa rukun Mandi Junub yang utama?",
+        "options": {
+          "A": "Hanya membilas kepala dengan air",
+          "B": "Niat dan mengalirkan air ke seluruh tubuh",
+          "C": "Menggunakan sabun dan sampo",
+          "D": "Menggosok tubuh dengan keras"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_10",
+        "question": "Berapa kadar air yang dianggap suci dan menyucikan menurut Fiqh Syafii?",
+        "options": {
+          "A": "Sedikit air saja sudah menyucikan",
+          "B": "Minimal satu qullah (sekitar 216 liter)",
+          "C": "Air harus mengalir seperti sungai",
+          "D": "Tidak ada batasan jumlah tertentu"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_11",
+        "question": "Apa yang dinamakan dengan Hadas Besar?",
+        "options": {
+          "A": "Keluar darah saat salat",
+          "B": "Keadaan junub yang memerlukan mandi besar",
+          "C": "Buang air kecil saat melakukan ibadah",
+          "D": "Tidur yang nyenyak"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_12",
+        "question": "Berapa rakaat Salat Isya yang wajib dikerjakan?",
+        "options": {
+          "A": "2 rakaat",
+          "B": "3 rakaat",
+          "C": "4 rakaat",
+          "D": "5 rakaat"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "id": "mudah_13",
+        "question": "Apa nama Zakat yang dikeluarkan pada hari Raya Idul Fitri?",
+        "options": {
+          "A": "Zakat Maal",
+          "B": "Zakat Fitrah",
+          "C": "Zakat Harta",
+          "D": "Zakat Nafs"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_14",
+        "question": "Apakah cairan madzi membatalkan wudu?",
+        "options": {
+          "A": "Tidak membatalkan, karena tidak termasuk dalam pembatal wudu",
+          "B": "Ya, membatalkan wudu karena keluarnya dari kemaluan",
+          "C": "Tergantung situasi dan kondisi",
+          "D": "Hanya jika disertai dengan air mani"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_15",
+        "question": "Berapa minimum waktu Salat Subuh yang disyariatkan?",
+        "options": {
+          "A": "Dari terbit fajar hingga terbitnya matahari",
+          "B": "Dari fajar sadiq hingga terbit fajar kadzib",
+          "C": "Hanya dua puluh menit sebelum terbit matahari",
+          "D": "Tidak ada waktu minimum yang ditentukan"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": "mudah_16",
+        "question": "Apa yang dimaksud dengan Istinja dalam ilmu Fiqh?",
+        "options": {
+          "A": "Membersihkan diri setelah buang air kecil atau besar",
+          "B": "Menyiram wajah dengan air dingin",
+          "C": "Menggunakan parfum wangi",
+          "D": "Menyisir rambut dengan rapi"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": "mudah_17",
+        "question": "Siapakah yang dianggap baligh untuk seorang perempuan dalam Fiqh?",
+        "options": {
+          "A": "Ketika berusia 15 tahun",
+          "B": "Ketika mulai menstruasi atau mencapai usia 15 tahun",
+          "C": "Ketika berusia 12 tahun",
+          "D": "Ketika sudah menikah"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_18",
+        "question": "Berapa kadar Zakat yang harus dikeluarkan dari penghasilan perdagangan?",
+        "options": {
+          "A": "Seperempat dari sepersepuluh (2,5%)",
+          "B": "Sepersepuluh (10%)",
+          "C": "Seperlima (20%)",
+          "D": "Seperempat (25%)"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": "mudah_19",
+        "question": "Apakah Tayammum boleh dilakukan tanpa alasan khusus?",
+        "options": {
+          "A": "Boleh, karena lebih mudah dari berwudu",
+          "B": "Tidak boleh, hanya boleh jika tidak ada air atau darurat medis",
+          "C": "Hanya boleh di malam hari",
+          "D": "Boleh jika dilakukan di tempat yang bersih"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_20",
+        "question": "Apa rukun utama dalam Salat menurut mayoritas ulama Fiqh Syafii?",
+        "options": {
+          "A": "Niat, Takbir, Ruku, dan Sujud",
+          "B": "Niat, Berdiri, Membaca Al-Fatihah, dan Salam",
+          "C": "Hanya Takbir saja",
+          "D": "Niat dan Doa saja"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_21",
+        "question": "Berapa macam Najis menurut pembagian ulama Fiqh?",
+        "options": {
+          "A": "2 macam",
+          "B": "3 macam",
+          "C": "4 macam",
+          "D": "5 macam"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_22",
+        "question": "Apa hukum mandi bagi orang yang besar hadas atau junub sebelum melakukan Salat?",
+        "options": {
+          "A": "Sunah",
+          "B": "Makruh",
+          "C": "Wajib",
+          "D": "Haram"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "id": "mudah_23",
+        "question": "Siapa saja yang wajib menunaikan Zakat Fitrah menurut pendapat jumhur ulama?",
+        "options": {
+          "A": "Orang yang memiliki harta kekayaan",
+          "B": "Setiap Muslim yang memiliki makanan lebih dari kebutuhan sehari-hari",
+          "C": "Hanya orang kaya saja",
+          "D": "Tidak ada ketentuan khusus"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_24",
+        "question": "Berapa jumlah Takbir dalam Salat Jenazah menurut Fiqh Syafii?",
+        "options": {
+          "A": "2 Takbir",
+          "B": "3 Takbir",
+          "C": "4 Takbir",
+          "D": "5 Takbir"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "id": "mudah_25",
+        "question": "Apa syarat sah Salat berkaitan dengan arah hadap (Qiblat)?",
+        "options": {
+          "A": "Menghadap ke barat saja",
+          "B": "Menghadap ke arah Kabah atau mendekati arahnya",
+          "C": "Menghadap ke arah timur",
+          "D": "Tidak ada persyaratan arah tertentu"
+        },
+        "correct_answer": "B"
+      }
+    ],
+    "normal": [
+      {
+        "id": "normal_1",
+        "question": "Menurut Fiqh Syafii, berapa jumlah syarat sah Salat yang harus dipenuhi?",
+        "options": {
+          "A": "5 syarat",
+          "B": "7 syarat",
+          "C": "8 syarat",
+          "D": "10 syarat"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "id": "normal_2",
+        "question": "Apakah Salat yang dilakukan sebelum masuk waktu Salat tersebut dianggap sah menurut mayoritas ulama?",
+        "options": {
+          "A": "Sah, karena niatnya sudah tepat",
+          "B": "Tidak sah, karena bertentangan dengan syarat waktu Salat",
+          "C": "Sah jika dilakukan dengan khusyu",
+          "D": "Tergantung jenis Salatnya"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_3",
+        "question": "Apa perbedaan utama antara hadats kecil dan hadats besar dalam hal cara membersihkannya?",
+        "options": {
+          "A": "Keduanya dibersihkan dengan wudu saja",
+          "B": "Hadats kecil dengan wudu dan hadats besar dengan mandi",
+          "C": "Hadats kecil dengan tayammum dan hadats besar dengan wudu",
+          "D": "Keduanya dibersihkan dengan mandi besar"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_4",
+        "question": "Menurut kitab Fathul Qarib, berapa banyak rukun dalam Salat Jum'at?",
+        "options": {
+          "A": "Sama dengan Salat Subuh yaitu 2 rakaat",
+          "B": "Sama dengan Salat Dhuhur yaitu 4 rakaat",
+          "C": "3 rakaat seperti Salat Maghrib",
+          "D": "5 rakaat seperti Salat Isya"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_5",
+        "question": "Apa yang menjadi pembeda antara Zakat Maal dan Zakat Fitrah dalam hal waktu pengeluarannya?",
+        "options": {
+          "A": "Zakat Maal setiap bulan dan Zakat Fitrah setiap tahun",
+          "B": "Zakat Maal sekali setahun dan Zakat Fitrah di akhir Ramadhan",
+          "C": "Keduanya dikeluarkan di awal Ramadhan",
+          "D": "Waktu pengeluaran keduanya sama, hanya berbeda nisabnya"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_6",
+        "question": "Apakah Salat yang dilakukan di belakang orang yang sedang bersenjata dianggap sah?",
+        "options": {
+          "A": "Tidak sah, karena akan mengganggu konsentrasi",
+          "B": "Sah, karena senjata tidak membatalkan Salat",
+          "C": "Hanya sah jika senjatanya disembunyikan",
+          "D": "Tidak sah menurut semua ulama Fiqh"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_7",
+        "question": "Menurut Fiqh Syafii, apa yang dimaksud dengan Sutrah dalam Salat?",
+        "options": {
+          "A": "Penghalang atau sesuatu di hadapan orang yang sedang Salat",
+          "B": "Alas untuk Salat",
+          "C": "Pakaian yang digunakan saat Salat",
+          "D": "Tempat khusus untuk Salat"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": "normal_8",
+        "question": "Berapa kadar jarak minimal di hadapan pejabat Salat untuk menjadi Sutrah yang sah?",
+        "options": {
+          "A": "Satu meter",
+          "B": "Satu dzira (sekitar 45 cm)",
+          "C": "Tiga meter",
+          "D": "Tidak ada batasan jarak minimum"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_9",
+        "question": "Apakah boleh menggunakan air sungai yang keruh untuk berwudu menurut Fiqh Syafii?",
+        "options": {
+          "A": "Tidak boleh, karena air harus jernih",
+          "B": "Boleh, karena air sungai dianggap suci meskipun keruh",
+          "C": "Hanya boleh jika tidak ada air lain",
+          "D": "Boleh dengan syarat disaring terlebih dahulu"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_10",
+        "question": "Apa rumusan cara pembagian Zakat kepada para mustahik menurut ketentuan Fiqh?",
+        "options": {
+          "A": "Dibagi sama rata kepada semua golongan",
+          "B": "Boleh fokus kepada golongan tertentu dari delapan golongan mustahik",
+          "C": "Harus dibagi kepada semua delapan golongan dengan jumlah yang sama",
+          "D": "Tidak ada ketentuan pembagian yang pasti"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_11",
+        "question": "Menurut kitab Fathul Qarib, apa hukum membaca Basmalah pada awal Al-Fatihah dalam Salat?",
+        "options": {
+          "A": "Haram untuk dibaca",
+          "B": "Wajib harus dibaca",
+          "C": "Sunah untuk dibaca",
+          "D": "Makruh jika dibaca"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "id": "normal_12",
+        "question": "Apakah seorang yang tertidur pada awal Salat dapat dianggap niatnya masih berlaku?",
+        "options": {
+          "A": "Ya, karena niat sudah ada di awal",
+          "B": "Tidak, karena niat harus konsisten sepanjang Salat",
+          "C": "Tergantung lamanya tidur",
+          "D": "Hanya berlaku untuk tidur sebentar"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_13",
+        "question": "Apa nama sujud khusus yang dilakukan ketika ada ayat tentang perintah sujud dalam Al-Quran?",
+        "options": {
+          "A": "Sujud Syukur",
+          "B": "Sujud Tilawah",
+          "C": "Sujud Haram",
+          "D": "Sujud Hajah"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_14",
+        "question": "Berapa banyak Salat Sunnah yang disyariatkan pada siang hari menurut hadits Nabi?",
+        "options": {
+          "A": "2 rakaat sebelum Dhuhur",
+          "B": "4 rakaat sebelum Dhuhur dan 2 rakaat sesudahnya",
+          "C": "6 rakaat sebelum Asar",
+          "D": "8 rakaat di waktu Dhuha"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_15",
+        "question": "Menurut Fiqh Syafii, siapa yang dianggap sebagai penerima Zakat yang paling berhak?",
+        "options": {
+          "A": "Orang kaya yang membutuhkan tambahan harta",
+          "B": "Fakir dan Miskin yang benar-benar memerlukan",
+          "C": "Orang yang sedang dalam hutang besar",
+          "D": "Setiap Muslim tanpa terkecuali"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_16",
+        "question": "Apa syarat utama Wudu agar dapat diterima dalam melaksanakan Salat?",
+        "options": {
+          "A": "Hanya perlu membasahi wajah saja",
+          "B": "Niat dan memenuhi semua rukun serta syarat Wudu",
+          "C": "Cukup dengan membersihkan tangan dan mulut",
+          "D": "Tidak ada syarat khusus yang harus dipenuhi"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_17",
+        "question": "Apakah Salat yang dilakukan di tempat yang najis dapat diterima menurut Fiqh Syafii?",
+        "options": {
+          "A": "Sah, karena yang penting hati dan niat",
+          "B": "Tidak sah, karena kebersihan tempat adalah syarat sah Salat",
+          "C": "Hanya sah jika dilakukan tanpa disengaja",
+          "D": "Tergantung jenis najisnya"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_18",
+        "question": "Apa yang dimaksud dengan Imam dalam Salat berjamaah menurut ketentuan Fiqh?",
+        "options": {
+          "A": "Orang yang membaca doa sebelum dan sesudah Salat",
+          "B": "Orang yang memimpin dan berada di barisan paling depan",
+          "C": "Orang yang memukul beduk untuk mengumandangkan azan",
+          "D": "Setiap orang dalam barisan jamaah"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_19",
+        "question": "Berapa banyak Salat Sunnah Rawatib yang disunnahkan menurut mayoritas ulama Fiqh Syafii?",
+        "options": {
+          "A": "4 rakaat saja",
+          "B": "6 rakaat",
+          "C": "10 rakaat",
+          "D": "12 rakaat"
+        },
+        "correct_answer": "D"
+      },
+      {
+        "id": "normal_20",
+        "question": "Menurut kitab Fathul Qarib, apa hukum Tayammum ketika ada air tetapi sedang sakit?",
+        "options": {
+          "A": "Haram karena ada air",
+          "B": "Makruh karena seharusnya menggunakan air",
+          "C": "Boleh karena mengeraskan pada diri sendiri dikhawatirkan",
+          "D": "Wajib tetap menggunakan air"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "id": "normal_21",
+        "question": "Apakah Salat Jum'at dapat diganti dengan Salat Dhuhur bagi mereka yang tidak hadir ke masjid?",
+        "options": {
+          "A": "Tidak boleh, harus melaksanakan Salat Jum'at",
+          "B": "Boleh mengganti dengan Salat Dhuhur empat rakaat",
+          "C": "Hanya boleh untuk yang sakit saja",
+          "D": "Tergantung niat pelakunya"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_22",
+        "question": "Apa syarat minimal untuk seseorang dianggap telah cukup menjalankan Zakat Maal?",
+        "options": {
+          "A": "Menyimpan harta satu bulan saja",
+          "B": "Memiliki harta senilai nisab selama satu tahun penuh",
+          "C": "Memiliki harta tanpa batasan waktu tertentu",
+          "D": "Mengeluarkan sebagian kecil dari harta saja"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_23",
+        "question": "Menurut Fiqh, apa hukum Salat yang dilakukan dengan belalai (seperti unta) di atas kepala?",
+        "options": {
+          "A": "Sah, asalkan tidak mengganggu orang lain",
+          "B": "Tidak sah karena melanggar adab Salat yang diajarkan Nabi",
+          "C": "Hanya sah jika dilakukan untuk keperluan darurat",
+          "D": "Hukumnya makruh saja"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_24",
+        "question": "Apakah Wudu dapat dibatalkan hanya dengan menyentuh wanita menurut Fiqh Syafii?",
+        "options": {
+          "A": "Ya, menyentuh wanita secara langsung membatalkan Wudu",
+          "B": "Tidak, menyentuh wanita tidak termasuk pembatal Wudu menurut Fiqh Syafii",
+          "C": "Hanya jika menyentuh dengan tangan kanan",
+          "D": "Tergantung hubungan dengan wanita tersebut"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_25",
+        "question": "Apa perbedaan utama antara Salat Maghrib dan Salat Isya dalam hal jumlah rakaatnya?",
+        "options": {
+          "A": "Tidak ada perbedaan, keduanya sama-sama empat rakaat",
+          "B": "Maghrib tiga rakaat dan Isya empat rakaat",
+          "C": "Maghrib empat rakaat dan Isya tiga rakaat",
+          "D": "Maghrib dua rakaat dan Isya lima rakaat"
+        },
+        "correct_answer": "B"
+      }
+    ],
+    "sulit": [
+      {
+        "id": "sulit_1",
+        "question": "Menurut analisis mendalam Fiqh Syafii dalam kitab Fathul Qarib, apa perbedaan konseptual antara istilah Mutlaq dan Muqayyad dalam konteks Wudu?",
+        "options": {
+          "A": "Mutlaq adalah wudu tanpa syarat dan Muqayyad dengan syarat tertentu",
+          "B": "Keduanya memiliki makna yang sama dalam Fiqh",
+          "C": "Mutlaq mengacu pada pembatal dan Muqayyad pada rukun",
+          "D": "Tidak ada perbedaan makna dalam penggunaan kedua istilah ini"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": "sulit_2",
+        "question": "Bagaimana pendekatan Fiqh Syafii terhadap masalah kesucian air yang telah bercampur dengan najis mukhaffafah menurut kitab Fathul Qarib?",
+        "options": {
+          "A": "Air tetap tidak bersih dan najis menyebabkan air menjadi najis",
+          "B": "Air dianggap tetap suci jika perubahan rasa, warna, dan baunya tidak berubah",
+          "C": "Air harus dibuang dan diganti dengan air baru",
+          "D": "Kesucian air sangat bergantung pada jenis najis mukhaffafah"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_3",
+        "question": "Apa analisis mendalam mengenai status hukum Salat dalam keadaan takut menurut Fiqh Syafii berdasarkan kitab Fathul Qarib?",
+        "options": {
+          "A": "Tidak ada dispensasi khusus, harus tetap melaksanakan Salat normal",
+          "B": "Boleh melakukan Salat Khauf dengan cara yang ringan sesuai situasi",
+          "C": "Dapat menggugurkan kewajiban Salat sepenuhnya",
+          "D": "Harus menunggu sampai keadaan aman untuk melaksanakan Salat"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_4",
+        "question": "Bagaimana metodologi Fiqh Syafii dalam menentukan awal waktu Salat Subuh berdasarkan definisi Fajar Sadiq dalam kitab Fathul Qarib?",
+        "options": {
+          "A": "Hanya berdasarkan perkiraan atau cuaca saja",
+          "B": "Fajar Sadiq adalah cahaya putih yang melintang di ufuk timur sebelum matahari terbit",
+          "C": "Waktu yang ditentukan oleh perhitungan ilmiah modern saja",
+          "D": "Tidak ada definisi ilmiah yang pasti dalam Fiqh"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_5",
+        "question": "Menurut analisis Fiqh Syafii yang detail dalam Fathul Qarib, apa perbedaan filosofis antara Zakat dan Shadaqah?",
+        "options": {
+          "A": "Zakat adalah kewajiban dengan nisab tertentu, Shadaqah adalah pemberian sukarela",
+          "B": "Keduanya adalah bentuk yang sama dari kewajiban keagamaan",
+          "C": "Zakat hanya untuk orang kaya dan Shadaqah untuk semua orang",
+          "D": "Tidak ada perbedaan dalam hukum keagamaan"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": "sulit_6",
+        "question": "Bagaimana solusi Fiqh Syafii terhadap masalah orang yang sedang dalam perjalanan panjang terkait kewajiban Zakat menurut ketentuan dalam Fathul Qarib?",
+        "options": {
+          "A": "Bebas dari kewajiban Zakat selama masih dalam perjalanan",
+          "B": "Tetap wajib Zakat karena perjalanan bukan penghalang kewajiban Zakat",
+          "C": "Dapat menunda Zakat sampai tiba di tempat tujuan",
+          "D": "Boleh memberikan Zakat kepada sesama musafir saja"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_7",
+        "question": "Apa penjelasan mendalam mengenai konsep Tartib (urutan) dalam melakukan Wudu menurut Fiqh Syafii dalam kitab Fathul Qarib?",
+        "options": {
+          "A": "Urutan Wudu tidak memiliki pengaruh pada kesahan Wudu",
+          "B": "Urutan Wudu (wajah, tangan, kepala, kaki) harus diikuti sesuai ketentuan",
+          "C": "Boleh mengacak urutan asalkan semua anggota badan dibersihkan",
+          "D": "Urutan ditentukan berdasarkan kebiasaan masing-masing individu"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_8",
+        "question": "Bagaimana pendekatan Fiqh Syafii dalam mengatasi dilema antara Zahir Al-Quran dan Hadits dalam konteks Salat menurut kitab Fathul Qarib?",
+        "options": {
+          "A": "Selalu mengutamakan Zahir Al-Quran tanpa pertimbangan",
+          "B": "Menggunakan kaidah-kaidah Fiqh yang telah dikembangkan melalui ijtihad",
+          "C": "Mengabaikan Hadits dan hanya mengikuti Al-Quran",
+          "D": "Tidak ada metode khusus untuk mengatasi perbedaan pendapat"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_9",
+        "question": "Apa analisis Fiqh Syafii terhadap status hukum Salat yang dilakukan dengan pakaian yang mengandung unsur dari barang haram menurut detail dalam Fathul Qarib?",
+        "options": {
+          "A": "Salat tetap sah karena yang diperhatikan adalah niat dan gerakannya",
+          "B": "Salat tidak sah karena pakaian haram menghalangi diterimanya amal ibadah",
+          "C": "Status kesahan Salat tergantung pada niat dan kesadaran pelaku",
+          "D": "Salat sah dan pakaian tidak memiliki pengaruh pada kesahan"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "id": "sulit_10",
+        "question": "Bagaimana metodologi Fiqh Syafii dalam menentukan kadar Zakat untuk jenis harta yang beragam menurut prinsip yang ditetapkan dalam Fathul Qarib?",
+        "options": {
+          "A": "Semua harta dikenakan Zakat dengan persentase yang sama",
+          "B": "Setiap jenis harta memiliki ketentuan Zakat yang berbeda sesuai jenisnya",
+          "C": "Tidak ada ketentuan yang pasti untuk Zakat beragam jenis harta",
+          "D": "Zakat hanya berlaku untuk uang tunai saja"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_11",
+        "question": "Apa penjelasan mendalam tentang konsep Niyyah (niat) dalam konteks Salat menurut analisis Fiqh Syafii dalam Fathul Qarib?",
+        "options": {
+          "A": "Niat dapat dilakukan kapan saja sebelum atau sesudah Salat",
+          "B": "Niat harus diucapkan dengan jelas dan tegas sebelum Takbir Ihram",
+          "C": "Niat cukup ada dalam hati pada saat memulai Takbir Ihram",
+          "D": "Niat tidak perlu dikhususkan, asal ada dalam jiwa"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "id": "sulit_12",
+        "question": "Bagaimana Fiqh Syafii memandang masalah kesempurnaan dan kesalahan dalam Ruku dan Sujud menurut pembahasan detail dalam Fathul Qarib?",
+        "options": {
+          "A": "Ruku dan Sujud hanya perlu dilakukan sekali masing-masing",
+          "B": "Ruku dan Sujud wajib dengan keadaan tenang (tumainina) dalam setiap gerakan",
+          "C": "Kesalahan dalam Ruku dan Sujud dapat diabaikan jika sudah melakukan sebagian besar",
+          "D": "Tidak ada persyaratan khusus dalam melakukan Ruku dan Sujud"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_13",
+        "question": "Apa pertimbangan Fiqh Syafii dalam menghadapi situasi ketika seseorang mengalami Wudu dalam keadaan tidak sadar menurut ketentuan dalam Fathul Qarib?",
+        "options": {
+          "A": "Wudu tetap berlaku karena sudah ada niat sebelumnya",
+          "B": "Wudu dibatalkan karena kehilangan kesadaran menghilangkan niat berkelanjutan",
+          "C": "Status Wudu bergantung pada lamanya ketidaksadaran",
+          "D": "Tidak ada ketentuan khusus dalam keadaan ini"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_14",
+        "question": "Bagaimana Fiqh Syafii menjelaskan hubungan antara Taharah (kesucian) dan penerimaan Salat berdasarkan analisis detail dalam Fathul Qarib?",
+        "options": {
+          "A": "Taharah hanya pelengkap dalam Salat dan bukan keharusan",
+          "B": "Taharah adalah fondasi utama dan syarat mutlak kesahan Salat",
+          "C": "Taharah hanya diperlukan untuk jenis Salat tertentu saja",
+          "D": "Tidak ada hubungan langsung antara Taharah dan kesahan Salat"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_15",
+        "question": "Apa analisis Fiqh Syafii terhadap masalah perhitungan Zakat bagi pedagang yang harta dagangan berfluktuasi menurut prinsip dalam Fathul Qarib?",
+        "options": {
+          "A": "Zakat didasarkan pada nilai harta pada awal tahun saja",
+          "B": "Zakat didasarkan pada nilai harta pada akhir tahun Hijriah",
+          "C": "Tidak ada ketentuan khusus untuk pedagang dengan harta berfluktuasi",
+          "D": "Pedagang tidak wajib membayar Zakat sama sekali"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_16",
+        "question": "Bagaimana metodologi Fiqh Syafii dalam mengatasi pertentangan antara prinsip Darurat dan prinsip Kebersihan dalam konteks Tayammum menurut pembahasan dalam Fathul Qarib?",
+        "options": {
+          "A": "Prinsip Kebersihan selalu didahulukan dari Darurat",
+          "B": "Prinsip Darurat memungkinkan Tayammum ketika air tidak tersedia atau berbahaya",
+          "C": "Tidak ada prinsip yang jelas dalam hal ini",
+          "D": "Tayammum tidak pernah diperbolehkan dalam situasi apapun"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_17",
+        "question": "Apa penjelasan mendalam Fiqh Syafii tentang konsep Sutrah dan fungsinya dalam Salat menurut penjelasan detail dalam Fathul Qarib?",
+        "options": {
+          "A": "Sutrah hanya sebagai pelengkap dan tidak mempengaruhi kesahan Salat",
+          "B": "Sutrah berfungsi mencegah orang lewat di hadapan orang yang sedang Salat",
+          "C": "Sutrah wajib ada dalam setiap Salat",
+          "D": "Konsep Sutrah tidak ada dalam Fiqh Syafii"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_18",
+        "question": "Bagaimana Fiqh Syafii melihat masalah orang yang meninggalkan rukun Salat secara sengaja versus tidak sengaja menurut analisis dalam Fathul Qarib?",
+        "options": {
+          "A": "Keduanya menghasilkan hasil yang sama yaitu Salat tetap sah",
+          "B": "Yang disengaja adalah dosa besar, yang tidak disengaja dapat diakui kesalahan",
+          "C": "Keduanya menyebabkan Salat menjadi tidak sah dengan derajat kesalahan berbeda",
+          "D": "Tidak ada perbedaan hukum antara kedua situasi ini"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "id": "sulit_19",
+        "question": "Apa konsepsi Fiqh Syafii tentang Istibra (pencegahan/penelusuran) dalam konteks kebersihan dari hadats menurut detail dalam Fathul Qarib?",
+        "options": {
+          "A": "Istibra tidak memiliki makna khusus dalam Fiqh Syafii",
+          "B": "Istibra adalah upaya untuk memastikan tidak ada cairan keluar sebelum menganggap diri bersih",
+          "C": "Istibra hanya relevan untuk laki-laki saja",
+          "D": "Istibra sama dengan Istinja dan tidak ada perbedaan"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_20",
+        "question": "Bagaimana pendekatan Fiqh Syafii dalam menentukan nisab Zakat untuk berbagai jenis harta yang tidak tersebut secara eksplisit dalam Al-Quran menurut metode dalam Fathul Qarib?",
+        "options": {
+          "A": "Menggunakan metode qiyas (analogi) dengan harta yang telah ditentukan nisabnya",
+          "B": "Tidak ada nisab untuk harta-harta tersebut sehingga tidak wajib Zakat",
+          "C": "Setiap individu dapat menentukan nisabnya sendiri",
+          "D": "Hanya Al-Quran dan Hadits yang dapat dijadikan acuan tanpa metode apapun"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": "sulit_21",
+        "question": "Apa analisis Fiqh Syafii terhadap status kesahan Salat Jumat jika jumlah jamaah tidak mencapai angka minimum yang ditentukan menurut prinsip dalam Fathul Qarib?",
+        "options": {
+          "A": "Salat Jum'at tetap sah dengan jumlah berapa pun",
+          "B": "Salat Jum'at tidak sah dan harus diganti dengan Salat Dhuhur jika kurang dari jumlah yang ditentukan",
+          "C": "Jumlah minimum tidak mempengaruhi kesahan Salat Jum'at",
+          "D": "Tidak ada persyaratan jumlah dalam Salat Jum'at"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_22",
+        "question": "Bagaimana metodologi Fiqh Syafii dalam menentukan saat yang tepat untuk mengeluarkan Zakat Fitrah menurut detail waktu yang dibahas dalam Fathul Qarib?",
+        "options": {
+          "A": "Kapan saja selama bulan Ramadhan",
+          "B": "Mulai dari terbenamnya matahari pada akhir bulan Ramadhan hingga sebelum Imam dimulai",
+          "C": "Hanya pada hari Hari Raya Idul Fitri pagi hari",
+          "D": "Tidak ada waktu khusus untuk mengeluarkan Zakat Fitrah"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_23",
+        "question": "Apa pertimbangan filosofis Fiqh Syafii dalam membedakan antara Thaharah (kesucian) dari Hadats dan Thaharah dari Najis menurut pembahasan dalam Fathul Qarib?",
+        "options": {
+          "A": "Keduanya memiliki makna yang sama dan tidak ada perbedaan",
+          "B": "Hadats adalah kekotoran spiritual sementara Najis adalah kekotoran fisik",
+          "C": "Hanya Hadats yang perlu dibersihkan dalam Fiqh",
+          "D": "Keduanya tidak relevan dalam praktik ibadah modern"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_24",
+        "question": "Bagaimana Fiqh Syafii memahami konsep Khusyu dalam Salat dan implikasinya terhadap kesahan Salat menurut analisis dalam Fathul Qarib?",
+        "options": {
+          "A": "Khusyu adalah persyaratan mutlak untuk kesahan Salat",
+          "B": "Khusyu adalah sunnah namun tidak mempengaruhi kesahan Salat yang sudah memenuhi syarat",
+          "C": "Tidak ada istilah Khusyu dalam Fiqh Syafii",
+          "D": "Khusyu hanya diperlukan untuk Salat Sunah saja"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_25",
+        "question": "Apa analisis mendalam Fiqh Syafii tentang hubungan antara Wudu dan Taharah Utama dalam konteks persiapan untuk Salat berdasarkan prinsip dalam Fathul Qarib?",
+        "options": {
+          "A": "Wudu dan Taharah Utama adalah dua hal yang sama sekali berbeda",
+          "B": "Wudu adalah bagian dari Taharah Utama yang dimaksudkan untuk kesucian ritual",
+          "C": "Tidak ada hubungan antara Wudu dan Taharah Utama",
+          "D": "Wudu adalah pengganti dari Taharah Utama dalam situasi tertentu"
+        },
+        "correct_answer": "B"
+      }
+    ]
+  }
+}

@@ -1,0 +1,914 @@
+{
+  "mata_pelajaran": "Nahdlatul Ulama",
+  "total_soal": 75,
+  "tingkatan": ["mudah", "normal", "hard"],
+  "soal_per_tingkatan": 25,
+  "soal": {
+    "mudah": [
+      {
+        "nomor": 1,
+        "tingkatan": "mudah",
+        "pertanyaan": "Pada tahun berapa Nahdlatul Ulama didirikan?",
+        "pilihan": {
+          "a": "1920",
+          "b": "1926",
+          "c": "1932",
+          "d": "1945"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 2,
+        "tingkatan": "mudah",
+        "pertanyaan": "Di kota manakah Nahdlatul Ulama pertama kali didirikan?",
+        "pilihan": {
+          "a": "Jakarta",
+          "b": "Surabaya",
+          "c": "Bandung",
+          "d": "Medan"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 3,
+        "tingkatan": "mudah",
+        "pertanyaan": "Siapa tokoh pendiri Nahdlatul Ulama yang paling dikenal?",
+        "pilihan": {
+          "a": "Muhammad Natsir",
+          "b": "K.H. Hasyim Asy'ari",
+          "c": "Soekarno",
+          "d": "Muhammad Syarifuddin"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 4,
+        "tingkatan": "mudah",
+        "pertanyaan": "Apa kepanjangan dari NU?",
+        "pilihan": {
+          "a": "Negara Ulama",
+          "b": "Nahdlatul Ulama",
+          "c": "Nasional Umum",
+          "d": "Negara Umat"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 5,
+        "tingkatan": "mudah",
+        "pertanyaan": "Berapa jumlah anggota Nahdlatul Ulama saat ini?",
+        "pilihan": {
+          "a": "Sekitar 2 juta",
+          "b": "Sekitar 5 juta",
+          "c": "Sekitar 40 juta lebih",
+          "d": "Sekitar 10 juta"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 6,
+        "tingkatan": "mudah",
+        "pertanyaan": "Apa slogan atau motto Nahdlatul Ulama?",
+        "pilihan": {
+          "a": "Menjaga Tradisi dan Membangun Modernitas",
+          "b": "Islam Rahmatan Lil Alamin",
+          "c": "Ahlusunnah Wal Jamaah",
+          "d": "Persatuan dan Kesatuan"
+        },
+        "jawaban_benar": "a"
+      },
+      {
+        "nomor": 7,
+        "tingkatan": "mudah",
+        "pertanyaan": "Nahdlatul Ulama mengikuti aliran Islam yang mana?",
+        "pilihan": {
+          "a": "Salafi",
+          "b": "Syiah",
+          "c": "Ahlusunnah Wal Jamaah",
+          "d": "Wahabi"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 8,
+        "tingkatan": "mudah",
+        "pertanyaan": "Negara mana yang menjadi pusat perkembangan awal Nahdlatul Ulama?",
+        "pilihan": {
+          "a": "Malaysia",
+          "b": "Indonesia",
+          "c": "Brunei",
+          "d": "Singapura"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 9,
+        "tingkatan": "mudah",
+        "pertanyaan": "Siapa penerus kepemimpinan Nahdlatul Ulama setelah Hasyim Asy'ari?",
+        "pilihan": {
+          "a": "K.H. Wahab Hasbullah",
+          "b": "K.H. Abdurrahman Wahid",
+          "c": "K.H. Rais Amin",
+          "d": "K.H. Ali Maksum"
+        },
+        "jawaban_benar": "a"
+      },
+      {
+        "nomor": 10,
+        "tingkatan": "mudah",
+        "pertanyaan": "Apa nama pesantren terkenal yang didirikan oleh K.H. Hasyim Asy'ari?",
+        "pilihan": {
+          "a": "Pesantren Tebuireng",
+          "b": "Pesantren Lirboyo",
+          "c": "Pesantren Salafiyah Syafi'iyah",
+          "d": "Pesantren Al-Azhar"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 11,
+        "tingkatan": "mudah",
+        "pertanyaan": "Berapa banyak sekolah dan madrasah yang dikelola Nahdlatul Ulama?",
+        "pilihan": {
+          "a": "Kurang dari 1000",
+          "b": "Ribuan lebih",
+          "c": "Hanya di Jawa Timur",
+          "d": "Tidak memiliki institusi pendidikan"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 12,
+        "tingkatan": "mudah",
+        "pertanyaan": "Apa peran utama Nahdlatul Ulama dalam kemerdekaan Indonesia?",
+        "pilihan": {
+          "a": "Hanya fokus pada pendidikan agama",
+          "b": "Tidak terlibat dalam perjuangan kemerdekaan",
+          "c": "Aktif dalam perjuangan kemerdekaan dan menyumbang santri",
+          "d": "Hanya melakukan pengajaran"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 13,
+        "tingkatan": "mudah",
+        "pertanyaan": "Siapa dari Nahdlatul Ulama yang menjadi Presiden Indonesia?",
+        "pilihan": {
+          "a": "Gus Dur (Abdurrahman Wahid)",
+          "b": "Habibie",
+          "c": "Megawati",
+          "d": "Susilo Bambang Yudhoyono"
+        },
+        "jawaban_benar": "a"
+      },
+      {
+        "nomor": 14,
+        "tingkatan": "mudah",
+        "pertanyaan": "Apa visi Nahdlatul Ulama tentang Islam?",
+        "pilihan": {
+          "a": "Islam fundamental dan ekstrem",
+          "b": "Islam Rahmatan Lil Alamin yang toleran dan moderat",
+          "c": "Islam yang tertutup dari modernitas",
+          "d": "Islam hanya untuk kalangan tertentu"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 15,
+        "tingkatan": "mudah",
+        "pertanyaan": "Di mana kantor pusat Nahdlatul Ulama berada?",
+        "pilihan": {
+          "a": "Surabaya",
+          "b": "Semarang",
+          "c": "Jakarta",
+          "d": "Bandung"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 16,
+        "tingkatan": "mudah",
+        "pertanyaan": "Berapa banyak anggota pendiri Nahdlatul Ulama?",
+        "pilihan": {
+          "a": "3 orang",
+          "b": "5 orang",
+          "c": "10 orang",
+          "d": "15 orang"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 17,
+        "tingkatan": "mudah",
+        "pertanyaan": "Apa makna 'Nahdlah' dalam bahasa Arab?",
+        "pilihan": {
+          "a": "Kebangkitan atau pembaruan",
+          "b": "Organisasi besar",
+          "c": "Persatuan keluarga",
+          "d": "Gerakan sosial"
+        },
+        "jawaban_benar": "a"
+      },
+      {
+        "nomor": 18,
+        "tingkatan": "mudah",
+        "pertanyaan": "Apakah Nahdlatul Ulama memiliki sayap organisasi pemuda?",
+        "pilihan": {
+          "a": "Tidak memiliki",
+          "b": "Ya, disebut Gerakan Pemuda Ansor",
+          "c": "Ya, disebut Gerakan Mahasiswa Islam",
+          "d": "Ya, disebut Persatuan Pemuda Nasional"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 19,
+        "tingkatan": "mudah",
+        "pertanyaan": "Bagaimana posisi Nahdlatul Ulama terhadap Pancasila?",
+        "pilihan": {
+          "a": "Menolak Pancasila",
+          "b": "Mendukung dan menerima Pancasila",
+          "c": "Hanya menerima sebagian dari Pancasila",
+          "d": "Tidak peduli dengan Pancasila"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 20,
+        "tingkatan": "mudah",
+        "pertanyaan": "Siapa ketua umum Nahdlatul Ulama saat ini (2024)?",
+        "pilihan": {
+          "a": "Kiai Said Aqil Siradj",
+          "b": "Maruf Amin",
+          "c": "Suratno",
+          "d": "Achyar Mawardi"
+        },
+        "jawaban_benar": "a"
+      },
+      {
+        "nomor": 21,
+        "tingkatan": "mudah",
+        "pertanyaan": "Apa nama lembaga keagamaan di bawah Nahdlatul Ulama yang mengurus fatwa?",
+        "pilihan": {
+          "a": "Lembaga Kajian dan Pengembangan Sumber Daya Manusia",
+          "b": "Komisi Fatwa Nahdlatul Ulama",
+          "c": "Lembaga Pertahanan Islam",
+          "d": "Badan Pemberdayaan Masyarakat"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 22,
+        "tingkatan": "mudah",
+        "pertanyaan": "Apakah Nahdlatul Ulama memiliki rumah sakit?",
+        "pilihan": {
+          "a": "Tidak memiliki",
+          "b": "Hanya satu di Jakarta",
+          "c": "Ya, memiliki banyak rumah sakit di berbagai daerah",
+          "d": "Hanya memiliki klinik"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 23,
+        "tingkatan": "mudah",
+        "pertanyaan": "Apa adalah tradisi yang sangat dihormati dalam Nahdlatul Ulama?",
+        "pilihan": {
+          "a": "Modernisasi tanpa batas",
+          "b": "Menghormati dan mempertahankan tradisi Islam klasik",
+          "c": "Menolak semua tradisi lama",
+          "d": "Hanya mengikuti perkembangan Barat"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 24,
+        "tingkatan": "mudah",
+        "pertanyaan": "Bagaimana Nahdlatul Ulama merespons isu-isu sosial kemasyarakatan?",
+        "pilihan": {
+          "a": "Tidak pernah terlibat dalam isu sosial",
+          "b": "Aktif terlibat dalam berbagai program pemberdayaan masyarakat",
+          "c": "Hanya fokus pada kegiatan keagamaan ritual",
+          "d": "Membiarkan isu sosial kepada pemerintah"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 25,
+        "tingkatan": "mudah",
+        "pertanyaan": "Berapa banyak provinsi di Indonesia yang memiliki organisasi Nahdlatul Ulama?",
+        "pilihan": {
+          "a": "Kurang dari 5 provinsi",
+          "b": "Hanya di Jawa",
+          "c": "Di hampir semua provinsi di Indonesia",
+          "d": "Hanya di Jawa Timur dan Jakarta"
+        },
+        "jawaban_benar": "c"
+      }
+    ],
+    "normal": [
+      {
+        "nomor": 26,
+        "tingkatan": "normal",
+        "pertanyaan": "Jelaskan latar belakang diselenggarakannya Kongres I Nahdlatul Ulama pada tahun 1926?",
+        "pilihan": {
+          "a": "Hanya untuk pertemuan sosial ulama",
+          "b": "Untuk membentuk organisasi Islam yang mengintegrasikan pesantren di Jawa Timur",
+          "c": "Untuk melawan pemerintah Belanda",
+          "d": "Untuk mempersiapkan kemerdekaan Indonesia"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 27,
+        "tingkatan": "normal",
+        "pertanyaan": "Apa perbedaan mendasar antara Nahdlatul Ulama dan Muhammadiyah dalam pendekatan Islam?",
+        "pilihan": {
+          "a": "Tidak ada perbedaan sama sekali",
+          "b": "NU tradisional dan Muhammadiyah modernis",
+          "c": "NU modernis dan Muhammadiyah tradisional",
+          "d": "NU fokus pada pendidikan, Muhammadiyah pada bisnis"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 28,
+        "tingkatan": "normal",
+        "pertanyaan": "Siapa yang dianggap sebagai pembarui Nahdlatul Ulama setelah masa kemerdekaan?",
+        "pilihan": {
+          "a": "K.H. Abdurrahman Wahid (Gus Dur)",
+          "b": "K.H. Saifullah Mahmud",
+          "c": "K.H. Subchan Z.E.",
+          "d": "K.H. Masykuri"
+        },
+        "jawaban_benar": "a"
+      },
+      {
+        "nomor": 29,
+        "tingkatan": "normal",
+        "pertanyaan": "Apa yang dimaksud dengan konsep 'Aswaja' yang dipegang Nahdlatul Ulama?",
+        "pilihan": {
+          "a": "Gerakan kebangkitan Islam modern",
+          "b": "Tradisi Ahlusunnah Wal Jamaah yang menekankan moderasi dan toleransi",
+          "c": "Aliran Islam yang ekstrem",
+          "d": "Sistem hukum Islam yang kaku"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 30,
+        "tingkatan": "normal",
+        "pertanyaan": "Bagaimana Nahdlatul Ulama berkontribusi dalam pembentukan Negara Kesatuan Republik Indonesia?",
+        "pilihan": {
+          "a": "Tidak memberikan kontribusi apapun",
+          "b": "Hanya melalui peran agama saja",
+          "c": "Melalui partisipasi aktif dalam sidang BPUPKI dan PPKI",
+          "d": "Hanya sebagai pengamat saja"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 31,
+        "tingkatan": "normal",
+        "pertanyaan": "Apa peran Komisi Tanfidz dalam struktur Nahdlatul Ulama?",
+        "pilihan": {
+          "a": "Komisi yang menangani keuangan",
+          "b": "Komisi yang melaksanakan keputusan dari rapat pusat",
+          "c": "Komisi yang membuat kebijakan publik",
+          "d": "Komisi yang menangani pendidikan"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 32,
+        "tingkatan": "normal",
+        "pertanyaan": "Bagaimana pendekatan Nahdlatul Ulama terhadap tauhid dan akidah?",
+        "pilihan": {
+          "a": "Mengikuti Asy'ari dan Maturidi",
+          "b": "Mengikuti Salafi murni",
+          "c": "Tidak memiliki pendekatan khusus",
+          "d": "Mengikuti Syiah"
+        },
+        "jawaban_benar": "a"
+      },
+      {
+        "nomor": 33,
+        "tingkatan": "normal",
+        "pertanyaan": "Apa yang dimaksud dengan 'khittah Nahdlatul Ulama' yang dicanangkan tahun 1926?",
+        "pilihan": {
+          "a": "Program ekonomi NU",
+          "b": "Garis perjuangan organisasi yang berfokus pada dakwah dan pendidikan",
+          "c": "Sistem pemerintahan NU",
+          "d": "Kebijakan luar negeri NU"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 34,
+        "tingkatan": "normal",
+        "pertanyaan": "Siapa tokoh NU yang menjadi wakil presiden Indonesia?",
+        "pilihan": {
+          "a": "K.H. Abdurrahman Wahid",
+          "b": "Kiai Miftachul Akhyar",
+          "c": "Muhammad Maruf Amin",
+          "d": "Joko Widodo"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 35,
+        "tingkatan": "normal",
+        "pertanyaan": "Apa nama organisasi kepemudaan yang menjadi sayap militansi Nahdlatul Ulama?",
+        "pilihan": {
+          "a": "HMI (Himpunan Mahasiswa Islam)",
+          "b": "PMII (Perhimpunan Mahasiswa Islam Indonesia)",
+          "c": "GP Ansor (Gerakan Pemuda Ansor)",
+          "d": "IMM (Ikatan Mahasiswa Muhammadiyah)"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 36,
+        "tingkatan": "normal",
+        "pertanyaan": "Bagaimana posisi Nahdlatul Ulama terhadap wanita dalam organisasi dan kepemimpinan?",
+        "pilihan": {
+          "a": "Menolak keikutsertaan wanita",
+          "b": "Memberikan kesempatan yang sama bagi wanita dalam berbagai bidang layanan",
+          "c": "Hanya mengikutsertakan wanita dalam kegiatan sosial saja",
+          "d": "Tidak memiliki komitmen terhadap kesetaraan gender"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 37,
+        "tingkatan": "normal",
+        "pertanyaan": "Apa yang menjadi fokus utama program pemberdayaan masyarakat Nahdlatul Ulama?",
+        "pilihan": {
+          "a": "Hanya pendidikan formal",
+          "b": "Pendidikan, kesehatan, ekonomi, dan pemberdayaan masyarakat",
+          "c": "Hanya kegiatan keagamaan",
+          "d": "Hanya program dakwah"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 38,
+        "tingkatan": "normal",
+        "pertanyaan": "Bagaimana Nahdlatul Ulama merespons perkembangan teknologi dan modernisasi?",
+        "pilihan": {
+          "a": "Menolak semua bentuk modernisasi",
+          "b": "Menerima modernisasi dengan tetap mempertahankan nilai-nilai Islam tradisional",
+          "c": "Sepenuhnya mengadopsi modernisasi tanpa filter",
+          "d": "Tidak peduli dengan modernisasi"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 39,
+        "tingkatan": "normal",
+        "pertanyaan": "Apa nama media massa yang menjadi organ pers Nahdlatul Ulama?",
+        "pilihan": {
+          "a": "Suara Merdeka",
+          "b": "Serambi Indonesia",
+          "c": "Aula",
+          "d": "Media Indonesia"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 40,
+        "tingkatan": "normal",
+        "pertanyaan": "Bagaimana Nahdlatul Ulama melihat hubungan antara agama dan negara?",
+        "pilihan": {
+          "a": "Agama dan negara harus terpisah total",
+          "b": "Agama harus menguasai negara sepenuhnya",
+          "c": "Agama dan negara harus saling menghormati dalam kerangka NKRI",
+          "d": "Negara tidak perlu mempertimbangkan nilai-nilai agama"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 41,
+        "tingkatan": "normal",
+        "pertanyaan": "Siapa yang diangkat sebagai Rois Aam (Pemimpin Tertinggi) Nahdlatul Ulama pertama?",
+        "pilihan": {
+          "a": "K.H. Hasyim Asy'ari",
+          "b": "K.H. Wahab Hasbullah",
+          "c": "K.H. Zainal Abidin",
+          "d": "K.H. Masykuri"
+        },
+        "jawaban_benar": "a"
+      },
+      {
+        "nomor": 42,
+        "tingkatan": "normal",
+        "pertanyaan": "Apa yang dimaksud dengan 'pesantren' dalam konteks pendidikan Nahdlatul Ulama?",
+        "pilihan": {
+          "a": "Sekolah modern dengan kurikulum internasional",
+          "b": "Lembaga pendidikan Islam tradisional yang menggabungkan pendidikan agama dan umum",
+          "c": "Rumah ibadah untuk kegiatan ritural saja",
+          "d": "Pusat latihan militer"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 43,
+        "tingkatan": "normal",
+        "pertanyaan": "Bagaimana Nahdlatul Ulama mendefinisikan 'Islam Rahmatan Lil Alamin'?",
+        "pilihan": {
+          "a": "Islam yang keras dan tidak toleran",
+          "b": "Islam sebagai rahmat bagi seluruh alam dan semua makhluk",
+          "c": "Islam hanya untuk golongan tertentu",
+          "d": "Islam tanpa nilai spiritualitas"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 44,
+        "tingkatan": "normal",
+        "pertanyaan": "Apa peran Bahtsul Masail dalam tradisi intelektual Nahdlatul Ulama?",
+        "pilihan": {
+          "a": "Hanya forum diskusi santai",
+          "b": "Forum untuk membahas masalah keislaman dan mencari solusi berdasarkan kitab kuning",
+          "c": "Kegiatan sekedar pengumpulan donasi",
+          "d": "Program untuk mengumpulkan anggota baru"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 45,
+        "tingkatan": "normal",
+        "pertanyaan": "Bagaimana Nahdlatul Ulama berkontribusi terhadap pemberdayaan ekonomi masyarakat?",
+        "pilihan": {
+          "a": "Tidak memiliki program ekonomi",
+          "b": "Melalui koperasi, BMT, dan program pelatihan keterampilan",
+          "c": "Hanya memberikan santunan kepada yang miskin",
+          "d": "Tidak peduli dengan ekonomi masyarakat"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 46,
+        "tingkatan": "normal",
+        "pertanyaan": "Apa yang menjadi karakteristik utama metode dakwah Nahdlatul Ulama?",
+        "pilihan": {
+          "a": "Dakwah dengan cara kekerasan dan paksaan",
+          "b": "Dakwah dengan cara dialogis, toleran, dan menghormati pluralisme",
+          "c": "Dakwah hanya melalui mimbar saja",
+          "d": "Dakwah yang eksklusif untuk umat Muslim saja"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 47,
+        "tingkatan": "normal",
+        "pertanyaan": "Siapa penerus kepemimpinan Nahdlatul Ulama setelah KH. Abdurrahman Wahid?",
+        "pilihan": {
+          "a": "Abdurrahman Syech",
+          "b": "Kiai Haji Said Aqil Siradj",
+          "c": "Rais Amin",
+          "d": "Masykuri"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 48,
+        "tingkatan": "normal",
+        "pertanyaan": "Bagaimana Nahdlatul Ulama merespons perbedaan mazhab dalam Islam?",
+        "pilihan": {
+          "a": "Menolak semua mazhab selain satu mazhab",
+          "b": "Menganggap semua mazhab sama tidak penting",
+          "c": "Menghormati keragaman mazhab Imam Empat dalam kerangka Aswaja",
+          "d": "Hanya mengikuti satu mazhab secara kaku"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 49,
+        "tingkatan": "normal",
+        "pertanyaan": "Apa yang dimaksud dengan 'jiwa NU' menurut para tokohnya?",
+        "pilihan": {
+          "a": "Semangat kekerasan dan militansi",
+          "b": "Semangat mengabdi kepada agama, bangsa, dan negara dengan cara yang arif dan bijaksana",
+          "c": "Semangat menjadi kelompok eksklusif",
+          "d": "Semangat mengumpulkan kekayaan"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 50,
+        "tingkatan": "normal",
+        "pertanyaan": "Bagaimana posisi Nahdlatul Ulama dalam sistem kepartaian Indonesia?",
+        "pilihan": {
+          "a": "Menguasai semua partai politik",
+          "b": "Tidak memiliki partai politik sendiri",
+          "c": "Memiliki kebebasan kader untuk memilih partai yang sesuai dengan visi NU",
+          "d": "Melarang kadernya terlibat dalam politik"
+        },
+        "jawaban_benar": "c"
+      }
+    ],
+    "hard": [
+      {
+        "nomor": 51,
+        "tingkatan": "hard",
+        "pertanyaan": "Analisis bagaimana Nahdlatul Ulama memposisikan diri dalam dinamika gerakan Islam di Indonesia sejak awal abad 20?",
+        "pilihan": {
+          "a": "Sebagai gerakan yang tertutup dan tidak aktif",
+          "b": "Sebagai gerakan yang mengintegrasikan tradisi pesantren dengan gerakan modernisasi kontekstual",
+          "c": "Hanya sebagai organisasi keagamaan ritual saja",
+          "d": "Sebagai gerakan yang menolak semua bentuk perubahan"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 52,
+        "tingkatan": "hard",
+        "pertanyaan": "Jelaskan konsep 'ijtihad' dalam perspektif Nahdlatul Ulama dan perbedaannya dengan pemahaman ijtihad modern?",
+        "pilihan": {
+          "a": "NU menolak sepenuhnya konsep ijtihad",
+          "b": "NU menerima ijtihad dalam kerangka mazhab dengan tetap menjaga otoritas teks klasik",
+          "c": "NU menerapkan ijtihad tanpa batasan apapun seperti halnya kelompok progresif",
+          "d": "Ijtihad dalam NU sama persis dengan pemahaman modern"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 53,
+        "tingkatan": "hard",
+        "pertanyaan": "Bagaimana Nahdlatul Ulama menginterpretasikan konsep 'mashlahah' dalam konteks hukum Islam modern?",
+        "pilihan": {
+          "a": "Menolak konsep mashlahah sepenuhnya",
+          "b": "Menerima mashlahah dengan ketentuan tetap dalam kerangka syariat dan tidak bertentangan dengan nash",
+          "c": "Menggunakan mashlahah untuk mengubah semua hukum Islam",
+          "d": "Mashlahah hanya untuk kalangan ulama tertentu"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 54,
+        "tingkatan": "hard",
+        "pertanyaan": "Analisis peran Nahdlatul Ulama dalam dialog antaragama dan pluralisme di Indonesia?",
+        "pilihan": {
+          "a": "Menolak dialog dengan agama lain",
+          "b": "Aktif mendorong dialog dan kerjasama antaragama dalam kerangka kebhinekaan",
+          "c": "Hanya bersikap pasif dalam isu-isu pluralisme",
+          "d": "Tidak memiliki posisi jelas tentang pluralisme"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 55,
+        "tingkatan": "hard",
+        "pertanyaan": "Bagaimana Nahdlatul Ulama merespons tantangan sekularisasi dan westernisasi dalam konteks Indonesia modern?",
+        "pilihan": {
+          "a": "Dengan menolak total modernisasi",
+          "b": "Dengan mengadopsi modernisasi tanpa filter",
+          "c": "Dengan strategi sinkronisasi: menerima modernisasi namun tetap mempertahankan nilai-nilai Islam",
+          "d": "Dengan tidak peduli dengan isu-isu ini"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 56,
+        "tingkatan": "hard",
+        "pertanyaan": "Jelaskan signifikansi Kongres Alim Ulama dalam sejarah Nahdlatul Ulama dan perannya dalam membentuk kebijakan?",
+        "pilihan": {
+          "a": "Hanya acara seremonial tanpa pengaruh nyata",
+          "b": "Adalah lembaga tertinggi yang menentukan garis perjuangan dan kebijakan strategis NU",
+          "c": "Tidak memiliki otoritas apapun",
+          "d": "Hanya untuk mengumpulkan anggota saja"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 57,
+        "tingkatan": "hard",
+        "pertanyaan": "Analisis bagaimana Nahdlatul Ulama mengintegrasikan pendidikan pesantren tradisional dengan pendidikan formal modern?",
+        "pilihan": {
+          "a": "Menolak sepenuhnya pendidikan formal",
+          "b": "Menerima pendidikan formal tanpa mempertahankan tradisi pesantren",
+          "c": "Mengembangkan lembaga pendidikan yang menggabungkan kekuatan kedua sistem pembelajaran",
+          "d": "Tidak memiliki komitmen terhadap pendidikan"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 58,
+        "tingkatan": "hard",
+        "pertanyaan": "Bagaimana Nahdlatul Ulama memahami konsep 'maqasid syariah' dalam konteks legislasi dan kebijakan publik?",
+        "pilihan": {
+          "a": "Maqasid syariah tidak relevan dengan legislasi modern",
+          "b": "Maqasid syariah menjadi landasan dalam merumuskan posisi NU pada isu-isu kebijakan publik",
+          "c": "Maqasid syariah hanya untuk kalangan akademis",
+          "d": "NU tidak menggunakan konsep maqasid syariah"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 59,
+        "tingkatan": "hard",
+        "pertanyaan": "Jelaskan kontribusi Nahdlatul Ulama dalam mempromosikan Islam yang inklusif di tengah diskursus global tentang Islam?",
+        "pilihan": {
+          "a": "NU tidak berkontribusi pada diskursus global",
+          "b": "NU secara aktif mempromosikan wajah Islam yang toleran, moderat, dan humanis",
+          "c": "NU hanya fokus pada masalah internal Indonesia",
+          "d": "NU tidak peduli dengan pandangan global tentang Islam"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 60,
+        "tingkatan": "hard",
+        "pertanyaan": "Bagaimana Nahdlatul Ulama memposisikan diri dalam isu-isu konstitusionalisme dan demokrasi di Indonesia?",
+        "pilihan": {
+          "a": "Menolak demokrasi dan konstitusi",
+          "b": "Mendukung sistem demokrasi dan konstitusionalisme dalam kerangka nilai-nilai Islam",
+          "c": "Acuh tak acuh terhadap sistem pemerintahan",
+          "d": "Hanya mendukung satu sistem pemerintahan tertentu"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 61,
+        "tingkatan": "hard",
+        "pertanyaan": "Analisis peran Nahdlatul Ulama dalam membangun civil society dan demokratisasi di Indonesia?",
+        "pilihan": {
+          "a": "NU tidak memiliki peran dalam civil society",
+          "b": "NU secara aktif membangun institusi-institusi civil society untuk penguatan demokrasi",
+          "c": "NU hanya fokus pada hal-hal keagamaan saja",
+          "d": "NU menentang pengembangan civil society"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 62,
+        "tingkatan": "hard",
+        "pertanyaan": "Bagaimana Nahdlatul Ulama merespons kritik dari gerakan-gerakan Islam lain terhadap pendekatannya yang dianggap terlalu moderat?",
+        "pilihan": {
+          "a": "Dengan menjadi lebih ekstrem",
+          "b": "Dengan mempertahankan posisi dan menjelaskan dasar keilmuan dari pendekatan moderatnya",
+          "c": "Dengan meninggalkan prinsip-prinsipnya",
+          "d": "Dengan tidak merespons kritik apapun"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 63,
+        "tingkatan": "hard",
+        "pertanyaan": "Jelaskan konsep 'wasatiyyah' dalam perspektif Nahdlatul Ulama dan implementasinya dalam kehidupan sosial?",
+        "pilihan": {
+          "a": "Wasatiyyah adalah prinsip mengambil jalan tengah yang tidak ada dasar religius",
+          "b": "Wasatiyyah adalah prinsip moderasi dalam Islam yang menjadi landasan etika sosial NU",
+          "c": "Wasatiyyah hanya berlaku dalam konteks ibadah ritual",
+          "d": "NU tidak menggunakan konsep wasatiyyah"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 64,
+        "tingkatan": "hard",
+        "pertanyaan": "Bagaimana Nahdlatul Ulama menghadapi tantangan fundamentalisme dan ekstremisme dalam konteks Islam Indonesia?",
+        "pilihan": {
+          "a": "Dengan mengadopsi prinsip-prinsip fundamentalis",
+          "b": "Dengan mengembangkan counter-narrative yang menekankan Islam rahmatan dan moderasi",
+          "c": "Dengan tidak peduli dengan fenomena ekstremisme",
+          "d": "Dengan hanya fokus pada ritual keagamaan"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 65,
+        "tingkatan": "hard",
+        "pertanyaan": "Analisis hubungan antara Nahdlatul Ulama dan negara dalam konteks state-society relations di Indonesia?",
+        "pilihan": {
+          "a": "NU sepenuhnya tunduk pada kekuasaan negara",
+          "b": "NU adalah aktor independen yang kritis namun konstruktif terhadap negara",
+          "c": "NU sepenuhnya menentang negara",
+          "d": "NU tidak memiliki hubungan dengan negara"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 66,
+        "tingkatan": "hard",
+        "pertanyaan": "Jelaskan bagaimana Nahdlatul Ulama mengembangkan teologi pembebasan yang seimbang antara aspek spiritual dan sosial?",
+        "pilihan": {
+          "a": "NU tidak memiliki teologi pembebasan",
+          "b": "NU mengembangkan pendekatan yang menyeimbangkan pengembangan spiritual individu dengan aksi sosial kemasyarakatan",
+          "c": "NU hanya fokus pada aspek spiritual tanpa kepedulian sosial",
+          "d": "NU hanya fokus pada aksi sosial tanpa dasar spiritual"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 67,
+        "tingkatan": "hard",
+        "pertanyaan": "Bagaimana Nahdlatul Ulama merespons isu gender dan emansipasi perempuan dalam Islam?",
+        "pilihan": {
+          "a": "NU menolak sepenuhnya isu gender dalam Islam",
+          "b": "NU mendorong keterlibatan perempuan dengan tetap menghormati nilai-nilai Islam",
+          "c": "NU hanya mengikuti gerakan feminis Barat tanpa konteks Islam",
+          "d": "NU tidak memiliki posisi tentang isu gender"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 68,
+        "tingkatan": "hard",
+        "pertanyaan": "Analisis peran Nahdlatul Ulama dalam mempromosikan keberlanjutan lingkungan dan ekologi dalam perspektif Islam?",
+        "pilihan": {
+          "a": "NU tidak peduli dengan isu lingkungan",
+          "b": "NU secara aktif mengembangkan gerakan ekologi Islam sebagai bagian dari Islamic ethics",
+          "c": "NU hanya menerima isu lingkungan dari agenda Barat",
+          "d": "NU menganggap lingkungan tidak penting dalam Islam"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 69,
+        "tingkatan": "hard",
+        "pertanyaan": "Jelaskan bagaimana Nahdlatul Ulama mengintegrasikan nilai-nilai universalisme dan partikularisme Islam?",
+        "pilihan": {
+          "a": "NU hanya menerima universalisme tanpa partikularisme Islam",
+          "b": "NU mengembangkan pendekatan yang mengintegrasikan nilai-nilai universal dalam kerangka Islam yang kontekstual",
+          "c": "NU hanya fokus pada partikularisme tanpa kepedulian universal",
+          "d": "NU tidak memiliki pendekatan yang jelas"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 70,
+        "tingkatan": "hard",
+        "pertanyaan": "Bagaimana Nahdlatul Ulama merespons globalisasi dan interkonektivitas dunia modern?",
+        "pilihan": {
+          "a": "Dengan menolak sepenuhnya globalisasi",
+          "b": "Dengan mengadopsi globalisasi tanpa filter",
+          "c": "Dengan strategi glocalization: terlibat dalam percaturan global sambil menjaga identitas lokal",
+          "d": "Dengan tidak merespons globalisasi"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 71,
+        "tingkatan": "hard",
+        "pertanyaan": "Analisis bagaimana Nahdlatul Ulama mengembangkan ekonomi Islam yang inklusif dan berkelanjutan?",
+        "pilihan": {
+          "a": "NU tidak memiliki model ekonomi Islam",
+          "b": "NU mengembangkan model ekonomi Islam yang bertujuan untuk pemberdayaan ekonomi masyarakat luas",
+          "c": "NU hanya fokus pada kegiatan amal semata",
+          "d": "NU mengadopsi model ekonomi kapitalis Barat"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 72,
+        "tingkatan": "hard",
+        "pertanyaan": "Jelaskan peran Nahdlatul Ulama dalam konstruksi identitas nasional dan kebangsaan Indonesia?",
+        "pilihan": {
+          "a": "NU mengasingkan identitas nasional dari identitas Islam",
+          "b": "NU secara aktif mengintegrasikan nilai-nilai Islam dalam kerangka identitas nasional yang plural",
+          "c": "NU menolak identitas nasional Indonesia",
+          "d": "NU tidak peduli dengan identitas nasional"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 73,
+        "tingkatan": "hard",
+        "pertanyaan": "Bagaimana Nahdlatul Ulama merespons transformasi digital dan era informasi dalam konteks dakwah dan pendidikan?",
+        "pilihan": {
+          "a": "NU menolak teknologi digital sepenuhnya",
+          "b": "NU mengadopsi platform digital untuk memperluas jangkauan dakwah dan pendidikan",
+          "c": "NU tidak peduli dengan transformasi digital",
+          "d": "NU hanya menggunakan teknologi lama"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 74,
+        "tingkatan": "hard",
+        "pertanyaan": "Analisis bagaimana Nahdlatul Ulama memposisikan diri dalam diskursus islam politik versus spiritualisme Islam?",
+        "pilihan": {
+          "a": "NU hanya fokus pada politik tanpa spiritualisme",
+          "b": "NU mengintegrasikan dimensi spiritual dan dimensi sosial-politik dalam kerangka yang seimbang",
+          "c": "NU hanya fokus pada spiritualisme tanpa dimensi sosial-politik",
+          "d": "NU tidak memiliki posisi yang jelas"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 75,
+        "tingkatan": "hard",
+        "pertanyaan": "Jelaskan bagaimana Nahdlatul Ulama menjaga relevansinya di era kontemporer sambil tetap mempertahankan akar tradisinya?",
+        "pilihan": {
+          "a": "NU terus menolak semua bentuk pembaruan",
+          "b": "NU mengembangkan strategi ijtihad kontekstual yang dinamis tanpa mengorbankan identitas fundamentalnya",
+          "c": "NU sepenuhnya meninggalkan tradisi",
+          "d": "NU tidak peduli dengan relevansi masa kini"
+        },
+        "jawaban_benar": "b"
+      }
+    ]
+  }
+}

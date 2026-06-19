@@ -1,0 +1,915 @@
+{
+  "mata_pelajaran": "Etika Mencari Ilmu - Ta'limul Muta'allim Thariq at-Ta'allum",
+  "pengarang": "Syekh Burhanuddin Az-Zarnuji",
+  "total_soal": 75,
+  "tingkatan": ["mudah", "normal", "hard"],
+  "soal_per_tingkatan": 25,
+  "soal": {
+    "mudah": [
+      {
+        "nomor": 1,
+        "tingkatan": "mudah",
+        "pertanyaan": "Siapa pengarang kitab Ta'limul Muta'allim?",
+        "pilihan": {
+          "a": "Imam Al-Ghazali",
+          "b": "Syekh Burhanuddin Az-Zarnuji",
+          "c": "Imam Al-Bukhari",
+          "d": "Ibn Sina"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 2,
+        "tingkatan": "mudah",
+        "pertanyaan": "Dalam bahasa apa kitab Ta'limul Muta'allim ditulis?",
+        "pilihan": {
+          "a": "Bahasa Persia",
+          "b": "Bahasa Turki",
+          "c": "Bahasa Arab",
+          "d": "Bahasa Urdu"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 3,
+        "tingkatan": "mudah",
+        "pertanyaan": "Apa arti 'Muta'allim' dalam judul kitab Ta'limul Muta'allim?",
+        "pilihan": {
+          "a": "Guru",
+          "b": "Pelajar atau murid",
+          "c": "Ilmuwan",
+          "d": "Sarjana"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 4,
+        "tingkatan": "mudah",
+        "pertanyaan": "Apa arti 'Ta'lim' dalam konteks kitab Ta'limul Muta'allim?",
+        "pilihan": {
+          "a": "Mengajar",
+          "b": "Mendidik",
+          "c": "Pembelajaran atau pencarian ilmu",
+          "d": "Pengajaran agama"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 5,
+        "tingkatan": "mudah",
+        "pertanyaan": "Dalam kitab Ta'limul Muta'allim, apa yang dianggap sebagai niat pertama dalam mencari ilmu?",
+        "pilihan": {
+          "a": "Mendapatkan pangkat dan jabatan",
+          "b": "Memperoleh kekayaan materi",
+          "c": "Niat untuk mendekatkan diri kepada Allah dan mencari keridhaan-Nya",
+          "d": "Mencari ketenaran dan prestise"
+        },
+        "jawaban_benar": "c"
+      },
+      {
+        "nomor": 6,
+        "tingkatan": "mudah",
+        "pertanyaan": "Menurut kitab Ta'limul Muta'allim, bagaimana sikap seorang murid terhadap gurunya?",
+        "pilihan": {
+          "a": "Boleh membantah dan menentang guru kapan saja",
+          "b": "Harus menghormati dan memuliakan guru seperti orang tua",
+          "c": "Tidak perlu menghormati guru kecuali dalam kelas",
+          "d": "Hanya mengikuti guru tanpa bertanya"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 7,
+        "tingkatan": "mudah",
+        "pertanyaan": "Apa salah satu etika penting dalam mencari ilmu menurut Az-Zarnuji?",
+        "pilihan": {
+          "a": "Menolak belajar dari lebih dari satu guru",
+          "b": "Memilih guru yang sesuai dengan minat dan kualifikasi kita",
+          "c": "Tidak perlu mempersiapkan diri sebelum belajar",
+          "d": "Belajar hanya ketika ada waktu luang"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 8,
+        "tingkatan": "mudah",
+        "pertanyaan": "Dalam Ta'limul Muta'allim, apa yang dikatakan tentang memulai pelajaran dengan ilmu-ilmu dasar?",
+        "pilihan": {
+          "a": "Tidak perlu mempelajari dasar, langsung ke pelajaran tingkat lanjut",
+          "b": "Harus memulai dengan ilmu-ilmu dasar dan fundamental",
+          "c": "Boleh memilih pelajaran sesuai keinginan tanpa urutan",
+          "d": "Dasar-dasar tidak penting dalam pembelajaran"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 9,
+        "tingkatan": "mudah",
+        "pertanyaan": "Apa pesan Az-Zarnuji tentang kesabaran dalam mencari ilmu?",
+        "pilihan": {
+          "a": "Kesabaran tidak diperlukan dalam belajar",
+          "b": "Kesabaran adalah kunci kesuksesan dalam mencari ilmu",
+          "c": "Cukup belajar sebentar saja sudah cukup",
+          "d": "Belajar harus cepat tanpa sabar mendalami materi"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 10,
+        "tingkatan": "mudah",
+        "pertanyaan": "Menurut kitab Ta'limul Muta'allim, apa yang harus dilakukan murid sebelum memulai pelajaran?",
+        "pilihan": {
+          "a": "Bermain dan bersantai terlebih dahulu",
+          "b": "Mempersiapkan hati dan pikiran dengan baik",
+          "c": "Langsung belajar tanpa persiapan",
+          "d": "Makan dan minum berlebihan"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 11,
+        "tingkatan": "mudah",
+        "pertanyaan": "Dalam kitab ini, bagaimana seharusnya seorang murid memandang ilmu yang dipelajarinya?",
+        "pilihan": {
+          "a": "Ilmu hanya untuk kepentingan duniawi",
+          "b": "Ilmu adalah amanah dari Allah yang harus dijaga dan diamalkan",
+          "c": "Ilmu tidak memiliki nilai khusus",
+          "d": "Ilmu hanya untuk di-share-kan kepada orang lain"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 12,
+        "tingkatan": "mudah",
+        "pertanyaan": "Apa pendapat Az-Zarnuji tentang menunda-nunda dalam belajar?",
+        "pilihan": {
+          "a": "Menunda-nunda adalah praktik yang baik",
+          "b": "Menunda-nunda harus dihindari dan belajar harus dilakukan dengan segera",
+          "c": "Menunda-nunda tidak mempengaruhi pembelajaran",
+          "d": "Lebih baik menunda daripada belajar terburu-buru"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 13,
+        "tingkatan": "mudah",
+        "pertanyaan": "Menurut Ta'limul Muta'allim, bagaimana seorang pelajar seharusnya berinteraksi dengan teman belajarnya?",
+        "pilihan": {
+          "a": "Dengan saling berkompetisi yang tidak sehat dan saling menjatuhkan",
+          "b": "Dengan saling membantu, mendukung, dan berbagi ilmu",
+          "c": "Tidak perlu berinteraksi dengan teman belajar",
+          "d": "Dengan membenci teman yang lebih pintar"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 14,
+        "tingkatan": "mudah",
+        "pertanyaan": "Apa yang Az-Zarnuji katakan tentang membaca dan mengulang pelajaran?",
+        "pilihan": {
+          "a": "Membaca sekali sudah cukup",
+          "b": "Pengulangan dan membaca berulang kali membantu pemahaman yang lebih baik",
+          "c": "Membaca tidak perlu dilakukan",
+          "d": "Cukup mendengarkan tanpa membaca"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 15,
+        "tingkatan": "mudah",
+        "pertanyaan": "Dalam kitab ini, apa yang dimaksud dengan 'adab' dalam konteks mencari ilmu?",
+        "pilihan": {
+          "a": "Sastra dan puisi",
+          "b": "Etika, sopan santun, dan tata cara yang baik dalam pembelajaran",
+          "c": "Hanya berbicara dengan benar",
+          "d": "Pakaian yang harus dikenakan"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 16,
+        "tingkatan": "mudah",
+        "pertanyaan": "Menurut Az-Zarnuji, berapa jenis etika yang harus diperhatikan dalam mencari ilmu?",
+        "pilihan": {
+          "a": "Satu jenis saja",
+          "b": "Dua jenis",
+          "c": "Tiga jenis",
+          "d": "Lebih dari tiga jenis"
+        },
+        "jawaban_benar": "d"
+      },
+      {
+        "nomor": 17,
+        "tingkatan": "mudah",
+        "pertanyaan": "Apa nasihat Az-Zarnuji tentang lingkungan belajar yang baik?",
+        "pilihan": {
+          "a": "Lingkungan tidak mempengaruhi pembelajaran",
+          "b": "Pilih lingkungan yang kondusif dan jauh dari gangguan",
+          "c": "Lingkungan ramai justru membantu pembelajaran",
+          "d": "Belajar di mana saja tidak masalah"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 18,
+        "tingkatan": "mudah",
+        "pertanyaan": "Dalam Ta'limul Muta'allim, apa yang dikatakan tentang amal dan praktik ilmu?",
+        "pilihan": {
+          "a": "Amal tidak perlu dilakukan, cukup mengetahui saja",
+          "b": "Ilmu harus diamalkan dan dipraktikkan dalam kehidupan",
+          "c": "Amal adalah tanggung jawab orang lain",
+          "d": "Ilmu hanya untuk diketahui tidak perlu diamalkan"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 19,
+        "tingkatan": "mudah",
+        "pertanyaan": "Apa pendapat Az-Zarnuji tentang mencari ilmu untuk kepentingan duniawi semata?",
+        "pilihan": {
+          "a": "Itu adalah niat yang baik",
+          "b": "Itu adalah niat yang harus dihindari dan diluruskan",
+          "c": "Itu adalah niat yang paling penting",
+          "d": "Niat tidak penting dalam mencari ilmu"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 20,
+        "tingkatan": "mudah",
+        "pertanyaan": "Menurut kitab ini, apa hubungan antara takwa dan ilmu?",
+        "pilihan": {
+          "a": "Takwa dan ilmu tidak ada hubungannya",
+          "b": "Takwa harus mendahului dan menemani perjalanan mencari ilmu",
+          "c": "Ilmu lebih penting daripada takwa",
+          "d": "Takwa tidak diperlukan dalam menuntut ilmu"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 21,
+        "tingkatan": "mudah",
+        "pertanyaan": "Apa yang Az-Zarnuji nasihatkan tentang pertanyaan dalam pembelajaran?",
+        "pilihan": {
+          "a": "Jangan bertanya karena terlihat bodoh",
+          "b": "Bertanya adalah cara baik untuk memperdalam pemahaman",
+          "c": "Pertanyaan hanya boleh diajukan oleh guru",
+          "d": "Diam dan tidak bertanya adalah sikap baik"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 22,
+        "tingkatan": "mudah",
+        "pertanyaan": "Dalam Ta'limul Muta'allim, bagaimana seorang pelajar harus memperlakukan kitab atau buku pelajaran?",
+        "pilihan": {
+          "a": "Dengan sembarangan dan tidak peduli",
+          "b": "Dengan baik, hati-hati, dan penuh penghormatan",
+          "c": "Cukup dengan membacanya saja tanpa merawat",
+          "d": "Tidak perlu merawat buku karena bukan hal penting"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 23,
+        "tingkatan": "mudah",
+        "pertanyaan": "Apa yang dimaksud dengan 'takdim' dalam konteks pembelajaran menurut Az-Zarnuji?",
+        "pilihan": {
+          "a": "Mengutamakan kepentingan pribadi",
+          "b": "Mengutamakan ilmu agama daripada ilmu duniawi",
+          "c": "Mengutamakan bermain daripada belajar",
+          "d": "Mengutamakan istirahat daripada studi"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 24,
+        "tingkatan": "mudah",
+        "pertanyaan": "Dalam kitab ini, apa saran Az-Zarnuji tentang waktu belajar yang tepat?",
+        "pilihan": {
+          "a": "Belajar kapan saja tanpa ada waktu spesifik",
+          "b": "Memilih waktu yang tepat untuk belajar dengan konsentrasi penuh",
+          "c": "Hanya belajar di malam hari",
+          "d": "Waktu tidak penting dalam belajar"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 25,
+        "tingkatan": "mudah",
+        "pertanyaan": "Menurut Ta'limul Muta'allim, apa yang harus dilakukan jika ada yang tidak dipahami dari pelajaran?",
+        "pilihan": {
+          "a": "Diam dan malu untuk bertanya",
+          "b": "Menganggap hal itu tidak penting",
+          "c": "Bertanya kepada guru atau mempelajarinya lebih lanjut sampai paham",
+          "d": "Pura-pura paham tanpa benar-benar mengerti"
+        },
+        "jawaban_benar": "c"
+      }
+    ],
+    "normal": [
+      {
+        "nomor": 26,
+        "tingkatan": "normal",
+        "pertanyaan": "Jelaskan konsep 'ikhlas' dalam mencari ilmu menurut Az-Zarnuji dan mengapa hal ini sangat penting?",
+        "pilihan": {
+          "a": "Ikhlas berarti belajar untuk mendapatkan pujian dari manusia",
+          "b": "Ikhlas adalah niat murni untuk mendekatkan diri kepada Allah dan mengamalkan ilmu untuk kepentingan agama",
+          "c": "Ikhlas tidak penting dalam mencari ilmu",
+          "d": "Ikhlas hanya berlaku untuk guru, bukan untuk murid"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 27,
+        "tingkatan": "normal",
+        "pertanyaan": "Menurut Ta'limul Muta'allim, apa yang dimaksud dengan 'taqlid' dalam konteks pembelajaran dan bagaimana sikapnya?",
+        "pilihan": {
+          "a": "Taqlid adalah menirukan tanpa pemahaman yang harus dihindari dalam pembelajaran tingkat lanjut",
+          "b": "Taqlid adalah metode pembelajaran yang paling efektif",
+          "c": "Taqlid berarti menolak semua ajaran guru",
+          "d": "Taqlid tidak memiliki relevansi dalam pendidikan Islam"
+        },
+        "jawaban_benar": "a"
+      },
+      {
+        "nomor": 28,
+        "tingkatan": "normal",
+        "pertanyaan": "Bagaimana Az-Zarnuji menjelaskan hubungan antara tiga hal penting dalam mencari ilmu: guru, murid, dan ilmu itu sendiri?",
+        "pilihan": {
+          "a": "Ketiganya tidak saling berhubungan sama sekali",
+          "b": "Ketiganya saling terkait dan saling mempengaruhi dalam proses pembelajaran yang efektif",
+          "c": "Hanya guru yang penting, dua lainnya tidak penting",
+          "d": "Ilmu adalah satu-satunya elemen penting"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 29,
+        "tingkatan": "normal",
+        "pertanyaan": "Dalam Ta'limul Muta'allim, apa yang Az-Zarnuji katakan tentang pentingnya membersihkan hati dari sifat-sifat tercela sebelum belajar?",
+        "pilihan": {
+          "a": "Membersihkan hati tidak mempengaruhi pembelajaran",
+          "b": "Hati yang kotor dapat menjadi penghalang dalam menerima dan memahami ilmu dengan baik",
+          "c": "Sifat-sifat tercela justru membantu pembelajaran",
+          "d": "Hanya guru yang perlu membersihkan hatinya"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 30,
+        "tingkatan": "normal",
+        "pertanyaan": "Jelaskan konsep 'huffaz' dan 'fuqaha' dalam perspektif Az-Zarnuji dan apa perbedaannya?",
+        "pilihan": {
+          "a": "Tidak ada perbedaan antara keduanya",
+          "b": "Huffaz adalah penghafal Quran sementara fuqaha adalah ahli fiqih, keduanya memiliki keistimewaan masing-masing",
+          "c": "Huffaz lebih penting daripada fuqaha",
+          "d": "Fuqaha adalah kategori yang lebih tinggi dari huffaz"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 31,
+        "tingkatan": "normal",
+        "pertanyaan": "Apa pendapat Az-Zarnuji tentang keseimbangan antara membaca, mendengarkan, dan berfikir dalam pembelajaran?",
+        "pilihan": {
+          "a": "Hanya membaca yang penting, mendengarkan tidak perlu",
+          "b": "Ketiga aktivitas ini harus seimbang dan saling melengkapi dalam proses pembelajaran",
+          "c": "Berfikir saja sudah cukup tanpa perlu membaca dan mendengarkan",
+          "d": "Ketiganya memiliki tingkat kepentingan yang sama tanpa perlu seimbang"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 32,
+        "tingkatan": "normal",
+        "pertanyaan": "Dalam Ta'limul Muta'allim, apa yang ditekankan tentang pemilihan guru yang baik dan berpengaruh?",
+        "pilihan": {
+          "a": "Guru dipilih berdasarkan penampilan fisik saja",
+          "b": "Guru harus dipilih berdasarkan keilmuan, ketakwaan, dan pengalaman yang mendalam",
+          "c": "Pemilihan guru tidak penting, siapa saja bisa menjadi guru",
+          "d": "Guru yang paling populer pasti yang terbaik"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 33,
+        "tingkatan": "normal",
+        "pertanyaan": "Apa yang Az-Zarnuji katakan tentang sikap menantang atau membantah guru tanpa alasan yang kuat?",
+        "pilihan": {
+          "a": "Membantah guru adalah hak murid yang harus dilakukan",
+          "b": "Membantah guru tanpa dasar yang kuat adalah tanda ketidakhormatan dan dapat menutup pintu pembelajaran",
+          "c": "Menantang guru akan meningkatkan pemahaman",
+          "d": "Guru harus diterima begitu saja tanpa pertanyaan apapun"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 34,
+        "tingkatan": "normal",
+        "pertanyaan": "Menurut kitab Ta'limul Muta'allim, bagaimana seharusnya seorang murid menghadapi kesulitan dalam belajar?",
+        "pilihan": {
+          "a": "Dengan menyerah dan berhenti belajar",
+          "b": "Dengan tekad yang kuat, kesabaran, dan usaha untuk mengatasi hambatan tersebut",
+          "c": "Kesulitan adalah tanda bahwa dia tidak cocok belajar",
+          "d": "Hanya guru yang harus mengatasi kesulitan, bukan murid"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 35,
+        "tingkatan": "normal",
+        "pertanyaan": "Apa yang Az-Zarnuji sampaikan tentang hubungan antara akhlak mulia dan kesuksesan dalam mencari ilmu?",
+        "pilihan": {
+          "a": "Akhlak tidak mempengaruhi kesuksesan belajar",
+          "b": "Akhlak mulia adalah fondasi yang penting untuk kesuksesan dalam mencari dan mengamalkan ilmu",
+          "c": "Hanya ilmu yang penting, akhlak bisa diabaikan",
+          "d": "Akhlak mulia tidak perlu jika seseorang pintar"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 36,
+        "tingkatan": "normal",
+        "pertanyaan": "Dalam Ta'limul Muta'allim, apa yang dimaksud dengan 'tawaadhu' (kerendahan hati) dalam pembelajaran?",
+        "pilihan": {
+          "a": "Menyembunyikan kecerdasan dan berpura-pura bodoh",
+          "b": "Sikap merendahkan diri, tidak sombong, dan terbuka terhadap masukan dari orang lain",
+          "c": "Menunjukkan bahwa diri sendiri lebih hebat dari guru",
+          "d": "Tidak percaya diri dalam mengikuti pelajaran"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 37,
+        "tingkatan": "normal",
+        "pertanyaan": "Menurut Az-Zarnuji, apa tujuan utama dari semua nasihat dan aturan dalam Ta'limul Muta'allim?",
+        "pilihan": {
+          "a": "Hanya untuk membuat murid takut kepada guru",
+          "b": "Untuk membantu murid mencapai pemahaman ilmu yang mendalam dan mengamalkannya dengan baik",
+          "c": "Untuk mempersulit proses pembelajaran",
+          "d": "Untuk menjaga kekuasaan guru atas murid"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 38,
+        "tingkatan": "normal",
+        "pertanyaan": "Bagaimana Az-Zarnuji memandang hubungan antara ilmu fardhu 'ain dan fardhu kifayah dalam prioritas pembelajaran?",
+        "pilihan": {
+          "a": "Keduanya sama pentingnya tanpa ada prioritas",
+          "b": "Fardhu 'ain harus diutamakan terlebih dahulu sebelum menuntut fardhu kifayah",
+          "c": "Fardhu kifayah lebih penting daripada fardhu 'ain",
+          "d": "Hanya satu dari keduanya yang harus dipelajari"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 39,
+        "tingkatan": "normal",
+        "pertanyaan": "Apa yang Az-Zarnuji katakan tentang pentingnya menguasai bahasa Arab dalam mencari ilmu Islam?",
+        "pilihan": {
+          "a": "Bahasa Arab tidak penting dalam belajar Islam",
+          "b": "Bahasa Arab adalah kunci untuk memahami sumber-sumber ilmu Islam secara langsung dan mendalam",
+          "c": "Bahasa Arab hanya diperlukan untuk guru, bukan untuk murid",
+          "d": "Penguasaan bahasa lain lebih penting daripada bahasa Arab"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 40,
+        "tingkatan": "normal",
+        "pertanyaan": "Dalam Ta'limul Muta'allim, bagaimana Az-Zarnuji menjelaskan konsep 'tadabbur' (perenungan) dalam pembelajaran?",
+        "pilihan": {
+          "a": "Perenungan tidak diperlukan, cukup mendengarkan guru",
+          "b": "Perenungan mendalam tentang apa yang dipelajari membantu pemahaman yang lebih baik dan ingatan yang bertahan lama",
+          "c": "Perenungan hanya untuk orang-orang tertentu yang jenius",
+          "d": "Perenungan justru mengganggu proses pembelajaran"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 41,
+        "tingkatan": "normal",
+        "pertanyaan": "Apa yang Az-Zarnuji sampaikan tentang sikap sabar ketika guru tidak bersedia menjawab pertanyaan murid?",
+        "pilihan": {
+          "a": "Murid boleh marah dan meninggalkan guru",
+          "b": "Murid harus sabar, mungkin ada hikmah di balik hal tersebut, dan terus menunjukkan adab yang baik",
+          "c": "Guru tidak pernah memiliki alasan untuk tidak menjawab",
+          "d": "Kesabaran dalam hal ini menunjukkan kelemahan murid"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 42,
+        "tingkatan": "normal",
+        "pertanyaan": "Menurut Ta'limul Muta'allim, apa peran dari disiplin diri dalam pembelajaran?",
+        "pilihan": {
+          "a": "Disiplin diri tidak penting dalam pembelajaran",
+          "b": "Disiplin diri membantu murid tetap fokus, konsisten, dan mencapai tujuan pembelajaran mereka",
+          "c": "Disiplin hanya perlu diterapkan oleh guru, bukan murid",
+          "d": "Disiplin akan mengurangi kreativitas dalam belajar"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 43,
+        "tingkatan": "normal",
+        "pertanyaan": "Apa yang Az-Zarnuji katakan tentang pentingnya mengetahui manfaat dari setiap ilmu yang dipelajari?",
+        "pilihan": {
+          "a": "Manfaat tidak perlu diketahui, cukup belajar saja",
+          "b": "Mengetahui manfaat dari ilmu dapat meningkatkan motivasi dan dedikasi dalam pembelajaran",
+          "c": "Hanya ulama tertentu yang perlu mengetahui manfaat ilmu",
+          "d": "Manfaat ilmu akan menjadi jelas setelah tamat belajar"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 44,
+        "tingkatan": "normal",
+        "pertanyaan": "Dalam kitab Ta'limul Muta'allim, bagaimana Az-Zarnuji memandang konsep 'musyawarah' (musyawarah/diskusi) dalam pembelajaran?",
+        "pilihan": {
+          "a": "Diskusi tidak perlu dilakukan dalam pembelajaran",
+          "b": "Diskusi yang konstruktif dan terbuka dapat memperdalam pemahaman dan membuka wawasan baru",
+          "c": "Hanya guru yang boleh berbicara dalam pembelajaran",
+          "d": "Diskusi akan menimbulkan perpecahan antar murid"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 45,
+        "tingkatan": "normal",
+        "pertanyaan": "Apa yang Az-Zarnuji tekankan tentang menjaga diri dari penyakit hati seperti riya', hasad, dan ujub dalam pembelajaran?",
+        "pilihan": {
+          "a": "Penyakit hati tidak mempengaruhi pembelajaran",
+          "b": "Penyakit-penyakit hati ini dapat merusak niat dan kemurnian dalam mencari ilmu",
+          "c": "Hanya orang yang sudah sempurna yang dapat terhindar dari penyakit hati",
+          "d": "Az-Zarnuji tidak mempermasalahkan hal-hal seperti ini"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 46,
+        "tingkatan": "normal",
+        "pertanyaan": "Menurut Ta'limul Muta'allim, apa yang harus dilakukan murid setelah menyelesaikan setiap bab atau topik pembelajaran?",
+        "pilihan": {
+          "a": "Langsung pindah ke topik berikutnya tanpa mengulang",
+          "b": "Mengulangi dan mereview materi untuk memastikan pemahaman yang kuat sebelum melanjutkan",
+          "c": "Tidak perlu mengulang karena sudah disimak sekali",
+          "d": "Mengandalkan guru untuk mengingat apa yang telah diajarkan"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 47,
+        "tingkatan": "normal",
+        "pertanyaan": "Apa perspektif Az-Zarnuji tentang ilmu yang dipelajari tanpa amal (pengamalan)?",
+        "pilihan": {
+          "a": "Ilmu tanpa amal sudah cukup memuaskan",
+          "b": "Ilmu tanpa amal dapat menjadi hujjah (bukti) terhadap diri sendiri pada hari kiamat",
+          "c": "Pengamalan ilmu tidak ada hubungannya dengan pembelajaran",
+          "d": "Az-Zarnuji tidak membahas tentang amal dalam pembelajaran"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 48,
+        "tingkatan": "normal",
+        "pertanyaan": "Dalam Ta'limul Muta'allim, bagaimana Az-Zarnuji merekomendasikan cara menghadapi perbedaan pendapat antar ulama?",
+        "pilihan": {
+          "a": "Perbedaan pendapat antar ulama tidak penting dan bisa diabaikan",
+          "b": "Memahami berbagai pendapat dengan baik dan menghormati ijtihad masing-masing ulama dalam kerangka syariat",
+          "c": "Hanya mengikuti satu ulama dan menolak yang lain sepenuhnya",
+          "d": "Perbedaan pendapat menunjukkan bahwa Islam tidak jelas"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 49,
+        "tingkatan": "normal",
+        "pertanyaan": "Apa yang Az-Zarnuji katakan tentang pentingnya teman belajar yang baik dan berakhlak?",
+        "pilihan": {
+          "a": "Teman belajar tidak penting dalam proses pembelajaran",
+          "b": "Teman belajar yang baik dapat mempengaruhi motivasi, fokus, dan kesuksesan dalam mencari ilmu",
+          "c": "Teman belajar hanya untuk mengisi waktu luang",
+          "d": "Lebih baik belajar sendiri tanpa teman apapun"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 50,
+        "tingkatan": "normal",
+        "pertanyaan": "Menurut Ta'limul Muta'allim, apa makna dari frase 'alimun mutawaddi' (ulama yang merendahkan diri)?",
+        "pilihan": {
+          "a": "Ulama yang menyembunyikan ilmunya dari orang lain",
+          "b": "Ulama yang memiliki ilmu yang luas namun bersikap rendah hati dan tidak sombong",
+          "c": "Ulama yang tidak memiliki ilmu sejati",
+          "d": "Ulama yang takut untuk mengajar orang lain"
+        },
+        "jawaban_benar": "b"
+      }
+    ],
+    "hard": [
+      {
+        "nomor": 51,
+        "tingkatan": "hard",
+        "pertanyaan": "Analisis secara mendalam tentang bagaimana Az-Zarnuji menghubungkan konsep 'niyyah' (niat) dengan konsep-konsep filosofis dalam etika pembelajaran Islam?",
+        "pilihan": {
+          "a": "Az-Zarnuji menganggap niat adalah hal yang mudah dan tidak perlu perhatian khusus",
+          "b": "Az-Zarnuji melihat niat sebagai fondasi spiritual yang menentukan kualitas ilmu dan amalnya di hadapan Allah",
+          "c": "Niat hanya penting di awal pembelajaran, tidak perlu dipertahankan",
+          "d": "Az-Zarnuji tidak memberikan penekanan khusus pada konsep niat"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 52,
+        "tingkatan": "hard",
+        "pertanyaan": "Jelaskan bagaimana Az-Zarnuji mengintegrasikan konsep 'tahdhib al-nafs' (penyucian jiwa) dengan proses pembelajaran ilmu?",
+        "pilihan": {
+          "a": "Penyucian jiwa dan pembelajaran ilmu adalah dua hal yang terpisah",
+          "b": "Penyucian jiwa adalah proses integral yang mendahului dan menemani seluruh perjalanan pembelajaran ilmu",
+          "c": "Hanya guru yang perlu menyucikan jiwanya, tidak untuk murid",
+          "d": "Penyucian jiwa adalah tanggung jawab pendeta, bukan dalam konteks Islam"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 53,
+        "tingkatan": "hard",
+        "pertanyaan": "Bagaimana Az-Zarnuji memandang relasi antara 'ilm al-zahir' (ilmu eksoterik) dan 'ilm al-batin' (ilmu esoterik) dalam Ta'limul Muta'allim?",
+        "pilihan": {
+          "a": "Hanya ilmu eksoterik yang penting dan ilmu esoterik tidak relevan",
+          "b": "Keduanya saling melengkapi dan penting untuk pemahaman ilmu yang utuh dan pengamalan yang berkualitas",
+          "c": "Ilmu esoterik adalah ilmu yang sebenarnya dan ilmu eksoterik tidak penting",
+          "d": "Kedua kategori ilmu ini tidak memiliki hubungan dalam konteks pembelajaran"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 54,
+        "tingkatan": "hard",
+        "pertanyaan": "Analisis konsep 'muruwwah' (keluhuran jiwa) menurut Az-Zarnuji dan implikasinya terhadap etika pencarian ilmu?",
+        "pilihan": {
+          "a": "Muruwwah tidak memiliki peran dalam pembelajaran Islam",
+          "b": "Muruwwah adalah sikap keluhuran yang mendorong murid untuk tidak berkompromi dengan nilai-nilai dan mencari ilmu dengan integritas",
+          "c": "Muruwwah hanya relevan dalam konteks sosial, bukan pembelajaran",
+          "d": "Az-Zarnuji tidak membahas konsep muruwwah dalam pembelajaran"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 55,
+        "tingkatan": "hard",
+        "pertanyaan": "Jelaskan bagaimana Az-Zarnuji menghadirkan konsep keseimbangan dalam Ta'limul Muta'allim antara nafsaniyyah (kebutuhan fisik) dan ruhiyyah (kebutuhan spiritual)?",
+        "pilihan": {
+          "a": "Az-Zarnuji mengabaikan kebutuhan fisik dan hanya fokus pada spiritual",
+          "b": "Az-Zarnuji menekankan keseimbangan di mana kebutuhan fisik diperhatikan untuk mendukung kesehatan spiritual dan intelektual",
+          "c": "Kebutuhan fisik dan spiritual adalah hal yang bertentangan",
+          "d": "Keseimbangan ini tidak relevan dalam konteks pendidikan Islam"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 56,
+        "tingkatan": "hard",
+        "pertanyaan": "Bagaimana Az-Zarnuji menginterpretasikan hadis tentang tuntutan ilmu sebagai bagian dari 'ibadah dalam konteks Ta'limul Muta'allim?",
+        "pilihan": {
+          "a": "Tuntutan ilmu bukan ibadah, hanya aktivitas biasa saja",
+          "b": "Tuntutan ilmu adalah ibadah tertinggi ketika dilakukan dengan niat benar dan adab yang mulia",
+          "c": "Hanya doa dan shalat yang termasuk ibadah, bukan mencari ilmu",
+          "d": "Az-Zarnuji tidak menghubungkan konsep ibadah dengan pembelajaran"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 57,
+        "tingkatan": "hard",
+        "pertanyaan": "Analisis bagaimana konsep 'tawadhu' (kerendahan hati) yang dijelaskan Az-Zarnuji berbeda dari konsep humility dalam filsafat Barat?",
+        "pilihan": {
+          "a": "Tidak ada perbedaan antara keduanya dalam memahami kerendahan hati",
+          "b": "Tawadhu dalam Islam adalah kerendahan hati yang berdasarkan kesadaran kebesaran Allah dan keterbatasan manusia, bukan sekadar tanda-tanda eksternal",
+          "c": "Humility Barat lebih tinggi dari konsep tawadhu dalam Islam",
+          "d": "Perbedaan ini tidak penting untuk dipahami"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 58,
+        "tingkatan": "hard",
+        "pertanyaan": "Jelaskan bagaimana Az-Zarnuji menggunakan konsep 'maslahah' (kepentingan/kemanfaatan) untuk menjustifikasi metode pembelajaran yang fleksibel?",
+        "pilihan": {
+          "a": "Az-Zarnuji tidak menggunakan konsep maslahah dalam pendidikan",
+          "b": "Az-Zarnuji mempertimbangkan maslahah dalam menentukan metode pembelajaran yang sesuai dengan kebutuhan dan konteks murid",
+          "c": "Maslahah hanya relevan dalam masalah fiqih, bukan pendidikan",
+          "d": "Fleksibilitas dalam pembelajaran adalah bentuk kelemahan menurut Az-Zarnuji"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 59,
+        "tingkatan": "hard",
+        "pertanyaan": "Bagaimana Az-Zarnuji merefleksikan pengaruh lingkungan sosial dan budaya pada proses pembelajaran dalam Ta'limul Muta'allim?",
+        "pilihan": {
+          "a": "Lingkungan sosial tidak mempengaruhi pembelajaran dalam perspektif Az-Zarnuji",
+          "b": "Az-Zarnuji mempertimbangkan bagaimana lingkungan dapat mendukung atau menghambat pembelajaran dan merekomendasikan pemilihan lingkungan yang kondusif",
+          "c": "Budaya lokal harus sepenuhnya ditinggalkan dalam pembelajaran Islam",
+          "d": "Az-Zarnuji tidak membahas tentang pengaruh lingkungan sosial"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 60,
+        "tingkatan": "hard",
+        "pertanyaan": "Analisis konsep 'adl' (keadilan) dalam konteks hubungan guru-murid menurut Az-Zarnuji dan bagaimana ini membedakan pendekatan Islamnya?",
+        "pilihan": {
+          "a": "Keadilan tidak penting dalam hubungan guru-murid",
+          "b": "Az-Zarnuji menekankan bahwa guru harus adil dan proporsional dalam perlakuan terhadap murid serta tidak mengabuskan posisinya",
+          "c": "Guru memiliki hak untuk berlaku tidak adil kepada murid",
+          "d": "Konsep keadilan hanya relevan dalam konteks perdagangan, bukan pendidikan"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 61,
+        "tingkatan": "hard",
+        "pertanyaan": "Jelaskan bagaimana Az-Zarnuji mengintegrasikan prinsip-prinsip psikologi pembelajaran dalam Ta'limul Muta'allim dengan nilai-nilai spiritual Islam?",
+        "pilihan": {
+          "a": "Psikologi pembelajaran dan nilai spiritual adalah dua hal yang kontradiktif",
+          "b": "Az-Zarnuji mengintegrasikan keduanya dengan memahami bahwa pikiran dan ruh manusia adalah satu kesatuan yang harus dikembangkan bersama",
+          "c": "Hanya aspek spiritual yang penting dalam pembelajaran Islam",
+          "d": "Az-Zarnuji tidak mengenal konsep psikologi pembelajaran"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 62,
+        "tingkatan": "hard",
+        "pertanyaan": "Bagaimana Az-Zarnuji menjelaskan fenomena 'illiteracy of excellence' dalam konteks pembelajaran ilmu Islam?",
+        "pilihan": {
+          "a": "Fenomena ini tidak ada dalam pembelajaran Islam",
+          "b": "Az-Zarnuji memperingatkan bahwa banyak yang belajar ilmu namun tidak mengamalkannya, sehingga ilmu mereka tidak membawa kebaikan",
+          "c": "Semua yang belajar otomatis akan menjadi orang yang baik",
+          "d": "Keunggulan ilmu tidak ada hubungannya dengan pengamalan"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 63,
+        "tingkatan": "hard",
+        "pertanyaan": "Analisis bagaimana Az-Zarnuji menggunakan konsep 'hikayat' (cerita) dan teladan dalam Ta'limul Muta'allim untuk menyampaikan pesan pendidikan?",
+        "pilihan": {
+          "a": "Az-Zarnuji tidak menggunakan metode cerita dalam pengajaran",
+          "b": "Az-Zarnuji menggunakan cerita dan teladan untuk membuat konsep-konsep abstrak menjadi konkret dan mudah diingat serta menginspirasi",
+          "c": "Cerita hanya untuk menghibur, bukan untuk pendidikan",
+          "d": "Teladan tidak memiliki pengaruh pada pembelajaran"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 64,
+        "tingkatan": "hard",
+        "pertanyaan": "Jelaskan bagaimana perspektif Az-Zarnuji tentang 'infak ilmu' (memberikan/mengajarkan ilmu) memiliki implikasi etika dalam profesionalisme guru?",
+        "pilihan": {
+          "a": "Guru boleh menyembunyikan ilmu untuk mempertahankan keunggulannya",
+          "b": "Az-Zarnuji menekankan bahwa mengajarkan ilmu adalah amanah dan keharusan moral, bukan transaksi komersial biasa",
+          "c": "Ilmu hanya boleh diajarkan kepada murid yang mampu membayar mahal",
+          "d": "Az-Zarnuji tidak membahas tentang etika profesionalisme guru"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 65,
+        "tingkatan": "hard",
+        "pertanyaan": "Bagaimana Az-Zarnuji menghadirkan konsep 'i'tidal' (keseimbangan) dalam menghadapi berbagai tantangan epistemologis dalam pembelajaran ilmu Islam?",
+        "pilihan": {
+          "a": "Keseimbangan tidak diperlukan dalam pembelajaran ilmu",
+          "b": "Az-Zarnuji menganjurkan jalan tengah antara berbagai ekstrem dalam metodologi pembelajaran dan cara memahami ilmu",
+          "c": "Hanya satu pendekatan yang benar dalam pembelajaran ilmu Islam",
+          "d": "Az-Zarnuji tidak mempertimbangkan adanya berbagai tantangan epistemologis"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 66,
+        "tingkatan": "hard",
+        "pertanyaan": "Analisis bagaimana konsep 'tawhid' (keesaan Allah) dalam perspektif Az-Zarnuji menjadi landasan filosofis dari seluruh etika pembelajaran dalam Ta'limul Muta'allim?",
+        "pilihan": {
+          "a": "Tawhid tidak memiliki relevansi dalam konteks pendidikan",
+          "b": "Tawhid adalah inti dari semua etika pembelajaran karena membuat murid sadar bahwa semua ilmu adalah dari Allah dan harus dimaksudkan untuk-Nya",
+          "c": "Tawhid hanya penting dalam teologi, tidak dalam pendidikan",
+          "d": "Az-Zarnuji tidak menggunakan konsep tawhid sebagai landasan pendidikan"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 67,
+        "tingkatan": "hard",
+        "pertanyaan": "Jelaskan bagaimana Az-Zarnuji menghadirkan konsep 'taubah' (pertobatan) sebagai bagian dari proses pembelajaran dan transformasi spiritual murid?",
+        "pilihan": {
+          "a": "Taubah tidak relevan dalam konteks pembelajaran ilmu",
+          "b": "Az-Zarnuji melihat taubah sebagai langkah awal dan berkelanjutan dalam membersihkan hati untuk menerima ilmu yang datang dari Allah",
+          "c": "Taubah hanya diperlukan bagi yang melakukan dosa besar",
+          "d": "Az-Zarnuji tidak membahas konsep taubah dalam pembelajaran"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 68,
+        "tingkatan": "hard",
+        "pertanyaan": "Bagaimana Az-Zarnuji menjelaskan paradoks antara 'syaja'ah' (keberanian/ketegaran) dan 'tawadhu' (kerendahan hati) dalam karakter murid ideal?",
+        "pilihan": {
+          "a": "Kedua sifat ini saling bertentangan dan tidak bisa dikombinasikan",
+          "b": "Az-Zarnuji menunjukkan bahwa keberanian dalam membela ilmu dan kebenaran harus selaras dengan kerendahan hati dalam menghadapi Allah dan ilmu",
+          "c": "Hanya keberanian yang diperlukan dalam pembelajaran, kerendahan hati akan membuat murid lemah",
+          "d": "Paradoks ini tidak penting untuk dipahami"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 69,
+        "tingkatan": "hard",
+        "pertanyaan": "Analisis bagaimana metodologi Az-Zarnuji dalam Ta'limul Muta'allim dapat diterapkan dalam konteks pendidikan modern dan tantangan-tantangannya?",
+        "pilihan": {
+          "a": "Metodologi Az-Zarnuji sudah usang dan tidak relevan dengan pendidikan modern",
+          "b": "Prinsip-prinsip Az-Zarnuji masih relevan namun perlu adaptasi kontekstual untuk menghadapi tantangan modernitas tanpa mengorbankan esensinya",
+          "c": "Pendidikan modern harus sepenuhnya menolak pendekatan tradisional Az-Zarnuji",
+          "d": "Az-Zarnuji tidak dapat diterapkan dalam era digital"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 70,
+        "tingkatan": "hard",
+        "pertanyaan": "Jelaskan bagaimana Az-Zarnuji menggunakan konsep 'khalifah' (kholifah/penerus) untuk menjelaskan tanggung jawab murid terhadap ilmu yang telah dipelajarinya?",
+        "pilihan": {
+          "a": "Konsep khalifah tidak ada hubungannya dengan pembelajaran ilmu",
+          "b": "Az-Zarnuji melihat murid sebagai khalifah yang bertanggung jawab untuk menjaga, mengembangkan, dan menyebarkan ilmu secara amanah",
+          "c": "Tanggung jawab murid hanya terhadap guru, bukan terhadap ilmu itu sendiri",
+          "d": "Az-Zarnuji tidak membahas tanggung jawab murid terhadap ilmu"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 71,
+        "tingkatan": "hard",
+        "pertanyaan": "Bagaimana perspektif Az-Zarnuji tentang 'qiyam' (berdiri/ketegaran) dalam memegang prinsip-prinsip pembelajaran mempengaruhi karakter murid?",
+        "pilihan": {
+          "a": "Prinsip-prinsip pembelajaran tidak perlu dijaga dengan teguh",
+          "b": "Az-Zarnuji mengajarkan bahwa ketegaran dalam memegang prinsip-prinsip akan membangun karakter yang kuat dan konsisten",
+          "c": "Ketegaran akan membuat murid kaku dan tidak fleksibel",
+          "d": "Az-Zarnuji tidak menekankan pentingnya prinsip-prinsip dalam pembelajaran"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 72,
+        "tingkatan": "hard",
+        "pertanyaan": "Analisis bagaimana Az-Zarnuji menghadirkan konsep 'istiqamah' (konsistensi/keistiqamahan) sebagai kunci kesuksesan jangka panjang dalam pembelajaran?",
+        "pilihan": {
+          "a": "Istiqamah tidak perlu dalam pembelajaran karena belajar bisa dilakukan dengan cara yang santai",
+          "b": "Az-Zarnuji menekankan bahwa istiqamah adalah prinsip fundamental yang membedakan pembelajaran sejati dari aktivitas biasa saja",
+          "c": "Istiqamah hanya diperlukan dalam ibadah ritual, bukan dalam pembelajaran",
+          "d": "Az-Zarnuji tidak membahas konsep istiqamah"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 73,
+        "tingkatan": "hard",
+        "pertanyaan": "Jelaskan bagaimana Az-Zarnuji mengintegrasikan konsep 'birr' (kebaikan/keluhuran) dengan etika pembelajaran untuk menghasilkan murid yang tidak hanya cerdas namun juga berbudi luhur?",
+        "pilihan": {
+          "a": "Keluhuran akhlak tidak perlu diintegrasikan dengan pembelajaran ilmu",
+          "b": "Az-Zarnuji memandang bahwa birr atau keluhuran adalah tujuan utama pembelajaran yang menghasilkan murid yang seimbang antara intelektual dan moral",
+          "c": "Hanya kecerdasan intelektual yang penting dalam pembelajaran",
+          "d": "Az-Zarnuji tidak membahas tentang akhlak dalam konteks pembelajaran"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 74,
+        "tingkatan": "hard",
+        "pertanyaan": "Bagaimana Az-Zarnuji menghadirkan konsep 'wara' (kesucian/kehati-hatian) dalam konteks pemilihan guru, teman belajar, dan sumber ilmu?",
+        "pilihan": {
+          "a": "Wara tidak penting dalam memilih guru atau sumber ilmu",
+          "b": "Az-Zarnuji menekankan bahwa kehati-hatian dalam memilih guru dan sumber ilmu adalah bagian dari wara yang melindungi murid dari pengaruh yang merusak",
+          "c": "Siapa saja bisa menjadi guru tanpa perlu mempertimbangkan kualifikasi mereka",
+          "d": "Az-Zarnuji tidak memberikan panduan tentang pemilihan guru"
+        },
+        "jawaban_benar": "b"
+      },
+      {
+        "nomor": 75,
+        "tingkatan": "hard",
+        "pertanyaan": "Analisis secara holistik bagaimana Ta'limul Muta'allim Az-Zarnuji menyajikan visi pendidikan Islam yang integral dalam menghadapi tantangan epistemologi dan spiritual di era kontemporer?",
+        "pilihan": {
+          "a": "Ta'limul Muta'allim adalah karya yang hanya bercerita tanpa visi yang jelas",
+          "b": "Ta'limul Muta'allim mempresentasikan visi holistik yang menggabungkan dimensi spiritual, intelektual, dan moral dalam pendidikan yang relevan meskipun karya klasik",
+          "c": "Karya ini hanya relevan untuk konteks klasik dan tidak bisa diterapkan modern",
+          "d": "Ta'limul Muta'allim tidak memiliki kontribusi signifikan terhadap teori pendidikan Islam"
+        },
+        "jawaban_benar": "b"
+      }
+    ]
+  }
+}

@@ -1,0 +1,847 @@
+{
+  "metadata": {
+    "title": "Kumpulan Soal Ilmu Etika Berdasarkan Kitab Washaya al-Abaa' lil Abnaa'",
+    "author": "Syekh Muhammad Syakir al-Khatib al-Baghdadi",
+    "total_questions": 75,
+    "difficulty_levels": {
+      "mudah": 25,
+      "normal": 25,
+      "sulit": 25
+    },
+    "options_per_question": 4,
+    "description": "Koleksi soal-soal pilihan ganda tentang Ilmu Etika dan Adab berdasarkan kitab klasik Washaya al-Abaa' lil Abnaa'"
+  },
+  "questions": {
+    "mudah": [
+      {
+        "id": "mudah_1",
+        "question": "Apa yang dimaksud dengan Adab dalam pengertian Islam menurut kitab Washaya al-Abaa' lil Abnaa'?",
+        "options": {
+          "A": "Hanya tata krama di meja makan",
+          "B": "Akhlak mulia dan perilaku baik yang mencerminkan nilai-nilai Islam",
+          "C": "Kebiasaan buruk yang harus dihindari",
+          "D": "Pakaian formal untuk acara khusus"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_2",
+        "question": "Siapakah yang paling berhak untuk dihormati menurut ajaran etika dalam Washaya al-Abaa' lil Abnaa'?",
+        "options": {
+          "A": "Pemimpin dan pejabat pemerintah",
+          "B": "Orang tua, kemudian orang-orang yang lebih tua",
+          "C": "Hanya guru dan pendidik",
+          "D": "Semua orang tanpa membedakan usia"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_3",
+        "question": "Apa dasar utama dalam berbicara dengan jujur menurut Washaya al-Abaa' lil Abnaa'?",
+        "options": {
+          "A": "Takut mendapat hukuman",
+          "B": "Ingin mendapat pujian dari orang lain",
+          "C": "Taqwa kepada Allah dan niat yang ikhlas",
+          "D": "Keharusan dari norma masyarakat"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "id": "mudah_4",
+        "question": "Bagaimana cara yang tepat untuk menunjukkan rasa hormat kepada orang tua menurut ajaran dalam Washaya al-Abaa' lil Abnaa'?",
+        "options": {
+          "A": "Memberikan hadiah mahal setiap bulan",
+          "B": "Dengan perkataan yang lembut, berbakti, dan mendengarkan nasihat mereka",
+          "C": "Hanya datang berkunjung ketika membutuhkan sesuatu",
+          "D": "Menjauh dari mereka untuk menunjukkan kemandirian"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_5",
+        "question": "Apa nilai utama dari kejujuran dalam etika Islam menurut Washaya al-Abaa' lil Abnaa'?",
+        "options": {
+          "A": "Hanya untuk mendapat untung dalam bisnis",
+          "B": "Fondasi kepercayaan dan kehormatan diri",
+          "C": "Tidak penting dalam kehidupan pribadi",
+          "D": "Hanya berlaku dalam urusan agama"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_6",
+        "question": "Bagaimana etika mengenai kesabaran menurut ajaran dalam Washaya al-Abaa' lil Abnaa'?",
+        "options": {
+          "A": "Kesabaran adalah kelemahan yang harus dihindari",
+          "B": "Kesabaran adalah kebajikan yang membawa kedamaian dan berkah dari Allah",
+          "C": "Kesabaran hanya diperlukan dalam menghadapi musibah besar",
+          "D": "Kesabaran tidak memiliki nilai dalam etika Islam"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_7",
+        "question": "Apa makna keadilan dalam konteks etika Islam menurut Washaya al-Abaa' lil Abnaa'?",
+        "options": {
+          "A": "Memberikan apa yang setiap orang butuhkan tanpa memandang keadaan",
+          "B": "Memberikan hak kepada setiap orang dengan adil dan tidak berat sebelah",
+          "C": "Menguntungkan kelompok sendiri dalam setiap keputusan",
+          "D": "Tidak memiliki makna khusus dalam etika"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_8",
+        "question": "Bagaimana etika mengenai berinteraksi dengan teman menurut Washaya al-Abaa' lil Abnaa'?",
+        "options": {
+          "A": "Memilih teman hanya berdasarkan kekayaan dan status",
+          "B": "Memilih teman yang baik akhlaknya dan saling mengingatkan pada kebaikan",
+          "C": "Tidak perlu memilih teman, siapa saja boleh",
+          "D": "Teman adalah hal yang tidak penting dalam hidup"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_9",
+        "question": "Apa ajaran mengenai kerendahan hati dalam Washaya al-Abaa' lil Abnaa'?",
+        "options": {
+          "A": "Kerendahan hati adalah tanda kelemahan",
+          "B": "Kerendahan hati adalah akhlak mulia yang mencerminkan kepribadian kuat",
+          "C": "Kerendahan hati hanya untuk orang yang gagal",
+          "D": "Tidak ada ajaran tentang kerendahan hati"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_10",
+        "question": "Bagaimana etika memberikan nasehat kepada orang lain menurut Washaya al-Abaa' lil Abnaa'?",
+        "options": {
+          "A": "Dengan keras dan menyalahkan secara terbuka",
+          "B": "Dengan cara yang lembut, pribadi, dan dengan niat yang baik",
+          "C": "Tidak boleh memberikan nasihat kepada siapa pun",
+          "D": "Memberikan nasihat dengan membahas aibnya di depan orang banyak"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_11",
+        "question": "Apa nilai etika dari kejayaan dalam konteks Islam menurut Washaya al-Abaa' lil Abnaa'?",
+        "options": {
+          "A": "Kejayaan hanya diukur dari harta dan kekuatan",
+          "B": "Kejayaan sejati adalah akhlak mulia dan kedekatan dengan Allah",
+          "C": "Kejayaan tidak penting dalam hidup",
+          "D": "Kejayaan hanya untuk orang-orang tertentu"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_12",
+        "question": "Bagaimana etika mengenai penggunaan ilmu pengetahuan menurut Washaya al-Abaa' lil Abnaa'?",
+        "options": {
+          "A": "Ilmu digunakan hanya untuk kepentingan pribadi",
+          "B": "Ilmu digunakan untuk merendahkan orang lain",
+          "C": "Ilmu harus digunakan untuk memberikan manfaat kepada masyarakat",
+          "D": "Ilmu tidak memiliki kaitan dengan etika"
+        },
+        "correct_answer": "C"
+      },
+      {
+        "id": "mudah_13",
+        "question": "Apa makna dari tanggung jawab dalam etika Islam menurut Washaya al-Abaa' lil Abnaa'?",
+        "options": {
+          "A": "Tanggung jawab adalah beban yang harus dihindarkan",
+          "B": "Tanggung jawab adalah amanah dari Allah yang harus dijaga dengan baik",
+          "C": "Tanggung jawab hanya berlaku untuk pemimpin",
+          "D": "Tanggung jawab tidak memiliki arti penting"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_14",
+        "question": "Bagaimana etika mengenai berbagi rezeki menurut Washaya al-Abaa' lil Abnaa'?",
+        "options": {
+          "A": "Rezeki adalah milik pribadi dan tidak perlu dibagikan",
+          "B": "Berbagi rezeki dengan keluarga dan yang membutuhkan adalah kebajikan",
+          "C": "Hanya pembayaran zakat yang diwajibkan",
+          "D": "Berbagi rezeki menunjukkan ketidakmampuan mengelola harta"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_15",
+        "question": "Apa ajaran mengenai perdamaian dan menghindari perselisihan menurut Washaya al-Abaa' lil Abnaa'?",
+        "options": {
+          "A": "Perselisihan adalah hal yang tidak bisa dihindari",
+          "B": "Menghindari perselisihan dan mempromosikan perdamaian adalah nilai etika tinggi",
+          "C": "Perdamaian hanya untuk orang yang lemah",
+          "D": "Tidak ada ajaran tentang perdamaian"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_16",
+        "question": "Bagaimana etika mengenai penggunaan waktu menurut Washaya al-Abaa' lil Abnaa'?",
+        "options": {
+          "A": "Waktu tidak memiliki nilai khusus",
+          "B": "Waktu adalah amanah yang harus digunakan dengan sebaik-baiknya",
+          "C": "Waktu hanya untuk hiburan dan kesenangan",
+          "D": "Waktu hanya berharga di saat tertentu"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_17",
+        "question": "Apa nilai etika dari kepercayaan dalam Islam menurut Washaya al-Abaa' lil Abnaa'?",
+        "options": {
+          "A": "Kepercayaan adalah hal yang mudah dan tidak perlu dijaga",
+          "B": "Kepercayaan adalah amanah yang paling berharga dan harus dijaga dengan setia",
+          "C": "Kepercayaan tidak penting dalam hubungan sosial",
+          "D": "Kepercayaan hanya untuk orang terdekat"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_18",
+        "question": "Bagaimana etika mengenai mendengarkan dan menghormati pendapat orang lain menurut Washaya al-Abaa' lil Abnaa'?",
+        "options": {
+          "A": "Pendapat orang lain tidak perlu didengarkan",
+          "B": "Mendengarkan dan menghormati pendapat orang lain adalah tanda kebijaksanaan",
+          "C": "Hanya pendapat kita sendiri yang benar",
+          "D": "Mendengarkan pendapat lain menunjukkan kelemahan"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_19",
+        "question": "Apa ajaran mengenai keberanian dalam etika Islam menurut Washaya al-Abaa' lil Abnaa'?",
+        "options": {
+          "A": "Keberanian berarti tidak takut dalam situasi apa pun",
+          "B": "Keberanian sejati adalah berani mengatakan kebenaran meski menghadapi tantangan",
+          "C": "Keberanian tidak ada hubungannya dengan etika",
+          "D": "Keberanian hanya untuk orang kaya dan berkuasa"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_20",
+        "question": "Bagaimana etika mengenai memenuhi janji menurut Washaya al-Abaa' lil Abnaa'?",
+        "options": {
+          "A": "Janji bisa dilanggar jika keadaan berubah",
+          "B": "Memenuhi janji adalah akhlak mulia dan cerminan kepercayaan diri",
+          "C": "Janji tidak perlu dipenuhi jika tidak ada yang mengetahui",
+          "D": "Memenuhi janji hanya jika menguntungkan"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_21",
+        "question": "Apa nilai etika dari kegigihan menurut Washaya al-Abaa' lil Abnaa'?",
+        "options": {
+          "A": "Kegigihan adalah obsesi yang tidak sehat",
+          "B": "Kegigihan dalam mengejar yang baik adalah nilai mulia",
+          "C": "Kegigihan hanya untuk orang yang tidak berbakat",
+          "D": "Kegigihan tidak memiliki nilai etika"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_22",
+        "question": "Bagaimana etika mengenai toleransi dan keberagaman menurut Washaya al-Abaa' lil Abnaa'?",
+        "options": {
+          "A": "Toleransi adalah kelemahan yang tidak boleh ditunjukkan",
+          "B": "Toleransi dan menghormati perbedaan adalah nilai etika penting",
+          "C": "Toleransi hanya untuk agama yang sama",
+          "D": "Tidak ada ajaran tentang toleransi"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_23",
+        "question": "Apa ajaran mengenai kesederhanaan dalam etika Islam menurut Washaya al-Abaa' lil Abnaa'?",
+        "options": {
+          "A": "Kesederhanaan adalah kemiskinan yang harus dihindari",
+          "B": "Kesederhanaan dalam gaya hidup adalah kebajikan yang bernilai",
+          "C": "Kesederhanaan hanya untuk mereka yang tidak mampu",
+          "D": "Kesederhanaan tidak memiliki nilai dalam etika"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_24",
+        "question": "Bagaimana etika mengenai belajar dan menuntut ilmu menurut Washaya al-Abaa' lil Abnaa'?",
+        "options": {
+          "A": "Belajar hanya untuk mendapat gelar dan pekerjaan",
+          "B": "Menuntut ilmu adalah kewajiban dan cara untuk meningkatkan diri",
+          "C": "Belajar tidak penting dalam kehidupan",
+          "D": "Ilmu hanya untuk orang-orang tertentu"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "mudah_25",
+        "question": "Apa nilai etika dari syukur dalam Islam menurut Washaya al-Abaa' lil Abnaa'?",
+        "options": {
+          "A": "Syukur adalah sikap pasif yang tidak berguna",
+          "B": "Syukur adalah akhlak yang membawa berkah dan kepuasan jiwa",
+          "C": "Syukur hanya diperlukan untuk hal-hal besar",
+          "D": "Syukur tidak memiliki tempat dalam etika Islam"
+        },
+        "correct_answer": "B"
+      }
+    ],
+    "normal": [
+      {
+        "id": "normal_1",
+        "question": "Menurut Washaya al-Abaa' lil Abnaa', apa hubungan antara etika pribadi dan tanggung jawab sosial?",
+        "options": {
+          "A": "Etika pribadi dan sosial adalah hal yang terpisah dan tidak saling mempengaruhi",
+          "B": "Etika pribadi yang baik akan berperan penting dalam membangun tanggung jawab sosial",
+          "C": "Hanya tanggung jawab sosial yang penting, etika pribadi bisa diabaikan",
+          "D": "Tidak ada keterkaitan antara keduanya"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_2",
+        "question": "Bagaimana Washaya al-Abaa' lil Abnaa' memandang keseimbangan antara hak pribadi dan kewajiban sosial?",
+        "options": {
+          "A": "Hak pribadi harus selalu diutamakan daripada kewajiban sosial",
+          "B": "Keseimbangan yang adil antara hak pribadi dan kewajiban sosial adalah ideal etika",
+          "C": "Kewajiban sosial harus ditinggalkan untuk mengejar hak pribadi",
+          "D": "Tidak ada perlu untuk menyeimbangkan keduanya"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_3",
+        "question": "Menurut Washaya al-Abaa' lil Abnaa', apa peran penting dari diri sendiri dalam pengembangan etika?",
+        "options": {
+          "A": "Diri sendiri adalah sumber utama untuk mengembangkan dan menjaga akhlak mulia",
+          "B": "Pengembangan etika hanya bergantung pada pengaruh eksternal",
+          "C": "Diri sendiri tidak memiliki peran dalam pengembangan etika",
+          "D": "Etika berkembang secara alami tanpa usaha pribadi"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": "normal_4",
+        "question": "Bagaimana pendekatan Washaya al-Abaa' lil Abnaa' terhadap kesalahan dan perbaikan diri?",
+        "options": {
+          "A": "Kesalahan adalah aib yang tidak boleh diakui",
+          "B": "Kesalahan adalah bagian dari pembelajaran, penting untuk mengakui dan memperbaikinya",
+          "C": "Perbaikan diri adalah hal yang tidak perlu diprioritaskan",
+          "D": "Kesalahan orang lain lebih penting untuk diperbaiki daripada kesalahan pribadi"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_5",
+        "question": "Menurut Washaya al-Abaa' lil Abnaa', apa hubungan antara etika dan spiritualitas dalam Islam?",
+        "options": {
+          "A": "Etika dan spiritualitas adalah hal yang sama sekali terpisah",
+          "B": "Etika yang baik adalah manifestasi dari spiritualitas dan ketakwaan kepada Allah",
+          "C": "Spiritualitas tidak memerlukan etika yang baik",
+          "D": "Tidak ada keterkaitan antara keduanya dalam ajaran Islam"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_6",
+        "question": "Bagaimana Washaya al-Abaa' lil Abnaa' melihat peran emosi dalam pengambilan keputusan etika?",
+        "options": {
+          "A": "Emosi harus selalu mengarahkan keputusan etika kita",
+          "B": "Emosi perlu dikelola dengan akal sehat untuk mengambil keputusan etika yang tepat",
+          "C": "Emosi tidak memiliki pengaruh pada keputusan etika",
+          "D": "Keputusan etika harus selalu mengabaikan emosi"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_7",
+        "question": "Menurut Washaya al-Abaa' lil Abnaa', apa pentingnya menjadi teladan dalam etika?",
+        "options": {
+          "A": "Menjadi teladan hanya penting untuk pemimpin dan guru",
+          "B": "Setiap individu memiliki tanggung jawab untuk menjadi teladan bagi orang lain",
+          "C": "Tidak perlu menjadi teladan karena orang lain memiliki tanggung jawab mereka sendiri",
+          "D": "Hanya orang yang sempurna yang bisa menjadi teladan"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_8",
+        "question": "Bagaimana pendekatan Washaya al-Abaa' lil Abnaa' terhadap etika dalam berbisnis dan transaksi?",
+        "options": {
+          "A": "Bisnis dan transaksi tidak perlu diatur oleh etika khusus",
+          "B": "Kejujuran dan keadilan harus menjadi dasar setiap transaksi bisnis",
+          "C": "Keuntungan maksimal adalah satu-satunya tujuan dalam berbisnis",
+          "D": "Etika dalam bisnis hanya untuk orang-orang religius"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_9",
+        "question": "Menurut Washaya al-Abaa' lil Abnaa', bagaimana etika mengenai pemaafan?",
+        "options": {
+          "A": "Pemaafan adalah tanda kelemahan yang harus dihindari",
+          "B": "Pemaafan adalah akhlak mulia yang menunjukkan kekuatan spiritual dan kepribadian",
+          "C": "Pemaafan hanya berlaku untuk keluarga dekat",
+          "D": "Tidak ada konsep pemaafan dalam etika Islam"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_10",
+        "question": "Bagaimana Washaya al-Abaa' lil Abnaa' memandang hubungan antara hak dan kewajiban?",
+        "options": {
+          "A": "Hak dan kewajiban adalah hal yang terpisah dan independen",
+          "B": "Hak dan kewajiban adalah dua sisi dari koin yang sama dan harus seimbang",
+          "C": "Hanya hak yang penting, kewajiban bisa diabaikan",
+          "D": "Hanya kewajiban yang penting, hak tidak diperlukan"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_11",
+        "question": "Menurut Washaya al-Abaa' lil Abnaa', apa peran dari nurani dalam membuat keputusan etika?",
+        "options": {
+          "A": "Nurani tidak memiliki peran dalam keputusan etika",
+          "B": "Nurani yang jernih adalah panduan penting dalam membuat keputusan etika yang benar",
+          "C": "Nurani hanya penting untuk hal-hal kecil dalam kehidupan",
+          "D": "Nurani bisa diignorkan jika ada keuntungan pribadi"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_12",
+        "question": "Bagaimana pendekatan Washaya al-Abaa' lil Abnaa' terhadap etika dalam mendapatkan pengetahuan?",
+        "options": {
+          "A": "Pengetahuan bisa didapat dari sumber manapun tanpa pertimbangan etika",
+          "B": "Sumber pengetahuan harus dipertimbangkan dengan baik untuk menjaga integritas etika",
+          "C": "Pengetahuan yang tidak etis tidak boleh dikejar",
+          "D": "Pengetahuan sama sekali tidak berkaitan dengan etika"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_13",
+        "question": "Menurut Washaya al-Abaa' lil Abnaa', bagaimana etika mengenai mempertahankan harga diri?",
+        "options": {
+          "A": "Harga diri harus dijaga dengan cara apapun, bahkan dengan cara tidak etis",
+          "B": "Harga diri yang sejati datang dari akhlak mulia dan integritas etika",
+          "C": "Harga diri tidak penting dalam etika Islam",
+          "D": "Mempertahankan harga diri hanya penting untuk posisi sosial tinggi"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_14",
+        "question": "Bagaimana Washaya al-Abaa' lil Abnaa' melihat etika dalam penggunaan kekuasaan atau otoritas?",
+        "options": {
+          "A": "Kekuasaan bisa digunakan sesuai keinginan tanpa batasan etika",
+          "B": "Kekuasaan harus digunakan dengan bertanggung jawab dan penuh etika",
+          "C": "Etika tidak relevan dalam hal-hal yang berkaitan dengan kekuasaan",
+          "D": "Kekuasaan otomatis membuat seseorang tidak perlu mengikuti etika"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_15",
+        "question": "Menurut Washaya al-Abaa' lil Abnaa', apa makna sejati dari keberhasilan dalam perspektif etika?",
+        "options": {
+          "A": "Keberhasilan adalah mencapai tujuan dengan cara apapun",
+          "B": "Keberhasilan sejati adalah mencapai tujuan dengan cara yang etis dan mulia",
+          "C": "Keberhasilan hanya diukur dari aspek materi dan status sosial",
+          "D": "Keberhasilan tidak memiliki kaitan dengan etika"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_16",
+        "question": "Bagaimana pendekatan Washaya al-Abaa' lil Abnaa' terhadap kritikan dan masukan dari orang lain?",
+        "options": {
+          "A": "Kritikan harus selalu ditolak karena menunjukkan orang lain meremehkan kita",
+          "B": "Kritikan yang konstruktif harus diterima dengan hati terbuka untuk perbaikan diri",
+          "C": "Kritikan tidak perlu didengarkan karena kita tahu diri sendiri",
+          "D": "Hanya kritikan dari orang-orang berpengaruh yang boleh didengarkan"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_17",
+        "question": "Menurut Washaya al-Abaa' lil Abnaa', apa peran dari komunitas dalam pengembangan etika?",
+        "options": {
+          "A": "Komunitas tidak memiliki peran dalam pengembangan etika pribadi",
+          "B": "Komunitas yang baik mendorong pengembangan etika positif pada setiap individu",
+          "C": "Individu sepenuhnya independen dari pengaruh komunitas",
+          "D": "Komunitas hanya penting untuk aspek sosial, bukan etika"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_18",
+        "question": "Bagaimana Washaya al-Abaa' lil Abnaa' memandang etika dalam menghadapi godaan dan tantangan?",
+        "options": {
+          "A": "Godaan dan tantangan adalah bagian alami dari hidup yang harus dilawan dengan etika kuat",
+          "B": "Ethika tidak penting ketika menghadapi godaan dan tantangan besar",
+          "C": "Godaan harus selalu dikalahkan dengan cara apapun",
+          "D": "Tidak ada etika spesifik untuk menghadapi godaan"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "id": "normal_19",
+        "question": "Menurut Washaya al-Abaa' lil Abnaa', bagaimana etika mengenai menerima tanggung jawab?",
+        "options": {
+          "A": "Tanggung jawab harus selalu ditolak untuk menghindari beban",
+          "B": "Menerima tanggung jawab dengan serius dan berusaha untuk menunaikannya adalah etika mulia",
+          "C": "Tanggung jawab hanya penting jika ada keuntungan pribadi",
+          "D": "Menerima atau menolak tanggung jawab adalah hal yang sama sekali pribadi"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_20",
+        "question": "Bagaimana pendekatan Washaya al-Abaa' lil Abnaa' terhadap etika dalam memperlakukan yang lemah dan membutuhkan?",
+        "options": {
+          "A": "Yang lemah dan membutuhkan tidak layak untuk diperlakukan dengan baik",
+          "B": "Memperlakukan yang lemah dan membutuhkan dengan baik adalah kewajiban etika",
+          "C": "Perlakuan terhadap mereka tidak penting dalam etika",
+          "D": "Hanya yang kuat yang pantas mendapat perlakuan baik"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_21",
+        "question": "Menurut Washaya al-Abaa' lil Abnaa', apa implikasi dari etika dalam hal pengedalian diri?",
+        "options": {
+          "A": "Pengedalian diri adalah tanda kelemahan dalam etika",
+          "B": "Pengedalian diri adalah manifestasi dari etika kuat dan kepribadian matang",
+          "C": "Pengedalian diri tidak perlu diprioritaskan dalam kehidupan etis",
+          "D": "Pengedalian diri hanya penting untuk orang-orang tertentu"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_22",
+        "question": "Bagaimana Washaya al-Abaa' lil Abnaa' memandang etika dalam berbicara tentang kebaikan dan keburukan orang lain?",
+        "options": {
+          "A": "Kita bebas berbicara apa saja tentang orang lain tanpa batasan",
+          "B": "Kita harus hati-hati dan bijaksana dalam berbicara tentang orang lain",
+          "C": "Berbicara tentang keburukan orang lain adalah hiburan yang boleh dilakukan",
+          "D": "Tidak ada batasan etika dalam berbicara tentang orang lain"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_23",
+        "question": "Menurut Washaya al-Abaa' lil Abnaa', apa hubungan antara etika dan kebahagiaan sejati?",
+        "options": {
+          "A": "Etika dan kebahagiaan adalah hal yang terpisah",
+          "B": "Etika mulia adalah jalan menuju kebahagiaan sejati dan kedamaian jiwa",
+          "C": "Kebahagiaan tidak memerlukan etika yang baik",
+          "D": "Tidak ada hubungan antara etika dan kebahagiaan"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_24",
+        "question": "Bagaimana pendekatan Washaya al-Abaa' lil Abnaa' terhadap etika dalam menghadapi ketidakadilan?",
+        "options": {
+          "A": "Ketidakadilan harus diterima tanpa perlawanan",
+          "B": "Ketidakadilan harus dilawan dengan cara yang etis dan bijaksana",
+          "C": "Melawan ketidakadilan tidak penting dalam etika",
+          "D": "Cara apapun boleh digunakan untuk melawan ketidakadilan"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "normal_25",
+        "question": "Menurut Washaya al-Abaa' lil Abnaa', apa nilai etika dari konsistensi dan keselarasan antara perkataan dan perbuatan?",
+        "options": {
+          "A": "Konsistensi antara kata dan tindakan tidak penting",
+          "B": "Keselarasan antara perkataan dan perbuatan adalah fondasi kepercayaan dan integritas etika",
+          "C": "Kita bisa berbicara dengan cara yang berbeda dari apa yang kita lakukan",
+          "D": "Tidak ada nilai etika dari konsistensi"
+        },
+        "correct_answer": "B"
+      }
+    ],
+    "sulit": [
+      {
+        "id": "sulit_1",
+        "question": "Bagaimana Washaya al-Abaa' lil Abnaa' menganalisis hubungan paradoks antara kerendahan hati dan kepercayaan diri dalam konteks etika Islam?",
+        "options": {
+          "A": "Kerendahan hati dan kepercayaan diri adalah konsep yang saling bertentangan dan tidak bisa bersatu",
+          "B": "Kerendahan hati bukan kelemahan, tetapi kepercayaan diri yang dilandasi kesadaran akan keterbatasan diri",
+          "C": "Hanya kepercayaan diri yang penting dalam etika, kerendahan hati tidak diperlukan",
+          "D": "Keduanya adalah konsep yang tidak relevan dalam pengembangan etika modern"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_2",
+        "question": "Menurut analisis mendalam Washaya al-Abaa' lil Abnaa', bagaimana seseorang dapat membedakan antara etika yang tulus dan etika yang pura-pura?",
+        "options": {
+          "A": "Tidak ada perbedaan nyata antara etika tulus dan pura-pura dalam praktik",
+          "B": "Etika tulus berasal dari niat yang ikhlas dan konsistensi internal yang mencerminkan nilai-nilai sejati",
+          "C": "Perbedaan terletak pada bagaimana orang lain menilai tindakan kita",
+          "D": "Tidak ada cara untuk membedakan keduanya secara objektif"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_3",
+        "question": "Bagaimana Washaya al-Abaa' lil Abnaa' menjelaskan konsep tanggung jawab moral dalam situasi di mana kondisi sosial atau budaya mungkin berbeda dengan nilai-nilai etika Islam?",
+        "options": {
+          "A": "Seseorang harus mengikuti norma budaya apapun tanpa mempertanyakan aspek etika",
+          "B": "Tanggung jawab moral untuk menegakkan nilai-nilai etika Islam tetap ada meskipun bertentangan dengan norma budaya",
+          "C": "Tidak ada tanggung jawab moral ketika terjadi perbedaan budaya",
+          "D": "Etika Islam hanya berlaku dalam komunitas Muslim saja"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_4",
+        "question": "Menurut Washaya al-Abaa' lil Abnaa', bagaimana cara mengintegrasikan etika dalam pengambilan keputusan ketika ada konflik antara kepentingan pribadi dan kepentingan umum?",
+        "options": {
+          "A": "Kepentingan pribadi harus selalu diutamakan tanpa pertimbangan",
+          "B": "Etika sejati memerlukan keseimbangan bijaksana antara keduanya dengan prioritas pada kebaikan bersama",
+          "C": "Tidak ada solusi etis untuk konflik seperti ini",
+          "D": "Setiap orang bebas memilih tanpa standar etika yang jelas"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_5",
+        "question": "Bagaimana Washaya al-Abaa' lil Abnaa' memahami peran ketakutan dan keraguan dalam pengembangan etika yang matang?",
+        "options": {
+          "A": "Ketakutan dan keraguan menunjukkan kurangnya komitmen terhadap etika",
+          "B": "Ketakutan terhadap Tuhan dan keraguan diri adalah bagian dari proses pengembangan etika yang sehat",
+          "C": "Emosi ini tidak memiliki peran dalam etika yang autentik",
+          "D": "Etika sejati tidak memerlukan ketakutan atau keraguan sama sekali"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_6",
+        "question": "Menurut analisis Washaya al-Abaa' lil Abnaa', bagaimana seseorang dapat menjaga integritas etika ketika menghadapi tekanan sosial atau ekonomi yang kuat?",
+        "options": {
+          "A": "Tekanan sosial atau ekonomi membenarkan pengabaian standar etika",
+          "B": "Integritas etika harus dipertahankan bahkan dalam menghadapi tekanan ekstrem dengan kekuatan niat dan ketakwaan",
+          "C": "Tidak ada cara untuk mempertahankan integritas dalam situasi tekanan seperti itu",
+          "D": "Tekanan adalah alasan yang cukup untuk mengorbankan nilai-nilai etika"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_7",
+        "question": "Bagaimana Washaya al-Abaa' lil Abnaa' memandang hubungan antara pengetahuan tentang etika dan pelaksanaan etika dalam praktik?",
+        "options": {
+          "A": "Pengetahuan tentang etika secara otomatis menghasilkan pelaksanaan etika",
+          "B": "Pengetahuan adalah awal, tetapi pelaksanaan memerlukan perjuangan berkelanjutan dan komitmen",
+          "C": "Pelaksanaan etika tidak memerlukan pengetahuan yang mendalam",
+          "D": "Tidak ada hubungan antara pengetahuan dan pelaksanaan etika"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_8",
+        "question": "Menurut Washaya al-Abaa' lil Abnaa', apa implikasi filosofis dari konsep bahwa etika adalah proses berkelanjutan bukan pencapaian akhir?",
+        "options": {
+          "A": "Seseorang pernah mencapai standar etika yang sempurna",
+          "B": "Pengembangan etika adalah perjalanan seumur hidup yang memerlukan refleksi dan peningkatan terus-menerus",
+          "C": "Setelah mencapai tingkat tertentu, seseorang tidak perlu lagi meningkatkan etika",
+          "D": "Etika adalah konstruksi yang tidak memiliki arah atau tujuan yang jelas"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_9",
+        "question": "Bagaimana Washaya al-Abaa' lil Abnaa' menganalisis hubungan antara kesalahan pribadi dan pembelajaran etika dalam konteks tanggung jawab moral?",
+        "options": {
+          "A": "Kesalahan harus disembunyikan untuk mempertahankan reputasi etika",
+          "B": "Kesalahan yang diakui dan dipelajari menjadi alat penting untuk pertumbuhan etika dan kedewasaan moral",
+          "C": "Pembelajaran etika tidak terkait dengan kesalahan pribadi",
+          "D": "Orang yang sempurna tidak pernah belajar dari kesalahan"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_10",
+        "question": "Menurut Washaya al-Abaa' lil Abnaa', bagaimana seseorang dapat membedakan antara etika universal dan konteks budaya tertentu?",
+        "options": {
+          "A": "Tidak ada etika universal yang berlaku untuk semua budaya",
+          "B": "Prinsip-prinsip etika inti bersifat universal, sementara aplikasinya dapat disesuaikan dengan konteks budaya",
+          "C": "Etika sepenuhnya relatif terhadap budaya dan tidak ada standar universal",
+          "D": "Budaya lokal harus selalu mendominasi dalam menentukan standar etika"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_11",
+        "question": "Bagaimana Washaya al-Abaa' lil Abnaa' menjelaskan peran dari niat dalam mengevaluasi tindakan etika yang kompleks?",
+        "options": {
+          "A": "Niat adalah satu-satunya faktor yang menentukan apakah tindakan itu etis",
+          "B": "Niat yang baik adalah fondasi, tetapi hasil dan dampak tindakan juga harus dipertimbangkan dalam evaluasi etika",
+          "C": "Niat tidak penting, hanya hasil yang penting dalam etika",
+          "D": "Tidak ada cara untuk mengevaluasi kompleksitas etika"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_12",
+        "question": "Menurut analisis mendalam Washaya al-Abaa' lil Abnaa', bagaimana keadilan dapat dipertahankan dalam sistem yang mungkin tidak sempurna?",
+        "options": {
+          "A": "Ketidaksempurnaan sistem membenarkan pengabaian keadilan",
+          "B": "Meskipun sistem tidak sempurna, individu berkewajiban untuk mempromosikan keadilan sesuai dengan kapabilitas mereka",
+          "C": "Keadilan tidak dapat dipertahankan dalam sistem yang imperfect",
+          "D": "Tidak ada cara untuk mengupayakan keadilan dalam realitas yang kompleks"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_13",
+        "question": "Bagaimana Washaya al-Abaa' lil Abnaa' memandang dilema etika ketika prinsip-prinsip etika yang berbeda saling bertentangan?",
+        "options": {
+          "A": "Dilema etika tidak memiliki solusi yang memuaskan dan harus dihindari",
+          "B": "Dilema etika memerlukan wisdom dan ijtihad yang cermat untuk menemukan keseimbangan bijaksana",
+          "C": "Salah satu prinsip harus selalu dikorbankan tanpa pertimbangan",
+          "D": "Tidak ada cara untuk menyelesaikan dilema etika secara bertanggung jawab"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_14",
+        "question": "Menurut Washaya al-Abaa' lil Abnaa', apa peran dari empati dalam pengembangan etika yang komprehensif?",
+        "options": {
+          "A": "Empati adalah sentimentalitas yang mengganggu keputusan etika yang objektif",
+          "B": "Empati adalah kemampuan penting untuk memahami perspektif orang lain dan mengembangkan etika yang inklusif",
+          "C": "Empati tidak diperlukan dalam pertimbangan etika yang serius",
+          "D": "Etika sejati tidak memerlukan koneksi emosional dengan orang lain"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_15",
+        "question": "Bagaimana Washaya al-Abaa' lil Abnaa' menganalisis hubungan antara kebebasan personal dan tanggung jawab etika?",
+        "options": {
+          "A": "Kebebasan personal adalah hak absolut yang tidak terikat dengan tanggung jawab etika",
+          "B": "Kebebasan dan tanggung jawab adalah dua sisi dari mata uang yang sama, tidak ada kebebasan sejati tanpa tanggung jawab",
+          "C": "Tanggung jawab etika membatasi kebebasan dan harus dihindari",
+          "D": "Tidak ada hubungan antara kebebasan personal dan tanggung jawab etika"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_16",
+        "question": "Menurut Washaya al-Abaa' lil Abnaa', bagaimana cara mempertahankan akhlak mulia ketika lingkungan sekitar mendorong perilaku yang tidak etis?",
+        "options": {
+          "A": "Lingkungan yang tidak etis membuat penting untuk menyesuaikan standar etika kita",
+          "B": "Integritas etika harus dippertahankan melalui kesadaran diri yang kuat dan dukungan komunitas yang positif",
+          "C": "Tidak mungkin mempertahankan akhlak mulia dalam lingkungan yang buruk",
+          "D": "Akhlak mulia hanya relevan ketika lingkungan mendukung"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_17",
+        "question": "Bagaimana Washaya al-Abaa' lil Abnaa' memahami hubungan antara kesuksesan duniawi dan kesuksesan etika dalam perspektif Islam?",
+        "options": {
+          "A": "Kesuksesan duniawi adalah indikator utama kesuksesan etika",
+          "B": "Kesuksesan etika mungkin tidak selalu terwujud dalam bentuk kesuksesan duniawi, tetapi membawa berkah spiritual",
+          "C": "Kesuksesan duniawi dan etika tidak memiliki hubungan apapun",
+          "D": "Kesuksesan etika mengarah secara otomatis pada kesuksesan duniawi"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_18",
+        "question": "Menurut analisis Washaya al-Abaa' lil Abnaa', bagaimana pentingnya menjaga rakyat dalam keadaan ketidaktahuan untuk menjaga ketertiban sosial secara etis?",
+        "options": {
+          "A": "Menjaga ketidaktahuan adalah cara yang etis untuk mempertahankan ketertiban",
+          "B": "Menyembunyikan kebenaran secara sistematis bertentangan dengan nilai-nilai etika dan menghilangkan kebebasan berbicara",
+          "C": "Rakyat tidak perlu tahu tentang hal-hal tertentu untuk kebaikan mereka sendiri",
+          "D": "Ketertiban sosial hanya dapat dicapai melalui kontrol informasi"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_19",
+        "question": "Bagaimana Washaya al-Abaa' lil Abnaa' memandang etika dalam menggunakan kekuatan untuk memaksa orang lain melakukan apa yang kami anggap benar?",
+        "options": {
+          "A": "Kekuatan dapat digunakan untuk memaksakan kebenaran yang kami yakini",
+          "B": "Etika sejati memerlukan persuasi dan dialog, bukan pemaksaan, untuk mengajak orang pada kebaikan",
+          "C": "Menggunakan kekuatan adalah cara paling efektif untuk mencapai tujuan etika",
+          "D": "Tidak ada pertimbangan etika dalam penggunaan kekuatan"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_20",
+        "question": "Menurut Washaya al-Abaa' lil Abnaa', apa implikasi dari prinsip bahwa etika tidak hanya tentang menghindari yang buruk tetapi juga secara aktif melakukan yang baik?",
+        "options": {
+          "A": "Etika pasif adalah cukup jika kita tidak melakukan hal yang salah",
+          "B": "Etika adalah tanggung jawab proaktif untuk berkontribusi positif pada masyarakat dan pengembangan diri",
+          "C": "Melakukan yang baik adalah pilihan opsional dalam etika",
+          "D": "Tidak ada perbedaan antara etika pasif dan aktif"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_21",
+        "question": "Bagaimana Washaya al-Abaa' lil Abnaa' menganalisis masalah pengakuan kesalahan dalam konteks menjaga harga diri dan integritas etika?",
+        "options": {
+          "A": "Mengakui kesalahan menunjukkan kelemahan dan merusak harga diri",
+          "B": "Kesalahan yang diakui dengan tulus adalah tanda kekuatan moral dan meningkatkan kredibilitas etika",
+          "C": "Tidak perlu mengakui kesalahan jika tidak ada yang mengetahui",
+          "D": "Harga diri dan integritas etika adalah hal yang terpisah"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_22",
+        "question": "Menurut Washaya al-Abaa' lil Abnaa', bagaimana seseorang dapat mengembangkan wisdom etika yang diperlukan untuk membuat keputusan dalam situasi yang belum pernah dihadapi sebelumnya?",
+        "options": {
+          "A": "Wisdom tidak bisa dikembangkan untuk situasi baru, hanya pengalaman masa lalu yang berguna",
+          "B": "Wisdom etika berkembang melalui kombinasi pembelajaran, refleksi, dan aplikasi prinsip-prinsip etika dalam konteks baru",
+          "C": "Keputusan dalam situasi baru harus didasarkan pada intuisi belaka",
+          "D": "Tidak ada cara untuk mengembangkan wisdom untuk menghadapi hal-hal yang belum dikenal"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_23",
+        "question": "Bagaimana Washaya al-Abaa' lil Abnaa' memandang etika dalam konteks perdamaian dengan orang yang telah menyakiti kita?",
+        "options": {
+          "A": "Perdamaian memerlukan pengabaian keadilan dan nilai-nilai etika",
+          "B": "Etika sejati dapat mencakup pemaafan tanpa mengorbankan keadilan dan integritas pribadi",
+          "C": "Perdamaian hanya mungkin jika orang lain mengakui semua kesalahan mereka",
+          "D": "Tidak ada tempat untuk perdamaian dalam konteks etika"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_24",
+        "question": "Menurut Washaya al-Abaa' lil Abnaa', apa peran dari kepribadian dan karakter individu dalam menentukan kemampuan seseorang untuk hidup secara etis?",
+        "options": {
+          "A": "Kepribadian adalah takdir yang tidak bisa diubah dan menentukan sepenuhnya kapabilitas etika",
+          "B": "Meskipun kepribadian memiliki pengaruh, karakter dapat dikembangkan melalui usaha dan latihan yang berkelanjutan",
+          "C": "Kepribadian dan karakter tidak memiliki pengaruh pada etika",
+          "D": "Etika tidak tergantung pada kepribadian atau karakter sama sekali"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "id": "sulit_25",
+        "question": "Bagaimana Washaya al-Abaa' lil Abnaa' mengintegrasikan konsep bahwa hidup secara etis mungkin memerlukan pengorbanan pribadi dengan tetap mempertahankan optimisme dan harapan?",
+        "options": {
+          "A": "Pengorbanan pribadi adalah bukti bahwa etika adalah jalan yang salah",
+          "B": "Etika sejati memerlukan kepercayaan bahwa pengorbanan dengan niat baik membawa berkah spiritual dan makna hidup yang dalam",
+          "C": "Pengorbanan tidak pernah layak dilakukan untuk prinsip etika",
+          "D": "Tidak ada cara untuk menyeimbangkan pengorbanan dengan harapan positif"
+        },
+        "correct_answer": "B"
+      }
+    ]
+  }
+}
