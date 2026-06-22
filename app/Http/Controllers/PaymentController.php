@@ -92,6 +92,15 @@ class PaymentController extends Controller
 
         $payment->serviceOrder()->update(['status' => 'finished']);
 
+        // Catat di riwayat akun pelanggan
+        $serviceNames = $payment->serviceOrder->booking?->serviceTypes->pluck('name')->join(', ') ?? 'Servis';
+        \App\Models\AccountActivity::create([
+            'user_id'     => $payment->serviceOrder->customer_id,
+            'type'        => 'money_out',
+            'description' => 'Pembayaran servis (Tunai): ' . $serviceNames,
+            'amount'      => -abs($payment->amount),
+        ]);
+
         $distribution->distribute(
             $payment,
             $payment->serviceOrder,
@@ -132,10 +141,12 @@ class PaymentController extends Controller
 
             $user->decrement('balance', $payment->amount);
 
+            $serviceNames = $payment->serviceOrder->booking?->serviceTypes->pluck('name')->join(', ') ?? 'Servis';
+
             \App\Models\AccountActivity::create([
                 'user_id'     => $user->id,
                 'type'        => 'money_out',
-                'description' => 'Status Service',
+                'description' => 'Pembayaran servis: ' . $serviceNames,
                 'amount'      => -abs($payment->amount),
             ]);
 

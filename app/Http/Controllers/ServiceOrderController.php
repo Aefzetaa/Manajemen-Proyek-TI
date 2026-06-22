@@ -62,7 +62,7 @@ class ServiceOrderController extends Controller
             if (count($parts) === 2) {
                 $mechanicTotalSalary = \App\Models\AccountActivity::where('user_id', $request->user()->id)
                     ->where('type', 'money_in')
-                    ->where('description', 'like', 'Gaji dari servis %')
+                    ->where('description', 'like', 'Gaji dari Servis %')
                     ->whereYear('created_at', $parts[0])
                     ->whereMonth('created_at', $parts[1])
                     ->sum('amount');

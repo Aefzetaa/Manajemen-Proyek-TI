@@ -46,7 +46,7 @@ class PaymentDistributionService
                 AccountActivity::create([
                     'user_id'     => $mechanic->id,
                     'type'        => 'money_in',
-                    'description' => 'Bagi hasil mekanik dari jasa servis ' . ($order->customer?->username ?? '-'),
+                    'description' => 'Gaji dari Servis ' . ($order->customer?->username ?? '-'),
                     'amount'      => $mechanicSalary,
                 ]);
             }
@@ -78,7 +78,7 @@ class PaymentDistributionService
             AccountActivity::create([
                 'user_id'     => $cashier->id,
                 'type'        => 'money_in',
-                'description' => 'Bagi hasil kasir dari jasa servis ' . ($order->customer?->username ?? '-'),
+                'description' => 'Gaji dari Servis ' . ($order->customer?->username ?? '-'),
                 'amount'      => $cashierSalary,
             ]);
         }
@@ -88,11 +88,10 @@ class PaymentDistributionService
         if ($owner) {
             $netProfit = $shares['owner_total'];
             $owner->addBalance($netProfit);
-            $methodLabel = $payment->method ?? 'Tidak diketahui';
             AccountActivity::create([
                 'user_id'     => $owner->id,
                 'type'        => 'money_in',
-                'description' => 'Profit owner sisa jasa + sparepart servis ' . ($order->customer?->username ?? '-') . " ({$methodLabel})",
+                'description' => 'Gaji dari Servis ' . ($order->customer?->username ?? '-'),
                 'amount'      => $netProfit,
             ]);
         }
