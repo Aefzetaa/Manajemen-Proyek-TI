@@ -439,40 +439,37 @@ class ZoruAiService
 
     private function ownerAnalyticsPeriodSummary(string $period): string
     {
-        $today = now()->startOfDay();
+        $today = now();
 
         if ($period === 'this_month') {
             $startDate = $today->copy()->startOfMonth();
-            $endDate = now()->endOfDay();
+            $endDate = $today->copy()->endOfDay();
             $periodLabel = 'Bulan Ini';
-            $periodRange = $startDate->translatedFormat('d F Y') . ' - ' . $endDate->translatedFormat('d F Y');
+            $periodRange = $startDate->translatedFormat('d F Y') . ' – ' . $endDate->translatedFormat('d F Y');
         } elseif ($period === 'last_3_months') {
-            $startDate = $today->copy()->startOfMonth()->subMonths(3);
-            $endDate = $today->copy()->startOfMonth()->subDay()->endOfDay();
+            $startDate = $today->copy()->subMonths(2)->startOfMonth();
+            $endDate = $today->copy()->endOfDay();
             $periodLabel = '3 Bulan Terakhir';
-            $periodRange = $startDate->translatedFormat('F Y') . ' - ' . $endDate->translatedFormat('F Y');
+            $periodRange = $startDate->translatedFormat('F Y') . ' – ' . $endDate->translatedFormat('F Y');
         } else {
-            $startDate = $today->copy()->startOfMonth()->subMonths(6);
-            $endDate = $today->copy()->startOfMonth()->subDay()->endOfDay();
+            $startDate = $today->copy()->subMonths(5)->startOfMonth();
+            $endDate = $today->copy()->endOfDay();
             $periodLabel = '6 Bulan Terakhir';
-            $periodRange = $startDate->translatedFormat('F Y') . ' - ' . $endDate->translatedFormat('F Y');
+            $periodRange = $startDate->translatedFormat('F Y') . ' – ' . $endDate->translatedFormat('F Y');
         }
 
         $paidQuery = Payment::where('status', 'paid')
             ->whereBetween('paid_at', [$startDate, $endDate]);
-        $completedBookingsQuery = Booking::where('status', 'completed')
-            ->whereBetween('booking_date', [$startDate->toDateString(), $endDate->toDateString()]);
         $finishedOrdersQuery = ServiceOrder::where('status', 'finished')
             ->whereBetween('created_at', [$startDate, $endDate]);
 
         $totalPaid = (int) (clone $paidQuery)->sum('amount');
         $paymentCount = (clone $paidQuery)->count();
-        $completedCount = (clone $completedBookingsQuery)->count();
         $finishedCount = (clone $finishedOrdersQuery)->count();
 
-        if ($totalPaid <= 0 && $paymentCount === 0 && $completedCount === 0 && $finishedCount === 0) {
-            return "Analisis Periode: **{$periodLabel}** ({$periodRange})\n\n"
-                . "Belum ada transaksi lunas atau servis selesai pada periode ini. Jika bengkel baru mulai berjalan, ini normal. Analisis akan tersedia begitu ada minimal 1 transaksi selesai.";
+        if ($totalPaid <= 0 && $paymentCount === 0 && $finishedCount === 0) {
+            return "📊 **{$periodLabel}** ({$periodRange})\n\n"
+                . "Belum ada transaksi lunas atau servis selesai pada periode ini. Analisis akan tersedia begitu ada minimal 1 transaksi.";
         }
 
         $popularService = DB::table('booking_service_type')
@@ -499,42 +496,47 @@ class ZoruAiService
             ->pluck('total', 'month_key');
 
         $trendText = $this->revenueTrendText($monthlyRevenue, $period);
-        $dataNote = $finishedCount < 3
-            ? "\n\nCatatan: data servis selesai masih terbatas ({$finishedCount} servis), jadi rekomendasi saya bersifat awal dan perlu divalidasi lagi setelah transaksi bertambah."
-            : '';
 
+        // Layanan terpopuler
         $serviceText = $popularService
-            ? "Layanan paling terlihat pada periode ini adalah **{$popularService->name}** dengan **{$popularService->total}** servis selesai. Ini bisa dijadikan fokus promo, stok pendukung, atau evaluasi harga jasa."
-            : 'Belum ada pola layanan dominan yang cukup jelas dari data servis selesai pada periode ini.';
+            ? "**{$popularService->name}** ({$popularService->total}x) — pertimbangkan untuk fokus promo pada layanan ini."
+            : 'Belum terlihat layanan yang dominan.';
 
-        $employeeText = 'Belum ada performa mekanik yang cukup menonjol dari data servis selesai pada periode ini.';
+        // Mekanik teraktif
+        $employeeText = 'Belum ada data mekanik yang menonjol.';
         if ($topMechanic && $topMechanic->mechanic_id) {
             $mechanic = User::find($topMechanic->mechanic_id);
             if ($mechanic) {
-                $employeeText = "Mekanik **{$mechanic->name}** paling aktif pada periode ini dengan **{$topMechanic->total}** servis selesai. Jika kualitas pengerjaan juga baik, ini layak dicatat sebagai performa positif.";
+                $employeeText = "**{$mechanic->name}** paling aktif dengan **{$topMechanic->total}** servis selesai.";
             }
         }
 
-        $lowStockParts = SparePart::where('stock', '<=', 5)->orderBy('stock')->limit(3)->get();
-        $stockText = 'Stok sparepart utama masih terlihat aman, tidak ada item kritis di batas 5 unit ke bawah.';
+        // Stok sparepart
+        $lowStockParts = SparePart::where('stock', '<=', 5)->orderBy('stock')->limit(5)->get();
         if ($lowStockParts->isNotEmpty()) {
-            $stockText = "Beberapa sparepart perlu perhatian:\n";
+            $stockLines = [];
             foreach ($lowStockParts as $part) {
-                $stockText .= "- **{$part->name}** tersisa **{$part->stock}** unit.\n";
+                $label = $part->stock <= 0 ? '⚠️ HABIS' : "sisa {$part->stock}";
+                $stockLines[] = "- **{$part->name}** — {$label}";
             }
+            $stockText = implode("\n", $stockLines);
+        } else {
+            $stockText = 'Semua stok aman (di atas 5 unit).';
         }
 
-        return "Analisis Periode: **{$periodLabel}** ({$periodRange})\n\n"
-            . "Basis data: **{$finishedCount}** servis selesai, **{$paymentCount}** pembayaran lunas, dan omzet **Rp " . number_format($totalPaid, 0, ',', '.') . "**.{$dataNote}\n\n"
-            . " **Keuangan & Tren**\n"
-            . "* {$trendText}\n\n"
-            . " **Layanan Paling Terlihat**\n"
-            . "* {$serviceText}\n\n"
-            . " **Kinerja Karyawan**\n"
-            . "* {$employeeText}\n\n"
-            . " **Ketersediaan Sparepart**\n"
-            . "* {$stockText}\n\n"
-            . "Saran saya: gunakan hasil ini sebagai bahan keputusan operasional, terutama untuk promo layanan, kesiapan stok, dan evaluasi performa tim.";
+        // Data note
+        $dataNote = '';
+        if ($finishedCount < 3) {
+            $dataNote = "\n\n⚠️ *Data masih terbatas ({$finishedCount} servis). Rekomendasi bersifat awal.*";
+        }
+
+        return "📊 **{$periodLabel}** ({$periodRange})\n\n"
+            . "**Ringkasan:** {$finishedCount} servis selesai · {$paymentCount} pembayaran lunas · Omzet **Rp " . number_format($totalPaid, 0, ',', '.') . "**{$dataNote}\n\n"
+            . "---\n\n"
+            . "💰 **Omzet**\n{$trendText}\n\n"
+            . "🔧 **Layanan Terpopuler**\n{$serviceText}\n\n"
+            . "👨‍🔧 **Mekanik Teraktif**\n{$employeeText}\n\n"
+            . "📦 **Stok Sparepart**\n{$stockText}";
     }
 
     private function revenueTrendText($monthlyRevenue, string $period): string
@@ -542,26 +544,30 @@ class ZoruAiService
         if ($period === 'this_month') {
             $total = (int) $monthlyRevenue->sum();
             return $total > 0
-                ? 'Omzet bulan berjalan sudah tercatat sebesar **Rp ' . number_format($total, 0, ',', '.') . '**. Karena periode ini masih berjalan, bacaan terbaiknya adalah memantau konsistensi transaksi harian.'
-                : 'Belum ada pembayaran lunas pada rentang tanggal bulan ini yang sudah lewat.';
+                ? 'Total omzet bulan ini: **Rp ' . number_format($total, 0, ',', '.') . '**. Pantau konsistensi transaksi harian.'
+                : 'Belum ada pembayaran lunas di bulan ini.';
         }
 
         $values = $monthlyRevenue->values()->map(fn ($value) => (int) $value)->all();
+        $total = array_sum($values);
+        $totalFormatted = '**Rp ' . number_format($total, 0, ',', '.') . '**';
+
         if (count($values) < 2) {
-            return 'Data omzet belum cukup untuk membaca arah naik atau turun antarbulan.';
+            return "Total omzet periode ini: {$totalFormatted}. Data baru 1 bulan, belum bisa dibandingkan tren antarbulan.";
         }
 
         $first = $values[0];
         $last = $values[count($values) - 1];
+
         if ($last > $first) {
-            return 'Arah omzet terlihat **naik** dibanding awal periode. Ini sinyal baik, terutama jika jumlah servis selesai juga ikut bertambah.';
+            return "Total omzet: {$totalFormatted}. Tren **naik** — sinyal positif untuk bengkel.";
         }
 
         if ($last < $first) {
-            return 'Arah omzet terlihat **menurun** dibanding awal periode. Perlu dicek apakah penyebabnya jumlah booking turun, layanan bernilai tinggi berkurang, atau promo belum cukup menarik.';
+            return "Total omzet: {$totalFormatted}. Tren **menurun** — perlu evaluasi penyebabnya (jumlah booking, jenis layanan, atau promo).";
         }
 
-        return 'Arah omzet terlihat **stabil**. Kondisi ini cukup baik, tetapi masih bisa ditingkatkan dengan promo terarah atau paket layanan.';
+        return "Total omzet: {$totalFormatted}. Tren **stabil** — bisa ditingkatkan dengan promo atau paket layanan.";
     }
 
     /** @return list<array{pattern: string, answer: string|callable}> */
