@@ -537,7 +537,7 @@ class ZoruAiService
         // Catatan data terbatas — akan muncul sebagai bubble terpisah di frontend
         $dataNote = '';
         if ($finishedCount < 3) {
-            $dataNote = "<!--CATATAN-->Data masih terbatas ({$finishedCount} servis). Rekomendasi bersifat awal.";
+            $dataNote = "<!--CATATAN-->Rekomendasi bersifat awal dikarenakan data masih terbatas yaitu {$finishedCount} servis.";
         }
 
         return "📊 **{$periodLabel}** ({$periodRange})\n\n"

@@ -1897,11 +1897,11 @@ Saya ZoruAi Assistant, pendamping layanan Milky Garage. Anda dapat meminta bantu
                     noteDiv.style.fontSize = "13px";
                     noteDiv.style.marginTop = "6px";
                     noteDiv.style.color = "var(--ink)";
-                    noteDiv.style.padding = "10px 14px";
+                    noteDiv.style.padding = "8px 12px";
                     noteDiv.style.display = "flex";
-                    noteDiv.style.alignItems = "flex-start";
-                    noteDiv.style.gap = "8px";
-                    noteDiv.innerHTML = '<span style="color:#e74c3c;font-weight:bold;font-size:14px;line-height:1.5;">❗</span><div style="line-height:1.5;">' + catatanText.trim() + '</div>';
+                    noteDiv.style.alignItems = "center";
+                    noteDiv.style.gap = "4px";
+                    noteDiv.innerHTML = '<span style="color:#e74c3c;font-weight:bold;font-size:13px;flex-shrink:0;">❗</span><span style="line-height:1.4;">' + catatanText.trim() + '</span>';
                     chatBox.appendChild(noteDiv);
                 }
 
