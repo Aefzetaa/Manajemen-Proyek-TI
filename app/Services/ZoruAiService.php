@@ -145,8 +145,18 @@ class ZoruAiService
     /** @param list<array{from: string, to: string}> $corrections */
     private function respond(string $answer, array $corrections, User $user): string
     {
+        // Extract CATATAN note before formatting (formatter strips HTML comments)
+        $catatan = '';
+        $delimiter = '<!--CATATAN-->';
+        if (str_contains($answer, $delimiter)) {
+            [$answer, $catatan] = explode($delimiter, $answer, 2);
+            $catatan = $delimiter . trim($catatan);
+        }
+
         $resolved = str_replace(':name', ucwords($user->username), $answer);
-        return $this->formatter->format($resolved, $corrections);
+        $formatted = $this->formatter->format($resolved, $corrections);
+
+        return $formatted . $catatan;
     }
 
     /** @param list<array{role: string, message: string}> $history */
