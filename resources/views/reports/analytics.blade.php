@@ -1891,11 +1891,12 @@ Saya ZoruAi Assistant, pendamping layanan Milky Garage. Anda dapat meminta bantu
                 if (catatanText.trim() !== '') {
                     const noteDiv = document.createElement('div');
                     noteDiv.className = "zoru-bubble zoru-bubble-ai";
-                    noteDiv.style.background = "#fff3f3";
-                    noteDiv.style.borderColor = "#e74c3c";
+                    noteDiv.style.background = "rgba(231, 76, 60, 0.15)";
+                    noteDiv.style.border = "1px solid rgba(231, 76, 60, 0.4)";
                     noteDiv.style.borderLeft = "4px solid #e74c3c";
                     noteDiv.style.fontSize = "13px";
                     noteDiv.style.marginTop = "6px";
+                    noteDiv.style.color = "var(--ink)";
                     noteDiv.innerHTML = '<span style="color:#e74c3c;font-weight:bold;margin-right:6px;">❗</span>' + catatanText.trim();
                     chatBox.appendChild(noteDiv);
                 }
