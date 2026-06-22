@@ -442,12 +442,8 @@ class ZoruAiService
         $today = now()->startOfDay();
 
         if ($period === 'this_month') {
-            if ($today->day === 1) {
-                return 'Data bulan ini belum bisa dianalisis karena hari pertama bulan ini belum lewat. Saya baru bisa membaca pola bulan ini mulai besok, setelah ada data dari tanggal 1.';
-            }
-
             $startDate = $today->copy()->startOfMonth();
-            $endDate = $today->copy()->subDay()->endOfDay();
+            $endDate = now()->endOfDay();
             $periodLabel = 'Bulan Ini';
             $periodRange = $startDate->translatedFormat('d F Y') . ' - ' . $endDate->translatedFormat('d F Y');
         } elseif ($period === 'last_3_months') {
@@ -476,14 +472,14 @@ class ZoruAiService
 
         if ($totalPaid <= 0 && $paymentCount === 0 && $completedCount === 0 && $finishedCount === 0) {
             return "Analisis Periode: **{$periodLabel}** ({$periodRange})\n\n"
-                . "Saya belum bisa membuat analisis yang adil untuk periode ini karena belum ada transaksi lunas atau servis selesai yang tercatat. Jika bengkel baru mulai berjalan, ini normal. Setelah ada beberapa transaksi, saya bisa membaca pola layanan, omzet, dan rekomendasi operasional dengan lebih tepat.";
+                . "Belum ada transaksi lunas atau servis selesai pada periode ini. Jika bengkel baru mulai berjalan, ini normal. Analisis akan tersedia begitu ada minimal 1 transaksi selesai.";
         }
 
         $popularService = DB::table('booking_service_type')
-            ->join('bookings', 'booking_service_type.booking_id', '=', 'bookings.id')
+            ->join('service_orders', 'booking_service_type.booking_id', '=', 'service_orders.booking_id')
             ->join('service_types', 'booking_service_type.service_type_id', '=', 'service_types.id')
-            ->where('bookings.status', 'completed')
-            ->whereBetween('bookings.booking_date', [$startDate->toDateString(), $endDate->toDateString()])
+            ->where('service_orders.status', 'finished')
+            ->whereBetween('service_orders.created_at', [$startDate, $endDate])
             ->selectRaw('service_types.name, COUNT(*) as total')
             ->groupBy('service_types.name')
             ->orderByDesc('total')
@@ -503,8 +499,8 @@ class ZoruAiService
             ->pluck('total', 'month_key');
 
         $trendText = $this->revenueTrendText($monthlyRevenue, $period);
-        $dataNote = $completedCount < 2
-            ? "\n\nCatatan: data servis selesai masih terbatas, jadi rekomendasi saya bersifat awal dan perlu divalidasi lagi setelah transaksi bertambah."
+        $dataNote = $finishedCount < 3
+            ? "\n\nCatatan: data servis selesai masih terbatas ({$finishedCount} servis), jadi rekomendasi saya bersifat awal dan perlu divalidasi lagi setelah transaksi bertambah."
             : '';
 
         $serviceText = $popularService
@@ -529,7 +525,7 @@ class ZoruAiService
         }
 
         return "Analisis Periode: **{$periodLabel}** ({$periodRange})\n\n"
-            . "Basis data: **{$completedCount}** servis selesai, **{$paymentCount}** pembayaran lunas, dan omzet **Rp " . number_format($totalPaid, 0, ',', '.') . "**.{$dataNote}\n\n"
+            . "Basis data: **{$finishedCount}** servis selesai, **{$paymentCount}** pembayaran lunas, dan omzet **Rp " . number_format($totalPaid, 0, ',', '.') . "**.{$dataNote}\n\n"
             . " **Keuangan & Tren**\n"
             . "* {$trendText}\n\n"
             . " **Layanan Paling Terlihat**\n"
@@ -546,7 +542,7 @@ class ZoruAiService
         if ($period === 'this_month') {
             $total = (int) $monthlyRevenue->sum();
             return $total > 0
-                ? 'Omzet bulan berjalan sudah tercatat sampai kemarin sebesar **Rp ' . number_format($total, 0, ',', '.') . '**. Karena periode ini masih berjalan, bacaan terbaiknya adalah memantau konsistensi transaksi harian.'
+                ? 'Omzet bulan berjalan sudah tercatat sebesar **Rp ' . number_format($total, 0, ',', '.') . '**. Karena periode ini masih berjalan, bacaan terbaiknya adalah memantau konsistensi transaksi harian.'
                 : 'Belum ada pembayaran lunas pada rentang tanggal bulan ini yang sudah lewat.';
         }
 
