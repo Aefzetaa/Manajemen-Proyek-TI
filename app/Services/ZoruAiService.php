@@ -516,7 +516,7 @@ class ZoruAiService
         if ($lowStockParts->isNotEmpty()) {
             $stockLines = [];
             foreach ($lowStockParts as $part) {
-                $label = $part->stock <= 0 ? '⚠️ HABIS' : "sisa {$part->stock}";
+                $label = $part->stock <= 0 ? 'HABIS' : 'Hampir Habis (sisa ' . $part->stock . ')';
                 $stockLines[] = "- **{$part->name}** — {$label}";
             }
             $stockText = implode("\n", $stockLines);
@@ -524,19 +524,19 @@ class ZoruAiService
             $stockText = 'Semua stok aman (di atas 5 unit).';
         }
 
-        // Data note
+        // Catatan data terbatas — akan muncul sebagai bubble terpisah di frontend
         $dataNote = '';
         if ($finishedCount < 3) {
-            $dataNote = "\n\n⚠️ *Data masih terbatas ({$finishedCount} servis). Rekomendasi bersifat awal.*";
+            $dataNote = "<!--CATATAN-->Data masih terbatas ({$finishedCount} servis). Rekomendasi bersifat awal.";
         }
 
         return "📊 **{$periodLabel}** ({$periodRange})\n\n"
-            . "**Ringkasan:** {$finishedCount} servis selesai · {$paymentCount} pembayaran lunas · Omzet **Rp " . number_format($totalPaid, 0, ',', '.') . "**{$dataNote}\n\n"
-            . "---\n\n"
+            . "{$finishedCount} Servis Selesai - {$paymentCount} Pembayaran Lunas - Omzet **Rp " . number_format($totalPaid, 0, ',', '.') . "**\n\n"
             . "💰 **Omzet**\n{$trendText}\n\n"
             . "🔧 **Layanan Terpopuler**\n{$serviceText}\n\n"
-            . "👨‍🔧 **Mekanik Teraktif**\n{$employeeText}\n\n"
-            . "📦 **Stok Sparepart**\n{$stockText}";
+            . "👨 **Mekanik Teraktif**\n{$employeeText}\n\n"
+            . "📦 **Stok Sparepart**\n{$stockText}"
+            . $dataNote;
     }
 
     private function revenueTrendText($monthlyRevenue, string $period): string

@@ -1875,11 +1875,31 @@ Saya ZoruAi Assistant, pendamping layanan Milky Garage. Anda dapat meminta bantu
             let zoruDiv = null;
             const replyText = String(data.reply || '').trim();
             if (replyText !== '') {
+                // Check for CATATAN delimiter — split into analysis bubble + note bubble
+                const catatanDelimiter = '<!--CATATAN-->';
+                const hasCatatan = replyText.includes(catatanDelimiter);
+                const mainReply = hasCatatan ? replyText.split(catatanDelimiter)[0] : replyText;
+                const catatanText = hasCatatan ? replyText.split(catatanDelimiter)[1] : '';
+
                 zoruDiv = document.createElement('div');
                 zoruDiv.className = "zoru-bubble zoru-bubble-ai";
-                zoruDiv.innerHTML = data.reply;
+                zoruDiv.innerHTML = mainReply;
                 makeCommandsClickable(zoruDiv);
                 chatBox.appendChild(zoruDiv);
+
+                // Render catatan as separate bubble with red exclamation
+                if (catatanText.trim() !== '') {
+                    const noteDiv = document.createElement('div');
+                    noteDiv.className = "zoru-bubble zoru-bubble-ai";
+                    noteDiv.style.background = "#fff3f3";
+                    noteDiv.style.borderColor = "#e74c3c";
+                    noteDiv.style.borderLeft = "4px solid #e74c3c";
+                    noteDiv.style.fontSize = "13px";
+                    noteDiv.style.marginTop = "6px";
+                    noteDiv.innerHTML = '<span style="color:#e74c3c;font-weight:bold;margin-right:6px;">❗</span>' + catatanText.trim();
+                    chatBox.appendChild(noteDiv);
+                }
+
                 scrollToBottom();
             }
             
