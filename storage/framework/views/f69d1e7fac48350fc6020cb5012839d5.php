@@ -65,7 +65,7 @@ unset($__defined_vars, $__key, $__value); ?>
     ];
 ?>
 
-<?php if (! $__env->hasRenderedOnce('8d6f80f0-2100-4061-b86d-44166254c819')): $__env->markAsRenderedOnce('8d6f80f0-2100-4061-b86d-44166254c819'); ?>
+<?php if (! $__env->hasRenderedOnce('0a034999-0160-4582-b69e-f780bc51eae6')): $__env->markAsRenderedOnce('0a034999-0160-4582-b69e-f780bc51eae6'); ?>
 <style>
     .avatar-picker {
         position: relative;
@@ -284,7 +284,7 @@ unset($__defined_vars, $__key, $__value); ?>
     </div>
 </div>
 
-<?php if (! $__env->hasRenderedOnce('864ea969-d7f2-4e60-a152-707c65d5f9cd')): $__env->markAsRenderedOnce('864ea969-d7f2-4e60-a152-707c65d5f9cd'); ?>
+<?php if (! $__env->hasRenderedOnce('c841ee7c-fb65-4a11-b2b6-f6468d2a037d')): $__env->markAsRenderedOnce('c841ee7c-fb65-4a11-b2b6-f6468d2a037d'); ?>
 <script>
 let activeAvatarPicker = null;
 let activeAvatarPanelAnchor = null;

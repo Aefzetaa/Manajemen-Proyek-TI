@@ -1876,11 +1876,36 @@ Saya ZoruAi Assistant, pendamping layanan Milky Garage. Anda dapat meminta bantu
             let zoruDiv = null;
             const replyText = String(data.reply || '').trim();
             if (replyText !== '') {
+                // Check for CATATAN delimiter — split into analysis bubble + note bubble
+                const catatanDelimiter = '<!--CATATAN-->';
+                const hasCatatan = replyText.includes(catatanDelimiter);
+                const mainReply = hasCatatan ? replyText.split(catatanDelimiter)[0] : replyText;
+                const catatanText = hasCatatan ? replyText.split(catatanDelimiter)[1] : '';
+
                 zoruDiv = document.createElement('div');
                 zoruDiv.className = "zoru-bubble zoru-bubble-ai";
-                zoruDiv.innerHTML = data.reply;
+                zoruDiv.innerHTML = mainReply;
                 makeCommandsClickable(zoruDiv);
                 chatBox.appendChild(zoruDiv);
+
+                // Render catatan as separate bubble with red exclamation
+                if (catatanText.trim() !== '') {
+                    const noteDiv = document.createElement('div');
+                    noteDiv.className = "zoru-bubble zoru-bubble-ai";
+                    noteDiv.style.background = "rgba(231, 76, 60, 0.15)";
+                    noteDiv.style.border = "1px solid rgba(231, 76, 60, 0.4)";
+                    noteDiv.style.borderLeft = "4px solid #e74c3c";
+                    noteDiv.style.fontSize = "13px";
+                    noteDiv.style.marginTop = "6px";
+                    noteDiv.style.color = "var(--ink)";
+                    noteDiv.style.padding = "8px 12px";
+                    noteDiv.style.display = "flex";
+                    noteDiv.style.alignItems = "center";
+                    noteDiv.style.gap = "4px";
+                    noteDiv.innerHTML = '<span style="color:#e74c3c;font-weight:bold;font-size:13px;flex-shrink:0;">❗</span><span style="line-height:1.4;">' + catatanText.trim() + '</span>';
+                    chatBox.appendChild(noteDiv);
+                }
+
                 scrollToBottom();
             }
             
