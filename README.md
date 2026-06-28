@@ -1,58 +1,235 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🏍️ Milky Garage — Sistem Manajemen Bengkel Motor
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Sistem informasi manajemen bengkel motor berbasis web yang dibangun menggunakan framework **Laravel 13**. Aplikasi ini dirancang untuk mengelola seluruh operasional bengkel secara digital, mulai dari booking servis oleh pelanggan, pengelolaan service order oleh mekanik, proses pembayaran oleh kasir, hingga persetujuan dan pelaporan oleh owner.
 
-## About Laravel
+## 📋 Daftar Isi
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- [Fitur Utama](#-fitur-utama)
+- [Teknologi yang Digunakan](#-teknologi-yang-digunakan)
+- [Persyaratan Sistem](#-persyaratan-sistem)
+- [Cara Instalasi](#-cara-instalasi)
+- [Konfigurasi](#-konfigurasi)
+- [Peran Pengguna](#-peran-pengguna)
+- [Alur Proses Bisnis](#-alur-proses-bisnis)
+- [Struktur Proyek](#-struktur-proyek)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## ✨ Fitur Utama
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### Pelanggan
+- Registrasi dan login akun
+- Booking servis motor (pilih kendaraan, jenis layanan, tanggal, jam, dan keluhan)
+- Melihat riwayat booking dan status servis
+- Top-up saldo ZeroPay (dompet digital internal)
+- Chat dengan ZoruAI (chatbot cerdas berbasis data internal)
 
-## Learning Laravel
+### Mekanik
+- Melihat dan menerima daftar booking masuk
+- Mengelola proses servis (mulai → selesai)
+- Membuat rincian Service Order (jasa, sparepart, biaya)
+- Penarikan gaji yang diperoleh dari komisi servis
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### Kasir
+- Memproses pembayaran dari pelanggan
+- Memeriksa rincian biaya service order
+- Mengelola transaksi masuk
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Owner
+- Dashboard analitik (statistik pendapatan, servis, performa mekanik)
+- Persetujuan akhir (approval) terhadap pembayaran
+- Manajemen katalog layanan dan sparepart
+- Manajemen promosi
+- Laporan keuangan dan operasional
+- ZoruAI Analytics (analisis data cerdas berbasis data bengkel)
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+### Fitur Umum
+- **ZoruAI** — Chatbot cerdas yang bekerja secara offline (tanpa API eksternal), memberikan rekomendasi dan informasi berdasarkan data internal bengkel
+- **ZeroPay** — Sistem dompet digital internal untuk pembayaran
+- **Dark Mode** — Dukungan tema gelap di seluruh halaman
+- **Responsive Design** — Tampilan optimal di desktop maupun perangkat mobile
+- **Manajemen Promosi** — Buat dan kelola promo aktif yang tampil di halaman utama
 
-## Agentic Development
+## 🛠️ Teknologi yang Digunakan
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+| Komponen       | Teknologi                |
+|----------------|--------------------------|
+| Framework      | Laravel 13               |
+| Bahasa         | PHP 8.3+                 |
+| Database       | MySQL                    |
+| Frontend       | Blade Template           |
+| Styling        | CSS (Vanilla)            |
+| Session        | Database Driver          |
+| Queue          | Database Driver          |
+| Cache          | Database Driver          |
+| AI/Chatbot     | Logika lokal (tanpa API) |
+
+## 📦 Persyaratan Sistem
+
+- **PHP** >= 8.3
+- **Composer** >= 2.x
+- **MySQL** >= 5.7 / MariaDB >= 10.3
+- **Laragon** (disarankan) atau XAMPP/MAMP
+- **Git**
+
+## 🚀 Cara Instalasi
+
+### 1. Clone Repository
 
 ```bash
-composer require laravel/boost --dev
-
-php artisan boost:install
+git clone https://github.com/Aefzetaa/Manajemen-Proyek-TI.git
+cd Manajemen-Proyek-TI
 ```
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+### 2. Install Dependensi
 
-## Contributing
+```bash
+composer install
+```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 3. Konfigurasi Environment
 
-## Code of Conduct
+```bash
+cp .env.example .env
+php artisan key:generate
+```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Sesuaikan pengaturan database di file `.env`:
 
-## Security Vulnerabilities
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=proyekti
+DB_USERNAME=root
+DB_PASSWORD=
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+> **Catatan:** Jika menggunakan Laragon dengan port MySQL non-standar, sesuaikan `DB_PORT` (misalnya `3307`).
 
-## License
+### 4. Buat Database
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Buat database baru dengan nama `proyekti` melalui phpMyAdmin atau terminal:
+
+```sql
+CREATE DATABASE proyekti;
+```
+
+### 5. Jalankan Migrasi
+
+```bash
+php artisan migrate
+```
+
+Atau, impor backup database yang tersedia:
+
+```bash
+mysql -u root proyekti < database/backups/proyekti_backup_2026-06-22_new_xampp_compatible.sql
+```
+
+### 6. Jalankan Aplikasi
+
+```bash
+php artisan serve
+```
+
+Akses aplikasi di: `http://localhost:8000`
+
+## ⚙️ Konfigurasi
+
+### Kode Verifikasi Role (Registrasi Staf Internal)
+
+Kode verifikasi diperlukan saat mendaftarkan akun staf melalui halaman registrasi:
+
+| Role    | Kode Verifikasi |
+|---------|-----------------|
+| Owner   | `OWNER2026`     |
+| Mekanik | `MECH2026`      |
+| Kasir   | `CASH2026`      |
+
+### PIN Verifikasi (Akses Fitur Tertentu)
+
+| Role    | PIN    |
+|---------|--------|
+| Owner   | `0104` |
+| Kasir   | `0000` |
+| Mekanik | `1111` |
+
+### Pengaturan Lainnya
+
+| Parameter           | Nilai   | Keterangan                                 |
+|---------------------|---------|--------------------------------------------|
+| `SESSION_LIFETIME`  | `480`   | Masa aktif sesi = 8 jam (1 shift kerja)    |
+| `DEV_QUICK_SWITCH`  | `true`  | Floating tombol ganti akun untuk testing   |
+
+## 👥 Peran Pengguna
+
+Sistem memiliki **4 peran** dengan hak akses berbeda:
+
+| Peran      | Deskripsi                                                           |
+|------------|---------------------------------------------------------------------|
+| **Pelanggan** | Melakukan booking, melihat riwayat servis, top-up saldo, chat AI |
+| **Mekanik**   | Menerima booking, mengerjakan servis, membuat service order       |
+| **Kasir**     | Memproses pembayaran, mengelola transaksi                         |
+| **Owner**     | Mengelola seluruh operasional, persetujuan, laporan, dan analitik |
+
+## 🔄 Alur Proses Bisnis
+
+```
+Pelanggan membuka website
+        ↓
+Registrasi / Login
+        ↓
+Booking Servis (pilih kendaraan, layanan, jadwal, keluhan)
+        ↓
+Status: Scheduled
+        ↓
+Mekanik menerima booking → Status: Accepted
+        ↓
+Mekanik mulai servis → Status: In Progress
+        ↓
+Mekanik membuat Service Order (jasa, sparepart, biaya)
+        ↓
+Tagihan dibuat → Status: Pending
+        ↓
+Masuk antrian kasir → Status: Waiting Cashier
+        ↓
+Kasir memproses pembayaran → Status: Waiting Approval
+        ↓
+Owner menyetujui → Status: Approved
+        ↓
+Selesai → Status: Paid / Finished
+```
+
+## 📁 Struktur Proyek
+
+```
+ProyekTI/
+├── app/
+│   ├── Http/Controllers/     # Controller (Auth, Booking, Payment, dll.)
+│   ├── Models/               # Model Eloquent (User, Booking, ServiceOrder, dll.)
+│   └── Services/             # Logika bisnis (ZoruAI, PaymentDistribution)
+├── database/
+│   ├── backups/              # Backup database
+│   ├── migrations/           # File migrasi database
+│   └── seeders/              # Seeder data awal
+├── resources/
+│   └── views/                # Template Blade
+│       ├── auth/             # Halaman login & registrasi
+│       ├── bookings/         # Halaman booking servis
+│       ├── catalog/          # Halaman katalog layanan & sparepart
+│       ├── components/       # Komponen UI reusable
+│       ├── dashboard.blade.php
+│       ├── layouts/          # Layout utama
+│       ├── payments/         # Halaman pembayaran
+│       ├── reports/          # Halaman laporan & analytics
+│       ├── service-orders/   # Halaman service order
+│       └── welcome.blade.php # Halaman utama publik
+├── routes/
+│   └── web.php               # Definisi route
+├── .env.example              # Template konfigurasi environment
+├── composer.json             # Dependensi PHP
+└── README.md                 # Dokumentasi proyek (file ini)
+```
+
+## 📄 Lisensi
+
+Proyek ini dibuat untuk keperluan tugas mata kuliah **Manajemen Proyek Teknologi Informasi**.
